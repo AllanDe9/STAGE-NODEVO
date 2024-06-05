@@ -1,0 +1,95 @@
+{
+    "marques": [
+      {
+        "num_marque": 1,
+        "nom_marque": "Alfa Roméo",
+        "modeles": [
+          {
+            "nom_modele": "mod1",
+            "url_photo": "//",
+            "annee_debut": 1985,
+            "annee_fin": 1994,
+            "nbr_produit": 10000,
+            "puissance_max": 2,
+            "puissance_min": 1,
+            "prix_neuf": 0,
+            "prix_actuel": 0,
+            "description": "Lorem..."
+          },
+          {
+            "nom_modele": "mod2",
+            "url_photo": "//",
+            "annee_debut": 1985,
+            "annee_fin": 1994,
+            "nbr_produit": 10000,
+            "puissance_max": 2,
+            "puissance_min": 1,
+            "prix_neuf": 0,
+            "prix_actuel": 0,
+            "description": "Lorem..."
+          }
+        ]
+      },
+      {
+        "num_marque": 2,
+        "nom_marque": "Audi",
+        "modeles": [
+          {
+            "nom_modele": "mod1",
+            "url_photo": "//",
+            "annee_debut": 1985,
+            "annee_fin": 1994,
+            "nbr_produit": 10000,
+            "puissance_max": 2,
+            "puissance_min": 1,
+            "prix_neuf": 0,
+            "prix_actuel": 0,
+            "description": "Lorem..."
+          },
+          {
+            "nom_modele": "mod2",
+            "url_photo": "//",
+            "annee_debut": 1985,
+            "annee_fin": 1994,
+            "nbr_produit": 10000,
+            "puissance_max": 2,
+            "puissance_min": 1,
+            "prix_neuf": 0,
+            "prix_actuel": 0,
+            "description": "Lorem..."
+          }
+        ]
+      },
+      {
+        "num_marque": 3,
+        "nom_marque": "BMW",
+        "modeles": [
+          {
+            "nom_modele": "mod1",
+            "url_photo": "//",
+            "annee_debut": 1985,
+            "annee_fin": 1994,
+            "nbr_produit": 10000,
+            "puissance_max": 2,
+            "puissance_min": 1,
+            "prix_neuf": 0,
+            "prix_actuel": 0,
+            "description": "Lorem..."
+          },
+          {
+            "nom_modele": "mod2",
+            "url_photo": "//",
+            "annee_debut": 1985,
+            "annee_fin": 1994,
+            "nbr_produit": 10000,
+            "puissance_max": 2,
+            "puissance_min": 1,
+            "prix_neuf": 0,
+            "prix_actuel": 0,
+            "description": "Lorem..."
+          }
+        ]
+      }
+    ]
+  }
+  
