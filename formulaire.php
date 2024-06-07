@@ -70,11 +70,37 @@ $vehicules = json_decode(file_get_contents($json_file), true);
         $vehicules['marques'][$marqueIndex]['modeles'][$modeleIndex]['prix_actuel'] = intval($_POST['prix_actuel']);
         $vehicules['marques'][$marqueIndex]['modeles'][$modeleIndex]['description'] = $_POST['description'];
         
-        
-        file_put_contents($json_file, json_encode($vehicules, JSON_PRETTY_PRINT));
-        echo 'Données mises à jour avec succès !';
-        echo'<a href="tous_les_modeles.php">Retour</a>';
-        exit;
+        if (isset($_POST['puissance_max']) && isset($_POST['puissance_min'])) {
+            if (intval($_POST['puissance_max']) < intval($_POST['puissance_min'])){
+                $erreurs = ['puissance'=>'La puissance max est plus petite que la puissance min !'];
+            }
+        }
+        if (intval($_POST['annee_debut']) > intval($_POST['annee_fin'])){
+            $erreurs = ['annee'=>"L'année de début est plus récente que l'année de fin !"];
+        } else {
+            if (intval($_POST['annee_debut']) > 1999){
+            $erreurs = ['annee'=>"L'année de sortie de la voiture ne doit pas dépasser l'an 2000 !"];
+            }
+            if (intval($_POST['annee_debut']) < 1900){
+                $erreurs = ['annee'=>"L'année de sortie de la voiture doit dépasser 1900 !"];
+                }
+            if (intval($_POST['annee_fin']) > 1999){
+                $erreurs = ['annee'=>"L'année de la fin de production de la voiture ne doit pas dépasser 2000 !"];
+            }
+        }
+        if (empty($_POST['nom_modele']) || empty($_POST['annee_debut']) || empty($_POST['annee_fin']) || empty($_POST['nbr_produit']) || empty($_POST['description'])){
+            $erreurs = ['requis'=> 'Certains champs sont vides !'];
+        }
+
+
+        if (!empty($erreurs)) { 
+            var_dump($erreurs);
+        } else {
+            file_put_contents($json_file, json_encode($vehicules, JSON_PRETTY_PRINT));
+            echo 'Données mises à jour avec succès !';
+            echo'<a href="tous_les_modeles.php">Retour</a>';
+            exit;
+       } 
     }
     
     echo '<form action="formulaire.php?modele='.$_GET['modele'].'" method="post">';
@@ -82,15 +108,15 @@ $vehicules = json_decode(file_get_contents($json_file), true);
     echo '<input type="hidden" name="modeleIndex" value="' . $modeleIndex . '">';
     echo '<label for="nom_marque">Marque : '.htmlspecialchars($marque['nom_marque']). '</label><br>';
     echo '<label for="nom_modele">Nom du modèle :</label>';
-    echo '<input type="text" id="nom_modele" name="nom_modele" value="' . htmlspecialchars($modele['nom_modele']) . '"><br>';
+    echo '<input type="text" id="nom_modele" name="nom_modele" value="' . htmlspecialchars($modele['nom_modele']) . '"required><br>';
     echo '<label for="url_photo">URL de la photo :</label>';
     echo '<input type="text" id="url_photo" name="url_photo" value="' . htmlspecialchars($modele['url_photo']) . '"><br>';
     echo '<label for="annee_debut">Année de début :</label>';
-    echo '<input type="number" id="annee_debut" name="annee_debut" value="' . htmlspecialchars($modele['annee_debut']) . '"><br>';
+    echo '<input type="number" id="annee_debut" name="annee_debut" value="' . htmlspecialchars($modele['annee_debut']) . '"required><br>';
     echo '<label for="annee_fin">Année de fin :</label>';
-    echo '<input type="number" id="annee_fin" name="annee_fin" value="' . htmlspecialchars($modele['annee_fin']) . '"><br>';
+    echo '<input type="number" id="annee_fin" name="annee_fin" value="' . htmlspecialchars($modele['annee_fin']) . '"required><br>';
     echo '<label for="nbr_produit">Nombre produit :</label>';
-    echo '<input type="number" id="nbr_produit" name="nbr_produit" value="' . htmlspecialchars($modele['nbr_produit']) . '"><br>';
+    echo '<input type="number" id="nbr_produit" name="nbr_produit" value="' . htmlspecialchars($modele['nbr_produit']) . '"required><br>';
     echo '<label for="puissance_max">Puissance max :</label>';
     echo '<input type="number" id="puissance_max" name="puissance_max" value="' . htmlspecialchars($modele['puissance_max']) . '"><br>';
     echo '<label for="puissance_min">Puissance min :</label>';
@@ -100,7 +126,7 @@ $vehicules = json_decode(file_get_contents($json_file), true);
     echo '<label for="prix_actuel">Prix actuel :</label>';
     echo '<input type="number" id="prix_actuel" name="prix_actuel" value="' . htmlspecialchars($modele['prix_actuel']) . '"><br>';
     echo '<label for="description">Description :</label>';
-    echo '<textarea id="description" name="description">' . htmlspecialchars($modele['description']) . '</textarea><br>';
+    echo '<textarea id="description" name="description"required>' . htmlspecialchars($modele['description']) . '</textarea><br>';
     echo '<input type="submit" name="submit" value="Modifier">';
     echo '</form>';
 
