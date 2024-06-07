@@ -27,7 +27,7 @@
                     "num_modele": 2,
                     "nom_modele": "mod1",
                     "url_photo": "",
-                    "annee_debut": 1971,
+                    "annee_debut": 1991,
                     "annee_fin": 1994,
                     "nbr_produit": 10000,
                     "puissance_max": 2,
@@ -40,7 +40,7 @@
                     "num_modele": 3,
                     "nom_modele": "mod2",
                     "url_photo": "",
-                    "annee_debut": 1985,
+                    "annee_debut": 1966,
                     "annee_fin": 1994,
                     "nbr_produit": 10000,
                     "puissance_max": 2,
@@ -68,97 +68,7 @@
             "num_marque": 3,
             "nom_marque": "BMW",
             "modeles": [
-                {
-                    "num_modele": 4,
-                    "nom_modele": "mod1",
-                    "url_photo": "",
-                    "annee_debut": 1985,
-                    "annee_fin": 1994,
-                    "nbr_produit": 10000,
-                    "puissance_max": 2,
-                    "puissance_min": 1,
-                    "prix_neuf": 0,
-                    "prix_actuel": 0,
-                    "description": "Lorem..."
-                },
-                {
-                    "num_modele": 5,
-                    "nom_modele": "mod1",
-                    "url_photo": "",
-                    "annee_debut": 1985,
-                    "annee_fin": 1994,
-                    "nbr_produit": 10000,
-                    "puissance_max": 2,
-                    "puissance_min": 1,
-                    "prix_neuf": 0,
-                    "prix_actuel": 0,
-                    "description": "Lorem..."
-                },
-                {
-                    "num_modele": 6,
-                    "nom_modele": "mod1",
-                    "url_photo": "",
-                    "annee_debut": 1985,
-                    "annee_fin": 1994,
-                    "nbr_produit": 10000,
-                    "puissance_max": 2,
-                    "puissance_min": 1,
-                    "prix_neuf": 0,
-                    "prix_actuel": 0,
-                    "description": "Lorem..."
-                },
-                {
-                    "num_modele": 7,
-                    "nom_modele": "mod1",
-                    "url_photo": "",
-                    "annee_debut": 1985,
-                    "annee_fin": 1994,
-                    "nbr_produit": 10000,
-                    "puissance_max": 2,
-                    "puissance_min": 1,
-                    "prix_neuf": 0,
-                    "prix_actuel": 0,
-                    "description": "Lorem..."
-                },
-                {
-                    "num_modele": 8,
-                    "nom_modele": "mod2",
-                    "url_photo": "",
-                    "annee_debut": 1985,
-                    "annee_fin": 1994,
-                    "nbr_produit": 10000,
-                    "puissance_max": 2,
-                    "puissance_min": 1,
-                    "prix_neuf": 0,
-                    "prix_actuel": 0,
-                    "description": "Lorem..."
-                },
-                {
-                    "num_modele": 9,
-                    "nom_modele": "mod2",
-                    "url_photo": "",
-                    "annee_debut": 1985,
-                    "annee_fin": 1994,
-                    "nbr_produit": 10000,
-                    "puissance_max": 2,
-                    "puissance_min": 1,
-                    "prix_neuf": 0,
-                    "prix_actuel": 0,
-                    "description": "Lorem..."
-                },
-                {
-                    "num_modele": 10,
-                    "nom_modele": "mod2",
-                    "url_photo": "",
-                    "annee_debut": 1985,
-                    "annee_fin": 1994,
-                    "nbr_produit": 10000,
-                    "puissance_max": 2,
-                    "puissance_min": 1,
-                    "prix_neuf": 0,
-                    "prix_actuel": 0,
-                    "description": "Lorem..."
-                }
+                
             ]
         }
     ]
