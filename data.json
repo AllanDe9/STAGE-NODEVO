@@ -1,95 +1,165 @@
 {
     "marques": [
-      {
-        "num_marque": 1,
-        "nom_marque": "Alfa Roméo",
-        "modeles": [
-          {
-            "nom_modele": "mod1",
-            "url_photo": "//",
-            "annee_debut": 1985,
-            "annee_fin": 1994,
-            "nbr_produit": 10000,
-            "puissance_max": 2,
-            "puissance_min": 1,
-            "prix_neuf": 0,
-            "prix_actuel": 0,
-            "description": "Lorem..."
-          },
-          {
-            "nom_modele": "mod2",
-            "url_photo": "//",
-            "annee_debut": 1985,
-            "annee_fin": 1994,
-            "nbr_produit": 10000,
-            "puissance_max": 2,
-            "puissance_min": 1,
-            "prix_neuf": 0,
-            "prix_actuel": 0,
-            "description": "Lorem..."
-          }
-        ]
-      },
-      {
-        "num_marque": 2,
-        "nom_marque": "Audi",
-        "modeles": [
-          {
-            "nom_modele": "mod1",
-            "url_photo": "//",
-            "annee_debut": 1985,
-            "annee_fin": 1994,
-            "nbr_produit": 10000,
-            "puissance_max": 2,
-            "puissance_min": 1,
-            "prix_neuf": 0,
-            "prix_actuel": 0,
-            "description": "Lorem..."
-          },
-          {
-            "nom_modele": "mod2",
-            "url_photo": "//",
-            "annee_debut": 1985,
-            "annee_fin": 1994,
-            "nbr_produit": 10000,
-            "puissance_max": 2,
-            "puissance_min": 1,
-            "prix_neuf": 0,
-            "prix_actuel": 0,
-            "description": "Lorem..."
-          }
-        ]
-      },
-      {
-        "num_marque": 3,
-        "nom_marque": "BMW",
-        "modeles": [
-          {
-            "nom_modele": "mod1",
-            "url_photo": "//",
-            "annee_debut": 1985,
-            "annee_fin": 1994,
-            "nbr_produit": 10000,
-            "puissance_max": 2,
-            "puissance_min": 1,
-            "prix_neuf": 0,
-            "prix_actuel": 0,
-            "description": "Lorem..."
-          },
-          {
-            "nom_modele": "mod2",
-            "url_photo": "//",
-            "annee_debut": 1985,
-            "annee_fin": 1994,
-            "nbr_produit": 10000,
-            "puissance_max": 2,
-            "puissance_min": 1,
-            "prix_neuf": 0,
-            "prix_actuel": 0,
-            "description": "Lorem..."
-          }
-        ]
-      }
+        {
+            "num_marque": 1,
+            "nom_marque": "Alfa Rom\u00e9o",
+            "modeles": [
+                {
+                    "num_modele": 1,
+                    "nom_modele": "Spider",
+                    "url_photo": "https:\/\/www.classicnumber.com\/images\/stories\/expautos\/images\/big\/58620_5da04c3924e64.jpg",
+                    "annee_debut": 1966,
+                    "annee_fin": 1994,
+                    "nbr_produit": 124000,
+                    "puissance_max": 190,
+                    "puissance_min": 95,
+                    "prix_neuf": 28000,
+                    "prix_actuel": 20000,
+                    "description": "L'Alfa Rom\u00e9o Spider est un petit cabriolet sportif des ann\u00e9es 60 qui resta au catalogue du constructeur milanais durant plus de 30 ans. Fleuron de la marque \u00e0 sa sortie, elle est aujourd'hui une icone des cabriolets italiens."
+                }
+            ]
+        },
+        {
+            "num_marque": 2,
+            "nom_marque": "Audi",
+            "modeles": [
+                {
+                    "num_modele": 2,
+                    "nom_modele": "mod1",
+                    "url_photo": "",
+                    "annee_debut": 1971,
+                    "annee_fin": 1994,
+                    "nbr_produit": 10000,
+                    "puissance_max": 2,
+                    "puissance_min": 1,
+                    "prix_neuf": 0,
+                    "prix_actuel": 0,
+                    "description": "Lorem..."
+                },
+                {
+                    "num_modele": 3,
+                    "nom_modele": "mod2",
+                    "url_photo": "",
+                    "annee_debut": 1985,
+                    "annee_fin": 1994,
+                    "nbr_produit": 10000,
+                    "puissance_max": 2,
+                    "puissance_min": 1,
+                    "prix_neuf": 0,
+                    "prix_actuel": 0,
+                    "description": "Lorem..."
+                },
+                {
+                    "num_modele": 11,
+                    "nom_modele": "quattro",
+                    "url_photo": "",
+                    "annee_debut": 1952,
+                    "annee_fin": 1960,
+                    "nbr_produit": 10,
+                    "puissance_max": 460,
+                    "puissance_min": 460,
+                    "prix_neuf": 0,
+                    "prix_actuel": 300000,
+                    "description": "dzhg"
+                }
+            ]
+        },
+        {
+            "num_marque": 3,
+            "nom_marque": "BMW",
+            "modeles": [
+                {
+                    "num_modele": 4,
+                    "nom_modele": "mod1",
+                    "url_photo": "",
+                    "annee_debut": 1985,
+                    "annee_fin": 1994,
+                    "nbr_produit": 10000,
+                    "puissance_max": 2,
+                    "puissance_min": 1,
+                    "prix_neuf": 0,
+                    "prix_actuel": 0,
+                    "description": "Lorem..."
+                },
+                {
+                    "num_modele": 5,
+                    "nom_modele": "mod1",
+                    "url_photo": "",
+                    "annee_debut": 1985,
+                    "annee_fin": 1994,
+                    "nbr_produit": 10000,
+                    "puissance_max": 2,
+                    "puissance_min": 1,
+                    "prix_neuf": 0,
+                    "prix_actuel": 0,
+                    "description": "Lorem..."
+                },
+                {
+                    "num_modele": 6,
+                    "nom_modele": "mod1",
+                    "url_photo": "",
+                    "annee_debut": 1985,
+                    "annee_fin": 1994,
+                    "nbr_produit": 10000,
+                    "puissance_max": 2,
+                    "puissance_min": 1,
+                    "prix_neuf": 0,
+                    "prix_actuel": 0,
+                    "description": "Lorem..."
+                },
+                {
+                    "num_modele": 7,
+                    "nom_modele": "mod1",
+                    "url_photo": "",
+                    "annee_debut": 1985,
+                    "annee_fin": 1994,
+                    "nbr_produit": 10000,
+                    "puissance_max": 2,
+                    "puissance_min": 1,
+                    "prix_neuf": 0,
+                    "prix_actuel": 0,
+                    "description": "Lorem..."
+                },
+                {
+                    "num_modele": 8,
+                    "nom_modele": "mod2",
+                    "url_photo": "",
+                    "annee_debut": 1985,
+                    "annee_fin": 1994,
+                    "nbr_produit": 10000,
+                    "puissance_max": 2,
+                    "puissance_min": 1,
+                    "prix_neuf": 0,
+                    "prix_actuel": 0,
+                    "description": "Lorem..."
+                },
+                {
+                    "num_modele": 9,
+                    "nom_modele": "mod2",
+                    "url_photo": "",
+                    "annee_debut": 1985,
+                    "annee_fin": 1994,
+                    "nbr_produit": 10000,
+                    "puissance_max": 2,
+                    "puissance_min": 1,
+                    "prix_neuf": 0,
+                    "prix_actuel": 0,
+                    "description": "Lorem..."
+                },
+                {
+                    "num_modele": 10,
+                    "nom_modele": "mod2",
+                    "url_photo": "",
+                    "annee_debut": 1985,
+                    "annee_fin": 1994,
+                    "nbr_produit": 10000,
+                    "puissance_max": 2,
+                    "puissance_min": 1,
+                    "prix_neuf": 0,
+                    "prix_actuel": 0,
+                    "description": "Lorem..."
+                }
+            ]
+        }
     ]
-  }
-  
+}

@@ -10,6 +10,7 @@ header {
     border-bottom: 2px solid black;
     width: 96%;
     margin-left: 1%;
+    position: fixed;
 }
 
 .container {
@@ -66,6 +67,7 @@ nav ul li {
     border-bottom-left-radius: 10px;
     display: none;
     align-items: center;
+    background-color: #ffffff;
 }
 .menu a{
     margin: 10px;
@@ -83,6 +85,24 @@ nav ul li {
 
 main {
     padding: 20px;
+    padding-top: 110px;
+}
+.liste .row{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.modele{
+    border: solid black 2px;
+    width: 500px;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.modele img{
+    width: 300px;
+    height: 200px;
 }
 
 @media screen and (max-width: 1600px) {

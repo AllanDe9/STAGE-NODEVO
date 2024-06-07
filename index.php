@@ -8,18 +8,18 @@ $vehicules = json_decode($json_data, true);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage Cars</title>
-    <link rel="stylesheet"  href="style/accueil.css">
+    <link rel="stylesheet"  href="style/style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <a href="accueil.php">
+            <a href="/">
                 <h1>Vintage Cars</h1>
-                
             </a>
             <nav>
                 <ul>
-                    <li><a href="#">Tous les modèles</a></li>
+                    <li><a href="tous_les_modeles.php">Tous les modèles</a></li>
+                    <li><a href="recherche.php">Rechercher</a></li>
                     <li>
                         <a id="bouton" class="bouton" tabindex="0">Marques</a>
                         <div class="menu" id="menu">
