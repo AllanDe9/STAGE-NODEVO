@@ -79,6 +79,46 @@ nav ul li {
 #menu:active{
     display: flex;
   }
+  footer {
+    position: relative; 
+}
+
+.admin {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    border-top: rgb(94, 94, 94) solid 3px;
+    border-right: rgb(94, 94, 94) solid 3px;
+    border-top-right-radius: 10px;
+    width: 200px;
+    height: auto;
+    flex-direction: column;
+  
+    z-index: 21;
+}
+.bouton-admin:focus + .admin {
+    display: flex;
+}
+.admin:active{
+    display: flex;
+}
+.bouton-admin{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    border-top: rgb(94, 94, 94) solid 3px;
+    border-right: rgb(94, 94, 94) solid 3px;
+    border-top-right-radius: 10px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+}
+.bouton-admin img{
+    width: 50px;
+}
 .container img{
     margin-left: 10px;
     width: 70px;

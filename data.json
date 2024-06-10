@@ -21,55 +21,88 @@
         },
         {
             "num_marque": 2,
-            "nom_marque": "Audi",
+            "nom_marque": "Aston Martin",
             "modeles": [
-                {
-                    "num_modele": 2,
-                    "nom_modele": "mod1",
-                    "url_photo": "",
-                    "annee_debut": 1991,
-                    "annee_fin": 1994,
-                    "nbr_produit": 10000,
-                    "puissance_max": 2,
-                    "puissance_min": 1,
-                    "prix_neuf": 0,
-                    "prix_actuel": 0,
-                    "description": "Lorem..."
-                },
-                {
-                    "num_modele": 3,
-                    "nom_modele": "mod2",
-                    "url_photo": "",
-                    "annee_debut": 1966,
-                    "annee_fin": 1994,
-                    "nbr_produit": 10000,
-                    "puissance_max": 2,
-                    "puissance_min": 1,
-                    "prix_neuf": 0,
-                    "prix_actuel": 0,
-                    "description": "Lorem..."
-                },
-                {
-                    "num_modele": 4,
-                    "nom_modele": "quattro",
-                    "url_photo": "",
-                    "annee_debut": 1952,
-                    "annee_fin": 1960,
-                    "nbr_produit": 10,
-                    "puissance_max": 460,
-                    "puissance_min": 460,
-                    "prix_neuf": 0,
-                    "prix_actuel": 300000,
-                    "description": "dzhg"
-                }
+                
             ]
         },
         {
             "num_marque": 3,
+            "nom_marque": "Audi",
+            "modeles": [
+                
+            ]
+        },
+        {
+            "num_marque": 4,
+            "nom_marque": "Bentley",
+            "modeles": [
+                
+            ]
+        },
+        {
+            "num_marque": 5,
             "nom_marque": "BMW",
             "modeles": [
                 
             ]
+        },
+        {
+            "num_marque": 6,
+            "nom_marque": "Bugatti",
+            "modeles": [
+                
+            ]
+        },
+        {
+            "num_marque": 7,
+            "nom_marque": "Buick",
+            "modeles": [
+                
+            ]
+        },
+        {
+            "num_marque": 8,
+            "nom_marque": "Cadillac",
+            "modeles": [
+                
+            ]
+        },
+        {
+            "num_marque": 9,
+            "nom_marque": "Chevrolet",
+            "modeles": [
+                
+            ]
+        },
+        {
+            "num_marque": 10,
+            "nom_marque": "Chrysler",
+            "modeles": [
+                
+            ]
+        },
+        {
+            "num_marque": 11,
+            "nom_marque": "Citroen",
+            "modeles": [
+                
+            ]
+        },
+        {
+            "num_marque": 12,
+            "nom_marque": "Ferrari",
+            "modeles": [
+                
+            ]
+        },
+        {
+            "num_marque": 13,
+            "nom_marque": "Fiat",
+            "modeles": [
+                
+            ]
         }
+
     ]
 }

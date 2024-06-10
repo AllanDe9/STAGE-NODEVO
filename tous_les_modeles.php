@@ -66,5 +66,17 @@ $vehicules = json_decode($json_data, true);
         ?>
     </div>
     </main>
+    <footer>
+        <div id="bouton-admin" class="bouton-admin" tabindex="0">
+            <img src="image/icone-admin.svg">
+        </div>
+        <div id="admin" class="admin">
+            <h2>Administration</h2>
+            <a href="/connexion">Connexion</a>
+            
+            <a href="/administrateur">Page Admin</a>
+            <a href="/deconnexion">Deconnexion</a>
+        </div>
+    </footer>
 </body>
 </html>

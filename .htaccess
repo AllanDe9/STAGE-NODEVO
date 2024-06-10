@@ -6,5 +6,8 @@ RewriteRule ^ajouter$ formulaire.php [L]
 RewriteRule ^modifier/([0-9]+)$ formulaire.php?modele=$1 [L]
 RewriteRule ^marque/([0-9]+)$ marque.php?marque=$1 [L]
 RewriteRule ^detail/([0-9]+)$ modele.php?modele=$1 [L]
+RewriteRule ^connexion$ connexion.php [L]
+RewriteRule ^deconnexion$ deconnexion.php [L]
+RewriteRule ^administrateur$ admin.php [L]
 
 ErrorDocument 404 /index.php
