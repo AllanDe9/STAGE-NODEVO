@@ -255,5 +255,24 @@ $vehicules = json_decode(file_get_contents($json_file), true);
     }
     ?>
     </main>
+    <footer>
+        <div id="bouton-admin" class="bouton-admin" tabindex="0">
+            <img src="../image/icone-admin.svg">
+        </div>
+        <div id="admin" class="admin">
+            <h2>Administration</h2>
+            <?php
+            session_start();
+            $user = $_SESSION['user'];
+            if (isset($user)) {
+                echo 'Bonjour '.$user['prenom'].' '.$user['nom'];
+                echo '<a href="/administrateur">Page Admin</a>';
+                echo '<a href="/deconnexion">Deconnexion</a>';
+            }else{
+                echo '<a href="/connexion">Connexion</a>';
+            }
+            ?>
+        </div>
+    </footer>
 </body>
 </html>
