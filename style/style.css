@@ -81,8 +81,9 @@ nav ul li {
   }
 .container img{
     margin-left: 10px;
-}
+    width: 70px;
 
+}
 main {
     padding: 20px;
     padding-top: 110px;

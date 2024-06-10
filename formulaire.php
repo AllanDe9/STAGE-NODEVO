@@ -15,7 +15,7 @@ $vehicules = json_decode(file_get_contents($json_file), true);
         <div class="container">
             <a href="/">
                 <h1>Vintage Cars</h1>
-                
+                <img src="../image/car.png">
             </a>
             <nav>
                 <ul>
