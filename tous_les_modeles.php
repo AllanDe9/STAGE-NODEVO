@@ -8,7 +8,7 @@ $vehicules = json_decode($json_data, true);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage Cars</title>
-    <link rel="stylesheet"  href="style/style.css">
+    <link rel="stylesheet"  href="../style/style.css">
 </head>
 <body>
     <header>
@@ -19,13 +19,13 @@ $vehicules = json_decode($json_data, true);
             </a>
             <nav>
                 <ul>
-                    <li><a href="recherche.php">Rechercher</a></li>
+                    <li><a href="/recherche">Rechercher</a></li>
                     <li>
                         <a id="bouton" class="bouton" tabindex="0">Marques</a>
                         <div class="menu" id="menu">
                           <?php 
                             foreach ($vehicules['marques'] as $marque) {
-                                    echo '<a href="marque.php?marque='.$marque['num_marque'].'">'.$marque['nom_marque'].'</a>';
+                                echo '<a href="/marque/'.$marque['num_marque'].'">'.$marque['nom_marque'].'</a>';
                             }
                           ?>
                         </div>
@@ -35,7 +35,7 @@ $vehicules = json_decode($json_data, true);
         </div>
     </header>
     <main>
-    <div class="ajouter"><a href="formulaire.php">Ajouter une voiture</a></div>
+    <div class="ajouter"><a href="/ajouter">Ajouter une voiture</a></div>
     <div class="liste">
         <?php
         $count = 0;
@@ -56,7 +56,7 @@ $vehicules = json_decode($json_data, true);
                 echo '</a><h2>' . $marque['nom_marque'] . '</h2>';
                 echo '<h2>' . $modele['nom_modele'] . '</h2>';
                 echo '<p>' . $modele['annee_debut'] . '</p>';
-                echo '<a href="formulaire.php?modele='.$modele['num_modele'].'">Modifier</a>';
+                echo '<a href="/modifier/'.$modele['num_modele'].'">Modifier</a>';
 
                 echo '</div>';
                 $count++;

@@ -8,7 +8,7 @@ $vehicules = json_decode(file_get_contents($json_file), true);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage Cars</title>
-    <link rel="stylesheet"  href="style/style.css">
+    <link rel="stylesheet"  href="../style/style.css">
 </head>
 <body>
     <header>
@@ -19,14 +19,14 @@ $vehicules = json_decode(file_get_contents($json_file), true);
             </a>
             <nav>
                 <ul>
-                    <li><a href="tous_les_modeles.php">Tous les modèles</a></li>
-                    <li><a href="recherche.php">Rechercher</a></li>
+                    <li><a href="/modeles">Tous les modèles</a></li>
+                    <li><a href="/recherche">Rechercher</a></li>
                     <li>
                         <a id="bouton" class="bouton" tabindex="0">Marques</a>
                         <div class="menu" id="menu">
                           <?php 
                             foreach ($vehicules['marques'] as $marque) {
-                                    echo '<a href="marque.php?marque='.$marque['num_marque'].'">'.$marque['nom_marque'].'</a>';
+                                echo '<a href="/marque/'.$marque['num_marque'].'">'.$marque['nom_marque'].'</a>';
                             }
                           ?>
                         </div>
@@ -88,9 +88,7 @@ $vehicules = json_decode(file_get_contents($json_file), true);
                 $erreurs = ['annee'=>"L'année de la fin de production de la voiture ne doit pas dépasser 2000 !"];
             }
         }
-        if (intval($_POST['annee_fin']) || empty($_POST['annee_debut']) || empty($_POST['annee_fin']) || empty($_POST['nbr_produit']) || empty($_POST['description'])){
-            $erreurs = ['requis'=> 'Certains champs sont vides !'];
-        }
+        
         if (intval($_POST['nbr_produit']) < 0  || intval($_POST['$prix_actuel']) < 0 || intval($_POST['puissance_min']) < 0 || intval($_POST['$prix_neuf']) < 0) {
             $erreurs = ['negatif'=> 'Tous les chiffres doivent etre positif !'];
         }
@@ -101,12 +99,12 @@ $vehicules = json_decode(file_get_contents($json_file), true);
         } else {
             file_put_contents($json_file, json_encode($vehicules, JSON_PRETTY_PRINT));
             echo 'Données mises à jour avec succès !';
-            echo'<a href="tous_les_modeles.php">Retour</a>';
+            echo'<a href="/modeles">Retour</a>';
             exit;
        } 
     }
     
-    echo '<form action="formulaire.php?modele='.$_GET['modele'].'" method="post">';
+    echo '<form action="//vintage-cars.com/modifier/'.$_GET['modele'].'" method="post">';
     echo '<input type="hidden" name="marqueIndex" value="' . $marqueIndex . '">';
     echo '<input type="hidden" name="modeleIndex" value="' . $modeleIndex . '">';
     echo '<label for="nom_marque">Marque : '.htmlspecialchars($marque['nom_marque']). '</label><br>';
@@ -206,7 +204,7 @@ $vehicules = json_decode(file_get_contents($json_file), true);
             } else {
                 file_put_contents('data.json', json_encode($vehicules, JSON_PRETTY_PRINT));
                 echo "Le modèle a été ajouté avec succès!";
-                echo'<a href="tous_les_modeles.php">Retour</a>';
+                echo'<a href="/modeles">Retour</a>';
                 exit;
             }
         }
