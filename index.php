@@ -36,7 +36,7 @@ $vehicules = json_decode($json_data, true);
         </div>
     </header>
     <main>
-        
+    
     </main>
 </body>
 </html>
