@@ -74,8 +74,8 @@ $vehicules = json_decode($json_data, true);
             <h2>Administration</h2>
             <?php
             session_start();
-            $user = $_SESSION['user'];
-            if (isset($user)) {
+            if (isset($_SESSION['user'])) {
+                $user = $_SESSION['user'];
                 echo 'Bonjour '.$user['prenom'].' '.$user['nom'];
                 echo '<a href="/administrateur">Page Admin</a>';
                 echo '<a href="/deconnexion">Deconnexion</a>';

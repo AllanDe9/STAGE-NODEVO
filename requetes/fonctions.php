@@ -4,9 +4,16 @@ function getUsers() {
     return json_decode($usersJson, true);
 }
 
+function saveUser($user) {
+    $users = getUsers();
+    $users[] = $user;
+    saveUsers($users);
+}
+
+
 function saveUsers($users) {
     $usersJson = json_encode($users, JSON_PRETTY_PRINT);
-    file_put_contents('users.json', $usersJson);
+    file_put_contents(__DIR__ . '/../users.json', $usersJson, FILE_APPEND);
 }
 
 function findEmail($email) {
