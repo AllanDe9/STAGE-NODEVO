@@ -89,7 +89,7 @@ $vehicules = json_decode(file_get_contents($json_file), true);
             }
         }
         
-        if (intval($_POST['nbr_produit']) < 0  || intval($_POST['$prix_actuel']) < 0 || intval($_POST['puissance_min']) < 0 || intval($_POST['$prix_neuf']) < 0) {
+        if (intval($_POST['nbr_produit']) < 0  || intval($_POST['prix_actuel']) < 0 || intval($_POST['puissance_min']) < 0 || intval($_POST['prix_neuf']) < 0) {
             $erreurs = ['negatif'=> 'Tous les chiffres doivent etre positif !'];
         }
 
@@ -196,7 +196,7 @@ $vehicules = json_decode(file_get_contents($json_file), true);
             if (empty($_POST['nom_modele']) || empty($_POST['annee_debut']) || empty($_POST['annee_fin']) || empty($_POST['nbr_produit']) || empty($_POST['description'])){
                 $erreurs = ['requis'=> 'Certains champs sont vides !'];
             }
-            if (intval($_POST['nbr_produit']) < 0  || intval($_POST['$prix_actuel']) < 0 || intval($_POST['puissance_min']) < 0 || intval($_POST['$prix_neuf']) < 0) {
+            if (intval($_POST['nbr_produit']) < 0  || intval($_POST['prix_actuel']) < 0 || intval($_POST['puissance_min']) < 0 || intval($_POST['prix_neuf']) < 0) {
                 $erreurs = ['negatif'=> 'Tous les chiffres doivent etre positif !'];
             }
             if (!empty($erreurs)) { 

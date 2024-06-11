@@ -46,7 +46,7 @@ $vehicules = json_decode($json_data, true);
                     echo '</div><div class="row">'; 
                 }
                 echo '<div class="modele">';
-                echo '<a href="modele.php?modele='.$modele['num_modele'].'">';
+                echo '<a href="/detail/'.$modele['num_modele'].'">';
                 if (empty($modele['url_photo'])) {
                     echo '<img src="https://thumbs.dreamstime.com/b/sch%C3%A9ma-voiture-48227977.jpg" alt="' . $modele['nom_modele'] . '">';
                 }
