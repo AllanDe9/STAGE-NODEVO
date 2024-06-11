@@ -1,10 +1,16 @@
 RewriteEngine On
 RewriteRule ^accueil$ index.php [L]
 RewriteRule ^recherche$ recherche.php [L]
-RewriteRule ^modeles$ tous_les_modeles.php [L]
+
 RewriteRule ^ajouter$ formulaire.php [L]
 RewriteRule ^modifier/([0-9]+)$ formulaire.php?modele=$1 [L]
 RewriteRule ^marque/([0-9]+)$ marque.php?marque=$1 [L]
 RewriteRule ^detail/([0-9]+)$ modele.php?modele=$1 [L]
+RewriteRule ^connexion$ requetes/connexion.php [L]
+RewriteRule ^deconnexion$ requetes/deconnexion.php [L]
+RewriteRule ^administrateur$ admin.php [L]
+RewriteRule ^administrateur/marques$ admin.php?select=marques [L]
+RewriteRule ^administrateur/modeles$ admin.php?select=modeles [L]
+RewriteRule ^administrateur/users$ admin.php?select=users [L]
 
 ErrorDocument 404 /index.php

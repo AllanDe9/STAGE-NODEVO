@@ -2,7 +2,7 @@
     "marques": [
         {
             "num_marque": 1,
-            "nom_marque": "Alfa Rom\u00e9o",
+            "nom_marque": "Alfa Roméo",
             "modeles": [
                 {
                     "num_modele": 1,
@@ -15,61 +15,183 @@
                     "puissance_min": 95,
                     "prix_neuf": 28000,
                     "prix_actuel": 20000,
-                    "description": "L'Alfa Rom\u00e9o Spider est un petit cabriolet sportif des ann\u00e9es 60 qui resta au catalogue du constructeur milanais durant plus de 30 ans. Fleuron de la marque \u00e0 sa sortie, elle est aujourd'hui une icone des cabriolets italiens."
+                    "description": "L'Alfa Roméo Spider est un petit cabriolet sportif des années 60 qui resta au catalogue du constructeur milanais durant plus de 30 ans. Fleuron de la marque à sa sortie, elle est aujourd'hui une icone des cabriolets italiens."
+                },
+                {
+                    "num_modele": 2,
+                    "nom_modele": "Giulia",
+                    "url_photo": "",
+                    "annee_debut": 1950,
+                    "annee_fin": 1961,
+                    "nbr_produit": 16000,
+                    "puissance_max": 125,
+                    "puissance_min": 82,
+                    "prix_neuf": 35000,
+                    "prix_actuel": 50000,
+                    "description": "L'Alfa Roméo giulia..."
                 }
             ]
         },
         {
             "num_marque": 2,
+            "nom_marque": "Aston Martin",
+            "modeles": []
+        },
+        {
+            "num_marque": 3,
             "nom_marque": "Audi",
+            "modeles": []
+        },
+        {
+            "num_marque": 4,
+            "nom_marque": "Bentley",
             "modeles": [
                 {
-                    "num_modele": 2,
-                    "nom_modele": "mod1",
-                    "url_photo": "",
-                    "annee_debut": 1991,
-                    "annee_fin": 1994,
-                    "nbr_produit": 10000,
-                    "puissance_max": 2,
-                    "puissance_min": 1,
-                    "prix_neuf": 0,
-                    "prix_actuel": 0,
-                    "description": "Lorem..."
-                },
-                {
                     "num_modele": 3,
-                    "nom_modele": "mod2",
-                    "url_photo": "",
-                    "annee_debut": 1966,
-                    "annee_fin": 1994,
-                    "nbr_produit": 10000,
-                    "puissance_max": 2,
-                    "puissance_min": 1,
-                    "prix_neuf": 0,
-                    "prix_actuel": 0,
-                    "description": "Lorem..."
-                },
-                {
-                    "num_modele": 4,
-                    "nom_modele": "quattro",
-                    "url_photo": "",
-                    "annee_debut": 1952,
-                    "annee_fin": 1960,
-                    "nbr_produit": 10,
-                    "puissance_max": 460,
-                    "puissance_min": 460,
-                    "prix_neuf": 0,
-                    "prix_actuel": 300000,
-                    "description": "dzhg"
+                    "nom_modele": "Mulsanne",
+                    "url_photo": "https:\/\/handh.blob.core.windows.net\/stock\/20057845-7-medium.jpg?v=63812826945283",
+                    "annee_debut": 1985,
+                    "annee_fin": 1999,
+                    "nbr_produit": 6000,
+                    "puissance_max": 480,
+                    "puissance_min": 260,
+                    "prix_neuf": 120000,
+                    "prix_actuel": 80000,
+                    "description": "La Bentley Mulsanne..."
                 }
             ]
         },
         {
-            "num_marque": 3,
+            "num_marque": 5,
             "nom_marque": "BMW",
+            "modeles": []
+        },
+        {
+            "num_marque": 6,
+            "nom_marque": "Bugatti",
+            "modeles": []
+        },
+        {
+            "num_marque": 7,
+            "nom_marque": "Buick",
+            "modeles": []
+        },
+        {
+            "num_marque": 8,
+            "nom_marque": "Cadillac",
+            "modeles": []
+        },
+        {
+            "num_marque": 9,
+            "nom_marque": "Chevrolet",
+            "modeles": []
+        },
+        {
+            "num_marque": 10,
+            "nom_marque": "Chrysler",
+            "modeles": []
+        },
+        {
+            "num_marque": 11,
+            "nom_marque": "Citroen",
             "modeles": [
-                
+                {
+                    "num_modele": 5,
+                    "nom_modele": "DS",
+                    "url_photo": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSxdT0_o5AHT966NY95SNZf0Fj330cnAVzBBw&s",
+                    "annee_debut": 1957,
+                    "annee_fin": 1979,
+                    "nbr_produit": 60000,
+                    "puissance_max": 105,
+                    "puissance_min": 64,
+                    "prix_neuf": 35000,
+                    "prix_actuel": 30000,
+                    "description": "La DS fleuron de la... "
+                }
             ]
+        },
+        {
+            "num_marque": 12,
+            "nom_marque": "Ferrari",
+            "modeles": [
+                {
+                    "num_modele": 6,
+                    "nom_modele": "250 GT SWB",
+                    "url_photo": "https:\/\/assets.newatlas.com\/dims4\/default\/34aaf72\/2147483647\/strip\/true\/crop\/1620x1080+150+0\/resize\/1200x800!\/quality\/90\/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Fcolton-ferrari-fetches-ten-million-4.jpg",
+                    "annee_debut": 1960,
+                    "annee_fin": 1963,
+                    "nbr_produit": 47,
+                    "puissance_max": 340,
+                    "puissance_min": 340,
+                    "prix_neuf": 90000,
+                    "prix_actuel": 11500000,
+                    "description": "Avec son V12 italien..."
+                }
+            ]
+        },
+        {
+            "num_marque": 13,
+            "nom_marque": "Fiat",
+            "modeles": [
+                {
+                    "num_modele": 4,
+                    "nom_modele": "500",
+                    "url_photo": "",
+                    "annee_debut": 1957,
+                    "annee_fin": 1986,
+                    "nbr_produit": 100000,
+                    "puissance_max": 46,
+                    "puissance_min": 20,
+                    "prix_neuf": 8000,
+                    "prix_actuel": 13000,
+                    "description": "L'iconique Fiat 500 des années 50"
+                }
+            ]
+        },
+        {
+            "num_marque": "14",
+            "nom_marque": "Ford",
+            "modeles": []
+        },
+        {
+            "num_marque": "15",
+            "nom_marque": "Jaguar",
+            "modeles": []
+        },
+        {
+            "num_marque": "16",
+            "nom_marque": "Jeep",
+            "modeles": []
+        },
+        {
+            "num_marque": "17",
+            "nom_marque": "Lamborghini",
+            "modeles": []
+        },
+        {
+            "num_marque": "18",
+            "nom_marque": "Lancia",
+            "modeles": []
+        },
+        {
+            "num_marque": "19",
+            "nom_marque": "Land Rover",
+            "modeles": []
+        },
+        {
+            "num_marque": "20",
+            "nom_marque": "Lotus",
+            "modeles": []
+        },
+        {
+            "num_marque": "21",
+            "nom_marque": "Maserati",
+            "modeles": []
+        },
+        {
+            "num_marque": "22",
+            "nom_marque": "Mclaren",
+            "modeles": []
         }
     ]
 }
