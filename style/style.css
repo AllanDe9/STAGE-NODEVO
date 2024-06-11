@@ -133,6 +133,23 @@ main {
     margin-top: 30px;
     margin-bottom: 50px;
 }
+.liste-modeles .row{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.liste-modeles{
+    float: right;
+    width: 79%;
+}
+.recherche{
+    float: left;
+    border-right: solid black 2px;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+}
 .modele{
     border: solid black 2px;
     width: 500px;

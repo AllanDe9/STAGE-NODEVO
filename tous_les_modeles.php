@@ -35,14 +35,57 @@ $vehicules = json_decode($json_data, true);
         </div>
     </header>
     <main>
-    <div class="ajouter"><a href="/ajouter">Ajouter une voiture</a></div>
-    <div class="liste">
+    <div class="recherche">
+        <div class="ajouter"><a href="/ajouter">Ajouter une voiture</a></div>
+        <p>Recherche de voitures</p>
+        <form method="POST">
+            <div class="form-group">
+                <label for="marque">Marque :</label>
+                <select id="marque" name="marque">
+                    <option>Toutes</option>
+                    <?php
+                        foreach ($vehicules['marques'] as $marque) {
+                            echo '<option value="'.$marque['num_marque'].'">'.$marque['nom_marque'].'</option>';
+                        }                    
+                    ?>              
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="modele">Nom du modèle</label>
+                <input type="text" id="modele" name="modele">
+            </div>
+            <div class="form-group">
+                <label for="annee">Année</label>
+                <input type="number" id="annee" name="annee">
+            </div>
+            <input type="submit" value="Rechercher">
+        </form>
+    </div>
+    <div class="liste-modeles">
         <?php
-        $count = 0;
-        echo '<div class="row">'; 
-        foreach ($vehicules['marques'] as $marque) {
-            foreach ($marque['modeles'] as $modele) {
-                if ($count > 0 && $count % 3 == 0) {
+       
+        $modelsParPage = 6;
+
+     
+    $totalModels = 0;
+    foreach ($vehicules['marques'] as $marque) {
+        $totalModels += count($marque['modeles']);
+    }
+   
+    $totalPages = ceil($totalModels / $modelsParPage);
+
+  
+    $currentPage = isset($_GET['page']) ? $_GET['page'] : 1;
+    $start = ($currentPage - 1) * $modelsParPage;
+    $end = $start + $modelsParPage;
+
+    $count = 0;
+    echo '<div class="row">';
+    $modelsDisplayed = 0;
+    foreach ($vehicules['marques'] as $marque) {
+        foreach ($marque['modeles'] as $modele) {
+            if ($modelsDisplayed >= $start && $modelsDisplayed < $end) {
+                if ($count > 0 && $count % 2 == 0) {
                     echo '</div><div class="row">'; 
                 }
                 echo '<div class="modele">';
@@ -61,10 +104,20 @@ $vehicules = json_decode($json_data, true);
                 echo '</div>';
                 $count++;
             }
+            $modelsDisplayed++;
         }
-        echo '</div>'; 
-        ?>
-    </div>
+    }
+    echo '</div>';
+
+   
+    echo '<div class="pagination">';
+    for ($i = 1; $i <= $totalPages; $i++) {
+        echo '<a href="?page=' . $i . '">' . $i . '</a>';
+    }
+    echo '</div>';
+    ?>
+</div>
+
     </main>
     <footer>
         <div id="bouton-admin" class="bouton-admin" tabindex="0">
