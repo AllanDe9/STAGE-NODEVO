@@ -1,69 +1,59 @@
 <?php
-
-switch ($_SERVER['REQUEST_URI']) {
-    case '/modeles':
-        header('Location: tous_les_modeles.php');
-        exit; 
+$request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$uri_segments = explode('/', trim($request_uri, '/'));
+switch ($uri_segments[0]) {
+    case '':
+        require __DIR__ . '/accueil.php';
+        break;
+    case 'modeles':
+        require __DIR__ . '/tous_les_modeles.php';
+        break;
+    case 'recherche':
+        require __DIR__ . '/recherche.php';
+        break;
+    case 'ajouter':
+        require __DIR__ . '/formulaire.php';
+        break;
+    case 'modifier':
+        if (isset($uri_segments[1])) {
+            $id = $uri_segments[1];
+            $_GET['modele'] = $id;
+            require __DIR__ . '/formulaire.php';
+        }
+        break;
+    case 'detail':
+        if (isset($uri_segments[1])) {
+            $id = $uri_segments[1];
+            $_GET['modele'] = $id;
+            require __DIR__ . '/modele.php';
+        }
+        break;
+    case 'marque':
+        if (isset($uri_segments[1])) {
+            $id = $uri_segments[1];
+            $_GET['marque'] = $id;
+            require __DIR__ . '/marque.php';
+        }
+        break;
+    case 'connexion':
+        require __DIR__ . '/requetes/connexion.php';
+        break;
+    case 'deconnexion':
+        require __DIR__ . '/requetes/deconnexion.php';
+        break;
+    case 'administrateur':
+        if (isset($uri_segments[1])) {
+            $id = $uri_segments[1];
+            $_GET['select'] = $id;
+            require __DIR__ . '/admin.php';
+        }else {
+            require __DIR__ . '/admin.php';
+        }
+        break;
+    default:
+        echo "Page non trouvée";
+        break;
 }
 
-
-$json_data = file_get_contents('data.json');
-$vehicules = json_decode($json_data, true);
 ?>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vintage Cars</title>
-    <link rel="stylesheet"  href="../style/style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <a href="/">
-                <h1>Vintage Cars</h1>
-                <img src="../image/car.png">
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="/modeles">Tous les modèles</a></li>
-                    <li><a href="/recherche">Rechercher</a></li>
-                    <li>
-                        <a id="bouton" class="bouton" tabindex="0">Marques</a>
-                        <div class="menu" id="menu">
-                          <?php 
-                            foreach ($vehicules['marques'] as $marque) {
-                                echo '<a href="/marque/'.$marque['num_marque'].'">'.$marque['nom_marque'].'</a>';
-                            }
-                          ?>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-    
-    </main>
-    <footer>
-        <div id="bouton-admin" class="bouton-admin" tabindex="0">
-            <img src="../image/icone-admin.svg">
-        </div>
-        <div id="admin" class="admin">
-            <h2>Administration</h2>
-            <?php
-            session_start();
-            if (isset($_SESSION['user'])) {
-                $user = $_SESSION['user'];
-                echo 'Bonjour '.$user['prenom'].' '.$user['nom'];
-                echo '<a href="/administrateur">Page Admin</a>';
-                echo '<a href="/deconnexion">Deconnexion</a>';
-            }else{
-                echo '<a href="/connexion">Connexion</a>';
-            }
-            ?>
-        </div>
-    </footer>
-</body>
-</html>
+

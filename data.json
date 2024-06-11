@@ -2,7 +2,7 @@
     "marques": [
         {
             "num_marque": 1,
-            "nom_marque": "Alfa Roméo",
+            "nom_marque": "Alfa Rom\u00e9o",
             "modeles": [
                 {
                     "num_modele": 1,
@@ -15,7 +15,7 @@
                     "puissance_min": 95,
                     "prix_neuf": 28000,
                     "prix_actuel": 20000,
-                    "description": "L'Alfa Roméo Spider est un petit cabriolet sportif des années 60 qui resta au catalogue du constructeur milanais durant plus de 30 ans. Fleuron de la marque à sa sortie, elle est aujourd'hui une icone des cabriolets italiens."
+                    "description": "L'Alfa Rom\u00e9o Spider est un petit cabriolet sportif des ann\u00e9es 60 qui resta au catalogue du constructeur milanais durant plus de 30 ans. Fleuron de la marque \u00e0 sa sortie, elle est aujourd'hui une icone des cabriolets italiens."
                 },
                 {
                     "num_modele": 2,
@@ -28,7 +28,7 @@
                     "puissance_min": 82,
                     "prix_neuf": 35000,
                     "prix_actuel": 50000,
-                    "description": "L'Alfa Roméo giulia..."
+                    "description": "L'Alfa Rom\u00e9o giulia..."
                 }
             ]
         },
@@ -144,14 +144,28 @@
                     "puissance_min": 20,
                     "prix_neuf": 8000,
                     "prix_actuel": 13000,
-                    "description": "L'iconique Fiat 500 des années 50"
+                    "description": "L'iconique Fiat 500 des ann\u00e9es 50"
                 }
             ]
         },
         {
             "num_marque": "14",
             "nom_marque": "Ford",
-            "modeles": []
+            "modeles": [
+                {
+                    "num_modele": 7,
+                    "nom_modele": "Mustang",
+                    "url_photo": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/7f\/1965_Ford_Mustang_2D_Hardtop_Front.jpg\/280px-1965_Ford_Mustang_2D_Hardtop_Front.jpg",
+                    "annee_debut": 1964,
+                    "annee_fin": 1974,
+                    "nbr_produit": 1300000,
+                    "puissance_max": 340,
+                    "puissance_min": 117,
+                    "prix_neuf": 30000,
+                    "prix_actuel": 25000,
+                    "description": "La mythique..."
+                }
+            ]
         },
         {
             "num_marque": "15",
