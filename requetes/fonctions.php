@@ -1,6 +1,6 @@
 <?php
 function getUsers() {
-    $usersJson = file_get_contents('../users.json');
+    $usersJson = file_get_contents('users.json');
     return json_decode($usersJson, true);
 }
 
@@ -13,7 +13,7 @@ function saveUser($user) {
 
 function saveUsers($users) {
     $usersJson = json_encode($users, JSON_PRETTY_PRINT);
-    file_put_contents(__DIR__ . '/../users.json', $usersJson, FILE_APPEND);
+    file_put_contents('users.json', $usersJson);
 }
 
 function findEmail($email) {
