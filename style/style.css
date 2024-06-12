@@ -60,7 +60,7 @@ nav ul li {
     flex-direction: column;
     display: flex;
     width: 220px; 
-    height: auto;
+    height: 500%;
     border-bottom: solid 2px black;
     border-left: solid 2px black;
     border-top: solid 2px black;
@@ -68,6 +68,8 @@ nav ul li {
     display: none;
     align-items: center;
     background-color: #ffffff;
+    overflow-y: scroll;
+ 
 }
 .menu a{
     margin: 10px;
