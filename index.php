@@ -10,7 +10,7 @@ switch ($uri_segments[0]) {
         require __DIR__ . '/tous_les_modeles.php';
         break;
     case 'recherche':
-        require __DIR__ . '/recherche.php';
+        require __DIR__ . '/tous_les_modeles.php';
         break;
     case 'ajouter':
         require __DIR__ . '/formulaire.php';
