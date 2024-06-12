@@ -225,6 +225,31 @@
             "num_marque": "23",
             "nom_marque": "Mercedes",
             "modeles": []
+        },
+        {
+            "num_marque": "24",
+            "nom_marque": "Mini",
+            "modeles": []
+        },
+        {
+            "num_marque": "25",
+            "nom_marque": "Morgan",
+            "modeles": []
+        },
+        {
+            "num_marque": "26",
+            "nom_marque": "Nissan",
+            "modeles": []
+        },
+        {
+            "num_marque": "27",
+            "nom_marque": "Opel",
+            "modeles": []
+        },
+        {
+            "num_marque": "28",
+            "nom_marque": "Peugeot",
+            "modeles": []
         }
     ]
 }

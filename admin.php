@@ -1,4 +1,5 @@
 <?php
+
 $user = $_SESSION['user'];
 if (!isset($_SESSION['user'])) {
     header('Location: /');
@@ -47,19 +48,19 @@ $vehicules = json_decode($json_data, true);
                     $marques = $vehicules['marques'];
                     $max_num_marque = max(array_column($marques, 'num_marque'));
                     $next_num_marque = $max_num_marque + 1;
-                
+
                     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         $nom_marque = $_POST['nom_marque'];
                         $num_marque = $_POST['num_marque'];
-                    
+
                         $vehicules['marques'][] = [
                             'num_marque' => $num_marque,
                             'nom_marque' => $nom_marque,
                             'modeles' => []
                         ];
-                    
+
                         file_put_contents('data.json', json_encode($vehicules, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-                    
+
                         echo "Marque ajoutée avec succès !";
                         header("Location: " . $_SERVER['REQUEST_URI']);
                     }
@@ -122,11 +123,11 @@ $vehicules = json_decode($json_data, true);
                     $listeusers = json_decode($jsonData, true);
                     if (json_last_error() === JSON_ERROR_NONE) {
                         echo "<ul>";
-                        foreach ($listeusers as $unuser) {
+                        foreach ($listeusers as $unUser) {
                             echo "<li>";
-                            echo "Nom: " . htmlspecialchars($unuser['nom']) . "<br>";
-                            echo "Prénom: " . htmlspecialchars($unuser['prenom']) . "<br>";
-                            echo "Email: " . htmlspecialchars($unuser['email']) . "<br>";
+                            echo "Nom: " . htmlspecialchars($unUser['nom']) . "<br>";
+                            echo "Prénom: " . htmlspecialchars($unUser['prenom']) . "<br>";
+                            echo "Email: " . htmlspecialchars($unUser['email']) . "<br>";
                             echo "</li>";
                         }
                         echo "</ul>";
@@ -146,9 +147,9 @@ $vehicules = json_decode($json_data, true);
                         $prenom = $_POST['prenom'];
                         $email = $_POST['email'];
                         $password = $_POST['password'];
-                    
+
                         $existingUser = findEmail($email);
-                    
+
                         if ($existingUser) {
                             $error = 'Un utilisateur avec cet email existe déjà';
                         } else {
@@ -160,7 +161,7 @@ $vehicules = json_decode($json_data, true);
                             ];
                             saveUser($newUser);
                             header("Location: " . $_SERVER['REQUEST_URI']);
-                           
+
                         }
                     }
                     ?>
@@ -212,4 +213,3 @@ $vehicules = json_decode($json_data, true);
     </footer>
 </body>
 </html>
-
