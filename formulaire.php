@@ -83,9 +83,6 @@ $vehicules = json_decode(file_get_contents($json_file), true);
             if (intval($_POST['annee_debut']) < 1900){
                 $erreurs = ['annee'=>"L'année de sortie de la voiture doit dépasser 1900 !"];
                 }
-            if (intval($_POST['annee_fin']) > 1999){
-                $erreurs = ['annee'=>"L'année de la fin de production de la voiture ne doit pas dépasser 2000 !"];
-            }
         }
         
         if (intval($_POST['nbr_produit']) < 0  || intval($_POST['prix_actuel']) < 0 || intval($_POST['puissance_min']) < 0 || intval($_POST['prix_neuf']) < 0) {
@@ -188,9 +185,6 @@ $vehicules = json_decode(file_get_contents($json_file), true);
                 if (intval($_POST['annee_debut']) < 1900){
                     $erreurs = ['annee'=>"L'année de sortie de la voiture doit dépasser 1900 !"];
                     }
-                if (intval($_POST['annee_fin']) > 1999){
-                    $erreurs = ['annee'=>"L'année de la fin de production de la voiture ne doit pas dépasser 2000 !"];
-                }
             }
             if (empty($_POST['nom_modele']) || empty($_POST['annee_debut']) || empty($_POST['annee_fin']) || empty($_POST['nbr_produit']) || empty($_POST['description'])){
                 $erreurs = ['requis'=> 'Certains champs sont vides !'];
