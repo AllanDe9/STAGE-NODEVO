@@ -19,7 +19,6 @@ $vehicules = json_decode($json_data, true);
             </a>
             <nav>
                 <ul>
-                    <li><a href="/recherche">Rechercher</a></li>
                     <li>
                         <a id="bouton" class="bouton" tabindex="0">Marques</a>
                         <div class="menu" id="menu">
