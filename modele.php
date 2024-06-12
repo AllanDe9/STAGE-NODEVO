@@ -55,14 +55,14 @@ $vehicules = json_decode($json_data, true);
                 echo'<a href="tous_les_modeles.php">Retour</a>';
                 exit;
             }
-            echo '<a href="modele.php?modele='.$modele['num_modele'].'">';
+           
             if (empty($modele['url_photo'])) {
                 echo '<img src="https://thumbs.dreamstime.com/b/sch%C3%A9ma-voiture-48227977.jpg" alt="' . $modele['nom_modele'] . '">';
             }
             else {
                 echo '<img src="' . $modele['url_photo'].'" alt="' . $modele['nom_modele'] . '">';
             }
-            echo '</a><h2>' . $marque['nom_marque'] . '</h2>';
+            echo '<h2>' . $marque['nom_marque'] . '</h2>';
             echo '<h2>' . $modele['nom_modele'] . '</h2>';
             echo '<p>' . $modele['annee_debut'] . '</p>';
             echo '<p>' . $modele['annee_fin'] . '</p>';
@@ -88,7 +88,7 @@ $vehicules = json_decode($json_data, true);
         <div id="admin" class="admin">
             <h2>Administration</h2>
             <?php
-            session_start();
+            
             if (isset($_SESSION['user'])) {
                 $user = $_SESSION['user'];
                 echo 'Bonjour '.$user['prenom'].' '.$user['nom'];
