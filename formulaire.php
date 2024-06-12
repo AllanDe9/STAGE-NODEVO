@@ -262,7 +262,6 @@ $vehicules = json_decode(file_get_contents($json_file), true);
         <div id="admin" class="admin">
             <h2>Administration</h2>
             <?php
-            session_start();
             if (isset($_SESSION['user'])) {
                 $user = $_SESSION['user'];
                 echo 'Bonjour '.$user['prenom'].' '.$user['nom'];

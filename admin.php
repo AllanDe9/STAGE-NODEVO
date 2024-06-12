@@ -1,5 +1,4 @@
 <?php
-session_start();
 $user = $_SESSION['user'];
 if (!isset($_SESSION['user'])) {
     header('Location: /');
@@ -123,11 +122,11 @@ $vehicules = json_decode($json_data, true);
                     $listeusers = json_decode($jsonData, true);
                     if (json_last_error() === JSON_ERROR_NONE) {
                         echo "<ul>";
-                        foreach ($listeusers as $user) {
+                        foreach ($listeusers as $unuser) {
                             echo "<li>";
-                            echo "Nom: " . htmlspecialchars($user['nom']) . "<br>";
-                            echo "Prénom: " . htmlspecialchars($user['prenom']) . "<br>";
-                            echo "Email: " . htmlspecialchars($user['email']) . "<br>";
+                            echo "Nom: " . htmlspecialchars($unuser['nom']) . "<br>";
+                            echo "Prénom: " . htmlspecialchars($unuser['prenom']) . "<br>";
+                            echo "Email: " . htmlspecialchars($unuser['email']) . "<br>";
                             echo "</li>";
                         }
                         echo "</ul>";
