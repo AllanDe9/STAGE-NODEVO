@@ -265,6 +265,36 @@
             "num_marque": "31",
             "nom_marque": "Rolls Royce",
             "modeles": []
+        },
+        {
+            "num_marque": "32",
+            "nom_marque": "Shelby",
+            "modeles": []
+        },
+        {
+            "num_marque": "33",
+            "nom_marque": "Skoda",
+            "modeles": []
+        },
+        {
+            "num_marque": "34",
+            "nom_marque": "Subaru",
+            "modeles": []
+        },
+        {
+            "num_marque": "35",
+            "nom_marque": "Toyota",
+            "modeles": []
+        },
+        {
+            "num_marque": "37",
+            "nom_marque": "Volkswagen",
+            "modeles": []
+        },
+        {
+            "num_marque": "38",
+            "nom_marque": "Volvo",
+            "modeles": []
         }
     ]
 }
