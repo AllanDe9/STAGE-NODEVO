@@ -79,10 +79,50 @@ nav ul li {
 #menu:active{
     display: flex;
   }
-.container img{
-    margin-left: 10px;
+  footer {
+    position: relative; 
 }
 
+.admin {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    border-top: rgb(94, 94, 94) solid 3px;
+    border-right: rgb(94, 94, 94) solid 3px;
+    border-top-right-radius: 10px;
+    width: 200px;
+    height: auto;
+    flex-direction: column;
+    z-index: 21;
+}
+.bouton-admin:focus + .admin {
+    display: flex;
+}
+.admin:active{
+    display: flex;
+}
+.bouton-admin{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    border-top: rgb(94, 94, 94) solid 3px;
+    border-right: rgb(94, 94, 94) solid 3px;
+    border-top-right-radius: 10px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+}
+.bouton-admin img{
+    width: 50px;
+}
+.container img{
+    margin-left: 10px;
+    width: 70px;
+
+}
 main {
     padding: 20px;
     padding-top: 110px;
@@ -92,6 +132,23 @@ main {
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 50px;
+}
+.liste-modeles .row{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.liste-modeles{
+    float: right;
+    width: 79%;
+}
+.recherche{
+    float: left;
+    border-right: solid black 2px;
+    width: 20%;
+    position: fixed;
+    height: 100%;
 }
 .modele{
     border: solid black 2px;
@@ -104,6 +161,54 @@ main {
     width: 300px;
     height: 200px;
 }
+.liste-marques{
+    float: left;
+    width: 20%;
+    border-right: 2px solid black;
+}
+.liste-marques li{
+    margin-bottom: 30px;
+    list-style: none;
+    margin-left: 25%;
+}
+.ajouter-marque{
+    float: right;
+    width: 79%;
+}
+.liste-users{
+    float: left;
+    width: 60%;
+    border-right: 2px solid black;
+}
+.liste-users li{
+    margin-bottom: 30px;
+    list-style: none;
+    margin-left: 25%;
+}
+.ajouter-users{
+    float: right;
+    width: 39%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1600px) {
    
