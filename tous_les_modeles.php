@@ -76,12 +76,14 @@ $vehicules = json_decode($json_data, true);
 
   
     $currentPage = isset($_GET['page']) ? $_GET['page'] : 1;
+    $currentPage = max(1, min($currentPage, $totalPages)); 
     $start = ($currentPage - 1) * $modelsParPage;
     $end = $start + $modelsParPage;
 
-    $count = 0;
+   
     echo '<div class="row">';
     $modelsDisplayed = 0;
+    $count = 0;
     foreach ($vehicules['marques'] as $marque) {
         foreach ($marque['modeles'] as $modele) {
             if ($modelsDisplayed >= $start && $modelsDisplayed < $end) {
@@ -111,9 +113,26 @@ $vehicules = json_decode($json_data, true);
 
    
     echo '<div class="pagination">';
-    for ($i = 1; $i <= $totalPages; $i++) {
-        echo '<a href="?page=' . $i . '">' . $i . '</a>';
+    
+   
+    if ($currentPage > 1) {
+        echo '<a href="?page=' . ($currentPage - 1) . '">Page précédente</a>';
     }
+
+   
+    for ($i = 1; $i <= $totalPages; $i++) {
+        if ($i == $currentPage) {
+            echo '<strong>' . $i . '</strong>'; 
+        } else {
+            echo '<a href="?page=' . $i . '">' . $i . '</a>';
+        }
+    }
+
+    
+    if ($currentPage < $totalPages) {
+        echo '<a href="?page=' . ($currentPage + 1) . '">Page suivante</a>';
+    }
+
     echo '</div>';
     ?>
 </div>
