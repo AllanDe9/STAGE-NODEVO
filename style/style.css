@@ -174,7 +174,8 @@ main {
     margin-left: 25%;
 }
 .ajouter-marque{
-    float: right;
+    position: fixed;
+    left:24%;
     width: 79%;
 }
 .liste-users{

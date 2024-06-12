@@ -10,5 +10,17 @@
         "prenom": "x",
         "email": "x@gmail.com",
         "password": "$2y$10$8cuj0DIEznUHuguqx00eo.8Y7ouqHvyVfEsbBrKPirNhZdSDjZi8q"
+    },
+    {
+        "nom": "y",
+        "prenom": "y",
+        "email": "y@gmial.com",
+        "password": "$2y$10$rQCI12XwVaDWPerBzXBERuwLxxJyFWxNZRlVD\/jhEuYwqLY7PuGYS"
+    },
+    {
+        "nom": "a",
+        "prenom": "a",
+        "email": "alln@mail.com",
+        "password": "$2y$10$iLp65kgoowPUVHcDPGj8tOMiGZ5hBPatj00K8x.wuKjNA9gzamItW"
     }
 ]
