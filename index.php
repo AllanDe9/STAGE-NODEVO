@@ -1,4 +1,5 @@
 <?php
+session_start();
 $request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $uri_segments = explode('/', trim($request_uri, '/'));
 switch ($uri_segments[0]) {
@@ -9,7 +10,7 @@ switch ($uri_segments[0]) {
         require __DIR__ . '/tous_les_modeles.php';
         break;
     case 'recherche':
-        require __DIR__ . '/recherche.php';
+        require __DIR__ . '/tous_les_modeles.php';
         break;
     case 'ajouter':
         require __DIR__ . '/formulaire.php';

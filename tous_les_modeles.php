@@ -19,7 +19,6 @@ $vehicules = json_decode($json_data, true);
             </a>
             <nav>
                 <ul>
-                    <li><a href="/recherche">Rechercher</a></li>
                     <li>
                         <a id="bouton" class="bouton" tabindex="0">Marques</a>
                         <div class="menu" id="menu">
@@ -177,7 +176,7 @@ $vehicules = json_decode($json_data, true);
         <div id="admin" class="admin">
             <h2>Administration</h2>
             <?php
-            session_start();
+            
             if (isset($_SESSION['user'])) {
                 $user = $_SESSION['user'];
                 echo 'Bonjour '.$user['prenom'].' '.$user['nom'];

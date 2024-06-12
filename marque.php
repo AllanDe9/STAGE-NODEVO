@@ -20,7 +20,6 @@ $vehicules = json_decode($json_data, true);
             <nav>
                 <ul>
                     <li><a href="/modeles">Tous les modèles</a></li>
-                    <li><a href="/recherche">Rechercher</a></li>
                     <li>
                         <a id="bouton" class="bouton" tabindex="0">Marques</a>
                         <div class="menu" id="menu">
@@ -60,7 +59,7 @@ $vehicules = json_decode($json_data, true);
             foreach ($marque['modeles'] as $modele) {
                 if ($count > 0 && $count % 3 == 0) {
                     echo '</div><div class="row">'; 
-                }
+                    session_start();    }
                 echo '<div class="modele">';
                 echo '<a href="/detail/'.$modele['num_modele'].'">';
                 if (empty($modele['url_photo'])) {
@@ -96,7 +95,7 @@ $vehicules = json_decode($json_data, true);
         <div id="admin" class="admin">
             <h2>Administration</h2>
             <?php
-            session_start();
+            
             if (isset($_SESSION['user'])) {
                 $user = $_SESSION['user'];
                 echo 'Bonjour '.$user['prenom'].' '.$user['nom'];
