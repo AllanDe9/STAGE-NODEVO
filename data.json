@@ -225,6 +225,76 @@
             "num_marque": "23",
             "nom_marque": "Mercedes",
             "modeles": []
+        },
+        {
+            "num_marque": "24",
+            "nom_marque": "Mini",
+            "modeles": []
+        },
+        {
+            "num_marque": "25",
+            "nom_marque": "Morgan",
+            "modeles": []
+        },
+        {
+            "num_marque": "26",
+            "nom_marque": "Nissan",
+            "modeles": []
+        },
+        {
+            "num_marque": "27",
+            "nom_marque": "Opel",
+            "modeles": []
+        },
+        {
+            "num_marque": "28",
+            "nom_marque": "Peugeot",
+            "modeles": []
+        },
+        {
+            "num_marque": "29",
+            "nom_marque": "Porsche",
+            "modeles": []
+        },
+        {
+            "num_marque": "30",
+            "nom_marque": "Renault",
+            "modeles": []
+        },
+        {
+            "num_marque": "31",
+            "nom_marque": "Rolls Royce",
+            "modeles": []
+        },
+        {
+            "num_marque": "32",
+            "nom_marque": "Shelby",
+            "modeles": []
+        },
+        {
+            "num_marque": "33",
+            "nom_marque": "Skoda",
+            "modeles": []
+        },
+        {
+            "num_marque": "34",
+            "nom_marque": "Subaru",
+            "modeles": []
+        },
+        {
+            "num_marque": "35",
+            "nom_marque": "Toyota",
+            "modeles": []
+        },
+        {
+            "num_marque": "37",
+            "nom_marque": "Volkswagen",
+            "modeles": []
+        },
+        {
+            "num_marque": "38",
+            "nom_marque": "Volvo",
+            "modeles": []
         }
     ]
 }
