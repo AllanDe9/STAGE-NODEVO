@@ -3,6 +3,8 @@
         {
             "num_marque": 1,
             "nom_marque": "Alfa Romeo",
+            "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/fr\/thumb\/1\/16\/Logo_Alfa_Romeo_%282015%29.svg\/langfr-140px-Logo_Alfa_Romeo_%282015%29.svg.png",
+            "descri_marque": "Alfa Romeo est un constructeur automobile italien fond\u00e9 le 24 juin 1910 \u00e0 Milan, filiale du groupe Stellantis depuis janvier 2021 apr\u00e8s avoir fait partie du groupe Fiat SpA et du groupe Fiat Chrysler Automobiles (FCA) de 2014 \u00e0 2021. Il \u00e9tait auparavant la propri\u00e9t\u00e9 de l'\u00c9tat italien, \u00e0 travers sa holding publique IRI, de 1933 \u00e0 1986. ",
             "modeles": [
                 {
                     "num_modele": 1,
@@ -21,8 +23,8 @@
                     "num_modele": 2,
                     "nom_modele": "Giulia",
                     "url_photo": "",
-                    "annee_debut": 1950,
-                    "annee_fin": 1961,
+                    "annee_debut": 1973,
+                    "annee_fin": 1976,
                     "nbr_produit": 16000,
                     "puissance_max": 125,
                     "puissance_min": 82,

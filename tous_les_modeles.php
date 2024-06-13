@@ -58,7 +58,7 @@ $vehicules = json_decode($json_data, true);
     </div>
     <div class="liste-modeles">
     <?php  
-    $modelsParPage = 6;
+    $modelsParPage = 9;
     $totalModels = 0;
 
     function filter_modeles($modeles, $modele_recherche, $annee_recherche) {

@@ -23,22 +23,22 @@ switch ($uri_segments[0]) {
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
             $_GET['modele'] = $id;
-            require __DIR__ . '/formulaire.php';
         }
+        require __DIR__ . '/formulaire.php';
         break;
     case 'detail':
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
             $_GET['modele'] = $id;
-            require __DIR__ . '/modele.php';
         }
+        require __DIR__ . '/modele.php';
         break;
     case 'marque':
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
-            $_GET['marque'] = $id;
-            require __DIR__ . '/marque.php';
+            $_GET['marque'] = $id; 
         }
+        require __DIR__ . '/marque.php';
         break;
     case 'connexion':
         require __DIR__ . '/requetes/connexion.php';

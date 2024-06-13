@@ -49,37 +49,38 @@ $vehicules = json_decode($json_data, true);
                 }
 
                 if ($marque) {
-                    echo "<div class='marque'>";
-                    echo "<h1>" . htmlspecialchars($marque['nom_marque']) . "</h1>";
+                    echo "<div class='info-marque'>";
+                    echo '<div><img src="' . $marque['url_logo_marque'] . '">';
+                    echo "<h1>" . htmlspecialchars($marque['nom_marque']) . "</h1></div>";
+                    echo "<p>" . htmlspecialchars($marque['descri_marque']) . "</p>";
 
-                   echo '<div class="liste">';
+                   echo '</div><div class="liste-modeles">';
         $count = 0;
         echo '<div class="row">'; 
        
             foreach ($marque['modeles'] as $modele) {
                 if ($count > 0 && $count % 3 == 0) {
                     echo '</div><div class="row">'; 
-                    session_start();    }
-                echo '<div class="modele">';
-                echo '<a href="/detail/'.$modele['num_modele'].'">';
-                if (empty($modele['url_photo'])) {
-                    echo '<img src="https://thumbs.dreamstime.com/b/sch%C3%A9ma-voiture-48227977.jpg" alt="' . $modele['nom_modele'] . '">';
-                }
-                else {
-                    echo '<img src="' . $modele['url_photo'].'" alt="' . $modele['nom_modele'] . '">';
-                }
-                echo '</a><h2>' . $marque['nom_marque'] . '</h2>';
-                echo '<h2>' . $modele['nom_modele'] . '</h2>';
-                echo '<p>' . $modele['annee_debut'] . '</p>';
-                echo '<a href="/modifier/'.$modele['num_modele'].'">Modifier</a>';
+                    }
+                    echo '<div class="modele">';
+                  
+                    if (empty($modele['url_photo'])) {
+                        echo '<img src="https://thumbs.dreamstime.com/b/sch%C3%A9ma-voiture-48227977.jpg" alt="' . $modele['nom_modele'] . '">';
+                    }
+                    else {
+                        echo '<img src="' . $modele['url_photo'].'" alt="' . $modele['nom_modele'] . '">';
+                    }
+                    echo '<div class="info-modele"><p>' . $marque['nom_marque'] .' - '.$modele['nom_modele'] .' - '.$modele['annee_debut'] . '</p></div>';
 
-                echo '</div>';
-                $count++;
+                    echo '<div class="outils-modele"><p><a href="/modifier/'.$modele['num_modele'].'">Modifier</a>'.' - '.'<a href="/detail/'.$modele['num_modele'].'">Voir plus</a></p></div>';
+
+                    echo '</div>';
+                    $count++;
             }
         
         echo '</div>'; 
 
-                    echo "</div>";
+                    
                 } else {
                     echo "<p>Marque non trouvée</p>";
                 }
