@@ -144,7 +144,7 @@ $vehicules = json_decode($json_data, true);
     $queryString = build_query_string($search_params);
    
     if ($currentPage > 1) {
-        echo '<a href="?page=' . ($currentPage - 1) . '"><div class="deplacement"><</div></a>';
+        echo '<a href="/modeles/' . ($currentPage - 1) . '"><div class="deplacement"><</div></a>';
     } else {
         echo '<div class="deplacement" id="gris"><</div>';
     }
@@ -154,13 +154,13 @@ $vehicules = json_decode($json_data, true);
         if ($i == $currentPage) {
             echo '<div class="num_page" id="page_select">' . $i . '</div>'; 
         } else {
-            echo '<a href="?page=' . $i . '"><div class="num_page">' . $i . '</div></a>';
+            echo '<a href="/modeles/' . $i . '"><div class="num_page">' . $i . '</div></a>';
         }
     }
 
     
     if ($currentPage < $totalPages) {
-        echo '<a href="?page=' . ($currentPage + 1) . '"><div class="deplacement">></div></a>';
+        echo '<a href="/modeles/' . ($currentPage + 1) . '"><div class="deplacement">></div></a>';
     } else {
         echo '<div class="deplacement" id="gris">></div>';
     }

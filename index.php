@@ -7,6 +7,10 @@ switch ($uri_segments[0]) {
         require __DIR__ . '/accueil.php';
         break;
     case 'modeles':
+        if (isset($uri_segments[1])) {
+            $id = $uri_segments[1];
+            $_GET['page'] = $id;  
+        }
         require __DIR__ . '/tous_les_modeles.php';
         break;
     case 'recherche':
