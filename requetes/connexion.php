@@ -26,6 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet"  href="../style/style.css">
 </head>
 <body>
+    <div class="connexion">
     <h1>Connexion</h1>
     <form method="post">
         <label for="email">Email :</label>
@@ -34,8 +35,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label for="password">Mot de passe :</label>
         <input type="password" id="password" name="password" required>
         <br>
-        <button type="submit">Se connecter</button>
+        <div>
+            <button id="bouton-connexion" type="submit">Se connecter</button>
+            <a href="/" id="bouton-connexion">Retour</a>
+        </div>
     </form>
     <p><?php echo $error; ?></p>
+</div>
 </body>
 </html>
