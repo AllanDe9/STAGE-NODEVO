@@ -28,11 +28,25 @@ $vehicules = json_decode($json_data, true);
             </nav>
         </div>
     </header>
+    <main>
+    <div class=" accueil-admin">
+    <div class="header-admin">
+                <?php 
+                $user = $_SESSION['user'];
+                echo '<h3>Bonjour '.$user['prenom'].' '.$user['nom'].'</h3>';
+                echo '<a href="/deconnexion">- Deconnexion -</a>';
+                ?>
+            </div>
+            <a href="/administrateur/modeles">Gestion Modeles</a>
+            <a href="/administrateur/marques">Gestion Marques</a>
+            <a href="/administrateur/users">Gestion Administrateur</a>
+
+        </div>
     <?php 
     if (isset($_GET['select'])) {
         if ($_GET['select'] == "marques") {
             ?>
-            <main>
+            <div class="admin-marques">
                 <div class="liste-marques">
                     <ul>
                     <?php 
@@ -72,12 +86,12 @@ $vehicules = json_decode($json_data, true);
                         <button type="submit">Ajouter</button>
                     </form>
                 </div>
-            </main>
+            </div>
             <?php
         }
         if ($_GET['select'] == "modeles") {
             ?>
-            <main>
+            <div class="admin-modeles">
             <div class="ajouter"><a href="/ajouter">Ajouter une voiture</a></div>
             <div class="liste">
                 <?php
@@ -109,13 +123,13 @@ $vehicules = json_decode($json_data, true);
         echo '</div>'; 
         ?>
     </div>
-    </main>
+    </div>
 
             <?php
         }
         if ($_GET['select'] == "users") {
             ?>
-            <main>
+            <div class="admin-users">
                 <div class="liste-users">
                     <?php
                     $jsonData = file_get_contents('users.json');
@@ -182,19 +196,11 @@ $vehicules = json_decode($json_data, true);
                         </form>
                         <p><?php echo htmlspecialchars($error); ?></p>
                 </div>
-            </main>
+            </div>
             <?php
         }
-    } else {
+    }
         ?>
-        <main>
-            <a href="/administrateur/modeles">Gestion Modeles</a>
-            <a href="/administrateur/marques">Gestion Marques</a>
-            <a href="/administrateur/users">Gestion Administrateur</a>
-        </main>
-    <?php } ?>
-    <footer>
-    <?php include "footer.php" ?>
-    </footer>
+    </main>
 </body>
 </html>
