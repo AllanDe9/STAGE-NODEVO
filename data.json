@@ -2,7 +2,9 @@
     "marques": [
         {
             "num_marque": 1,
-            "nom_marque": "Alfa Roméo",
+            "nom_marque": "Alfa Romeo",
+            "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/fr\/thumb\/1\/16\/Logo_Alfa_Romeo_%282015%29.svg\/langfr-140px-Logo_Alfa_Romeo_%282015%29.svg.png",
+            "descri_marque": "Alfa Romeo est un constructeur automobile italien fond\u00e9 le 24 juin 1910 \u00e0 Milan, filiale du groupe Stellantis depuis janvier 2021 apr\u00e8s avoir fait partie du groupe Fiat SpA et du groupe Fiat Chrysler Automobiles (FCA) de 2014 \u00e0 2021. Il \u00e9tait auparavant la propri\u00e9t\u00e9 de l'\u00c9tat italien, \u00e0 travers sa holding publique IRI, de 1933 \u00e0 1986. ",
             "modeles": [
                 {
                     "num_modele": 1,
@@ -15,20 +17,20 @@
                     "puissance_min": 95,
                     "prix_neuf": 28000,
                     "prix_actuel": 20000,
-                    "description": "L'Alfa Roméo Spider est un petit cabriolet sportif des années 60 qui resta au catalogue du constructeur milanais durant plus de 30 ans. Fleuron de la marque à sa sortie, elle est aujourd'hui une icone des cabriolets italiens."
+                    "description": "L'Alfa Rom\u00e9o Spider est un petit cabriolet sportif des ann\u00e9es 60 qui resta au catalogue du constructeur milanais durant plus de 30 ans. Fleuron de la marque \u00e0 sa sortie, elle est aujourd'hui une ic\u00f4ne des cabriolets italiens."
                 },
                 {
                     "num_modele": 2,
                     "nom_modele": "Giulia",
                     "url_photo": "",
-                    "annee_debut": 1950,
-                    "annee_fin": 1961,
+                    "annee_debut": 1973,
+                    "annee_fin": 1976,
                     "nbr_produit": 16000,
                     "puissance_max": 125,
                     "puissance_min": 82,
                     "prix_neuf": 35000,
                     "prix_actuel": 50000,
-                    "description": "L'Alfa Roméo giulia..."
+                    "description": "L'Alfa Rom\u00e9o giulia..."
                 }
             ]
         },
@@ -158,7 +160,7 @@
                     "puissance_min": 20,
                     "prix_neuf": 8000,
                     "prix_actuel": 13000,
-                    "description": "L'iconique Fiat 500 des années 50"
+                    "description": "L'iconique Fiat 500 des ann\u00e9es 50"
                 }
             ]
         },
@@ -184,7 +186,21 @@
         {
             "num_marque": "15",
             "nom_marque": "Jaguar",
-            "modeles": []
+            "modeles": [
+                {
+                    "num_modele": 11,
+                    "nom_modele": "Type E",
+                    "url_photo": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys\/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N\/\/AABEIAJQBDgMBIgACEQEDEQH\/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQMEBQYCBwj\/xABEEAABAwIDBQUGBAMGBAcAAAABAAIDBBEFEiEGMUFRYRMUInGRMkJSYoGhB7HB0RUj8DNDgpLC4SRyc5MWJURTVGOD\/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC\/8QAGREBAQEBAQEAAAAAAAAAAAAAAAERAkES\/9oADAMBAAIRAxEAPwDyRKhC0BCEKAQhKqBCEIBCVCAQhAQCEtkqo5siy6Qg5slslQoEsiyVCDmyLLpdxhoIe8XaNw5oH6UtpWiomaHSf3LOF+ZUWWR0sjpJHFz3G5J4rqRxkdmcblNlAJEqEEzDYYzL2tTYxs1DfiV7LtAXGzNGgWFtFmC91rX05Lkk81Bo\/wCOyX9oqTT4+64u4rJ3PNK15HFB6Vh2PAuaC5G0GC02P05ngDY65oOV4Ht9CsBTVbo3g3Oi1OC4uWuALigxk0MkEr4pWlsjTZzTwKbWw23oWSsixSFou45JbceRWQVCIQhQCEJQqBCEIBKhKGlxAAuTuHNAiAFdUGzVbVAPnfBRxH3qmQNPotDTbCUDWt73jkdzbRkT8v5K4MKAg2HEL1Kj\/DvD6jw0eJUVQ\/4XOcCnXbCd1DsxoQ1u9zXXA+yDykAncCfIJcj+DHei9QOA0sAvLWUrW82kkD7Jo0mDsBLq5jwP\/bbnPo25+yM6817N\/wADvRIWkcD6L0Kd2CRMLiZ5P+nDY+jy1VM2KYIL2pa93JvYxAny\/mFDWSS2N7LQS4pgr2n\/AMprXcs1RHH\/AKHKvqJ8Je3TD66Ek2DhVseAeZHZtv6qNK7hdCeqoH01S+GQEZd1xa44FNIESk3\/AESIQCEIQIQkXS5OiAQhCBEJUiBQVLo6l0bwoa6abaoNtBMK7CqimksczCPJYfUDXfxV7hFUW3BNtOapJLdo+27MUg4QhCYBKkSoBKkTsMEs7w2GN7yeQQJDE+Z4ZGPEePAK1fJFhrBBSkd4IvJMRuvwBVjh+AYi2C8dLJ1dkJv6JcS2YrJ5HVEAcIQBnA8eU2+EeLffcCqisp3iV\/ikzvebFx1JVris8TsQqCALdoQLDgFAo8NqqesiErLsbK3NJHdzbA668Prqm6mbPUSOtoXHVUSmYnNRAzU80rHM8QtuuF6VjT312NAVD3GnhhY1kTfC0uu7M51t5Ph38l5FMc0TwG6lpXq1W4DEaoj3HsYT\/ga7\/UiCuoYjHeFjWacGgLK1tM+Ocl0hII5rasc2SK2\/RUeK0l7myRlQYbVDDa4VLoW1FmloY86AncVzi20dVJDJA6mg7KUcdMvNNVkLgT4T5hU9bQV1RE4UUUz5G+IANJ04\/ZKsRcmo0GvJIGX8NsxG8Bd0VNURP7TFyI4mNzNgD2iSb5RroOZ38uloK7FDGw9jDh1IR4dMrSOlml7vMArNtbkivs6toHNc\/NU0Yvc6l8X+yr+JVuJ+zq4qunbUTSA2eXU2Rrm8jYnhpuCiYpSNpZ\/5YkEcn8yNkrcr2MOrb7+H6KiGkQlQIhCEAkKVCDlCChQCRKkQCEIQP08pYHG\/BMXQkQKhdiMroRIGktinRElEJvzQdQU7XxPlfIwZHNAj1zOvfUeVvuregxN9G9j4D2bmEFrm20IXGBYdHWVEkeYsOTM5rxna8A8OIOpPqp+K4Lh9JBHK3Eo2SvfYRSNLfS++yqNfhf4m1zWNixCJk7RpmbofO3FaqixTDMbjErWxPPUC7T5FeKSUNTGM7Q2RnxxOzD7Io8RqKOcSwSOjlYd4\/rVB6jieAYjBUGXBhT1cDr\/8NOdWcw12+3S6z1RgIl0qdmMQpHcTTShwH0JKrott6zM11RBBNkPhIzRuH1aQVpqT8UScramiAHyPv+aozb9mYRK3s24uyzgS2bDnO482la+vZSmnNZBLOXytYZYhQzus9rQzeGEbmtU+k\/ELCJ2gTOMd+EjNFZU+MYFXysyCmfbU2sCeX6qDGwY1BR3M8NW4DnTSMHq4BSjXTVbM0OD1OR250ksbBb\/MT9luGjCJnnJ4LbyHHT1Tb8AwqUl7H2c7e7TXzRMYGankc5pZRQXvc5pS+w8rC\/DcVCxLDZ3ZWVlLE9oN2skaCGHmAXaFegS7KRO1hrHjpbRVNbsfiTZHS0dcHOdqWuJsfodFTGUw2IwF\/e4w5p0b2LYmlnl4Tr9VONDBVkmDHaqld8FQ57QP8bTZd1dDjdEHd7oA8W9uPX66Kkknnc\/K53Zu5EZSoLWXZTaBpE8FXPVgah0Vc57T9C5Z2u2XroyTPTVLSSSXPY+xPmdFOpp6qjk7SlqZY3E72PIWgodtcVpwG1LY6pu67hZ3qEV59Jg5bcZb233Fkx3BsV+1gzDoTovW27R4DiTcuI0vZPOmZzA4eo1XMuzOFYiwyYXVDdua\/MB9N4QeSdzo3nfIzyd+66dgzHi8NQbcizN+RC2eK7KVFPmLoc4+ONZyagkgOhc0c0NU8uEVTB4DDJ\/yyZSP81h+aiT089NbvMMkNzp2jC3N5X3\/AEWjZJUMtukHVOx1MYuCx0Wb2sh8J8xuP1Q1kjvSLWzYXS1TM4haf\/sp\/A703H7KpqMFewOfC4TMG8t0c3zaiqdCm9xf8JSdxf8ACUEJCmdyf8JXJo3jgoIqFJNI9HdXoLOOgcn2Ya4+6tfBhIPuhT4cGHwhBh2YW8+6nW4S\/wCFb+PBR8IUhmCD4QgwdDQS0tTHPG3Vh3cxxHoqbaWnkl2p7R\/iiEHaMDt2mlvUhettwQfCFQ7dYQylwM1zYmmWGRozW1yki49QPRVFe51JgGGmKClp5ZyMspkjaXOfoXFziL2GYADTnwUNsVFiMRL6docPaB1y\/wBc1ZyVDa2jdWUksLaoPZIWPd42a6hoG8HTfutzAIo8edJhNdHVOeH3cBIWiwIdxsORAPFASbPUjtQHNPmmH7Ns92Z\/oFNixCOUXhewjl\/X7KQyr11br0N0FG\/AKhn9lMD56KI7DsQiv\/LzgW9k9FqhUtJ1sLcCkbKCZBbiD9v9kGcp6zF6FofC+pjadfC429FaUm3OLUzg2RzZBycMp+37KygaZIpMjMwiBc\/5W33\/AHCZkgglFpY2nz1QWuH\/AIj7u8sewbtDmC01BttQ1JAbUsLjwcbLzWowagLS7WOwvma6wCop3UMTiIcSjfY2IcP1CD35mNQy2D8qjVtJhuJNPawRP82i68Uo8Wr6FgfTzu7M\/CczD9Ny0WG7ckWbVxeKw1jOnof90RpMQ2ViZ46KdzPld4gqGejmpXkVERtvzt1BV3RbVUVX4W1Fncn6LTCejOE0be0\/tczpS15bc3IF7bxYHRBiKTB3VtOJ4HxOB93PqFy\/CqumeHtY9rm6hzDqPRaqpw9hd3ihf\/MtqL6u+v6G48t6jid18krS2QaEEW18v6+qqaqqfG8UpfBNKKho92YXd670VdXQV7SKim7GUjV7BdWsjGPbZzWu+igz0ER1a2x81DWUq6QRvPYnM1Q5I3N1BWlqaO1xb0VZPTCx0RZVO13ZPzsLo3c2\/qrClp6LHJW0dZMYJnC0UjTZrncA5RZ4uiranwIqRQQPoaypoasu7SnNnxP1LRzBO8bj1BBCvxhLS0FoBvqCBwVDNjEVdTwd+7Q4hTjsoqhouZoz7r+ZF73\/AFJv6FsnSOq9nKGaRlnlrmkO3+Fxb+g9UVmHYV8qadhdvdW8kwz5QosuHW90IMQ7Dre6uDh3yrWy0IG8KO6jF9AoNPTUrfhCs6ekZp4QotOQFZ07m6IHoqRttwUhlIOQRE8WUljmoGxSjgB6Ks2owb+K7PV1E1oL5YjkHzDVv3H3V4Dpod6YqoJ5G\/8ADzZHW4i6DxDCY48QwmzSIquDwyg2DrjjwvpfedPNVW1ErhRxQTGN0zXOzFnva3F+o3LT7V7G47DXzVlFQmeOYl0ggcA6\/HTqsHitBjJfafCaxgYLBphd+yJipoIZ6moEMEoYcuYl27RWXa4jRuyukZI3nnChMpMQhDrUVSwu3\/yio80VYPagm+rSiryLHPFlmuLc9R9FPp8UY+5aW68ViHukBIcCOd0gLuDiPI2VHoLKwBzi2S2bfpvTralxOlj5O\/dYWmxCaIWeC7qHWP6hWEOMNOhe5p+cW+4v+iItNqap4wzJHmaZJA119NNT+iy+GU4lkfNL7EQHhHE8lcVNbBXUz6d0ga7eCTex805svTNfJRwyiwmxFjJPLw\/ufVBpaLZimpaA1mNVtTBIIe1MVOWsbG0jQOJa67jroB5qvr8KoZM0mH1DpImvykluVwPUcNOVh5blqMfimrJacNcGw9tLI97nAMIvlLdd5yjdpy4rOubSQmOLD5HSNlblILPEDwJ8tD9ERSyUU8Rsx2YdTZXmzNXUh0lJUSOHaAdmHkkXG4jlxH14KPSdrXNLoWsLtLsdI1rtRfQE\/ompqLEGG3dprg6Hsnfm02WO+\/nxvjj69Wn\/AIqxXCq+SKqw6eONrrR5DckcOh9VpsM2to6q1TWxSQMiH82R8Z1Yd7evlqqDD62qNGKdhr5Jw0lrG0rnkG24lwIt9QoM2E7T4oxrZMGxEtG60YaP6utS7NZvOXG9ixPD3MzMqGZTqLnguJ8Vw2Nt5KmL1WHi\/D7a2QgxYe+MHf2krW\/mVMbs5tNs8KRz2Q0tS+Y5KkObKHGxGR1r2BF+FjzGiqYsMR2kwphyxOdK\/wCFjbrN1+0sYBysji\/6sov6AXVBjUU0VbJBW4lRUryc00cMcguTqfZbb6XCgQxYGyob29bWyMDhmyUrWtP1z3t9FLVxaVG0LX\/+ob\/+cJP5kKL\/ABCCY2745vDxxEfkUxUT4OKl4osNlnbplz1Dsv0AAdbzPonI6ftbtbhtPBm0ytLnuv8A4ibJotNn20Tq+OOshfVGSRjYuwnyOjeT7e45gOINl6\/+HV20tbhNRHL3ikneXyFwcx4LracRqNx5nyFDszsptHJRYNL2ETcPppjI2DK1j3AggO11tr5lesUlJBSxZYoWRl5L5C1oGZ51JKor5KNvJQqiiFtAtA5jVFnjbZRWTqqUNvoqySIArTVsYsVR1DBmQORT24qZDU2tqs2yqHNPMqxzQauKqHNSmVYtvWSjrQOKkx1\/WyDWMqgeKebUjmsq2v63TzK8INQ2oBtqF32zXaOsR1WaZXjmnmV7eaC9yUzv7mP6tCbfQYfKLSUkDv8AAFWMrm\/EE82taeKCJiWxGzmIgmegia4+8wWWOxf8HKCXM\/Dat8R4B2oXoLaxvA6rsVdveH0QeDYp+FuP0WYwxsqGjUFhWTr8HxDD3EVdJLGeZbovqbvTSCDuPRMVdNR1jC2eFjwd4cLqj5RIsSLaK1webLSPAzF0E7Jh0G79AvaMb\/DnBsQDnwRdhIeLFg8Q\/D\/EMInfLTEzR5S1zOJB5dUFtT41LSxvp6+g7zRTEBrHEFvi9rLpusdUzU1dPW07aaiiiMtRJ4OzsxpJ3DcSL367uag7PVlJVwHC8SeYZGNyx1GXe3dZ3kpNW3D8KnM0NXHNUBhETYfZjuD4ielzYC+uqIyGPSMZicskNjC5xygi92k6fayYir8jQ1jnMHANcR+SbrpRNUlzQMqr6h13ANKKvG4zUM9mrqAOXbv\/AHTn8eqf\/kzf90rN36ozINEccmJ8dRN5dq791aYHtZS4eHCopBO65ImzHO0ctbrE5khLjuQX2My4TiWI1FdLVPidK64Y6Mmwtu0KgE4NG3255T8keX8yq5zXP0NygQOJUosxitNHpS0dgD7Ur\/0Gi9m\/CLZtzKE41jNPH281u6wvYP5TPjtwJ\/JeIUkbopM4a0uG7ML2W1wfbPGaJwaZi8Dg7VIPokygm64MultF5zgm3oqGtbVxlruJC1lPicNS0OhfcILcyhR5pQQohqRzUeWoFt6DmseLFUtQRmUupnBB1VZLIM29Bj21nVOtrOqzzajqnW1HVBoW1vzJ5td8yzjajqnBUdUGkbXHgU62vcOKzQqOq6FR1KDTtxA8XJ1uI\/MssKnquhVdUGtbiR5p9mJnmseKrqU4Kz5ig2TcS6p5uJdVi21tveKcbX\/Mg2rcS6pwYj1WLFcef3Xba8jig2gxG4TVRMydhGYtJ3ELKNxA\/Eu24jb3kFXtFshV1NQ+rw2eEvPiMb\/Dc878CshX4PtBA1zZcNnI4uis8H0N16OMRva7r+ZSjEfmKDx2SkrBoaWZn\/OwhNGhnvcxvH0XszquJ4s4A+YTL20j\/ajZ6Kjx8UMpNg13ouhhsx3MK9a7vQn+6YfolFPQt\/uWeiDyhuFTn3CpEWCVDtBG4nyXqbGUbTpFGPonmzQs9hjPQKDzODZiuk0EDvOys6bYqsfbO3L5reCsA3WHkjv1jvCDMU2w5H9pIPRW9LsfRRHxm5U814+JIa8fEgkU2CUNOQQ25CtIXQwC0YA6BUBxDk5cur+o9UGjdWgdExLWttvWefiHVRpMQvxQXU9aOahPqxfeqeStvxUZ1brvQZcSpwTKDmXWdBPbOuxP1VdnXQegsmz9V13jqq3tEokQWYqOq67x1VUJV32yC0FR1Sip6qq7ZL2yC27z1XQqlT9sl7ZBcd7Sir6qmEyXtkF13xdNrepVH26Xt0F534\/EuhXdT6qh7dL3hBf9\/wCpSiv+ZZ\/vCO8INB375gl798wWe7yjvKDRCv8AmS9\/+ZZzvKO8oNF\/EPmSfxD5lnu8pO8oND\/ED8S5OIdT6rPmpSd5QXxr+p9Vwa\/qfVUZqFwZ0F26tvxKZdWdSqrtlyZUFi+qvxKbNSoBkXJegYuUXKEIFuUoKEIOgUoKEIC6W6EIC6W5QhAXKLlCEBcouUIQFyi5QhAXKLlCEBcouUIQFyi5QhAElJcpUIEuUXSoQc3RdKhBzdF0qECEpEIQBXJKEIP\/2Q==",
+                    "annee_debut": 1961,
+                    "annee_fin": 1975,
+                    "nbr_produit": 72584,
+                    "puissance_max": 272,
+                    "puissance_min": 269,
+                    "prix_neuf": 335000,
+                    "prix_actuel": 85000,
+                    "description": "La sportive anglaise des ann\u00e9es 60..."
+                }
+            ]
         },
         {
             "num_marque": "16",
@@ -194,7 +210,21 @@
         {
             "num_marque": "17",
             "nom_marque": "Lamborghini",
-            "modeles": []
+            "modeles": [
+                {
+                    "num_modele": 12,
+                    "nom_modele": "Diablo",
+                    "url_photo": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys\/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N\/\/AABEIAIUAyAMBIgACEQEDEQH\/xAAbAAABBQEBAAAAAAAAAAAAAAADAAECBAUGB\/\/EAD4QAAEDAgQEBQEFBQcFAQAAAAECAxEABAUSITEGQVFhEyJxgZGhFDJCwdEHI2Kx8BUkM0NScuFFgpKi8Rb\/xAAaAQACAwEBAAAAAAAAAAAAAAAAAQIDBAUG\/8QAKhEAAgICAQIFAwUBAAAAAAAAAAECAwQRIRIxBSJBUWETMrEVUnGRoRT\/2gAMAwEAAhEDEQA\/ACwgkErKEr\/hnMO9F8IG2gPEBImZgfFF8NKFKWrVXOKYLT4ozLAKtE6nT9KqZciWHLCG1JOUudQZmr3jHwpC9Rpmy71nJaSlzNuojczrVgLOWCklM66CgCfhZhCpyE5iOv8ARpId8NBQ4pWROgUR\/XehuuryHw0lU7g1WTeNpVCkZSdCCrSkBddXGwMTMd6rvFfiCCI5UQqSUJUJ2oSnEZvKdetADtz4ukgcu470zylBQIkCRpUPEC3kxyM6URRUFqKfNNMQnMskyf5UB4gipLeLiDKXD082lQLp8PkCeU61JEWVHs+RSGlfvNIHKT\/8o7DBTbJ8QDxVJyqMzUUswsuFRghJid4pF+CYOYdelSIgXUwyUJjKFcqgysOOqyyqNNKldAqYzSInbN+XvQWEuNycgGbluf8AikxovynKZToKr3LilRprFP4oAVofipHK6hsRlmDPT9aiMjbqVI9atuukOVXGiveByp1O+bQSeRoGTUshUnnVpoyoCJkVVCVESvprRmCEJ1Ekd6QB8+VJI2OmoqutzMD5SaJlCkymBlTr3qC1pZOsEEdKTAghRIEc+tKnTmSSCnRO56+lKloey24Up3EztFDlDaQQglQ50lBWlCdVCYA0qQBP8UJUiRB3NFaEmCTOxqohUhOkkcp0ora3BJkT2NA9hVkBcJMCnVbtuqU5lTm6a1UW64lUFKR\/to1u65nWnKMwA50BsKGgkeVIGlByJMpUI60J25XmB0yg6RQlvOuCJGXMD6UBsILfIqRp3nerZV5ipsaDlVN5xRyk6DtVlbiUulBA6SaBAnEApK\/xc4oRSlwpUAEnoRR5aSlZCk66QarqT5AUkA8qaIsg06VsGAU5RAnSqX7xS\/KcuYz0qyFJS1A80cutJoqOoTEaR0qZEgttYBClpiRHQ0RhCgEgGAQTKex0mpeZJRIPcg1JpaUJMp0jSgaGUlWbUlSRM1YSlIUMxGWNjUEpOff2qcKTJKSR2EVHQyBQlITMkFUTUciEndO\/I6xRFgkg6iDS0V0Jy0gGg6jXeiIRkg9aRGggUoIOp8tAx\/DzT5t4nWmyjPAT5QOlEKQIy7UxWEyCaAIBISSYg89Kek4c2xBpUgEVlQj86Gl0E5VCPfvUPDNN4HiHQbVLQEwTmlOXtUlqIGhNVrhrwGFOkKVkTohG5qvYN3j1ulxaUslY1SUyR25VFtR7sa2+xZWolW\/KmS6tSitRgxuBWNidtxK3iaPAS19gKUlTiylr1EqO9X2RYqeLX9tpU6fwIeSo\/CU1XK6tLeyShJ8aLiymTGvtQFOBEgk6xV9GB5tRdvGf4yPyqli2DMNsuN\/2uLe6KPIVuKUUnrl6VTHNom9Rlsk6pruhkvhaQnN6VZXLjyXF6qrGwiyZZStF\/wASB16ZSpCMuUdwa6LCcPZfGmLJv1Af5YTp\/wCNWSugiKgxixqSAnrUSBl85ExAEVqnB\/FEpec9Ux+lV3cE8Iyu6KD\/ABkD+dRWXV7g6pGIwjIlQ6mamkkZh12q27ZMo\/6la6awpxP61Wf8BIP96tlaboeFXxurl2ZW4SRBtWvUHTpFJk5lHcjodKkz4bhlpxKwDrCpinDZSrYmrSIRogrygkCNhRVQE+cmSrQTyoNujz6qIJ5xREwg6qJJ12pBsGqFK8msU5VBAgBRpKgqBQYJPzTBCiVLIk9RUSSCHY6AwBuaS15UZQO8mppGVKs5TrpqKS0ZYB1JoAg24Yjf0p1xExUkIk07gEFJT70ABSQluTp2pqWUqO8j+E0qehAFKUmYBI9aZtcgADXmagXOkHtQ0KCfvaHn2qYjSsXAbjUaJEj1rVauyDoqCPpXPNPob8+YZf8AmuGLWKnHbvF7BRQ4hZiTBMbpjZQ7TXDzcKzKyGlLSS4NlVqrr3o9FxrhbBcdWXb21\/fK\/wA5tRSv9D7ihYBwJguEXH2hvxnnQPKXV7ewgVawLE28Vwxi8agJcTqAZykaEfNaaF1wZZeVUnTKXC9DYqq2+pI5Dii84gFw434bthhqDCVWwlTg6qXrlFcs3eJbTktwltBP4fxHmSdzXrodOuu+\/eqN9gGC4mP77h7efbxGD4Sx7jf3rpYXjFEIqE4a+UZ7sacntM88we4dQ6p5l5SVgEhXPWvSGFW19h9uQlDzYSNViVJVz7gzXO3H7PkDMvC7wXGmjFystqHoU6H4rNawXiLDHUPYVZONqMpcbzJKVeoJg+1dmrMpcupNNMyTpnrWuTsL9h3EbRTCFuKuWRnZlZ\/fJG6D1I5Heuew\/EBbAm3WWecTAPtWph3E+HP2niXebD8QtxmWw4kmVgbJ5wdoMGq2PW9s3cM4lbBJsMRGdBInI4RJB9R9ZrSrYxl0+j7fz7FfQ2t+qOi4d4hsLtarHFG7VTyj+5eWymFfwkxv0roLzh\/CrlEuWLKSdJQMpHxXjt4QpyWhoU66QK6Thjj1OGRaYu\/41snRLg8y0du4+tO2l66ohXat9MjZxHgZM+Jh76c+4Dhyn5Fc\/dWuJYY5lvWCsEaZt\/Y8661fHPDpyFF4sl0w2A0qT9KGvjbALhmH1u5VJnI5bLII+I\/OqI2WR7otdcX2Zz1jdW7ohOjgH3CINWM7acqXQM40Kanjdjw9d232vD8VZaUdQFhRTPSYkfWsi1vb24bQw2w7dIRqlbTJmPXYirXctb\/JX0P2NNxv7qStPeRMUQNsZILiRI6UxsbpCAtTCjImBqR61SW8sLKVghXSNqlC2uf2vYOMl3RoJQwvQKBPSKTLTRJKiAfWKA3qgGYUdopi6lJ3B6RzqzgjyHyJJUkOlMCZBpQ2pUJUJ\/h50AOJV+Ej2pyoBQnY70cATISFELQkRsaVQ0KdaVAigmyTGqj81M2zcQQfmrJAGwqKp5CpDK32ZpP3AZ\/nWXdtot8LYzNrULq4UjMFAQsFSgeogp3rVfDhByiqKMXtrJi5tMQfFurzOWzqtBCgZ9YJJj0pJLexPeitwO+tH9pWjcQ3dZ8itMoUBPXnyrVRxZhYxR3DX3Vs3Lasv7xPlUYGxFcRwvj9raY3fP3jqmmbkeVS5MEHSY5wa0sbwBWN4wzieD3Vuts5fGIXKkqSdCAOoj4rzuXiVSyp\/V4TXD+ToVWNVrp7noTTyHRmbWlY6pM0UKBrKatQgS2IO+lGQ7cI\/EFjkK89Ktb8rNxoySImO9MAsfj07j9DVdu5SoxqPWjhQIqrUojMe\/VijeKpbtbUXbDo\/wAZbqQGttwpJPpE1vWeEJvcMubLED4rLrviEJAQG+yY13Ez3NctxlxOeHrRsWyELvX5DQX91AG6jWBh3EnGdmfta5fREradZSJT6DzD+tK9Fh1ZV0I2RSS\/JhunXFuL5Z39zwhgzwKHEXBSerxqp\/8AhcCygeE\/A1A8Y1o8N8RWnEdmp+3lt5Bh1lR1QeXqD1rVIIqnIzcquXS5NaJwpqa2kYtrwxhls0tltL\/hLOYoU+sieu9aFlwfgLjhujYsqfO6lJzK+TVhS0pHmUB6mhnEra2OY3jDah\/qdSPzqiGVbKW5Nv8Asm64paRssWVrbICGLdpsJ5ISBVgAaaRVDDcascSUpu3uWXXEfeDbgVFXRMmtT1sqRXftEuaoGVfQ7VkX9k2+C3coOYbK5j0rfnXT5oF6wi6YU0srQTsttUEd5qpwafVB6ZPq9HycHiFi9bLylaSN5ToffpVLIr70yefatDGMNfwZ1tzD21Fal5VZgVl4RsTudtjV1y0WGm3SyklaQVJJ1QeYrv05CUYqck2zFKvl6RjNlSBICZHOibkLI9orQNuyrRTSknqKgq2Y5OEfFbEyrpKwVl3pVYNmo6odChTUdQukYMg89akGAPwzRcqhsRFSCgN6sIldTIGyKpYhhdvfteFeWzbqJkBSdq2BCtqfLIpDOJuOCcNMlq3yH\/caxLzhN+2c8SxUW1p2U2ogj3r04tihONA8vpSfIHmrGP8AE+EqyvL+1Ng6h5E6eog1sWX7QbF1QRilk9bk\/jZ86R6jf6Gunfw9l5JC20metYWI8I21wCUwk9qw3eHY1veOn8cF0b7I9mbdjfWGJozYdes3PPKlUKHqnerAW42cqwfivNb\/AIRurVfisKJIMgg6j0O9GsuKMcwshm8i7ZGmV8ZiPRY1H19K5V\/gklzXLfwzTDM\/cjUvLZGL\/tHbauF5Gre1SUkiYVOhj1V9BR1IuMbwrEXmGzbYwhYSlpxfh5g2uZHQkEe9UcFx22xHjZSmm1Bu4sS3kV\/rEGJPTKda0WLx\/ELlbrudsWr6mnEOOeVWUpKVTvJEH\/tiu7hwcKIwa1pGO2W5tozbi5Vw3xcLxDS2LZbnhPpUmEqBglQ6jWfVKq9VauiNHde4ryHje2uGHbwLuEu4eu5bVbI8XMUShWZJH4dq7PBHrnEMGw+7Zui24bdIUkpkEgQZ7zXF8coScbU9ejNmDLe4M6TFMMscYtvCu2UPIBkf6kHqDyNc27gz+BspYwzDmLxhxyXJTCyfUbCugC9jAqw26k\/eEelcbE8SuxX5e3saLceNnfucAqx4oOLpusMwq4swEAhJ8wJ6EwPiK9Owe9u1WLa8TtjbukeZJI0P6Vl4i5em2K8PLanANQ4kqnTkMw51mi4xhbiClkoRlBVGRJzSZ37RzrpWZks2Kn5Y693yUxpVXG2ztFONuApJzJI1ABIPvUkQ2gIbRlSnQSa5zD7y+azJuHAWikRK8ygrny2o671xWxNc+7LjW3GPP8di6NTkt9jWfUgpyrWAnoBWHi8qBatlOJKkykgc+6jtry6UlOrVzNcxjOOOtcQ2WENuZG3W1OPrCZVv5QDymD8UsSdt96UEt\/PoSnCMIbbOg834wJjXLtNRhJOsH6UkuhXMGpEg6mPavZR7HMYP7O2rVMD0pVNSDMpMUqYgcUsgNSAqcaVcVAC2DuNtqIhKxsfmnUKQVFADSJgyDTlOm4p5zaQCKZLcKJJPtQAwSOdMEa7VNQIGh9jQ0rUDqkexoHsg6yFCDMVmXmEWtwPM0mesVsFYGp2pCF7DTvQI4W+4XVbupu8OOS4ZUFtrjZXp0oy7zDMVw6\/srh5GHXDzJbcYdyjwXNPMNpBjQg6jpXbeGN4HtWXiuCYdiict9aNuqGyimD80IWjzPivErW9vWkWavFDTSA\/cJ2dcSnKCPb+fauz\/AGdu5uFrfqlxwf8AuT+dAf4Fw6CGA4gdM5I+tAb4avcOBGH3jzSN8qFwPjasPiGK8qnoT1zsvos+lLbO2C6Rc71w9xccRssraFyVSICy0Mw7gjnWWMU4mtTH2xax\/G2k\/lXA\/Qrv3L\/Td\/2Q9joOJ+OGcFufslrb\/arhP35XCUdietG4V4ousbt1uupt2FeIUpQgyYAGup6npXnSsJU6tS3w4palFRUpUyT\/AEauW2FOpQlttJCAZAmum\/CMf6PRFeb3M6yp9e32PYWnFFGZap78qqXGOYcwvI5eMBfMZwa8+Zwm7dAQ448pvmlSyR8TWjbcPBABy6dhWSHgMd+eZc81+iNK94wWtam8OtFqEwHHNAe4AoeGuly7VdvtpNysBJcI1gbAdBV20whpABCRNaLdmgbp+K6uPhU4\/wBiM87pz+5k2Xc2p0Jq0nzDQ0JLAG1ESgpO1airYZM0qdBpUxEYqVRTvUpq0rESaQSOep60xIpwRSBDx0gVIQajoaQNAyRGmgk9KjHYVJJilQAOADUsoPany86VADQRtSMx5k1KnoAEUjpTBsE7UcCkdNqQysq3QrdIoK7Bhe6B8Ve9RFKPSkMzFYLaHUIHxTDCWU7J+laoEU9AGcmzbTyiii2SBtpVtSAedQWCoeQpyfWkGwLTOkkR2NEDfapjWpUD2RS2Kfw96kTFLMCd4IoEDywdqVFJ0pUAVAafnSpVMgh4qQEUqVAxxS501KgB5JMdKYmDSpUAPzqcaUqVAxqRNKlSAkDUhtSpUDFUZyiYpUqTAcnSoZiKVKgCC3FQaTZkQeWk0qVABQKRGnOlSoAjUppUqQC2FKlSoA\/\/2Q==",
+                    "annee_debut": 1988,
+                    "annee_fin": 2001,
+                    "nbr_produit": 3000,
+                    "puissance_max": 575,
+                    "puissance_min": 492,
+                    "prix_neuf": 200000,
+                    "prix_actuel": 300000,
+                    "description": "La Diablo..."
+                }
+            ]
         },
         {
             "num_marque": "18",
@@ -204,12 +234,40 @@
         {
             "num_marque": "19",
             "nom_marque": "Land Rover",
-            "modeles": []
+            "modeles": [
+                {
+                    "num_modele": 14,
+                    "nom_modele": "Defender",
+                    "url_photo": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBxIQEBUQEBIVFRAVFRAQFRUWFRUVFRUQFRUWFhYVFRUYHSggGBolGxUVITEhJSkrLi4uGB8zODMsNygtLisBCgoKDg0OFQ8PFSsZFRkrLS0rKysrLSsrLSstLzcrKzItLS0rLS0uKzAtKy8tKystKy0tKysrLSstOCstKy0tN\/\/AABEIALQBGAMBIgACEQEDEQH\/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIDBAUGBwj\/xABNEAACAQIDBAYGBQcKAwkAAAABAgMAEQQSIQUTMUEGIlFhcYEHFDKRobFCgpLB0TNScqKywtIVI0NTYoOTo7PDFkSUJDRUZHPT4vDx\/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA\/\/EAB0RAQEBAQACAwEAAAAAAAAAAAARARICITFBUYH\/2gAMAwEAAhEDEQA\/AOjOtMstSmFNMK0iKy02UqUwpBWlEUrSCtSmWmytURytNlalMtNlaioxFJIp4rSGFAyaTanSKSRRDdEactREUoRahal2oWq0ItQtS7ULUqkUVqXloiKUItSSKctRGiEAUsChalhaoCinVFIWnVqBS0qiWjFRChS1pApwVQoUsUkUqqFg0q9IWlUCs1CioVFWDU2wp1qRUDLCkEU8RSCKKaIpBFPEUgigaYU0wqQRTbigjsKaIp9hTbCiGWFJtS3IAuTYdp0FNiVDwZT4EGgFqFqXahloG7UdqXlo8tFN2orU7ahagaIoiKeIpOWgaK0krT5WklaBtVoyKcC0CtEIUU4tAJTgWqCFKFDLSgtABTgoBKUEogClUYWlZaoAoUoCjy1AVClZaFKqwYUg06RSctRTZFIy0+VpJWgYK0RWnitRsfjYsPGZp3CRLbMWYKNTYC50ueFBX7Q2vh4LiWVVIFyNSQO8KDbzqtn6UxfQjlf6oUfrG\/wqm6RdMtnsFGHRMyyb1iFZ8\/VYWZ1Vh7TK3HiorM4zpkzaIht+iq3+tnJ\/Vq5jO7rXYjpHOR1IVXvYs3w6vzqtfH4uZwm+CDKXYrlTKL2Uaa3OvPlWLxXSKd+weLE\/sBKgNtObW0lr6nKALntJIJ5dtX0ntqsTBmPXkLnXUsW+dQphGntOo8SBWYmxDG+ZmbTmzH5mpuG2GzKGLKuYBrBcxAPfcUVYPtSFOEpv\/ZzfMVo+gs7YmVhE7E3SMb0jIpZZGvY5idIzbQa86y0ewU+k7HwygfI1b9A5hhsc8Y9kGKQX7VZQP1ZXoldO\/knGryhcf+q0Z9yxD50l4cSvHC3\/AEHDfF5h8qvRirm1+6ikfvNROmebHFPymFmHnf4Ro\/zpv+XcMPbWZfFbf6gSrieRRxPvNqqNp4hLdRhcHkb6VYdDTbODbhOAew5SfcjsfhUhMRE2qyAjvWRP21ArM4lr8QCO8Xv76gNhIr33aX7coHxFOTpthKhNhJGT2LJGx9ysTThhNrlWA7SpA95FYfcgcC6\/oyyAe7NaiENtVdwe3qsfeymnK9Nxko8lUPRfFSZzA750AzIzaPbXq9h4Hw07QBp1jrLRgJShHUgR0oJQMBKWI6eCUoLQMhKUFp4LR5KUMhKVlp4LRhKBnLRhaey0eSgay0Kdy0KCXlostO2oWqKZtRFaetQtQMZaynpPlybMmtxZoE98qE\/AGtjlrn3ppmy4GJB9PEID+isUrfPLVwciWjIpuM0JHqobc0yTSnamXaoDtcHwPzA++tYJLADsAHurMYZfY78g8jIx+Sirl5ND4MfMA1cZ1OWeosUpjx0b6jMuXsuSGUfErUPERBSbC1s1raWtwtVj0jxqv6tIpu66nuJymx77qaqfGunrjrgc7gGo8+PJ4k++sls3pFE2Hjdg6G8kbdR5FuGbIFKKSOplGvNTUkbbgbTej6yYhfi0NvjVuJNWkuKvUZpTUCXakABO\/hNgTYSa8CbWIGptpfnUebFobiDGwm9rNI+G0\/RTOpvrzPLhzpSLUyk6E6U5gYQ8gVuFVmEgxFvy8D9+RSfektvhV5s6Egq3tWNmKI5Fxo1rA876X0pTcWS4GMfQHz+dPJAo4KB4ACkzYoAaEBjw3gdQdCbC41NgT4A9lRTiJywyy4QC2oJYknus2nx8qMw1jE3MyTjgCL\/oMQHueQuFY9wNbJFuLjgdR4Gs\/wCrNIhWVom04JexB0YG5Olqsdi44JhwJm66MsRJtds024Rz+k+vdes66eKzEdHkqQEo8lZbRwlKyU\/kowlAwEo8tP5aGWqGctGFp8JQyUQxlo8tP5KGSgZy0KeyUKB\/LQy05loZaim8tDLTuWiyUDWWuVenXEWGEi7TiZD9URKP2zXWstcd9NzRHFYdZZJEKwuwCRLIGDyWOrSpY9QdvKg5mGptnqSZcHzkxP8AgQj\/AH6SZsF+diT9WFPjmb5VUQXammNTWxmD5RTHxxMa\/AQGi9fwvLDOfHE3+UQoFYEXkUc+obWJ9mM24d5tVucHL\/VtwI1FuI76z4nlDHIGUn80G+U6gX91IfftxEh+q34USL7GwTOdIjrYnUEC5OhPbpfzFKxZtCIWFnM6EHTRQpXXXlf4mqTAIyOGdJ7C35NWDe0pOtxxUMOPEg1a43GPIUI3uRM\/5cPIVBINrMDp1Rwv30pEnZLRKNZB1gCVawCnUnU6cSffVlHBA+o9XbwaEn4Gsjg4hM5DyrGAAetcX7hYVdxbOXKLY2MLw9uSwtytbSrgtMPsxCd4oDFrgajQLYEIo4C54\/Gn5dlgC7owXtJkA+evhVUuzF5Y+IfWm+5aP+SgeGPiP15f4aoffZ+HcEGN7kEAiCVyNOIupFNvgMOkao0cxyggFoARc\/p8BfkKZOyzyxkX+I1NyYVk\/wCdTyeU\/sg1A5hzh0FjLMG0uQMg0vYAKdALn3mrbB7p\/Yxs1xrbe4r+MfCqxNk41kDxyO6G+VlZypsbaafCmXw2NQ6iQ\/3bv+4aDRriLcMZJ9lm87uxquEUu8xBEqPvYgqSMVR97GY5EZrKL6plsb201qoTaE4YK8V25KUaNyP7IIufca2GypNmzRI5kmSQ2DoVhYI17HraZhzvbhyoOnYfpFhHAPrEYY2JBa1ieI1qyw8ySC8bq36LBvlXKRgMN9GRvaVTeOJtDbrDK+oF9bXNGMFku8TAsuUi0YDEECxQhrk6m4GoynuvItdbyUeSue4Lbe0AFCuHDA2DpqCDazEi4J1tc2NuPC8yDpbjRbNhkYWLWG8VjY2I5691uGvCkK22SjyVR7G6VJPIsUkTRSMAVJIZG7gwsQe4gfEX0mTuqCPko8tPZaPJRTGSjy09lo8tAxkoU\/loUQq1DLS6F6KRahanKFQN5a4h0y6d4R8ZKmI2ck7wyS4VWdkbqxyMugZDlubnzrudeTumCX2jirf+Nxn+u9XBpx05wa+zsmAeBA+SClH0jQj2dmxDwlkHytVBhtjxZA0u9ZzraNkjVe4s6Nc+At41F2jhIFU5VlRuWeVJAe6wiQ\/E1UaRvSSOWAjH9\/iP46RJ6RmIIGEiFwdd7Ofm1YgpRoLG\/Zc8L8BfgeNBoH6YM50w8PM8ZD+9TD9Iyf8Al4f8z+OmMTtuSVMsmU29m0aDkRqRrbXhVXQWp24T\/QQ\/5v8AHQXbIsSYIvC8tu38\/u9xNVRo7dU+Xyag0cuHREYiOAyIuZ0HrAIAIDDNnsSL\/CoKY5eUMY8DL\/HU\/asWSOaUshWbIseV1YkNIk1yo1UZYyNQPao9nbKjTC+szpJJLKcuGhXMFKi+aaVlsctxZVB1sTwoIXrS\/wBWv2pv46Q2JX+rX7U3\/uVJcOBdo0Qdm5T9prn3mozuDxA+yo+QoJeOgESI43D5gpspnJFxfW78uB8aiYeWNpEWZQkRYK7JnLKp0LgMxvbjbna1R0ZQewHj+NPSC178QbfGpl+9Xy3PrI0HQTamLjxO4wzuUJIkyEgZF+mSRy5XF9bV0LGYmdSM747UXGsGqngR\/PcK5j0OJ9ccBspMUq5uwkobnXXUXrr+yAcfIiv7EcZzFSbsBYAXvfiR2c7W0trGWX2xhlxUe7lGMcXDKS8ClXHBlbeNY1RbD2XBhMQqT4dJopBKyiQB3XKGIXkM90y6AcRy49I6Q9EIkTf4Ziky5RlJJVwWAIYXtoWBJHK\/OxGX9Q9ZmSVfZgRpW7SCISPmaognbGwWIPq6LaxIySIeHAjhzphtobDP9EnlnHyYVhImfIoBk9kcJEA8lbWjyOeO8Pj6u1Sq2292G3BLeEs6\/KalDE7GGquy+GJnH+9WH3DH6Lf4WHP30TYRj9Fv+nwx\/epR0rB43YoKn17EqdDb1qQjN3DMSdeFW0UuCsCmPxIB1BCvYjtBGlq4+ME975W5H\/uuG\/jrrmxeiy4jZyT791nyyNYhbMUZhYgcOHvte9Ki22dt9MOVYY55oiyKY5UPAkAlHOoIve3A2t3joeWuLYHajwLLvAGUQzQtHrlzDMWN8pHG3MHqiu1YcdRf0V+VTVwWWjy07ahasqay0KdtQoIuahmqJvaG9qiXmoZqib2hvaCWGryx0nxRjx2MdbZvXMUFJVTlbfyHMLjQ2B99enBLXl3pvh3jx2JjdSrnFYp7HjZ3zofNZAfOggjpLjQb+uYj\/GkA917UvHbQfEpnl1lQi72C54mNgWAABZWtrxIfX2RVhsgw4ewcEyEgOwAIXUXGvEDu8PCw25gCIy49hgNeKkOBu7m\/G\/h58TUU+NAOHwrgdbdSRP3tHPLYnvyMg+qKhL9zfsmlJPeBU\/NkkYeDqmn6ppAoEkUVLtSTQJpS8D4j5Gk1LljVYlNmzMVufofTNuGhsU01vcnTQUEZFF9eHE+HOrTHdIMTObySvlACqgJVEjUWVVQaAAADhyqq5HyHvN\/uqRgsE85Kxi9suY6WALBQdTrqy6DXWgaOOk\/Pb7R\/Gk+ts3tMW8dfjWowfRZRlcgv1Q7BxYA5TwCt7OYoNTfQ9tqdfo8UTRM2ilSEW5CjhmGl2a99DpbXkEKzrwK6byMWAsGGvVf8DxHn2U5ib7lG7t2T\/ajsP2DH8altEYj9EIf5traZm45uAsoNrefKmsSbYd07JY5B4EMrf7fuoJvROYR4ppGByhJSbEg2zLzGo07K610X2zHh5M3WMboFudbNcG41JK3BHn3G3I+jmKWKYM\/sspUnkMxBuR2aVsGxsC6CeGw5Kwt5WrPO9Zt9fjWeec7k9\/rYbR6RKVaKGZZGZgxKBWWNQ4Z2kddATly5eNzwNqzeF26mGxDx5epPFJGP7LZYQnlbSoTbWh4GdbcfpH7qottY+CXFQmB84BjudR1yyg6EcLAe410c2WCCwuoOg13Wf9a+tGIx+YP+m\/8AlUpdnykA7pjpzlEf6vKlJs5+cdvHE3rLRmOMW\/Jnyw5+Wam2jAF90dP\/AChtbzepn8msf6OPzxEnxtwpP8lAjVYL9885+VA\/tHYjQKjFI3Di43WHzldL9YZ\/xrpXRva+4wSKGO83csRTIFIzM5UtIOqqi+axbuFzcVy9NiE6hMKQNPbxZ+INqvPWI0AQ3uoAIjQZL8ermYHnz53qszZ71dT4mOWSVOuLxuwa9lZ2uPZ7wvCxN2Fd2VrC3YAPdXn3Y+MhMyIRIxZkUAhVGdmABJDEkC9d3MutY5m7trrvlm5mSRM3lDeVC3tHvarKZvKFQ97QoK3fUN9VfvaPfVUWG+ob2q\/fUBNQVPpKxbJsvEMjFWtCAVJUi80YNiNdQSPOuBQEtJnYlit3JJLEnRQST35da7V6T5b7LmHa2HH+fGfuri0AGveAPiKCzw2FsgZhfMM3L2b2J+Bq6wAzwvHdyERilif6QMARbU2IK5eFltyFScLsm4icughOULdhmD3VTeO4NjaxPDTjULFyKsilCBdXDWWwU5gbAacCL9xuOVEZcRlAwXUXvfKO\/UA69vfRx4gc442Itxzi\/ccrj4U7J7TdWwJJAAsLXI7ddDUCa99OOmt\/wqKnmZDxgUd6NKP22ekFor+xIP71T8DH99QVdweJ+dKVnPC\/xoJTrDyaUf3aN8d4KXIEK2EpOoIDoy2sCPolu6om9sLcT2nW3hejDX7Pl8qBaYcuQiEMzNYWuPZBJ9oDka1UGMiwUYygNJ1gqj6T5l\/nHJ4XVVPiRYEcM5gpSoYjQ6W48Rre97giwNx2G\/KnC7Ty30ux8gOJNu4XNXBMl2ripzbeSdyR3UAAW9lOPLU0FkxUV2LSjje7My2\/tgkj31LxP\/ZxGY\/yVzvRpcn8425WI17e6oseaPE73K27YBicpsuZSRr5DyNKiQm0hiLLKAknWAZb2cNxVhqfdpytULF4cnqgjsuTa5Gv3URUyq0uTLZtQOBUnjbkw0vy56c5Ty5lUk6qCp4a31Dd\/jREM4eRAG6mWwF8x5DsApV35CNvBytj2ddVv5Xp3ESqUsGHvqIsqqNSBqaumHi0nYn27\/IUxFhGGY51RtCts7a3F9bC1hr4+8LjmVvZN\/I+PZ3GlTTBDYm5vbQhhfxGnZUUkwyc52I1HtSAEd4INW2wujBxSSu02RYk3jGxe69a9hob9U1Uy4kL7QbXTgPxrR9Guk+GhgmilimO9jMZKKrEgl+IdgosG86348zyvz9M+XVyf0bdDYhcb+VmAbQQC5ZWVWTrTKMwLAm9h3mpk3o7gVGkOJlYKyR2SFQS7qjJa8h0JkRfE9mtHjel+CZ86Q4iKyCJMi4OPIl1NgSSbdXgbgXNqTi+nmH6wMUpRzGxTeoqqyhVVxaMtcbtG4kXA8Kw0Rj+hGGhws2IWadjFIsViI7FyyIdLcs\/6tZtYFtYySkd2RPuNqvdr9NmxGHaBcJuop5DIJDKWDMsodyoyC+otx0rLy4whrAA8OB+FBY4IpDIkqCbOjLIpMy2zKbi43WouBpWqw\/pCx28Rd5mBYKd4sRuL9qRpaldB9gYXGb3fby65ClmygoS2p04+z7\/AHaQejzCB1cPOMrBsudCDbkepe3nQbxpNaAkqIXo89RUvPQqLnoUFfujR7o1J3oo98KqI4hNHuDT++FHvxQYz0nx22ZKTwD4f\/VSuNxg2J7LHu0IPGvTG\/Xuqt6S4VcVg5sOLXdGC9m8HWT9YCg5hHiY5SoGGVXdMhnH0IkAXeKotndnCi2tywA1OtLteNUfIv0DIra5rsGObXUHUnXhpUfB4rd3WTMGX2OIswIIPlbh8qjYiTMxNrXvoOWt\/wAaCNpc\/wD3nwrfdCOgWGxuGjxc5lJLyLkVlCMiMVsSFzcQeDCsCb2PMk2sOZ4W+eleiujGzPVMHBhzbMkYD24b1utJ+szVFZLpD6N8PLBlwcaQTqQVa75WF9VkOpOnA8b+dZjB+ifGFwJpYFj+kyM7vbnlVkAv4n312YuO0UkzKOLD3irErnO0fRNhmDGCWVXy9RXKsme3FiFzW7r\/AIVVR+iSb6WKi8omPzYV1c4uPnIn2l\/GknHQ\/wBbH9tfxpB5+6XbC9Qn9XMiyEIrkqpSxb6JBJ5WNwTxpHRyMFiTfRTa3G5PH4VpvS8Q2MjdHDIYAos4YAq7XGUez7Q8fKqfovJEkn8\/HvIpI5Ey6e3xXU9mutFSINiLBOI3lQxlS+aM5s4ZSyKQQLE3Ck8uJvrV7tZMLFhHTDuzIuSRoyoVXIsCAbDQ2BvqFy68zWZjhwOGxSMzSEktnVVULHnuqkAEk6EcSOPDSr7G7HmczRlo4440d5QHikmRTYJnjVgUJB9o6DUniTUGb2pDJhpxhoxvIjxyKzjIxOZQSL8Lm\/YQdKrTIRftsQey\/aKnpiHhlUC0mHe2VtQuUDrFTw0sbjuFVRYk\/E0wJmXnx4G5PhyGlNTYe+txpf3W\/wD33U6wHdy5662GnfVhhdhYvEi+Hw8ki3ILKhyZrC4zHQHhfWgqlwhAuCLgXtqDxtyp1AQuouQCo01HG17d559grq\/QX0f7m820Ejd2AVITlkVBoSz8VL8ha4Avqb6bSPYeEX2cLAPCGMfu0HnGSQ\/SkOnYB8waZFiQLsb8y1h56Gtd6U9kerbQZlFop1WVewMOq6jSwsQDbkGFY5TY3oJDRpowQkcDxvf6v30WKYLYBQDxsVBIXz4GkRM63Kta3eBcfOpW5jEAxAnVsTvVAgMTH+bF+u8hAQ6hRl1vfWgizRWRGzIS92IUi6lWK2kXipsARyIbTnY0FPbWxoxE7zLEkIc5t3HfIpsAcoPC5BPnSYY8xAHOg6h6JkvLKRw3SX1HG6W048mt2aiul5KyHos2eUwzzsLGZhl4fk0uL8NOszD6tbWgZyUMtPULVQzlo6dtQoKsg0kg1N3dIMdVEIg9tEVNTTFSClBDKmkkGphjpto6DAdKuiTyuZcOASxuyE265OrKTprxt49tZLE9Gcav\/LOeOoMZ\/ertJjpto6g4nBsPHI6uuGYMpBUkpoRwPtcRp7qs2G2G45\/tj8a6sY6aaEdlByaTZ2029oyfbH40y3R\/HN7WbzcfjXWzh6bbC0K5R\/wtijx+LUB0Rn55fefwrqbYSmmwtUrl+L6OywRtKSpVdSBc6E2va3fTGzxc5AbG6srXuFPEZre411KTCAggi4III7joa5r0h2O2DktZjATdH4kdqsbWzX1tzA0tc2C3uN\/1wBMgAWNSFUNxDIVtmuQpHZz11pmM4hsJPCwyu8ju1wV3ylU0cmxtdLDgBr4iLhsdA8eSdXNjZZFBYa8rHUeHzpIliRhnDML9VGVxmAOmht8KkEjGyoU3cKbuEAXAkaVRzKCQgF+sTr8TxrPSnW+muvkNLVbbe27v8q5VjjU9WFARlHA52P0tO\/vtzoyxJv8AL5C9DDkZ\/Hj7h235+Vd86IbO9VwUMJ0cLncXv\/Ouc7jyJt5VwWNypuDYg8RYag3UjwqwTbuKHDES\/bNRXoPNQvXAB0kxo4YqX7VK\/wCKNocsXL+ofmtUdi6YdHk2jhjAzZXBEkT6kLKARcgcVIJB8b8QK4BtXZ8uGlaCdCki8QeY5Mp+kp5EVoB0u2jyxj+axH9yoe1ts4zFqExEiygXy5o4wy345WVQR79agoKFqkpsyU8FvUuDo5in4R\/dQVyCtf0F6KyY6TNYrApGeS3gcqdrm3le57C90e6Iyo4ebDLKBYhWmdF8wgufC9q6rsvEyKip6vHGigKqo1lVRyAyiwoLmCJY0VEAVFAVVHAKBYAUumUkvypYNAujvSaO1Ad6FFahQPbuiMdPkUm1VIjmOk7qpBFERQRzFSTCKfIorUEUwCktBUsiiy0EFoKbMFWBWkZKCBuKS0FWOSiKUFW0FIMFWhipG5oKo4ao2M2asilHUMh0KkXBq93IojDQct2l6OdScPMVB+i4LDwzDW3jeqpugGOU9R4jyuHdTb7FdkMFFuKDiv8AwFjh9BD4P+IpadBMbzRez2xXaNzRiGoVyGDoBijxyD61TofRzMfadfIGuphBSstIVziH0cfnSe4VPg9HkI9osfMCtxajFUZWDoPhV\/o7+JJqwg6L4ZeES+4Vd0L0EGLY0I4IvuFSUwKDgo91PA0q9FIWBRyFLCChejvUCstArSc1HmoFWo6QGow1Aq1Ck5qFBYkUgijoVQk0mhQoCNINChQJNJFChQEaSaFCiAKFFQooUVHQoEmiNChRCaFqFCgFEaFCgKjoqFAV6OhQogUL0KFAd6FChQHQoUKKO9FehQqKOhQoVUGKFChUV\/\/Z",
+                    "annee_debut": 1983,
+                    "annee_fin": 2016,
+                    "nbr_produit": 2000000,
+                    "puissance_max": 183,
+                    "puissance_min": 50,
+                    "prix_neuf": 40000,
+                    "prix_actuel": 24000,
+                    "description": "Le robuste 4x4 anglais..."
+                }
+            ]
         },
         {
             "num_marque": "20",
             "nom_marque": "Lotus",
-            "modeles": []
+            "modeles": [
+                {
+                    "num_modele": 10,
+                    "nom_modele": "Esprit",
+                    "url_photo": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/49\/London_Motor_Museum_-_38504511082.jpg\/280px-London_Motor_Museum_-_38504511082.jpg",
+                    "annee_debut": 1976,
+                    "annee_fin": 2004,
+                    "nbr_produit": 10675,
+                    "puissance_max": 350,
+                    "puissance_min": 160,
+                    "prix_neuf": 80000,
+                    "prix_actuel": 70000,
+                    "description": "La lotus Esprit..."
+                }
+            ]
         },
         {
             "num_marque": "21",
@@ -219,7 +277,21 @@
         {
             "num_marque": "22",
             "nom_marque": "Mclaren",
-            "modeles": []
+            "modeles": [
+                {
+                    "num_modele": 9,
+                    "nom_modele": "F1",
+                    "url_photo": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/16\/1996_McLaren_F1_Chassis_No_63_6.1_Front.jpg\/280px-1996_McLaren_F1_Chassis_No_63_6.1_Front.jpg",
+                    "annee_debut": 1993,
+                    "annee_fin": 1998,
+                    "nbr_produit": 106,
+                    "puissance_max": 627,
+                    "puissance_min": 627,
+                    "prix_neuf": 1000000,
+                    "prix_actuel": 17000000,
+                    "description": "La splendide Mclaren F1..."
+                }
+            ]
         },
         {
             "num_marque": "23",
@@ -254,7 +326,21 @@
         {
             "num_marque": "29",
             "nom_marque": "Porsche",
-            "modeles": []
+            "modeles": [
+                {
+                    "num_modele": 13,
+                    "nom_modele": "911 (964)",
+                    "url_photo": "",
+                    "annee_debut": 1989,
+                    "annee_fin": 1994,
+                    "nbr_produit": 63762,
+                    "puissance_max": 380,
+                    "puissance_min": 250,
+                    "prix_neuf": 60000,
+                    "prix_actuel": 80000,
+                    "description": "La 911 des ann\u00e9es 90..."
+                }
+            ]
         },
         {
             "num_marque": "30",

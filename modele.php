@@ -35,7 +35,7 @@ $vehicules = json_decode($json_data, true);
         </div>
     </header>
     <main>
-
+    <div class="detail-modele">
     <?php
         if (isset($_GET['modele'])) {
             $num_modele = (int)$_GET['modele'];
@@ -61,43 +61,39 @@ $vehicules = json_decode($json_data, true);
             else {
                 echo '<img src="' . $modele['url_photo'].'" alt="' . $modele['nom_modele'] . '">';
             }
-            echo '<h2>' . $marque['nom_marque'] . '</h2>';
-            echo '<h2>' . $modele['nom_modele'] . '</h2>';
-            echo '<p>' . $modele['annee_debut'] . '</p>';
-            echo '<p>' . $modele['annee_fin'] . '</p>';
-            echo '<p>' . $modele['puissance_max'] . '</p>';
-            echo '<p>' . $modele['puissance_min'] . '</p>';
-            echo '<p>' . $modele['prix_actuel'] . '</p>';
-            echo '<p>' . $modele['prix_neuf'] . '</p>';
-            echo '<p>' . $modele['nbr_produit'] . '</p>';
-            echo '<p>' . $modele['description'] . '</p>';
-            echo '<a href="/modifier/'.$modele['num_modele'].'">Modifier</a>';
+            echo '<div class="caracteristique-modele">';
+            echo'<h1>A PROPOS DE CE MODÈLE :</h1></br>';
+            echo '<h1>' . $marque['nom_marque'] .' - '.$modele['nom_modele']. '</h1>';
+            if ($modele['annee_debut'] == $modele['annee_fin']) {
+                echo '<p>' . $modele['annee_debut'] . '</p>';
+            } else {
+                echo '<p>' . $modele['annee_debut'] .' - '.$modele['annee_fin']. '</p>';
+            }
+            echo '<h3>Puissance DIN :</h3>';
+            if ($modele['puissance_max'] == $modele['puissance_min']) {
+                echo '<p>' . $modele['puissance_max'] . 'ch</p>';
+            } else {
+                echo '<p>' . $modele['puissance_max'] .' ch - '.$modele['puissance_min']. ' ch</p>';
+            }
+            echo '<h3>Cote du modèle :</h3>';
+            echo '<p>' . $modele['prix_actuel'] . ' €</p>';
+            echo '<h3>Prix initial :</h3>';
+            echo '<p>' . $modele['prix_neuf'] . ' €</p>';
+            echo '<h3>Production :</h3>';
+            echo '<p>' . $modele['nbr_produit'] . ' véhicules produits</p>';
+            echo '<strong>' . $modele['description'] . '</strong>';
+            echo '<div class="outils-modele"><p><a href="/modifier/'.$modele['num_modele'].'">Modifier</a>  - <a href="/marque/'.$marque['num_marque'].'">Voir la marque</a></p></div>';
+            echo '</div>';
             echo '</div>';
         }else{
             header("Location: /");
             exit();
         }
         ?>
-    
+    </div>
     </main>
     <footer>
-        <div id="bouton-admin" class="bouton-admin" tabindex="0">
-            <img src="../image/icone-admin.svg">
-        </div>
-        <div id="admin" class="admin">
-            <h2>Administration</h2>
-            <?php
-            
-            if (isset($_SESSION['user'])) {
-                $user = $_SESSION['user'];
-                echo 'Bonjour '.$user['prenom'].' '.$user['nom'];
-                echo '<a href="/administrateur">Page Admin</a>';
-                echo '<a href="/deconnexion">Deconnexion</a>';
-            }else{
-                echo '<a href="/connexion">Connexion</a>';
-            }
-            ?>
-        </div>
+    <?php include "footer.php" ?>
     </footer>
 </body>
 </html>

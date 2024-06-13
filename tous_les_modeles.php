@@ -35,10 +35,10 @@ $vehicules = json_decode($json_data, true);
     </header>
     <main>
     <div class="recherche">
-        <div class="ajouter"><a href="/ajouter">Ajouter une voiture</a></div>
-        <p>Recherche de voitures</p>
-        <form method="POST">
-            <div class="form-group">
+        <a href="/ajouter"><div class="bouton-ajouter"><p>Ajouter un modèle +</p></div></a>
+        <div class="onglet-recherche">
+            <form method="POST">
+                <p>Rechercher un modèle</p>
                 <label for="marque">Marque :</label>
                 <select id="marque" name="marque">
                     <option>Toutes</option>
@@ -48,21 +48,17 @@ $vehicules = json_decode($json_data, true);
                         }                    
                     ?>              
                 </select>
-            </div>
-            <div class="form-group">
                 <label for="modele">Nom du modèle</label>
                 <input type="text" id="modele" name="modele">
-            </div>
-            <div class="form-group">
                 <label for="annee">Année</label>
-                <input type="number" id="annee" name="annee">
-            </div>
-            <input type="submit" value="Rechercher">
-        </form>
+                <input type="text" id="annee" name="annee">
+                <input type="submit" value="Rechercher" class="bouton-recherche">
+            </form>
+        </div>
     </div>
     <div class="liste-modeles">
     <?php  
-    $modelsParPage = 6;
+    $modelsParPage = 9;
     $totalModels = 0;
 
     function filter_modeles($modeles, $modele_recherche, $annee_recherche) {
@@ -92,6 +88,7 @@ $vehicules = json_decode($json_data, true);
                 $modeles_filtrés = filter_modeles($marque['modeles'], $modele_recherche, $annee_recherche);
             if (!empty($modeles_filtrés)) {
                 $resultats[] = [
+                        'num_marque' => $marque['num_marque'],
                         'nom_marque' => $marque['nom_marque'],
                         'modeles' => $modeles_filtrés
                 ];
@@ -116,21 +113,20 @@ $vehicules = json_decode($json_data, true);
         foreach ($resultats as $marque) {
             foreach ($marque['modeles'] as $modele) {
                 if ($modelsDisplayed >= $start && $modelsDisplayed < $end) {
-                    if ($count > 0 && $count % 2 == 0) {
+                    if ($count > 0 && $count % 3 == 0) {
                         echo '</div><div class="row">'; 
                     }
                     echo '<div class="modele">';
-                    echo '<a href="/detail/'.$modele['num_modele'].'">';
+                  
                     if (empty($modele['url_photo'])) {
                         echo '<img src="https://thumbs.dreamstime.com/b/sch%C3%A9ma-voiture-48227977.jpg" alt="' . $modele['nom_modele'] . '">';
                     }
                     else {
                         echo '<img src="' . $modele['url_photo'].'" alt="' . $modele['nom_modele'] . '">';
                     }
-                    echo '</a><h2>' . $marque['nom_marque'] . '</h2>';
-                    echo '<h2>' . $modele['nom_modele'] . '</h2>';
-                    echo '<p>' . $modele['annee_debut'] . '</p>';
-                    echo '<a href="/modifier/'.$modele['num_modele'].'">Modifier</a>';
+                    echo '<div class="info-modele"><p>' . $marque['nom_marque'] .' - '.$modele['nom_modele'] .' - '.$modele['annee_debut'] . '</p></div>';
+
+                    echo '<div class="outils-modele"><p><a href="/modifier/'.$modele['num_modele'].'">Modifier</a>'.' - '.'<a href="/detail/'.$modele['num_modele'].'">Voir plus</a>'.' - '.'<a href="/marque/'.$marque['num_marque'].'">Voir la marque</a></p></div>';
 
                     echo '</div>';
                     $count++;
@@ -144,49 +140,39 @@ $vehicules = json_decode($json_data, true);
         }
    
     echo '<div class="pagination">';
+    echo '<div class="bouton-pagination">';
     $queryString = build_query_string($search_params);
    
     if ($currentPage > 1) {
-        echo '<a href="?page=' . ($currentPage - 1) . '">Page précédente</a>';
+        echo '<a href="/modeles/' . ($currentPage - 1) . '"><div class="deplacement"><</div></a>';
+    } else {
+        echo '<div class="deplacement" id="gris"><</div>';
     }
 
    
     for ($i = 1; $i <= $totalPages; $i++) {
         if ($i == $currentPage) {
-            echo '<strong>' . $i . '</strong>'; 
+            echo '<div class="num_page" id="page_select">' . $i . '</div>'; 
         } else {
-            echo '<a href="?page=' . $i . '">' . $i . '</a>';
+            echo '<a href="/modeles/' . $i . '"><div class="num_page">' . $i . '</div></a>';
         }
     }
 
     
     if ($currentPage < $totalPages) {
-        echo '<a href="?page=' . ($currentPage + 1) . '">Page suivante</a>';
+        echo '<a href="/modeles/' . ($currentPage + 1) . '"><div class="deplacement">></div></a>';
+    } else {
+        echo '<div class="deplacement" id="gris">></div>';
     }
 
+    echo '</div>';
     echo '</div>';
     ?>
 </div>
 
     </main>
     <footer>
-        <div id="bouton-admin" class="bouton-admin" tabindex="0">
-            <img src="../image/icone-admin.svg">
-        </div>
-        <div id="admin" class="admin">
-            <h2>Administration</h2>
-            <?php
-            
-            if (isset($_SESSION['user'])) {
-                $user = $_SESSION['user'];
-                echo 'Bonjour '.$user['prenom'].' '.$user['nom'];
-                echo '<a href="/administrateur">Page Admin</a>';
-                echo '<a href="/deconnexion">Deconnexion</a>';
-            }else{
-                echo '<a href="/connexion">Connexion</a>';
-            }
-            ?>
-        </div>
+       <?php include "footer.php" ?>
     </footer>
 </body>
 </html>
