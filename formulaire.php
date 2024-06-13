@@ -94,38 +94,39 @@ $vehicules = json_decode(file_get_contents($json_file), true);
             var_dump($erreurs);
         } else {
             file_put_contents($json_file, json_encode($vehicules, JSON_PRETTY_PRINT));
-            echo 'Données mises à jour avec succès !';
-            echo'<a href="/modeles">Retour</a>';
+            echo '<h2>Données mises à jour avec succès !</h2>';
+            echo'<a class="retour" href="/modeles">Retour</a>';
             exit;
        } 
     }
-    
-    echo '<form action="//vintage-cars.com/modifier/'.$_GET['modele'].'" method="post">';
+    echo '<form action="//vintage-cars.com/modifier/'.$_GET['modele'].'" method="post" class="form-vehicules">';
+    echo'<div class=formulaire>';
     echo '<input type="hidden" name="marqueIndex" value="' . $marqueIndex . '">';
     echo '<input type="hidden" name="modeleIndex" value="' . $modeleIndex . '">';
     echo '<label for="nom_marque">Marque : '.htmlspecialchars($marque['nom_marque']). '</label><br>';
     echo '<label for="nom_modele">Nom du modèle :</label>';
     echo '<input type="text" id="nom_modele" name="nom_modele" value="' . htmlspecialchars($modele['nom_modele']) . '"required><br>';
+    echo '<label for="annee_debut">Année de début :</label>';
+    echo '<input type="text" id="annee_debut" name="annee_debut" value="' . htmlspecialchars($modele['annee_debut']) . '"required><br>';
+    echo '<label for="annee_fin">Année de fin :</label>';
+    echo '<input type="text" id="annee_fin" name="annee_fin" value="' . htmlspecialchars($modele['annee_fin']) . '"required><br>';
+    echo '<label for="nbr_produit">Nombre produit :</label>';
+    echo '<input type="text" id="nbr_produit" name="nbr_produit" value="' . htmlspecialchars($modele['nbr_produit']) . '"required><br>';
+    echo '<input id="submit" type="submit" name="submit" value="Modifier">';
+    echo'</div><div class=formulaire>';
+    echo '<div><label for="puissance_max">Puissance max :</label>';
+    echo '<input type="text" id="puissance" name="puissance_max" value="' . htmlspecialchars($modele['puissance_max']) . '"><br>';
+    echo '<label for="puissance_min">Puissance min :</label>';
+    echo '<input type="text" id="puissance" name="puissance_min" value="' . htmlspecialchars($modele['puissance_min']) . '"><br></div>';
+    echo '<div><label for="prix_neuf">Prix neuf :</label>';
+    echo '<input type="text" id="prix_neuf" name="prix_neuf" value="' . htmlspecialchars($modele['prix_neuf']) . '"><br>';
+    echo '<label for="prix_actuel">Prix actuel :</label>';
+    echo '<input type="text" id="prix_actuel" name="prix_actuel" value="' . htmlspecialchars($modele['prix_actuel']) . '"><br></div>';
     echo '<label for="url_photo">URL de la photo :</label>';
     echo '<input type="text" id="url_photo" name="url_photo" value="' . htmlspecialchars($modele['url_photo']) . '"><br>';
-    echo '<label for="annee_debut">Année de début :</label>';
-    echo '<input type="number" id="annee_debut" name="annee_debut" value="' . htmlspecialchars($modele['annee_debut']) . '"required><br>';
-    echo '<label for="annee_fin">Année de fin :</label>';
-    echo '<input type="number" id="annee_fin" name="annee_fin" value="' . htmlspecialchars($modele['annee_fin']) . '"required><br>';
-    echo '<label for="nbr_produit">Nombre produit :</label>';
-    echo '<input type="number" id="nbr_produit" name="nbr_produit" value="' . htmlspecialchars($modele['nbr_produit']) . '"required><br>';
-    echo '<label for="puissance_max">Puissance max :</label>';
-    echo '<input type="number" id="puissance_max" name="puissance_max" value="' . htmlspecialchars($modele['puissance_max']) . '"><br>';
-    echo '<label for="puissance_min">Puissance min :</label>';
-    echo '<input type="number" id="puissance_min" name="puissance_min" value="' . htmlspecialchars($modele['puissance_min']) . '"><br>';
-    echo '<label for="prix_neuf">Prix neuf :</label>';
-    echo '<input type="number" id="prix_neuf" name="prix_neuf" value="' . htmlspecialchars($modele['prix_neuf']) . '"><br>';
-    echo '<label for="prix_actuel">Prix actuel :</label>';
-    echo '<input type="number" id="prix_actuel" name="prix_actuel" value="' . htmlspecialchars($modele['prix_actuel']) . '"><br>';
     echo '<label for="description">Description :</label>';
-    echo '<textarea id="description" name="description"required>' . htmlspecialchars($modele['description']) . '</textarea><br>';
-    echo '<input type="submit" name="submit" value="Modifier">';
-    echo '</form>';
+    echo '<textarea id="description" name="description" required>' . htmlspecialchars($modele['description']) . '</textarea><br>';
+    echo '</div></form>';
 
     } else {
 
@@ -196,13 +197,14 @@ $vehicules = json_decode(file_get_contents($json_file), true);
                 var_dump($erreurs);
             } else {
                 file_put_contents('data.json', json_encode($vehicules, JSON_PRETTY_PRINT));
-                echo "Le modèle a été ajouté avec succès!";
-                echo'<a href="/modeles">Retour</a>';
+                echo "<h2>Le modèle a été ajouté avec succès!</h2>";
+                echo'<a class="retour" href="/modeles">Retour</a>';
                 exit;
             }
         }
         ?>
-        <form method="post">
+        <form method="post" class="form-vehicules">
+        <div class=formulaire>
         <label for="num_marque">Marque :</label>
         <select name="num_marque" id="num_marque" required>
             <?php
@@ -215,56 +217,46 @@ $vehicules = json_decode(file_get_contents($json_file), true);
         <label for="nom_modele">Nom du Modèle :</label>
         <input type="text" id="nom_modele" name="nom_modele" required><br>
 
-        <label for="url_photo">URL Photo :</label>
-        <input type="text" id="url_photo" name="url_photo"><br>
-
         <label for="annee_debut">Année de Début :</label>
-        <input type="number" id="annee_debut" name="annee_debut" required><br>
+        <input type="text" id="annee_debut" name="annee_debut" required><br>
 
         <label for="annee_fin">Année de Fin :</label>
-        <input type="number" id="annee_fin" name="annee_fin" required><br>
+        <input type="text" id="annee_fin" name="annee_fin" required><br>
 
         <label for="nbr_produit">Nombre Produit :</label>
-        <input type="number" id="nbr_produit" name="nbr_produit" required><br>
+        <input type="text" id="nbr_produit" name="nbr_produit" required><br>
 
-        <label for="puissance_max">Puissance Max :</label>
-        <input type="number" id="puissance_max" name="puissance_max"><br>
+        <input type="submit" id="submit" value="Ajouter le Modèle">
+
+        </div><div class=formulaire>
+
+        <div><label for="puissance_max">Puissance Max :</label>
+        <input type="text" id="puissance" name="puissance_max"><br>
 
         <label for="puissance_min">Puissance Min :</label>
-        <input type="number" id="puissance_min" name="puissance_min"><br>
+        <input type="text" id="puissance" name="puissance_min"><br></div>
 
-        <label for="prix_neuf">Prix Neuf :</label>
-        <input type="number" id="prix_neuf" name="prix_neuf"><br>
+        <div><label for="prix_neuf">Prix Neuf :</label>
+        <input type="text" id="prix_neuf" name="prix_neuf"><br>
 
         <label for="prix_actuel">Prix Actuel :</label>
-        <input type="number" id="prix_actuel" name="prix_actuel"><br>
+        <input type="text" id="prix_actuel" name="prix_actuel"><br></div>
+
+        <label for="url_photo">URL Photo :</label>
+        <input type="text" id="url_photo" name="url_photo"><br>
 
         <label for="description">Description :</label>
         <textarea id="description" name="description" required></textarea><br>
 
-        <input type="submit" value="Ajouter le Modèle">
+        
+    </div>
     </form>
     <?php
     }
     ?>
     </main>
     <footer>
-        <div id="bouton-admin" class="bouton-admin" tabindex="0">
-            <img src="../image/icone-admin.svg">
-        </div>
-        <div id="admin" class="admin">
-            <h2>Administration</h2>
-            <?php
-            if (isset($_SESSION['user'])) {
-                $user = $_SESSION['user'];
-                echo 'Bonjour '.$user['prenom'].' '.$user['nom'];
-                echo '<a href="/administrateur">Page Admin</a>';
-                echo '<a href="/deconnexion">Deconnexion</a>';
-            }else{
-                echo '<a href="/connexion">Connexion</a>';
-            }
-            ?>
-        </div>
+    <?php include "footer.php" ?>
     </footer>
 </body>
 </html>

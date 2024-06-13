@@ -37,7 +37,6 @@ nav ul {
 nav ul li {
     margin: 0;
 }
-
 .container a {
     color: #424242;
     text-decoration: none;
@@ -73,6 +72,11 @@ nav ul li {
 }
 .menu a{
     margin: 10px;
+    font-size: 18px;
+    transition: font-size 0.4s ease;
+}
+.menu a:hover{
+    font-size: 25px;
 }
 
 #bouton:focus + .menu {
@@ -93,10 +97,28 @@ nav ul li {
     border-top: rgb(94, 94, 94) solid 3px;
     border-right: rgb(94, 94, 94) solid 3px;
     border-top-right-radius: 10px;
-    width: 200px;
+    width: 250px;
     height: auto;
     flex-direction: column;
     z-index: 21;
+    text-align: center;
+    padding-bottom: 20px;
+    transition: height 0.4s ease;
+}
+.admin p{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.admin a{
+    color: #424242;
+    text-decoration: none;
+    margin: 10px;
+    transition: font-size 0.4s ease, font-weight 0.4s ease;
+}
+.admin a:hover{
+    font-size: 20px;
+    font-weight: bold;
 }
 .bouton-admin:focus + .admin {
     display: flex;
@@ -137,9 +159,9 @@ main {
 }
 .liste-modeles .row{
     display:flex;
-    justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 50px;
+    margin-left: 15px;
 }
 .liste-modeles{
     float: right;
@@ -171,11 +193,12 @@ main {
 }
 .outils-modele a{
     color: #424242;
-    transition: font-weight 0.6s ease, font-size 0.6s ease;
+    transition: font-weight 0.6s ease, font-size 0.6s ease, text-decoration 0.6s ease;
 }
 .outils-modele a:hover{
    font-size: 18px;
     font-weight:bolder;
+    text-decoration: underline;
 }
 .modele img{
     width: 400px;
@@ -186,6 +209,47 @@ main {
 .modele img:hover{
     width: 420px;
     height: 270px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.bouton-pagination{
+    display: flex;
+    justify-content: space-between;
+}
+.bouton-pagination div{
+    margin: 15px;
+}
+.deplacement{
+    border-radius: 5px;
+    border: #424242 solid 1px;
+    color: #424242;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+#gris{
+    color: #b1b1b1;
+    border: #b1b1b1 solid 1px;
+}
+.num_page{
+    border-radius: 5px;
+    color: #424242;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+}
+#page_select{
+    background-color: #424242;
+    color: white;
+    font-weight: bold;
 }
 .liste-marques{
     float: left;
@@ -297,9 +361,95 @@ a{
     background-color: #424242;
     color: #ffffff;
  }
-
-
-
+ .form-vehicules{
+    display: flex;
+ }
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.formulaire div{
+    display: flex;
+    align-items: center;
+}
+.formulaire label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.formulaire input{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
+    border-radius: 10px;
+    border: #969696 solid 2px;
+}
+.formulaire #puissance{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+}
+.formulaire #prix_neuf{
+    margin-left: 67px;
+    margin-right: 20px;
+    width: 150px;
+}
+.formulaire #prix_actuel{
+    margin-left: 45px;
+    margin-right: 20px;
+    width: 150px;
+}
+.formulaire #url_photo{
+    width: 900px;
+    text-align: left;
+}
+.formulaire #description{
+    width: 900px;
+    height: 250px;
+    resize: none;
+    font-size: 18px;
+    color: #424242;
+    border-radius: 10px;
+    border: #969696 solid 2px;
+}
+.formulaire #submit{
+    width: 208px;
+    background-color: #ffffff;
+    color: #424242;
+    border: #969696 solid 2px;
+    cursor: pointer;
+    transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease;
+    font-weight: bold;
+}
+.formulaire #submit:hover{
+    background-color: #424242;
+    color: #ffffff;
+    border: #424242 solid 2px;
+}
+.formulaire select{
+    margin-bottom: 20px;
+    width: 208px;
+    height: 60px;
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
+    border-radius: 10px;
+    border: #969696 solid 2px;
+    background-color: #ffffff;
+}
+.retour{
+    color: #424242;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: font-size 0.6s ease-out;
+}
+.retour:hover{
+    font-size: 22px;
+}
 
 
 

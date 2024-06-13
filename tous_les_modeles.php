@@ -35,7 +35,7 @@ $vehicules = json_decode($json_data, true);
     </header>
     <main>
     <div class="recherche">
-        <a href="/ajouter"></a><div class="bouton-ajouter"><p>Ajouter un modèle +</p></div></a>
+        <a href="/ajouter"><div class="bouton-ajouter"><p>Ajouter un modèle +</p></div></a>
         <div class="onglet-recherche">
             <form method="POST">
                 <p>Rechercher un modèle</p>
@@ -140,49 +140,39 @@ $vehicules = json_decode($json_data, true);
         }
    
     echo '<div class="pagination">';
+    echo '<div class="bouton-pagination">';
     $queryString = build_query_string($search_params);
    
     if ($currentPage > 1) {
-        echo '<a href="?page=' . ($currentPage - 1) . '">Page précédente</a>';
+        echo '<a href="?page=' . ($currentPage - 1) . '"><div class="deplacement"><</div></a>';
+    } else {
+        echo '<div class="deplacement" id="gris"><</div>';
     }
 
    
     for ($i = 1; $i <= $totalPages; $i++) {
         if ($i == $currentPage) {
-            echo '<strong>' . $i . '</strong>'; 
+            echo '<div class="num_page" id="page_select">' . $i . '</div>'; 
         } else {
-            echo '<a href="?page=' . $i . '">' . $i . '</a>';
+            echo '<a href="?page=' . $i . '"><div class="num_page">' . $i . '</div></a>';
         }
     }
 
     
     if ($currentPage < $totalPages) {
-        echo '<a href="?page=' . ($currentPage + 1) . '">Page suivante</a>';
+        echo '<a href="?page=' . ($currentPage + 1) . '"><div class="deplacement">></div></a>';
+    } else {
+        echo '<div class="deplacement" id="gris">></div>';
     }
 
+    echo '</div>';
     echo '</div>';
     ?>
 </div>
 
     </main>
     <footer>
-        <div id="bouton-admin" class="bouton-admin" tabindex="0">
-            <img src="../image/icone-admin.svg">
-        </div>
-        <div id="admin" class="admin">
-            <h2>Administration</h2>
-            <?php
-            
-            if (isset($_SESSION['user'])) {
-                $user = $_SESSION['user'];
-                echo 'Bonjour '.$user['prenom'].' '.$user['nom'];
-                echo '<a href="/administrateur">Page Admin</a>';
-                echo '<a href="/deconnexion">Deconnexion</a>';
-            }else{
-                echo '<a href="/connexion">Connexion</a>';
-            }
-            ?>
-        </div>
+       <?php include "footer.php" ?>
     </footer>
 </body>
 </html>
