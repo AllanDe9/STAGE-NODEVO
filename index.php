@@ -50,10 +50,16 @@ switch ($uri_segments[0]) {
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
             $_GET['select'] = $id;
-            require __DIR__ . '/admin.php';
-        }else {
-            require __DIR__ . '/admin.php';
+            if (isset($uri_segments[2])) {
+                $id2 = $uri_segments[2];
+                if ($id == "marques"){
+                    $_GET['marque'] = $id2;
+                } else {
+                    $_GET['page'] = $id2;
+                }
+            }
         }
+            require __DIR__ . '/admin.php';
         break;
     default:
         echo "Page non trouvée";

@@ -130,13 +130,7 @@ $vehicules = json_decode(file_get_contents($json_file), true);
 
     } else {
 
-        function compterTousLesModeles($marques) {
-            $total = 0;
-            foreach ($marques as $marque) {
-                $total += count($marque['modeles']);
-            }
-            return $total;
-        }
+        
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
             $num_marque = intval($_POST['num_marque']);
@@ -150,13 +144,27 @@ $vehicules = json_decode(file_get_contents($json_file), true);
             $prix_neuf = intval($_POST['prix_neuf']);
             $prix_actuel = intval($_POST['prix_actuel']);
             $description = $_POST['description'];
+            $next_num_modele = 1;
+             
+                $marque = null;
+                foreach ($vehicules['marques'] as $m) {
+                    if ($m['num_marque'] == $num_marque) {
+                        $marque = $m;
+                        break;
+                    }
+                }
+                foreach ($marque['modeles'] as $modele) {
+                    while($modele['num_modele'] == $next_num_modele){
+                        $next_num_modele = $next_num_modele + 1;
+                    }
+                }
         
        
             foreach ($vehicules['marques'] as &$marque) {
                 if ($marque['num_marque'] == $num_marque) {
                    
                     $nouveau_modele = array(
-                        "num_modele" => compterTousLesModeles($vehicules['marques']) + 1,
+                        "num_modele" => $next_num_modele,
                         "nom_modele" => $nom_modele,
                         "url_photo" => $url_photo,
                         "annee_debut" => $annee_debut,
@@ -194,7 +202,6 @@ $vehicules = json_decode(file_get_contents($json_file), true);
                 $erreurs = ['negatif'=> 'Tous les chiffres doivent etre positif !'];
             }
             if (!empty($erreurs)) { 
-                var_dump($erreurs);
             } else {
                 file_put_contents('data.json', json_encode($vehicules, JSON_PRETTY_PRINT));
                 echo "<h2>Le modèle a été ajouté avec succès!</h2>";

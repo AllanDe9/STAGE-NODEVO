@@ -13,7 +13,7 @@ $vehicules = json_decode($json_data, true);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage Cars</title>
-    <link rel="stylesheet"  href="../style/style.css">
+    <link rel="stylesheet"  href="../../style/style.css">
 </head>
 <body>
     <header>
@@ -51,81 +51,250 @@ $vehicules = json_decode($json_data, true);
                     <ul>
                     <?php 
                         foreach ($vehicules['marques'] as $marque) {
-                            echo '<li>'.$marque['nom_marque'].'</li>';
+                            echo '<a href="/administrateur/marques/'.$marque['num_marque'].'"><li>'.$marque['nom_marque'].'</li></a>';
                         }
                           ?>
                     </ul>
                 </div>
+                <?php 
+                    if (isset($_GET['marque'])) {
+
+                        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                            
+                        $num_marque = $_POST['num_marque'];
+                        $nom_marque = $_POST['nom_marque'];
+                        $url_logo_marque = $_POST['url_logo_marque'];
+                        $descri_marque = $_POST['descri_marque'];
+                        
+                    
+                        
+                       
+                        $marque_modifiee = null;
+                        foreach ($vehicules['marques'] as &$marque) {
+                            if ($marque['num_marque'] == $num_marque) {
+                                $marque['nom_marque'] = $nom_marque;
+                                $marque['url_logo_marque'] = $url_logo_marque;
+                                $marque['descri_marque'] = $descri_marque;
+                                $marque_modifiee = $marque;
+                                break;
+                            }
+                        }
+                        
+                        
+                        if (!$marque_modifiee) {
+                            echo "<p>Erreur : Marque non trouvée.</p>";
+                            exit;
+                        }
+                        
+                        
+                        $new_json = json_encode($vehicules, JSON_PRETTY_PRINT);
+                        file_put_contents('data.json', $new_json);
+                        
+                      
+                        header("Location: " . $_SERVER['REQUEST_URI']);
+                        exit;
+                    }
+
+                        $num_marque = $_GET['marque'];
+                        
+
+                        $marque = null;
+                        foreach ($vehicules['marques'] as $m) {
+                            if ($m['num_marque'] == $num_marque) {
+                                $marque = $m;
+                                break;
+                            }
+                        }
+                        
+                        if (!$marque) {
+                            echo "<p>Marque non trouvée.</p>";
+                            exit;
+                        }
+                        ?>
+                        <form method="post">
+                            <input type="hidden" name="num_marque" value="<?php echo $marque['num_marque']; ?>">
+
+                            <label for="nom_marque">Nom de la marque :</label><br>
+                            <input type="text" id="nom_marque" name="nom_marque" value="<?php echo $marque['nom_marque']; ?>" required><br><br>
+
+                            <label for="url_logo_marque">URL du logo :</label><br>
+                            <input type="text" id="url_logo_marque" name="url_logo_marque" value="<?php echo $marque['url_logo_marque']; ?>"><br><br>
+
+                            <label for="descri_marque">Description :</label><br>
+                            <textarea id="descri_marque" name="descri_marque" rows="4" required><?php echo $marque['descri_marque']; ?></textarea><br><br>
+
+                            <input type="submit" value="Enregistrer les modifications">
+                        </form>
+                <?php    
+                } else {
+                ?>
                 <div class="ajouter-marque">
+
                     <?php
-                    $marques = $vehicules['marques'];
-                    $max_num_marque = max(array_column($marques, 'num_marque'));
-                    $next_num_marque = $max_num_marque + 1;
 
                     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         $nom_marque = $_POST['nom_marque'];
-                        $num_marque = $_POST['num_marque'];
+                        $url_logo_marque = $_POST['url_logo_marque'];
+                        $descri_marque = $_POST['descri_marque'];
 
-                        $vehicules['marques'][] = [
-                            'num_marque' => $num_marque,
+
+                        $next_num_marque = 1;
+                        foreach ($vehicules['marques'] as $marque) {
+                            while($marque['num_marque'] == $next_num_marque){
+                                $next_num_marque = $next_num_marque + 1;
+                            }
+                        }
+
+                        $nouvelle_marque = [
+                            'num_marque' => $next_num_marque,
                             'nom_marque' => $nom_marque,
-                            'modeles' => []
+                            'url_logo_marque' => $url_logo_marque,
+                            'descri_marque' => $descri_marque,
+                            'modeles' => [] 
                         ];
 
-                        file_put_contents('data.json', json_encode($vehicules, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+                        $vehicules['marques'][] = $nouvelle_marque;
 
-                        echo "Marque ajoutée avec succès !";
+                        $new_json_data = json_encode($vehicules, JSON_PRETTY_PRINT);
+                        file_put_contents('data.json', $new_json_data);
+
                         header("Location: " . $_SERVER['REQUEST_URI']);
+                        exit;
                     }
                     ?>
                     <h2>Ajouter une nouvelle marque</h2>
                     <form method="post">
-                        <label for="nom_marque">Nom de la marque:</label>
-                        <input type="text" id="nom_marque" name="nom_marque" required>
-                        <input type="hidden" name="num_marque" value="<?php echo $next_num_marque; ?>">
-                        <button type="submit">Ajouter</button>
+                        <label for="nom_marque">Nom de la marque :</label><br>
+                        <input type="text" id="nom_marque" name="nom_marque" required><br><br>
+
+                        <label for="url_logo_marque">URL du logo :</label><br>
+                        <input type="text" id="url_logo_marque" name="url_logo_marque" required><br><br>
+
+                        <label for="descri_marque">Description :</label><br>
+                        <textarea id="descri_marque" name="descri_marque" rows="4" required></textarea><br><br>
+
+                        <input type="submit" value="Ajouter">
                     </form>
+                
                 </div>
+                <?php } ?>
             </div>
             <?php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
         if ($_GET['select'] == "modeles") {
             ?>
             <div class="admin-modeles">
-            <div class="ajouter"><a href="/ajouter">Ajouter une voiture</a></div>
-            <div class="liste">
+            <div class="liste-modeles-admin">
                 <?php
+                 $modelsParPage = 9;
+                 $totalModels = 0;
+
+                 foreach ($vehicules['marques'] as $marque) {
+                    $totalModels += count($marque['modeles']);
+                }
+
+                $totalPages = ceil($totalModels / $modelsParPage);
+                $currentPage = isset($_GET['page']) ? $_GET['page'] : 1;
+                $currentPage = max(1, min($currentPage, $totalPages)); 
+                $start = ($currentPage - 1) * $modelsParPage;
+                $end = $start + $modelsParPage;
+
+                $modelsDisplayed = 0;
                 $count = 0;
                 echo '<div class="row">'; 
                 foreach ($vehicules['marques'] as $marque) {
                     foreach ($marque['modeles'] as $modele) {
-                        if ($count > 0 && $count % 3 == 0) {
-                            echo '</div><div class="row">'; 
+                        if ($modelsDisplayed >= $start && $modelsDisplayed < $end) {
+                            if ($count > 0 && $count % 3 == 0) {
+                                echo '</div><div class="row">'; 
+                            }
+                            echo '<div class="modele">';
+                          
+                            if (empty($modele['url_photo'])) {
+                                echo '<img src="https://thumbs.dreamstime.com/b/sch%C3%A9ma-voiture-48227977.jpg" alt="' . $modele['nom_modele'] . '">';
+                            }
+                            else {
+                                echo '<img src="' . $modele['url_photo'].'" alt="' . $modele['nom_modele'] . '">';
+                            }
+                            echo '<div class="info-modele"><p>' . $marque['nom_marque'] .' - '.$modele['nom_modele'] .' - '.$modele['annee_debut'] . '</p></div>';
+        
+                            echo '<div class="outils-modele"><p><a href="/modifier/'.$modele['num_modele'].'">Modifier</a>'.' - '.'<a href="/detail/'.$modele['num_modele'].'">Voir plus</a>'.' - '.'<a href="?delete='.$modele['num_modele'].'">Supprimer</a></p></div>';
+        
+                            echo '</div>';
+                            $count++;
                         }
-                        echo '<div class="modele">';
-                        echo '<a href="modele.php?modele='.$modele['num_modele'].'">';
-                        if (empty($modele['url_photo'])) {
-                            echo '<img src="https://thumbs.dreamstime.com/b/sch%C3%A9ma-voiture-48227977.jpg" alt="' . $modele['nom_modele'] . '">';
+                        $modelsDisplayed++;
                         }
-                        else {
-                            echo '<img src="' . $modele['url_photo'].'" alt="' . $modele['nom_modele'] . '">';
-                        }
-                        echo '</a><h2>' . $marque['nom_marque'] . '</h2>';
-                        echo '<h2>' . $modele['nom_modele'] . '</h2>';
-                        echo '<p>' . $modele['annee_debut'] . '</p>';
-                        echo '<a href="/modifier/'.$modele['num_modele'].'">Modifier</a>';
-                        echo '<a href="/supprimer/'.$modele['num_modele'].'">Supprimer</a>';
+                    }
+            echo '</div>'; 
+            echo '<div class="pagination">';
+            echo '<div class="bouton-pagination">';
+        
+            if ($currentPage > 1) {
+                echo '<a href="/administrateur/modeles/' . ($currentPage - 1) . '"><div class="deplacement"><</div></a>';
+            } else {
+                echo '<div class="deplacement" id="gris"><</div>';
+            }
 
-                        echo '</div>';
-                        $count++;
+        
+            for ($i = 1; $i <= $totalPages; $i++) {
+                if ($i == $currentPage) {
+                    echo '<div class="num_page" id="page_select">' . $i . '</div>'; 
+                } else {
+                    echo '<a href="/administrateur/modeles/' . $i . '"><div class="num_page">' . $i . '</div></a>';
+                }
+            }
+
+            
+            if ($currentPage < $totalPages) {
+                echo '<a href="/administrateur/modeles/' . ($currentPage + 1) . '"><div class="deplacement">></div></a>';
+            } else {
+                echo '<div class="deplacement" id="gris">></div>';
+            }
+
+            echo '</div>';
+            echo '</div>';
+                ?>
+        </div>
+        </div>
+        <?php
+           if (isset($_GET['delete'])) {
+            $numModele = intval($_GET['delete']);
+        
+            foreach ($vehicules['marques'] as &$marque) {
+                foreach ($marque['modeles'] as $index => $modele) {
+                    if ($modele['num_modele'] == $numModele) {
+                    
+                        array_splice($marque['modeles'], $index, 1);
+                        break;
                     }
                 }
-        echo '</div>'; 
-        ?>
-    </div>
-    </div>
-
+            }
+            file_put_contents('data.json', json_encode($vehicules, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            $urlWithoutQuery = strtok($_SERVER["REQUEST_URI"], '?');
+            ?>
+             <script>
+                window.location.href = "<?php echo $urlWithoutQuery; ?>";
+            </script>
             <?php
+        }
         }
         if ($_GET['select'] == "users") {
             ?>

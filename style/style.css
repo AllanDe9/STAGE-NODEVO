@@ -167,6 +167,12 @@ main {
     float: right;
     width: 79%;
 }
+.liste-modeles-admin .row{
+    display:flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
 .recherche{
     float: left;
     border-right: solid black 2px;
@@ -268,20 +274,38 @@ main {
     text-align:center
 }
 .liste-marques{
-    float: left;
-    width: 20%;
-    border-right: 2px solid black;
+    float: right;
+    width: 29%;
+    border-left: 2px solid black;
+    
 }
 .liste-marques li{
     margin-bottom: 30px;
     list-style: none;
     margin-left: 25%;
+    color: #424242;
+    transition: font-size 0.4s ease, font-weight 0.4s ease;
 }
+.liste-marques li:hover{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .ajouter-marque{
     position: fixed;
-    left:24%;
-    width: 79%;
+    width: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
 .liste-users{
     float: left;
     width: 60%;
@@ -566,7 +590,12 @@ a{
     align-items: center;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 22px;
+    margin-left: 45px;
+    transition: color 0.4s ease, background-color 0.4s ease;
+}
+.accueil-admin a:hover{
+    color: #ffffff;
+    background-color: #424242;
 }
 .admin-marques, .admin-users, .admin-modeles{
     float: right;
@@ -580,7 +609,13 @@ a{
     height: auto;
     border: 0;
     margin-bottom: 30px;
-    
+    margin-left: 0;
+    transition: font-size 0.4s ease;
+}
+.accueil-admin .header-admin a:hover{
+    font-size: 23px;
+    color: #424242;
+    background-color: #ffffff;
 }
 
 
