@@ -11,6 +11,7 @@ header {
     width: 96%;
     margin-left: 1%;
     position: fixed;
+    z-index: 10;
 }
 
 .container {
@@ -167,6 +168,12 @@ main {
     float: right;
     width: 79%;
 }
+.liste-modeles-admin .row{
+    display:flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
 .recherche{
     float: left;
     border-right: solid black 2px;
@@ -268,19 +275,90 @@ main {
     text-align:center
 }
 .liste-marques{
-    float: left;
-    width: 20%;
-    border-right: 2px solid black;
+    right: 0;
+    width: 29%;
+    border-left: 2px solid black;
+    overflow-y: scroll;
+    position: absolute;
+    height: 87%;
 }
 .liste-marques li{
     margin-bottom: 30px;
     list-style: none;
     margin-left: 25%;
+    color: #424242;
+    transition: font-size 0.4s ease, font-weight 0.4s ease;
 }
+.liste-marques li:hover{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .ajouter-marque{
-    position: fixed;
-    left:24%;
-    width: 79%;
+    width: 50%;
+    padding-left: 30px;
+}
+.ajouter-marque div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.ajouter-marque input{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
+    border-radius: 10px;
+    border: #969696 solid 2px;
+}
+.ajouter-marque label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.ajouter-marque #url_logo_marque{
+    width: 500px;
+}
+.ajouter-marque textarea{
+    margin-top: 10px;
+    width: 600px;
+    height: 180px;
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
+    border-radius: 10px;
+    border: #969696 solid 2px;
+    resize: none;
+}
+.ajouter-marque #submit{
+    width: 300px;
+    background-color: #ffffff;
+    color: #424242;
+    border: #969696 solid 2px;
+    cursor: pointer;
+    transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease;
+    font-weight: bold;
+}
+.ajouter-marque #submit:hover{
+    background-color: #424242;
+    color: #ffffff;
+    border: #424242 solid 2px;
+}
+.ajouter-marque a{
+    margin-left: 20px;
+    color: #424242;
+    font-size: 20px;
+    font-weight: bold;
+    transition: font-size 0.4s ease, font-weight 0.4s ease;
+}
+.ajouter-marque a:hover{
+    font-size: 22px;
+    font-weight: bold;
 }
 .liste-users{
     float: left;
@@ -290,12 +368,29 @@ main {
 .liste-users li{
     margin-bottom: 30px;
     list-style: none;
-    margin-left: 25%;
+    border-bottom: #969696 1px solid;
+    width: 80%;
+    height: 50px;
+}
+.liste-users a{
+    color: #424242;
+    float: right;
 }
 .ajouter-users{
     float: right;
     width: 39%;
 }
+
+
+
+
+
+
+
+
+
+
+
 .bouton-ajouter{
     width: 260px;
     height: 50px;
@@ -545,6 +640,54 @@ a{
 }
 
 
+
+.accueil-admin{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 19%;
+    border-right: solid 2px #424242; 
+    height: 100%;
+}
+.accueil-admin a{
+    margin-bottom: 15px;
+    width: 270px;
+    height: 50px;
+    color: #424242;
+    border: #424242 1px solid;
+    border-radius: 10px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 45px;
+    transition: color 0.4s ease, background-color 0.4s ease;
+}
+.accueil-admin a:hover{
+    color: #ffffff;
+    background-color: #424242;
+}
+.admin-marques, .admin-users, .admin-modeles{
+    float: right;
+    width: 80%;
+}
+.accueil-admin .header-admin {
+    text-align: center;
+}
+.accueil-admin .header-admin a{
+    width: auto;
+    height: auto;
+    border: 0;
+    margin-bottom: 30px;
+    margin-left: 0;
+    transition: font-size 0.4s ease;
+}
+.accueil-admin .header-admin a:hover{
+    font-size: 23px;
+    color: #424242;
+    background-color: #ffffff;
+}
 
 
 

@@ -60,6 +60,7 @@ $vehicules = json_decode($json_data, true);
     <?php  
     $modelsParPage = 9;
     $totalModels = 0;
+    $vide = false;
 
     function filter_modeles($modeles, $modele_recherche, $annee_recherche) {
         return array_filter($modeles, function($modele) use ($modele_recherche, $annee_recherche) {
@@ -137,8 +138,10 @@ $vehicules = json_decode($json_data, true);
         echo '</div>';
         } else {
             echo "<p>Aucun modèle trouvé pour les critères de recherche donnés.</p>";
+            $vide = true;
         }
    
+    if ($vide == false) {
     echo '<div class="pagination">';
     echo '<div class="bouton-pagination">';
     $queryString = build_query_string($search_params);
@@ -167,6 +170,7 @@ $vehicules = json_decode($json_data, true);
 
     echo '</div>';
     echo '</div>';
+    }
     ?>
 </div>
 
