@@ -11,6 +11,7 @@ header {
     width: 96%;
     margin-left: 1%;
     position: fixed;
+    z-index: 10;
 }
 
 .container {
@@ -274,10 +275,12 @@ main {
     text-align:center
 }
 .liste-marques{
-    float: right;
+    right: 0;
     width: 29%;
     border-left: 2px solid black;
-    
+    overflow-y: scroll;
+    position: absolute;
+    height: 87%;
 }
 .liste-marques li{
     margin-bottom: 30px;
@@ -292,20 +295,71 @@ main {
 }
 
 .ajouter-marque{
-    position: fixed;
     width: 50%;
+    padding-left: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
+.ajouter-marque div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.ajouter-marque input{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
+    border-radius: 10px;
+    border: #969696 solid 2px;
+}
+.ajouter-marque label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.ajouter-marque #url_logo_marque{
+    width: 500px;
+}
+.ajouter-marque textarea{
+    margin-top: 10px;
+    width: 600px;
+    height: 180px;
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
+    border-radius: 10px;
+    border: #969696 solid 2px;
+    resize: none;
+}
+.ajouter-marque #submit{
+    width: 300px;
+    background-color: #ffffff;
+    color: #424242;
+    border: #969696 solid 2px;
+    cursor: pointer;
+    transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease;
+    font-weight: bold;
+}
+.ajouter-marque #submit:hover{
+    background-color: #424242;
+    color: #ffffff;
+    border: #424242 solid 2px;
+}
+.ajouter-marque a{
+    margin-left: 20px;
+    color: #424242;
+    font-size: 20px;
+    font-weight: bold;
+    transition: font-size 0.4s ease, font-weight 0.4s ease;
+}
+.ajouter-marque a:hover{
+    font-size: 22px;
+    font-weight: bold;
+}
 .liste-users{
     float: left;
     width: 60%;
@@ -314,12 +368,29 @@ main {
 .liste-users li{
     margin-bottom: 30px;
     list-style: none;
-    margin-left: 25%;
+    border-bottom: #969696 1px solid;
+    width: 80%;
+    height: 50px;
+}
+.liste-users a{
+    color: #424242;
+    float: right;
 }
 .ajouter-users{
     float: right;
     width: 39%;
 }
+
+
+
+
+
+
+
+
+
+
+
 .bouton-ajouter{
     width: 260px;
     height: 50px;

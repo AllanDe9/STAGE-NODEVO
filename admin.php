@@ -111,6 +111,14 @@ $vehicules = json_decode($json_data, true);
                             exit;
                         }
                         ?>
+                    <div class="ajouter-marque">
+                        <a href="/administrateur/marques">< Retour</a>
+                        <div>
+                            <?php 
+                            echo'<img src='.$marque['url_logo_marque'].'>';
+                            echo '<h1>'.$marque['nom_marque'].'</h1>';
+                            ?>
+                        </div>
                         <form method="post">
                             <input type="hidden" name="num_marque" value="<?php echo $marque['num_marque']; ?>">
 
@@ -123,8 +131,9 @@ $vehicules = json_decode($json_data, true);
                             <label for="descri_marque">Description :</label><br>
                             <textarea id="descri_marque" name="descri_marque" rows="4" required><?php echo $marque['descri_marque']; ?></textarea><br><br>
 
-                            <input type="submit" value="Enregistrer les modifications">
+                          <input type="submit" id="submit" value="Enregistrer les modifications">
                         </form>
+                    </div>
                 <?php    
                 } else {
                 ?>
@@ -180,23 +189,6 @@ $vehicules = json_decode($json_data, true);
                 <?php } ?>
             </div>
             <?php
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
         if ($_GET['select'] == "modeles") {
             ?>
@@ -307,9 +299,9 @@ $vehicules = json_decode($json_data, true);
                         echo "<ul>";
                         foreach ($listeusers as $unuser) {
                             echo "<li>";
-                            echo "Nom: " . htmlspecialchars($unuser['nom']) . "<br>";
-                            echo "Prénom: " . htmlspecialchars($unuser['prenom']) . "<br>";
-                            echo "Email: " . htmlspecialchars($unuser['email']) . "<br>";
+                            echo htmlspecialchars($unuser['nom']).' '.htmlspecialchars($unuser['prenom']).' - ';
+                            echo htmlspecialchars($unuser['email']);
+                            echo "<a href='?delete=".$unuser['email']."'>Supprimer</a>";
                             echo "</li>";
                         }
                         echo "</ul>";
@@ -361,7 +353,7 @@ $vehicules = json_decode($json_data, true);
                             <label for="password">Mot de passe :</label>
                             <input type="password" id="password" name="password" required>
                             <br>
-                            <button type="submit">S'inscrire</button>
+                            <button type="submit" id="submit">S'inscrire</button>
                         </form>
                         <p><?php echo htmlspecialchars($error); ?></p>
                 </div>
