@@ -7,6 +7,10 @@ switch ($uri_segments[0]) {
         require __DIR__ . '/accueil.php';
         break;
     case 'modeles':
+        if (isset($uri_segments[1])) {
+            $id = $uri_segments[1];
+            $_GET['page'] = $id;  
+        }
         require __DIR__ . '/tous_les_modeles.php';
         break;
     case 'recherche':
@@ -19,22 +23,22 @@ switch ($uri_segments[0]) {
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
             $_GET['modele'] = $id;
-            require __DIR__ . '/formulaire.php';
         }
+        require __DIR__ . '/formulaire.php';
         break;
     case 'detail':
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
             $_GET['modele'] = $id;
-            require __DIR__ . '/modele.php';
         }
+        require __DIR__ . '/modele.php';
         break;
     case 'marque':
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
-            $_GET['marque'] = $id;
-            require __DIR__ . '/marque.php';
+            $_GET['marque'] = $id; 
         }
+        require __DIR__ . '/marque.php';
         break;
     case 'connexion':
         require __DIR__ . '/requetes/connexion.php';
@@ -46,10 +50,16 @@ switch ($uri_segments[0]) {
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
             $_GET['select'] = $id;
-            require __DIR__ . '/admin.php';
-        }else {
-            require __DIR__ . '/admin.php';
+            if (isset($uri_segments[2])) {
+                $id2 = $uri_segments[2];
+                if ($id == "marques"){
+                    $_GET['marque'] = $id2;
+                } else {
+                    $_GET['page'] = $id2;
+                }
+            }
         }
+            require __DIR__ . '/admin.php';
         break;
     default:
         echo "Page non trouvée";
