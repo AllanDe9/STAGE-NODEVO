@@ -1,5 +1,5 @@
 <?php
-$json_data = file_get_contents('data.json');
+$json_data = file_get_contents('../requetes/data.json');
 $vehicules = json_decode($json_data, true);
 ?>
 <!DOCTYPE html>
@@ -8,7 +8,7 @@ $vehicules = json_decode($json_data, true);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage Cars</title>
-    <link rel="stylesheet"  href="../style/style.css">
+    <link rel="stylesheet"  href="../style.css">
 </head>
 <body>
     <header>

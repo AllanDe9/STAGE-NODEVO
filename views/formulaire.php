@@ -1,5 +1,5 @@
 <?php
-$json_file = 'data.json';
+$json_file = '../requetes/data.json';
 $vehicules = json_decode(file_get_contents($json_file), true);
 ?>
 <!DOCTYPE html>
@@ -8,7 +8,7 @@ $vehicules = json_decode(file_get_contents($json_file), true);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage Cars</title>
-    <link rel="stylesheet"  href="../style/style.css">
+    <link rel="stylesheet"  href="../style.css">
 </head>
 <body>
     <header>
@@ -203,7 +203,7 @@ $vehicules = json_decode(file_get_contents($json_file), true);
             }
             if (!empty($erreurs)) { 
             } else {
-                file_put_contents('data.json', json_encode($vehicules, JSON_PRETTY_PRINT));
+                file_put_contents('../requetes/data.json', json_encode($vehicules, JSON_PRETTY_PRINT));
                 echo "<h2>Le modèle a été ajouté avec succès!</h2>";
                 echo'<a class="retour" href="/modeles">Retour</a>';
                 exit;
