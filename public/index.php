@@ -2,11 +2,7 @@
 session_start();
 require_once __DIR__ . '/../autoload.php';
 
-use App\Controllers\ModeleController;
-use App\Controllers\ModelesController;
-use App\Controllers\MarqueController;
-use App\Controllers\AdminController;
-use App\Controllers\FormController;
+use App\Controllers\Controller;
 
 $request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $uri_segments = explode('/', trim($request_uri, '/'));
@@ -16,43 +12,43 @@ switch ($uri_segments[0]) {
         require __DIR__ . '../../views/accueil.php';
         break;
     case 'modeles':
-        $modelesController = new ModelesController();
+        $Controller = new Controller();
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
-            $modelesController->afficherTousLesModelesPage($id);
+            $Controller->afficherTousLesModelesPage($id);
         } else {
-            $modelesController->afficherTousLesModeles();
+            $Controller->afficherTousLesModeles();
         }
         break;
     case 'recherche':
-        $modelesController = new ModelesController();
-        $modelesController->afficherTousLesModeles();
+        $Controller = new Controller();
+        $Controller->afficherTousLesModeles();
         break;
     case 'ajouter':
-        $FormController = new FormController();
-        $FormController->afficherAjouter();
+        $Controller = new Controller();
+        $Controller->afficherAjouter();
         break;
     case 'modifier':
-        $FormController = new FormController();
+        $Controller = new Controller();
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
-            $FormController->afficherModifier($id);
+            $Controller->afficherModifier($id);
         } else {
-            $FormController->afficherAjouter();
+            $Controller->afficherAjouter();
         }
         break;
     case 'detail':
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
-            $modeleController = new ModeleController();
-            $modeleController->afficherModele($id);
+            $Controller = new Controller();
+            $Controller->afficherModele($id);
         }
         break;
     case 'marque':
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
-            $marqueController = new MarqueController();
-            $marqueController->afficherMarque($id);
+            $Controller = new Controller();
+            $Controller->afficherMarque($id);
         }
         break;
     case 'connexion':
@@ -62,21 +58,21 @@ switch ($uri_segments[0]) {
         require __DIR__ . '/../requetes/deconnexion.php';
         break;
     case 'administrateur':
-        $adminController = new AdminController();
+        $Controller = new Controller();
         if (isset($uri_segments[1])) {
             $select = $uri_segments[1];
             if (isset($uri_segments[2])) {
                 $id = $uri_segments[2];
-                $adminController->afficherAdminMarque($select, $id);
+                $Controller->afficherAdminDouble($select, $id);
             } else {
-                $adminController->afficherAdmin($select);
+                $Controller->afficherAdmin($select);
             }    
         } else {
-            $adminController->afficherMenuAdmin();
+            $Controller->afficherMenuAdmin();
         }
         break;
     default:
         echo "Page non trouvée";
         break;
 }
-?>
+
