@@ -4,7 +4,7 @@ if (!isset($_SESSION['user'])) {
     header('Location: /');
     exit();
 }
-$json_data = file_get_contents('data.json');
+$json_data = file_get_contents('../requetes/data.json');
 $vehicules = json_decode($json_data, true);
 ?>
 <!DOCTYPE html>
@@ -13,7 +13,7 @@ $vehicules = json_decode($json_data, true);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage Cars</title>
-    <link rel="stylesheet"  href="../../style/style.css">
+    <link rel="stylesheet"  href="../../style.css">
 </head>
 <body>
     <header>
@@ -88,7 +88,7 @@ $vehicules = json_decode($json_data, true);
                         
                         
                         $new_json = json_encode($vehicules, JSON_PRETTY_PRINT);
-                        file_put_contents('data.json', $new_json);
+                        file_put_contents('../requetes/data.json', $new_json);
                         
                       
                         header("Location: " . $_SERVER['REQUEST_URI']);
@@ -165,7 +165,7 @@ $vehicules = json_decode($json_data, true);
                         $vehicules['marques'][] = $nouvelle_marque;
 
                         $new_json_data = json_encode($vehicules, JSON_PRETTY_PRINT);
-                        file_put_contents('data.json', $new_json_data);
+                        file_put_contents('../requetes/data.json', $new_json_data);
 
                         header("Location: " . $_SERVER['REQUEST_URI']);
                         exit;
@@ -279,7 +279,7 @@ $vehicules = json_decode($json_data, true);
                     }
                 }
             }
-            file_put_contents('data.json', json_encode($vehicules, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            file_put_contents('../requetes/data.json', json_encode($vehicules, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
             $urlWithoutQuery = strtok($_SERVER["REQUEST_URI"], '?');
             ?>
              <script>
@@ -293,7 +293,7 @@ $vehicules = json_decode($json_data, true);
             <div class="admin-users">
                 <div class="liste-users">
                     <?php
-                    $jsonData = file_get_contents('users.json');
+                    $jsonData = file_get_contents('../requetes/users.json');
                     $listeusers = json_decode($jsonData, true);
                     if (json_last_error() === JSON_ERROR_NONE) {
                         echo "<ul>";
@@ -312,7 +312,7 @@ $vehicules = json_decode($json_data, true);
                 </div>
                 <div class="ajouter-users">
                 <?php
-                    require __DIR__ . '/requetes/fonctions.php';
+                    require __DIR__ . '/../requetes/fonctions.php';
 
                     $error = '';
 
