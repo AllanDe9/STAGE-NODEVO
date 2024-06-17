@@ -380,17 +380,6 @@ main {
     float: right;
     width: 39%;
 }
-
-
-
-
-
-
-
-
-
-
-
 .bouton-ajouter{
     width: 260px;
     height: 50px;
@@ -638,9 +627,6 @@ a{
     color: #ffffff;
     background-color: #424242;
 }
-
-
-
 .accueil-admin{
     display: flex;
     flex-direction: column;
@@ -688,8 +674,71 @@ a{
     color: #424242;
     background-color: #ffffff;
 }
+.nouveau{
+    float: right;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 1200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.accueil{
+    position: fixed;
+    float: left;
+    width: 69%;
+    padding-left: -20px;
+    height: 88%;
+}
+.slideshow-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    overflow: hidden;
+}
+.mySlides {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 
+.fade {
+    animation: fadeEffect 10s ease-in-out;
+}
 
+@keyframes fadeEffect {
+    0% {opacity: 0;}
+    1% {opacity: 1;}
+    99% {opacity: 1;}
+    100% {opacity: 0;}
+}
+.info-site{
+    position: absolute;
+    border: #424242 solid 3px;
+    bottom: 0;
+    background-color: white;
+}
+.info-site p{
+    margin-left: 15px;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.info-site .decale{
+    margin-left: 65px;
+}
+.info-site h2{
+    margin-left: 15px;
+}
+.main-admin{
+    padding-left: 0;
+}
 
 
 
