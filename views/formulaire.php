@@ -1,7 +1,3 @@
-<?php
-$json_file = '../requetes/data.json';
-$vehicules = json_decode(file_get_contents($json_file), true);
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
