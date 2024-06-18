@@ -4,7 +4,7 @@
             "num_marque": 1,
             "nom_marque": "Alfa Romeo",
             "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/fr\/thumb\/1\/16\/Logo_Alfa_Romeo_%282015%29.svg\/langfr-140px-Logo_Alfa_Romeo_%282015%29.svg.png",
-            "descri_marque": "Alfa Romeo est un constructeur automobile italien fond\u00e9 le 24 juin 1910 \u00e0 Milan, filiale du groupe Stellantis depuis janvier 2021 apr\u00e8s avoir fait partie du groupe Fiat SpA et du groupe Fiat Chrysler Automobiles (FCA) de 2014 \u00e0 2021. Il \u00e9tait auparavant la propri\u00e9t\u00e9 de l'\u00c9tat italien, \u00e0 travers sa holding publique IRI, de 1933 \u00e0 1986. ",
+            "descri_marque": "Alfa Romeo est un constructeur automobile italien fondé le 24 juin 1910 à Milan, filiale du groupe Stellantis depuis janvier 2021 après avoir fait partie du groupe Fiat SpA et du groupe Fiat Chrysler Automobiles (FCA) de 2014 à 2021. Il était auparavant la propriété de l'État italien, à travers sa holding publique IRI, de 1933 à 1986. ",
             "modeles": [
                 {
                     "num_modele": 1,
@@ -17,20 +17,7 @@
                     "puissance_min": 95,
                     "prix_neuf": 28000,
                     "prix_actuel": 20000,
-                    "description": "L'Alfa Rom\u00e9o Spider est un petit cabriolet sportif des ann\u00e9es 60 qui resta au catalogue du constructeur milanais durant plus de 30 ans. Fleuron de la marque \u00e0 sa sortie, elle est aujourd'hui une ic\u00f4ne des cabriolets italiens."
-                },
-                {
-                    "num_modele": 2,
-                    "nom_modele": "Giulia",
-                    "url_photo": "",
-                    "annee_debut": 1973,
-                    "annee_fin": 1976,
-                    "nbr_produit": 16000,
-                    "puissance_max": 125,
-                    "puissance_min": 82,
-                    "prix_neuf": 35000,
-                    "prix_actuel": 50000,
-                    "description": "L'Alfa Rom\u00e9o giulia..."
+                    "description": "L'Alfa Roméo Spider est un petit cabriolet sportif des années 60 qui resta au catalogue du constructeur milanais durant plus de 30 ans. Fleuron de la marque à sa sortie, elle est aujourd'hui une icône des cabriolets italiens."
                 }
             ]
         },
@@ -160,7 +147,7 @@
                     "puissance_min": 20,
                     "prix_neuf": 8000,
                     "prix_actuel": 13000,
-                    "description": "L'iconique Fiat 500 des ann\u00e9es 50"
+                    "description": "L'iconique Fiat 500 des années 50"
                 }
             ]
         },
@@ -198,7 +185,7 @@
                     "puissance_min": 269,
                     "prix_neuf": 335000,
                     "prix_actuel": 85000,
-                    "description": "La sportive anglaise des ann\u00e9es 60..."
+                    "description": "La sportive anglaise des années 60..."
                 }
             ]
         },
@@ -338,7 +325,7 @@
                     "puissance_min": 250,
                     "prix_neuf": 60000,
                     "prix_actuel": 80000,
-                    "description": "La 911 des ann\u00e9es 90..."
+                    "description": "La 911 des années 90..."
                 }
             ]
         },

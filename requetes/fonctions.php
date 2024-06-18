@@ -24,6 +24,6 @@ function findEmail($email) {
             return $user;
         }
     }
+    
     return null;
 }
-?>
