@@ -298,11 +298,14 @@ main {
     width: 50%;
     padding-left: 30px;
 }
+.ajouter-marque img{
+    width: 150px;
+    margin-right: 25px;
+}
 .ajouter-marque div{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 400px;
+    width: 500px;
     margin-bottom: 30px;
     margin-top: 20px;
 }

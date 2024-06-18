@@ -4,6 +4,7 @@ if (!isset($_SESSION['user'])) {
     header('Location: /');
     exit();
 }
+use App\Controllers\User;
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -43,6 +44,7 @@ if (!isset($_SESSION['user'])) {
     <?php 
     if (isset($_GET['select'])) {
         if ($_GET['select'] == "marques") {
+            $vehicules = data();
             ?>
             <div class="admin-marques">
                 <div class="liste-marques">
@@ -55,7 +57,7 @@ if (!isset($_SESSION['user'])) {
                     </ul>
                 </div>
                 <?php 
-                    if (isset($_GET['marque'])) {
+                    if (isset($get['marque'])) {
 
                         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             
@@ -93,7 +95,7 @@ if (!isset($_SESSION['user'])) {
                         exit;
                     }
 
-                        $num_marque = $_GET['marque'];
+                        $num_marque = $get['marque'];
                         
 
                         $marque = null;
@@ -189,19 +191,19 @@ if (!isset($_SESSION['user'])) {
             <?php
         }
         if ($_GET['select'] == "modeles") {
+            $vehicules = data();
             ?>
             <div class="admin-modeles">
             <div class="liste-modeles-admin">
                 <?php
                  $modelsParPage = 9;
                  $totalModels = 0;
-
                  foreach ($vehicules['marques'] as $marque) {
                     $totalModels += count($marque['modeles']);
                 }
 
                 $totalPages = ceil($totalModels / $modelsParPage);
-                $currentPage = isset($_GET['page']) ? $_GET['page'] : 1;
+                $currentPage = isset($get['page']) ? $get['page'] : 1;
                 $currentPage = max(1, min($currentPage, $totalPages)); 
                 $start = ($currentPage - 1) * $modelsParPage;
                 $end = $start + $modelsParPage;
@@ -291,51 +293,12 @@ if (!isset($_SESSION['user'])) {
             <div class="admin-users">
                 <div class="liste-users">
                     <?php
-                    $jsonData = file_get_contents('../requetes/users.json');
-                    $listeusers = json_decode($jsonData, true);
-                    if (json_last_error() === JSON_ERROR_NONE) {
-                        echo "<ul>";
-                        foreach ($listeusers as $unuser) {
-                            echo "<li>";
-                            echo htmlspecialchars($unuser['nom']).' '.htmlspecialchars($unuser['prenom']).' - ';
-                            echo htmlspecialchars($unuser['email']);
-                            echo "<a href='?delete=".$unuser['email']."'>Supprimer</a>";
-                            echo "</li>";
-                        }
-                        echo "</ul>";
-                    } else {
-                        echo "Erreur lors de la lecture des données JSON.";
-                    }
+                   User::afficherUtilisateur();
                     ?>
                 </div>
                 <div class="ajouter-users">
                 <?php
-                    require __DIR__ . '/../requetes/fonctions.php';
-
-                    $error = '';
-
-                    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                        $nom = $_POST['nom'];
-                        $prenom = $_POST['prenom'];
-                        $email = $_POST['email'];
-                        $password = $_POST['password'];
-
-                        $existingUser = findEmail($email);
-
-                        if ($existingUser) {
-                            $error = 'Un utilisateur avec cet email existe déjà';
-                        } else {
-                            $newUser = [
-                                'nom' => $nom,
-                                'prenom' => $prenom,
-                                'email' => $email,
-                                'password' => password_hash($password, PASSWORD_DEFAULT)
-                            ];
-                            saveUser($newUser);
-                            header("Location: " . $_SERVER['REQUEST_URI']);
-
-                        }
-                    }
+                   User::saveUtilisateur();
                     ?>
                         <h2>Inscription</h2>
                         <form method="post">
@@ -353,7 +316,11 @@ if (!isset($_SESSION['user'])) {
                             <br>
                             <button type="submit" id="submit">S'inscrire</button>
                         </form>
-                        <p><?php echo htmlspecialchars($error); ?></p>
+                        <p>
+                            <?php 
+                            echo User::errorSave();
+                            ?>
+                        </p>
                 </div>
             </div>
             <?php

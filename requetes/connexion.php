@@ -1,21 +1,6 @@
 <?php
-require 'fonctions.php';
-
-$error = '';
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $email = $_POST['email'];
-    $password = $_POST['password'];
-
-    $user = findEmail($email);
-    if ($user && password_verify($password, $user['password'])) {
-        $_SESSION['user'] = $user;
-        header('Location: /administrateur');
-        exit();
-    } else {
-        $error = 'Email ou mot de passe incorrect';
-    }
-}
+use App\Controllers\User;
+$error = User::Login();
 ?>
 
 <!DOCTYPE html>

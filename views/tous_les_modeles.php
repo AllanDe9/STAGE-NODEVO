@@ -19,6 +19,7 @@
                         <a id="bouton" class="bouton" tabindex="0">Marques</a>
                         <div class="menu" id="menu">
                           <?php 
+                            $vehicules = data();
                             foreach ($vehicules['marques'] as $marque) {
                                 echo '<a href="/marque/'.$marque['num_marque'].'">'.$marque['nom_marque'].'</a>';
                             }
@@ -79,7 +80,6 @@
         $annee_recherche = isset($_POST['annee']) ? $_POST['annee'] : '';
     
     
-        
         foreach ($vehicules['marques'] as $marque) {
             if ($marque_recherche === 'Toutes' || $marque['num_marque'] == $marque_recherche) {
                 $modeles_filtrés = filter_modeles($marque['modeles'], $modele_recherche, $annee_recherche);

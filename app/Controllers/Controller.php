@@ -8,50 +8,68 @@ class Controller {
     }
     public function afficherMenuAdmin() {
 
-        require $this->basePath. '/views/admin.php';
+        ob_start();
+        include $this->basePath. '/views/admin.php';
+        return ob_get_clean();
     }
 
-    public function afficherAdminDouble($get, $select, $id) {
+    public function afficherAdminDouble($select, $id) {
 
         if ($select == 'marques') {
             $get['marque'] = $id;
         } else {
             $get['page'] = $id;
         }
-        $get['select'] = $select;
-        require $this->basePath. '/views/admin.php';
+        $_GET['select'] = $select;
+        ob_start();
+        include $this->basePath. '/views/admin.php';
+        return ob_get_clean();
     }
     public function afficherAdmin($select) {
 
         $_GET['select'] = $select;
-        require $this->basePath. '/views/admin.php';
+        ob_start();
+        include $this->basePath. '/views/admin.php';
+        return ob_get_clean();
     }
     public function afficherAjouter() {
 
-        require $this->basePath. '/views/formulaire.php';
+        ob_start();
+        include $this->basePath. '/views/formulaire.php';
+        return ob_get_clean();
     }
     public function afficherModifier($id) {
 
         $_GET['modele']= $id;
-        require $this->basePath. '/views/formulaire.php';
+        ob_start();
+        include $this->basePath. '/views/formulaire.php';
+        return ob_get_clean();
     }
     public function afficherMarque($id) {
 
         $_GET["marque"] = $id;
-        require $this->basePath. '/views/marque.php';
+        ob_start();
+        include $this->basePath. '/views/marque.php';
+        return ob_get_clean();
     }
     public function afficherModele($id) {
 
         $_GET['modele']= $id;
-        require $this->basePath. '/views/modele.php';
+        ob_start();
+        include $this->basePath. '/views/modele.php';
+        return ob_get_clean();
     }
     public function afficherTousLesModeles() {
 
-        require $this->basePath. '/views/tous_les_modeles.php';
+        ob_start();
+        include $this->basePath. '/views/tous_les_modeles.php';
+        return ob_get_clean();
     }
     public function afficherTousLesModelesPage($id) {
 
         $_GET['page'] = $id;
-        require $this->basePath. '/views/tous_les_modeles.php';
+        ob_start();
+        include $this->basePath. '/views/tous_les_modeles.php';
+        return ob_get_clean();
     }
 }

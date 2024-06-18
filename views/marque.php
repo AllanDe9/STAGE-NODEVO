@@ -20,6 +20,7 @@
                         <a id="bouton" class="bouton" tabindex="0">Marques</a>
                         <div class="menu" id="menu">
                           <?php 
+                            $vehicules = data();
                             foreach ($vehicules['marques'] as $marque) {
                                 echo '<a href="/marque/'.$marque['num_marque'].'">'.$marque['nom_marque'].'</a>';
                             }
@@ -33,9 +34,7 @@
     <main>
     <?php
             $num_marque = isset($_GET['marque']) ? (int) $_GET['marque'] : 0;
-
             if ($num_marque) {
-
                 $marque = null;
                 foreach ($vehicules['marques'] as $m) {
                     if ($m['num_marque'] == $num_marque) {
