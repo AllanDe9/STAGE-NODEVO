@@ -4,8 +4,6 @@ if (!isset($_SESSION['user'])) {
     header('Location: /');
     exit();
 }
-$json_data = file_get_contents('../requetes/data.json');
-$vehicules = json_decode($json_data, true);
 ?>
 <!DOCTYPE html>
 <html lang="fr">
