@@ -3,10 +3,14 @@ session_start();
 require_once dirname(__DIR__) . '/autoload.php';
 
 use App\Controllers\ControllerPage;
+use App\Controllers\dataController;
+
+$dataController = new dataController();
+$Controller = new ControllerPage(dirname(__DIR__));
 
 $request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $uri_segments = explode('/', trim($request_uri, '/'));
-$Controller = new ControllerPage(dirname(__DIR__));
+
 switch ($uri_segments[0]) {
     case '':
         $content = include dirname(__DIR__) . '/views/accueil.php';
@@ -56,9 +60,9 @@ switch ($uri_segments[0]) {
                 $select = $uri_segments[1];
                 if (isset($uri_segments[2])) {
                     $id = $uri_segments[2];
-                    $content = $Controller->afficherAdminDouble($select, $id);
+                    $content = $Controller->afficherAdminDouble($select, $id, $dataController);
                 } else {
-                    $content = $Controller->afficherAdmin($select);
+                    $content = $Controller->afficherAdmin($select, $dataController);
                 }  
             }  else {
                 $content = $Controller->afficherMenuAdmin();

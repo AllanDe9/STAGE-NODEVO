@@ -8,6 +8,7 @@ use App\Controllers\User;
 use App\Controllers\Modele;
 use App\Controllers\Marque;
 use App\Controllers\Catalogue;
+use App\Controllers\dataController;
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -53,13 +54,13 @@ use App\Controllers\Catalogue;
             <div class="admin-users">
                 <div class="liste-users">
                     <?php
-                   User::afficherUtilisateur();
+                    $dataController->afficherUtilisateur();
                     ?>
                 </div>
                 <div class="ajouter-users">
                 <?php
-                   User::saveUtilisateur();
-                   User::Supprimer();
+                    $error = $dataController->saveUtilisateur();
+                    $dataController->supprimerUser();
                     ?>
                         <h2>Inscription</h2>
                         <form method="post">
@@ -79,7 +80,7 @@ use App\Controllers\Catalogue;
                         </form>
                         <p>
                             <?php 
-                            echo User::errorSave();
+                            echo $error
                             ?>
                         </p>
                 </div>

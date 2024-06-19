@@ -36,7 +36,7 @@ use App\Controllers\Catalogue;
     <main class="main-admin">
         <div class="nouveau">
         <?php
-            Catalogue::afficher3Modele()
+            Catalogue::afficher3Modele();
             ?>
         </div>
         <div class="accueil">

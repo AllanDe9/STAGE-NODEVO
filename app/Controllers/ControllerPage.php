@@ -13,7 +13,7 @@ class ControllerPage {
         return ob_get_clean();
     }
 
-    public function afficherAdminDouble($select, $id) {
+    public function afficherAdminDouble($select, $id, $Controller) {
 
         if ($select == 'marques') {
             $get['marque'] = $id;
@@ -22,14 +22,16 @@ class ControllerPage {
         }
         $_GET['select'] = $select;
         ob_start();
+        $dataController = $Controller;
         include $this->basePath. '/views/admin.php';
         return ob_get_clean();
     }
-    public function afficherAdmin($select) {
+    public function afficherAdmin($select,$Controller) {
 
         $get['marque'] = null;
         $_GET['select'] = $select;
         ob_start();
+        $dataController = $Controller;
         include $this->basePath. '/views/admin.php';
         return ob_get_clean();
     }
