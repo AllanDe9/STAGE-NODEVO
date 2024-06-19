@@ -73,6 +73,7 @@ class User {
             echo "<li>";
             echo htmlspecialchars($utilisateur->getNom()) . ' ' . htmlspecialchars($utilisateur->getPrenom()) . ' - ';
             echo htmlspecialchars($utilisateur->getEmail());
+            echo '<a href=/administrateur/users?delete='.$utilisateur->getEmail().'>Supprimer</a>';
             echo "</li>";
         }
         echo "</ul>";
@@ -145,7 +146,20 @@ class User {
             }
         }   return $error;
     }
+    public static function Supprimer() {
+        if (isset($_GET['delete'])) {
+            $emailToDelete = $_GET['delete'];
+            $users = self::getUtilisateurs();
+            $updatedUsers = [];
+           
+            foreach ($users as $user) {
+                if ($user['email'] !== $emailToDelete) {
+                    $updatedUsers[] = $user;
+                }
+            }            
+            self::saveUsers($updatedUsers);
+            header('Location: /administrateur/users');
+            exit();
+        }
+    }
 }
-
-
-

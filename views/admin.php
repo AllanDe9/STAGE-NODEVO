@@ -299,6 +299,7 @@ use App\Controllers\User;
                 <div class="ajouter-users">
                 <?php
                    User::saveUtilisateur();
+                   User::Supprimer();
                     ?>
                         <h2>Inscription</h2>
                         <form method="post">
