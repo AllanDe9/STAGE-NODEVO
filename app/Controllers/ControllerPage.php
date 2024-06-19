@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Controller {
+class ControllerPage {
     public function __construct(private string $basePath) {
 
     }
@@ -27,6 +27,7 @@ class Controller {
     }
     public function afficherAdmin($select) {
 
+        $get['marque'] = null;
         $_GET['select'] = $select;
         ob_start();
         include $this->basePath. '/views/admin.php';

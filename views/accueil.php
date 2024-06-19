@@ -1,3 +1,8 @@
+<?php
+use App\Controllers\Modele;
+use App\Controllers\Marque;
+use App\Controllers\Catalogue;
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -20,10 +25,7 @@
                         <a id="bouton" class="bouton" tabindex="0">Marques</a>
                         <div class="menu" id="menu">
                           <?php 
-                            $vehicules = data();
-                            foreach ($vehicules['marques'] as $marque) {
-                                echo '<a href="/marque/'.$marque['num_marque'].'">'.$marque['nom_marque'].'</a>';
-                            }
+                            Catalogue::afficherMarques()
                           ?>
                         </div>
                     </li>
@@ -34,33 +36,7 @@
     <main class="main-admin">
         <div class="nouveau">
         <?php
-                $count = 1;
-                foreach ($vehicules['marques'] as $marque) {
-                    foreach ($marque['modeles'] as $modele) {
-                            if ($count < 4 ) {
-                            
-                            echo '<div class="modele">';
-                          
-                            if (empty($modele['url_photo'])) {
-                                echo '<img src="https://thumbs.dreamstime.com/b/sch%C3%A9ma-voiture-48227977.jpg" alt="' . $modele['nom_modele'] . '">';
-                            }
-                            else {
-                                echo '<img src="' . $modele['url_photo'].'" alt="' . $modele['nom_modele'] . '">';
-                            }
-                            echo '<div class="info-modele"><p>' . $marque['nom_marque'] .' - '.$modele['nom_modele'] .' - '.$modele['annee_debut'] . '</p></div>';
-        
-                            echo '<div class="outils-modele"><p><a href="/modifier/'.$modele['num_modele'].'">Modifier</a>'.' - '.'<a href="/detail/'.$modele['num_modele'].'">Voir plus</a>'.' - '.'<a href="/marque/'.$marque['num_marque'].'">Voir la marque</a></p></div>';
-
-                            
-                            echo '</div>'; 
-                            $count++;
-                            } else {
-                                break;
-                            }
-                        }
-                        }
-
-            echo '</div>'; 
+            Catalogue::afficher3Modele()
             ?>
         </div>
         <div class="accueil">

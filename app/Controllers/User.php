@@ -52,10 +52,6 @@ class User {
         $this->password = $password;
     }
 
-    public function __toString() {
-        return sprintf("Utilisateur(nom: %s, prenom: %s)", $this->nom, $this->prenom);
-    }
-
     public static function afficherUtilisateur() {
         $utilisateurs = [];
         $tableauUsers = self::getUtilisateurs();

@@ -2,16 +2,11 @@
 session_start();
 require_once dirname(__DIR__) . '/autoload.php';
 
-use App\Controllers\Controller;
-
-function data() {
-    $json_data = file_get_contents('../requetes/data.json');
-    return json_decode($json_data, true);
-}
+use App\Controllers\ControllerPage;
 
 $request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $uri_segments = explode('/', trim($request_uri, '/'));
-$Controller = new Controller(dirname(__DIR__));
+$Controller = new ControllerPage(dirname(__DIR__));
 switch ($uri_segments[0]) {
     case '':
         $content = include dirname(__DIR__) . '/views/accueil.php';
