@@ -81,4 +81,25 @@ class ControllerPage {
         include $this->basePath. '/views/tous_les_modeles.php';
         return ob_get_clean();
     }
+    public function afficherAccueil($Controller) {
+
+        ob_start();
+        $dataController = $Controller;
+        include $this->basePath. '/views/accueil.php';
+        return ob_get_clean();
+    }
+    public function afficherConnexion($Controller) {
+
+        ob_start();
+        $dataController = $Controller;
+        include $this->basePath. '/requetes/connexion.php';
+        return ob_get_clean();
+    }
+    public function afficherDeconnexion($Controller) {
+
+        ob_start();
+        $dataController = $Controller;
+        include $this->basePath. '/requetes/deconnexion.php';
+        return ob_get_clean();
+    }
 }

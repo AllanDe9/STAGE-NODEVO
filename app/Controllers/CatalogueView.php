@@ -10,23 +10,31 @@ class CatalogueView {
     }
 
     public function display3Modeles($vehicules) {
-        $count = 1;
+        $modeles = [];
         foreach ($vehicules['marques'] as $marque) {
             foreach ($marque['modeles'] as $modele) {
-                if ($count < 4) {
-                    echo '<div class="modele">';
-                    $this->displayModelePhoto($modele);
-                    echo '<div class="info-modele"><p>' . htmlspecialchars($marque['nom_marque']) .' - '. htmlspecialchars($modele['nom_modele']) .' - '. htmlspecialchars($modele['annee_debut']) . '</p></div>';
-                    echo '<div class="outils-modele"><p><a href="/modifier/'. htmlspecialchars($modele['num_modele']) .'">Modifier</a>'.' - '.'<a href="/detail/'. htmlspecialchars($modele['num_modele']) .'">Voir plus</a>'.' - '.'<a href="/marque/'. htmlspecialchars($marque['num_marque']) .'">Voir la marque</a></p></div>';
-                    echo '</div>'; 
-                    $count++;
-                } else {
-                    break;
-                }
+                $modeles[] = $modele;
+            }
+        }
+        shuffle($modeles);
+    
+        $count = 0;
+        echo '<div class="modele-container">';
+        foreach ($modeles as $modele) {
+            if ($count < 3) {
+                echo '<div class="modele">';
+                $this->displayModelePhoto($modele);
+                echo '<div class="info-modele"><p>' . htmlspecialchars($marque['nom_marque']) .' - '. htmlspecialchars($modele['nom_modele']) .' - '. htmlspecialchars($modele['annee_debut']) . '</p></div>';
+                echo '<div class="outils-modele"><p><a href="/modifier/'. htmlspecialchars($modele['num_modele']) .'">Modifier</a>'.' - '.'<a href="/detail/'. htmlspecialchars($modele['num_modele']) .'">Voir plus</a>'.' - '.'<a href="/marque/'. htmlspecialchars($marque['num_marque']) .'">Voir la marque</a></p></div>';
+                echo '</div>'; 
+                $count++;
+            } else {
+                break;
             }
         }
         echo '</div>'; 
     }
+    
 
     public function displayTousModeles($vehicules, $get) {
         echo '<div class="admin-modeles">';
@@ -88,6 +96,7 @@ class CatalogueView {
             if ($marqueRecherche === 'Toutes' || $marque['num_marque'] == $marqueRecherche) {
                 $modelesFiltres = Catalogue::filterModeles($marque['modeles'], $modeleRecherche, $anneeRecherche);
                 if (!empty($modelesFiltres)) {
+                    shuffle($modelesFiltres);
                     $resultats[] = [
                         'num_marque' => $marque['num_marque'],
                         'nom_marque' => $marque['nom_marque'],
@@ -98,11 +107,20 @@ class CatalogueView {
             }
         }
 
+       
+        if (!isset($_SESSION['shuffled_results'])) {
+            shuffle($resultats); 
+            $_SESSION['shuffled_results'] = $resultats; 
+        } else {
+            $resultats = $_SESSION['shuffled_results']; 
+        }
+
         $totalPages = ceil($totalModels / $modelsParPage);
         $currentPage = isset($_GET['page']) ? $_GET['page'] : 1;
         $currentPage = max(1, min($currentPage, $totalPages)); 
         $start = ($currentPage - 1) * $modelsParPage;
         $end = $start + $modelsParPage;
+
         echo '<div class="liste-modeles">';
         echo '<div class="row">';
         $modelsDisplayed = 0;
@@ -134,6 +152,8 @@ class CatalogueView {
         }
         echo '</div>';
     }
+
+        
 
     private function displayModelePhoto($modele) {
         if (empty($modele['url_photo'])) {

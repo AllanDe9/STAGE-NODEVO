@@ -13,7 +13,10 @@ $uri_segments = explode('/', trim($request_uri, '/'));
 
 switch ($uri_segments[0]) {
     case '':
-        $content = include dirname(__DIR__) . '/views/accueil.php';
+        $content = $Controller->afficherAccueil($dataController);
+        break;
+    case 'accueil':
+        $content = $Controller->afficherAccueil($dataController);
         break;
     case 'modeles':
         if (isset($uri_segments[1])) {
@@ -50,10 +53,10 @@ switch ($uri_segments[0]) {
             }
             break;
         case 'connexion':
-            $content = include dirname(__DIR__) . '/requetes/connexion.php';
+            $content = $Controller->afficherConnexion($dataController);
             break;
         case 'deconnexion':
-            $content = include dirname(__DIR__) . '/requetes/deconnexion.php';
+            $content = $Controller->afficherDeconnexion($dataController);
             break;
         case 'administrateur':
             if (isset($uri_segments[1])) {
