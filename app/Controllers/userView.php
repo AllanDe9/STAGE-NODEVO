@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class View {
+class userView {
     public function displayUsers($utilisateurs) {
         echo "<ul>";
         foreach ($utilisateurs as $utilisateur) {

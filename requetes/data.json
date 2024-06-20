@@ -18,19 +18,6 @@
                     "prix_neuf": 28000,
                     "prix_actuel": 20000,
                     "description": "L'Alfa Rom\u00e9o Spider est un petit cabriolet sportif des ann\u00e9es 60 qui resta au catalogue du constructeur milanais durant plus de 30 ans. Fleuron de la marque \u00e0 sa sortie, elle est aujourd'hui une ic\u00f4ne des cabriolets italiens."
-                },
-                {
-                    "num_modele": 2,
-                    "nom_modele": "Giulia",
-                    "url_photo": "",
-                    "annee_debut": 1973,
-                    "annee_fin": 1976,
-                    "nbr_produit": 16000,
-                    "puissance_max": 125,
-                    "puissance_min": 82,
-                    "prix_neuf": 35000,
-                    "prix_actuel": 50000,
-                    "description": "L'Alfa Rom\u00e9o giulia..."
                 }
             ]
         },

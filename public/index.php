@@ -18,35 +18,35 @@ switch ($uri_segments[0]) {
     case 'modeles':
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
-            $content = $Controller->afficherTousLesModelesPage($id);
+            $content = $Controller->afficherTousLesModelesPage($id, $dataController);
         } else {
-            $content = $Controller->afficherTousLesModeles();
+            $content = $Controller->afficherTousLesModeles($dataController);
         }
         break;
     case 'recherche':
-        $content = $Controller->afficherTousLesModeles();
+        $content = $Controller->afficherTousLesModeles($dataController);
         break;
     case 'ajouter':
-        $content = $Controller->afficherAjouter();
+        $content = $Controller->afficherAjouter($dataController);
         break;
     case 'modifier':
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
-            $content = $Controller->afficherModifier($id);
+            $content = $Controller->afficherModifier($id, $dataController);
         } else {
-            $content = $Controller->afficherAjouter();
+            $content = $Controller->afficherAjouter($dataController);
         }
         break;
         case 'detail':
             if (isset($uri_segments[1])) {
                 $id = $uri_segments[1];
-                $content = $Controller->afficherModele($id);
+                $content = $Controller->afficherModele($id, $dataController);
             }
             break;
         case 'marque':
             if (isset($uri_segments[1])) {
                 $id = $uri_segments[1];
-                $content = $Controller->afficherMarque($id);
+                $content = $Controller->afficherMarque($id, $dataController);
             }
             break;
         case 'connexion':

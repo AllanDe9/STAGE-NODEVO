@@ -25,7 +25,7 @@ use App\Controllers\Catalogue;
                         <a id="bouton" class="bouton" tabindex="0">Marques</a>
                         <div class="menu" id="menu">
                           <?php 
-                            Catalogue::afficherMarques()
+                            $dataController->afficherMarques();
                           ?>
                         </div>
                     </li>
@@ -35,7 +35,7 @@ use App\Controllers\Catalogue;
     </header>
     <main>
     <?php
-           Marque::afficherMarque();
+          $dataController->afficherMarque();
         ?>
     </main>
     <footer>
