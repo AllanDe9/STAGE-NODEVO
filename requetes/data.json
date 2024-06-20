@@ -18,31 +18,22 @@
                     "prix_neuf": 28000,
                     "prix_actuel": 20000,
                     "description": "L'Alfa Rom\u00e9o Spider est un petit cabriolet sportif des ann\u00e9es 60 qui resta au catalogue du constructeur milanais durant plus de 30 ans. Fleuron de la marque \u00e0 sa sortie, elle est aujourd'hui une ic\u00f4ne des cabriolets italiens."
-                },
-                {
-                    "num_modele": 2,
-                    "nom_modele": "Giulia",
-                    "url_photo": "",
-                    "annee_debut": 1973,
-                    "annee_fin": 1976,
-                    "nbr_produit": 16000,
-                    "puissance_max": 125,
-                    "puissance_min": 82,
-                    "prix_neuf": 35000,
-                    "prix_actuel": 50000,
-                    "description": "L'Alfa Rom\u00e9o giulia..."
                 }
             ]
         },
         {
             "num_marque": 2,
             "nom_marque": "Aston Martin",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/www.1min30.com\/wp-content\/uploads\/2017\/10\/Logo-Aston-Martin.jpg",
+            "descri_marque": "Aston Martin est un constructeur automobile britannique de voitures de luxe et de course, cr\u00e9e en 1913 par Lionel Martin et Robert Bamford. Bas\u00e9e \u00e0 Gaydon, dans le Warwickshire (Angleterre), elle est une filiale de Prodrive depuis 2007. Le nom vient du fait que Lionel Martin avait cr\u00e9\u00e9 une voiture qui remporta la course d'Aston Clinton en 1914. La fusion des deux noms \u00ab Aston \u00bb et \u00ab Martin \u00bb donna donc le nom de la marque. L'embl\u00e8me ail\u00e9, introduit en 1932 par Sammy Davis, un ancien pilote de la marque Bentley, a pour origine le dieu \u00e9gyptien Kh\u00e9pri, symbolis\u00e9 par un scarab\u00e9e."
         },
         {
             "num_marque": 3,
             "nom_marque": "Audi",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/media.cdnws.com\/_i\/46016\/4142\/1667\/43\/stickers-audi-ref1-autocollant-voiture-sticker-auto-autocollants-decals-sponsors-racing-tuning-sport-logo-min.jpeg ",
+            "descri_marque": "Audi AG est un constructeur d'automobiles sportives allemand, filiale du groupe Volkswagen appel\u00e9 VAG (Volkswagen Aktiengesellschaft) qui d\u00e9tient la marque \u00e0 99,55 %. Le si\u00e8ge social se situe \u00e0 Ingolstadt en Bavi\u00e8re. Implant\u00e9 dans 55 pays du monde, Audi est pr\u00e9sent sur la plupart des segments du march\u00e9 des v\u00e9hicules particuliers, y compris sur celui des sportives de prestiges gr\u00e2ce \u00e0 ses deux filiales que sont Lamborghini et Audi Sport. En 2012, l\u2019entreprise a vendu 1 524 635 v\u00e9hicules, un record depuis sa cr\u00e9ation en 1909, et se classe parmi les constructeurs les plus rentables. "
         },
         {
             "num_marque": 4,
@@ -61,7 +52,9 @@
                     "prix_actuel": 80000,
                     "description": "La Bentley Mulsanne..."
                 }
-            ]
+            ],
+            "url_logo_marque": "https:\/\/www.1min30.com\/wp-content\/uploads\/2019\/07\/Bentley-logo-1.jpg",
+            "descri_marque": "Bentley est un constructeur automobile britannique sp\u00e9cialis\u00e9 dans les voitures de luxe et de course, bas\u00e9 \u00e0 Crewe dans le Cheshire, en Angleterre, fond\u00e9 \u00e0 Cricklewood par Walter Owen Bentley le 18 janvier 1919. Depuis 1998, la soci\u00e9t\u00e9 fait partie du groupe allemand Volkswagen. "
         },
         {
             "num_marque": 5,
@@ -80,32 +73,44 @@
                     "prix_actuel": 90000,
                     "description": "La BMW 2002 turbo"
                 }
-            ]
+            ],
+            "url_logo_marque": "https:\/\/i.pinimg.com\/736x\/d1\/b2\/0e\/d1b20e22046cb0afebbe351919bbc7f4.jpg",
+            "descri_marque": "BMW (ou Bayerische Motoren Werke en allemand, litt. \u00ab Manufacture bavaroise de moteurs \u00bb) est un constructeur allemand d'automobiles haut-de-gamme, sportives et luxueuses et de motos, apr\u00e8s avoir \u00e9t\u00e9 un grand constructeur de moteurs d'avions. L'entreprise a \u00e9t\u00e9 fond\u00e9e en 1916 par Gustav Otto et Karl Friedrich Rapp. La marque BMW fait partie du Groupe BMW avec Mini et Rolls-Royce. "
         },
         {
             "num_marque": 6,
             "nom_marque": "Bugatti",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/media.cdnws.com\/_i\/46016\/4178\/2572\/79\/stickers-bugatti-ref6-autocollant-voiture-sticker-auto-autocollants-decals-sponsors-racing-tuning-sport-logo-min.jpeg",
+            "descri_marque": "Bugatti Automobiles est un constructeur d\u2019automobiles6 hyper-sportives de grand luxe d'origine fran\u00e7aise appartenant \u00e0 55 % au groupe croate Rimac Automobili depuis son rachat en 2021. Fond\u00e9e en 1909 par le constructeur italien naturalis\u00e9 fran\u00e7ais Ettore Bugatti, l\u2019entreprise est longtemps consid\u00e9r\u00e9e comme pionni\u00e8re dans le domaine de l\u2019automobile et produit de luxueuses sportives de prestige marqu\u00e9es par l\u2019adage cher \u00e0 Ettore : \u00ab Rien n\u2019est trop beau, rien n\u2019est trop cher \u00bb. "
         },
         {
             "num_marque": 7,
             "nom_marque": "Buick",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/85\/Buick-logo.svg ",
+            "descri_marque": "Buick est une marque automobile am\u00e9ricaine d\u00e9tenue par le groupe General Motors qui est commercialis\u00e9e principalement aux \u00c9tats-Unis et en Chine, mais aussi au Canada et au Mexique.\r\n\r\nAu sein du groupe General Motors la gamme Buick est positionn\u00e9e au-dessus de la marque grand volume Chevrolet mais en dessous de la division luxe Cadillac.\r\n\r\nBuick est actuellement la plus ancienne marque automobile am\u00e9ricaine encore commercialis\u00e9e puisque la Buick Auto-Vim and Power Company fut fond\u00e9e en 1899. "
         },
         {
             "num_marque": 8,
             "nom_marque": "Cadillac",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/cdn.worldvectorlogo.com\/logos\/cadillac-1.svg",
+            "descri_marque": "Cadillac Motorcar Division, ou simplement Cadillac est un constructeur automobile am\u00e9ricain bas\u00e9 \u00e0 D\u00e9troit (Michigan) division du groupe General Motors. Son nom rend hommage au fondateur fran\u00e7ais de la ville, le Gascon Antoine de Lamothe-Cadillac. William Crapo Durant ach\u00e8te la marque en 1909 et l'int\u00e8gre dans General Motors afin d'en faire sa division de voitures de luxe. "
         },
         {
             "num_marque": 9,
             "nom_marque": "Chevrolet",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/assets.turbologo.com\/blog\/en\/2021\/11\/18084253\/chevy-logo-2011.png",
+            "descri_marque": "Chevrolet, surnomm\u00e9e \u00ab Chevy \u00bb, est un constructeur automobile am\u00e9ricain propri\u00e9t\u00e9 du groupe General Motors (GM) depuis mai 1918. Avec 4,95 millions de v\u00e9hicules vendus \u00e0 travers le monde en 2012, Chevrolet occupa le quatri\u00e8me rang mondial parmi les marques automobiles derri\u00e8re Volkswagen, Ford et le japonais Toyota. Elle se retire du march\u00e9 europ\u00e9en \u00e0 la fin de l'ann\u00e9e 2015 au profit d'Opel, une ancienne division du groupe General Motors rachet\u00e9e en 2017 par le Groupe PSA. "
         },
         {
             "num_marque": 10,
             "nom_marque": "Chrysler",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/fr\/b\/b1\/Chrysler_logo.png",
+            "descri_marque": "Chrysler est un constructeur automobile am\u00e9ricain cr\u00e9\u00e9 en 1925 par Walter Chrysler. Il appartient au constructeur automobile am\u00e9ricain Stellantis North America (ex-Groupe Chrysler), filiale de la multinationale franco-italienne Stellantis. "
         },
         {
             "num_marque": 11,
@@ -124,7 +129,9 @@
                     "prix_actuel": 30000,
                     "description": "La DS fleuron de la... "
                 }
-            ]
+            ],
+            "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/dd\/Citroen_2022.svg",
+            "descri_marque": "Citro\u00ebn est un constructeur automobile fran\u00e7ais filiale du groupe Stellantis. Son nom en forme longue est Automobiles Citro\u00ebn. L'entreprise a \u00e9t\u00e9 fond\u00e9e en juin 1919 par Andr\u00e9 Citro\u00ebn. La marque a toujours \u00e9t\u00e9 r\u00e9put\u00e9e pour ses technologies d'avant-garde et, \u00e0 plusieurs reprises, elle a r\u00e9volutionn\u00e9 le monde de l'industrie de l'automobile. Citro\u00ebn a notamment cr\u00e9\u00e9 la Traction Avant, l'utilitaire H, les 2 CV, DS, M\u00e9hari, SM, GS, CX, BX ou encore la XM, qui sont toutes des cr\u00e9ations d'avant-garde. "
         },
         {
             "num_marque": 12,
@@ -143,7 +150,9 @@
                     "prix_actuel": 11500000,
                     "description": "Avec son V12 italien..."
                 }
-            ]
+            ],
+            "url_logo_marque": "https:\/\/motorsport-academy.fr\/modules\/ybc_blog\/views\/img\/post\/thumb\/logo-ferrari.jpg",
+            "descri_marque": "Ferrari est un constructeur automobile italien install\u00e9 \u00e0 Maranello en Italie, fond\u00e9e par Enzo Ferrari en 1947.\r\n\r\nL'histoire de Ferrari est indissociable de celle de la Scuderia Ferrari, \u00e9curie automobile \u00e9voluant en Sport-prototypes tout comme en grand tourisme \u2013 et plus tard en Formule 1 \u2013 depuis 1929, avec laquelle le constructeur a connu ses plus grands succ\u00e8s. Forte de son exp\u00e9rience en comp\u00e9tition, la marque au \u00ab cheval cabr\u00e9 \u00bb (\u00ab cavallino rampante \u00bb) y puise les techniques \u00e9quipant ses mod\u00e8les de s\u00e9rie, comme l'attestent les Ferrari 288 GTO, F50 ou encore Enzo, aux performances sportives exceptionnelles lors de leur lancement. "
         },
         {
             "num_marque": 13,
@@ -162,7 +171,9 @@
                     "prix_actuel": 13000,
                     "description": "L'iconique Fiat 500 des ann\u00e9es 50"
                 }
-            ]
+            ],
+            "url_logo_marque": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys\/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N\/\/AABEIAMAAzAMBIgACEQEDEQH\/xAAcAAACAgMBAQAAAAAAAAAAAAAFBgAHAgMEAQj\/xABQEAABAgQCBAkHBQ4FAwUAAAABAgMABAURBiEHEjFBEyIyUWFxgZGhFEJicrGywRUjUlOiFiQlM0NEY2RzgpLC0fAmNYOj4XST0jQ2VOLx\/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwUEBv\/EADARAAIBAwMCAwYGAwAAAAAAAAABAgMEEQUSMSFBUXGBEzM0QsHwFCMkUoKxFTI1\/9oADAMBAAIRAxEAPwC8YkSJAEiRIkASJHijaFnGWNaRhKVK594rmVC7cs2QVr\/oOkwAyrUEC5IAAuSd0IWJ9K1BoilS8mpdTmwdUNy2adbZYq2d14SJt3FukJfC1F9VJoyjxJVonjjcTsKz0mw5hBqnUfDuFEcJ97tOgcaYmVgu9OZ2DoFhAA+YrmkPFV+CUihSK9yBquFJ6Txr9WqY0SmjiSW8qYrM9Nz8yrNS1LzPWo3JjtndIFAllaiHnZp3cGEEhXQCbDxgfMY9nijXk8OTSk7AX16p\/hAUTAkYpTClBlB81SpVRvfWdRwh+1eCzEvKsAJal0NDmaQlMV791GNZwAyWH20DmW0onxUmM0TWkV8ZS8vLjmLSR7SYAspHkhFlrfHYDG4S9OdFlTqxfc43FX+TaSFK1hOsJHNqsC3+3G5uT0jA6yqlKK9FSWfggQBYL+EaTP8AKbpkwdoC2U39kAqnonpj6VcHJFknfLun2GASFaQ2zmmju+uLewiCUpiLG8kBw9FbcSOV5LN+xKgR4wAL+5LFmGDr4ar0y02nZLP3CD+6bo8IJ07SvVqO8iWxrRlNAmwmpZJsey5B7Dfog7J6QlpCUVijT0tfIlUvrDtKNYW67QWadwziaWcaYcllhwWW0bEEcxScoEBahYhpeIJbh6TOtTCbXKUnjI6xtEFop6vaLX6e+ajhKbdkZhB1khpwgDqO0dWY6LRvw1pQm6dNpo+O2FS8wOKieCLJX0qAy\/eGXQIAtqJGlh9uYaQ8y4lbSwClaTcEGN0ASJEiQBIkSJAEiRIkASPDENiIrHSppAXSQqh0JwfKTifn3xn5Mk83pnw7oA36RNI4o6zR8OhMzWHDqFerrIYJ6N6uYbBv5jXKRSqFN\/KGJX3KzX3CFeTIPCait2tuKv7AgdRKVN+TKni\/5DKKJDlRdBU65fMhlO0k\/SNvhBCS8lkm9alSxYQTqqmnuO86du3d1JgDpnKxi2sJFuDo8qrki9lkdeaj2BMc8pg5mYWH6pUHnTzqOoD7VHstG1lx95RLLLj7gzKgbAdKlKyHaY6mlPH8bMtN5bJca5H+osW\/hT2wAepVNotKRrysqCd69S1+sqzPaY7jiCnNKKS6wFDzULBV3CFN2bpDJUZ6YaWvaQ+6XD\/Dn4CMxi+jyqbNcOs\/q7GqPtFMRlG0aFSXEWNLeIpV2\/BszznQmWct32jM1ld+JSaoofsAPaYUlaQZVObdPmnCPpupR7Lx4NJbickUhI9aZv7EiG5Gqsq7+UbhWHtpotVA5+AB+MQ1tlAu7JVJvrk1n2AwpDSfODJNMZ\/75\/8AGNiNK08NtLaI6H\/\/AKw3In8DX\/aNAxFTFDjOut\/tZdaPeEdDFYpsyq0vPyzhO4Oi8LDWlkqITM0a6fRdSr2pHtjYrSHhqcGpPUAgK2ky6SO8Lv4Q3IpK0rr5RwQQpN0EEeibiOWap8nNEKelm1LTsUBZQ6iM4XWKrgKZWnyV96mqGd2nlsgHqIAPfBSXlptbYcoeJZSfRt4KoIHG6A42cus3hlGUqc48oKSs1VqSq0jMmclx+bTZuoeq5tO\/lXJPnCNsyMMY8Zcp9QY4Geb5TTnEdaVzjxsRtz3QLVU5qQ4tfpr0iCbCaQrh5dXTwidn7wEcGMKYalShUaa7qVCUSXZZ9k5kDMpuNoPdexiTMHBzEuiWfbDil1LDLq9U3H4u\/MfMV0clWzba1vUKsSNcpzM\/TH0vMOjIjaDzEbjFY4B0jyleaFCxUhoqmE8Gh1di2+COSq+w\/wB9EctWptT0U1j5YoevNYdmFgTMopV9S52X3H6Kuw7oAumJHBRKrJ1qnMVGnOh2XfTdKt46CNxEd8ASJEiQBIh2RI5alPy9Np8xPTa+Dl2Gy44s7gIAVdJmMkYUo4TLaqqpNgplUHPVttWegXHWYpXCiKVNTUxNV2d4V1F33GXb680vba9rFIO4Zk7bJGfLi2tPYhqT9ZmiQqaVqMIJ\/Fsp2Ad\/iYHSDoaSEsILs06oIQLbL2A7zAkdn1Lnymp1UK4Aq4OTk2zm50Abk853xxz00zT3OEqYS7N2+bk2+QyNwVbf6N+uC1W1cMUxtrhS9VSxYvKzLCOZHNc5RXrilLUpazdSje8VbPZaW3tnl8BSdxBOTOQKW205pbSOKnqGyBzz7zxPDOrXcbCo2jUd\/VHpGd+gRU7NOhCC6I8sAVatgLDZGRHK6ols1erGRHL9WBuomKhyuqMiOV1R6oZL9WMlC2v6sC7iYavGMeAbPVMbbcdXqxiBkn1TAlxMLbOqPLcmNls09Rjy3I7Ygho1pFrdURlSmlJWypTa7cpCiD3iMgOT1RjuT1QM3FDDSMa16laiWp1T7ds2n+MCOaD8hjGSmVcIyy3Sp1XKZUfvSZO3Pe0r0hlzxXw8zqibkjoics8tWzpVO2CzJzCtFxKyp+TC6ZPIVqvJSkXbXzKRex3Zgi4sQc4fsLpWukfc9iKYFSUtpSOEWwUpdbtmlRuc+u3RsioMG1l2XeCCoqdl2iRf8qwnNTR5ykXUjmsU7DDlinGK8NTUgZKVamG3QHFuKJ1im55A2XyuCYunk4dak6U9rGXA+DKhg+sziZeqIeoT4UpEs4k8I2u+Wew5Xud+XTD3eA1KrcvVKHL1mUVrMrQFqJFrJHK7vhArDeIpg4oq2G6utJmWFeUSTgTbhpZWY6ynYT0RJiN0SPAbx7AEio9N1eLrknhaVVm+A\/OW3IB4qe0gnqHTFrvvNsMOPPEJbbSVLUdgAFzHzLMVJysVmsYgmL3edUUg+akCyR2JCRAAqeKVPvuD8XLpDTdueGfRhQ1TM+axMJ+95UlLGsOW5vV1AZdfVCnNAopsoDteUt1XScreENFAxTPUmmycqsoelXbtJTqhKm77CCBn25nn5xJpxbOKm3Zp8k2efDaPVTu90wtEWvBetDVp8sgnMuKN+iwEBzsNozfJ37COKJ7a47Iytt6hHVSpNM\/PIlC4WysGyrXhh+5AG\/36c\/0cTg2qXNGlLbN9RWIzV1D4xkoZr9WGj7kRn9+HP0I4K7RRS5MzAf4S51dUptuJ+ERgtTvKEntUgOoZOerGSxy\/Vhjl8MCYl0PCbIDrYUBwfOI5a1RPk2V4fhyvW4urq23QwaQvKFSSjF9WByOOfVjwDJPqmD9KoAqUp5SmYKASpBGpexBIjr+5DIffZyFuRDBEr+2TachVtxkdR+EY2zT2w1\/cjmD5WbAfVwDqtOVTZxLCla\/FJSq1riIwyad1RrS2weWDki+qOgxgBcJ6oY6XhxM7IMTflRRwiSdXUvbOOgYQFh9+nIW5EThmMr23TxkUrcjqjwebDb9xwy+\/Tl+jjkqeGUyEi7NCaKy2L6pRa+cTgorujJ4TBVEmPJKxIPk5NvJv1E2PgY7sWVFU283SOCOtIjyZpQN1KUF5eFrdcBWzZxs8xB8RD3iTBE9P1NVTpbjRD6UulBVqqCwBs7hCJ4dSXWLDeirFP+KX8P3Bpxlw1KC2V2hZR6dYlSuqO3FkvMSKTUJFJNSww+HWRfN6SWc0HqFx1ARU2FplVNxRSnwChbU2hBGzUJOoQeq\/hH0DVCj5fpc2sAy1QZVKTCdxChs7xaLnKGakz7FVpkrUJRWsxMtJdbPQReOuK50SvOUt6uYQmlcekzalS4OV2V8YW6LnW\/fixhACRpfrHyTgadKFarkzZhJBsRrHM914pGcYNPw+GiONkF2+kc1DsvaLF04zHlVWw7R02KVOKmHAeYWB8CruhIxIwp2nMpBNylbx6cz8EiBIArA1FyrW5tgeJ\/4jeyoKapaD9ao90aK8fwhb6LSR4f8AMSUVxqbfc4ofagAniIES9PO5SXD9u0BjsV1CGDFbRRJUc2yLTnvwBIyV1CM+59FZL8iITw2dWvSvSSPAxYOyK8oGVdkubhP5VRYYBOW+LR4OXqS\/PB01XKdKTC2JiZ1XE2uNQ5QExPVZKfpWpKvhxaV3KdUjLVPPHFiQWrU5f6KPZA54cR\/pREbss6NppqWKuSyKI1rUiSVb8gnPsgdjpsppCDsOufYYYcNsk0KQy\/II9kC9IrWpRWjbMuH3Yl8HLsetxH77GvAzRXQQbfnD3vmCNYn5Wjy7b05wgSteoNRBUb2vsHUYx0dta2HCbbJl638Uc2klkJp8lcZF8+4qGcImFFVrv2b7tnTSahJ1mVXMSC1qQhwoUFpKVJUBvHbAjGtP15JqcAzYVZXqqy9to4dHb5ar0xJqPEm5XhE5+eg22dIV9mHmryHldNmZfe60pPUbZHvtE8olRdrdKPgxBodepsnSZaVmHHkvNpKVJDKiL3OwgQfkppqelW5qVUpTLgukkEHbbYeqK6asQ0fRvD5g9r\/DEiQPNV76ohMvf2caGGnzk6JybakpZcxMFQbQc9UEnuEL1ZxBTZ2mPyzDrhccHFu0oDdvIgpiwFFGf5ipI8RCAfMHRBsvY2kaiVRvhmpWSctuqY+iKVLcNh5D9uO2hs5bdXVF4+d18nL6Jj6cwehJoLTa9i2kg\/wAREeTTVOInz1jFTMjiiYCGeDMvNcO4oDlXKXPA3i8qk0p2llnY9KzIIP0Te\/tB74pnSnJLZxpMyhHHdbbCTzlV0j2CLwr6dSanEA24ZoK7f7EXOQLNbd+RdLFArLZCZatypln9w102sT2KQB1RaAioNI7vlejOiYgYsVyE0zMgc4JsE+I7otmRfTMybMwkgh1tK7jpECCkNJLwmtKere4lJBNugnWv4Kjmfl+HqLUvbZIkAf6IV7SY14vOtpUr5JuQhCB\/wBpuCkuhKsWy6TySnVPVwQEAVrWjepOAjzU9nFEesCwp6t3CH3ozxKgtVyaQcglQHgI2zrKpaRppIsQTrdZsYEjDjNu1DojnOlxPxhUPn9UO2LW+FwVTXvqnyjvB\/pCVe9z6MZ9z6HTnmighRcq1JftR7piyGU3N4rWjm1YlP2qfjFnsDZFo8HO1L33oIGKRauzo9BHsgW9yH\/U+BhjxHSKjM1qbdlpF91tSBZSU5HKAc\/LPyi5hmaZW04GgdVYsRcG0UfJ3rWcHRST64Ldwoi+HqcT9QmBGk1IFDYy\/Kn3TBvB5vhml\/8ATp+MB9J\/+RsftVe6YvLg4Fiv1cfU3aNM8NH\/AKt32iObSePwfID9Or3FR1aMh\/h10frjv8pjXpKln35GSTLMOvKDyiUtIKiBqnOwg+DS3wtQ6+LELDTxlsU0R8cnhShXUvi\/GLlW3lYRS6KdVGnpZ5NOngW1JVcSq8rLSeboi7Sb2UBYG5hHgvrCSud0XzgourS3kdYmpa1uDdcAHRrXHgRDzgtF8J08+iv31QsY6Z4HFc76YC\/sj+kN2CE\/4Qp3qL99UEX1OW6jTf32BuNk6tEd\/aI9oivN6fVixse5URX7VMV1vHqxD5PRpq\/T+pg2NZaBz2HjH01h\/wCZpzLewgWj5tpbPlNTkmB+UdQPtCPo+SXqtJG6EeTx6o+sUJelXDqJytUWsNp5U3Ly7h5yXU277mOfSZXn8O49lXjrOSU1IBDrQ50qVxh08YdcWSttmbaS3MNpWhK0rAULgKSQpJ7CBFQ6fkpNYoq8s5Z0dykxc5IRpKvlfQPUkEay2EvpAtvQq6fC0PujWZ8rwHQ3dYqPkaEkneUix9kIuiNszGjDELSswZp8WP7BowzaEllejWlEkmxeAvzB1YHhAFb4tRbSpXyR9WR0\/NNwUaOpimSc3L4O3a0I1aQWQxpSmCPziQbc6zcp\/lEeTCuDfpMzuCWrnpCig\/CABVdpEs5X5h91JJS4eLuOeRgViVvXppWcy24lQ9nxhsxM0UVl70glQt1f\/sAakyHpF9veUEjrEAE5xPlmjZ1QF+AcQ5YesL+BMIad3qxYWCk\/KmD56nk5uMKQDzEpIHiIrto6yWyBtEUfJ3NLlmDj4M7aYbVKS\/aI9sWoxuip5FWrNyZH1zY+0ItRlViImPB5tU96vIKMDLIRXmPR+H5sfq6PdMcmKnXhXpoImJlI1QQEvrSAbDYAYGOLW7rKdWtauDAutWsd+8xWTyz26dZTpv2rfK\/suDBB1sJUo\/q49pgZpP8A8lZ\/aK90x34FXfCNLAP5D4mB+k4\/gdj9qr3TFpf6ngsfjI+bN+jA\/gCY6J5zxSiG+53Qm6MT+AJkb\/LnPdRHukt1xuiS5ZeeaV5SM2nVIJ4qsrgxPYznTlWupQjy2xvN+mMDsiiHJqc1CBUJ8Et3ym3Nv8UXRRpgv0eRdUoqKmEEqJvfKCeRd2VS1aVR8la6SU6uJ7\/SlUnxMMuB\/wD2bTfUX76oX9J9hW2l32yp9sHcFKthCnDmQv31RC5ZvdvNtR9foD9IKrUhA53R7DFeK3+rD5pEV+DWAPrv5TCEo5r6hEPk9+n9LdeoawUx5RiqnJGxDhdPRqJJ9sXiw5YRUWjFjXrs5M24rEqR1KUofBKu+LQZd2RMTl6jLdWx4Bxl3KKi06Pa9Yo7f0JRzxUn+kWey7lvOW6KW0rzonMaOoSq6ZVhtk55a1is++O6LHgLI0TMhjRZMuq\/LqmnO66P5YJ6D0lOjOlXBF1PH\/dXA\/DKhSdDzSlHVtTXHzc\/Way\/5oYtF0uJXR\/QkAW1pRLn8XG+MAJmmGVLGJqBUAniuodllq6clAeBgNOIU9htam7F2WcVq9Ssx9oQ9aYqeqawa5OMpu9TnUTSR0JOY7oRqe6HpSYQyQoPy+u3beRxh8YA7a8gTq6dMMkWmGQkHuP80B5yUdlXVMzCSlQGznEFZNYmcJSrrdtaTdsAPog8X7JSYzcrVHxFLOstPKan5cKUGnU6q7jaBuUD0E7oAD6NHixPz0io2AUrVHaCPAmFOtSvkVcnZbc3MLt1HMeBEMeHFIYxH5c2r5t1tty+7VJKFH7YjRpKlPJ8Rh9IATMNJN+dQyPwisjpaZPbV2+Isy2UzKnmfR74i0UKIPRFVtmzzR\/ToI\/iEWjCJOp+9XkJWJzeuTB50j2CB20npRHfiX\/O3h6PwEDknjJ9SKvk79r7mPkWpgR62FadnkG7eJjj0lOa1IlgPrFe6Y1YJdthqRTfzT7Y0Y\/d16dLJ\/SK90xZ8Hztj8ZHzYT0ZrHyJNC+flivcRE0mqBoktb\/AOSPcVHDo7e1aVNp\/WifsJj3SG9r0eXF\/wA4\/kVE9jSh\/wBD+T+ohHlf6cWzhWZ18L0tV9sqj2RUhPG6m\/6xY+E3rYXpYvsl0iIgezXOuz1F7SUrWqTJ\/Vle2DWEV6uFpFPMlfvqhe0gr1p5o\/q6vbBfC6z9zsmBzK99UFyeG5+Fpepw4+XrSksk73PgYSlbT6wENuN1EsygP0z7IUVKAJvuUT4RV8nRseluvUsHRyxwFFnpsiypiZCAedKR\/UqhvZdNoA0hr5Pw\/S5S1lFrhlj0l5\/EwRYd2RdcHDuZ7qsmFnZ5qSlnZqYVqtMILiz0CPn6emZipTcxNqSTMzjqnLD6SjkOy9u6LF0k1Us0pqnIVx5lWsu30E\/82hNwhJ\/KGJqcwpJKUvB5dtwTxvaAO2JMS3cdfg7R2aXKAa7rbMgynZe9k27osilyyZOnS0qhOqllpKAOawAiraqsV7SFh+gtlK2pI+XzQIuLgcQde09oi2xAg0zsq3Oyj8q+LtPNqbWOgixigaMl+kzMxTJhJEzSpkskHzkg8U9RGzoMfQsVHpZpPyVWZTE7CbMTGrLT9hlfYhZ8E9iYAGYUUhM9WqC4crh5i55Ta9h7LpHUBCBieVXJVlahrIUrjBSTYg7DY9kM80\/8m1il1pOSWF+TzB52lnI9hJ\/iHNGzSbS7oE6wNZI+cy5jyvgYEgfR86ZqqrpzmfCSjwaV9HknuuEmGHSE0Z\/D1PqWr840vUc58xY+IhFw3VDRq1Kz3G1EGzoSkFRQcjYGLOLsliGkVWTp0yh5p5svM22pUc7EbQdYeMQ+DahPZVjIqy9ykjbrpPjFpBQVsOUVSnjITfemM9oOat3nGKpnYurSVw1JMN4mNq476o90QNRtR6h+Eakq2A7lHaYyQc0dRH990Q+TpUY7YKA8YQc1aBLAHk3G3ZnGnGjuvT5cbwtW\/wBEwmISBq2uNpyURvjIZIAClWKDtJMS30Obb6fOnW9q2h0wQ8ESE0L2++L\/AGExljd7XpjIvf57+VUJKkIKibEEpubKIzj3k5Ak8U7VE80G+hpDT5xuXWyuWzNRuFDIfNjMnrh5wu6Rh2ni+xkDbCGpWS\/VHxjWUhKVhJUAALAKOUQng11C1lc7cPGMjDjVWvOsm9xwX80G8MH8ASnqqP2jCGTa4zOYFibxr1QMhrDM5BRiUzzVrKc6UIJroNWN1caQQOdwk90LtKk1VCpykokXLzgTboJ\/pHNc6qbknVBtckwzYAZSKjN1J0fN0+XKv31ZD2HuiOWX2\/hrZrwG6ozCVVBxCDxG7Np6AMoyYdtbOAbbxWvWzuSSrrMdLs+iQkn51zMS6NYJJ5S9iU9qiPGND50T8bzvlmIHm0nWTKpDI9YZq8Tbsgzo2Zbk\/lCtTVg1LtFCVeJse4QkgOvu6vGdmHV3IO1ayfiYdqow81IUvCFM+cnpxSeFKRkbnMnoyJ6kmBI8aEZF6ecrGKZxJ4WdeLTSjvSM1EdF7J\/dMWsBaB+HqSxQqNJ0uVHzUs0EA71Heo9JJJPSTBGBBI4K5Spas0iaps4nWYmGyhXRfYR0iO+PDsgD5x8jclnp7C9YJ8plRwYcP5VrzVDng7QXlVnDz9Jns5+Q4h1zm4m2R6QU5dYhy0pYQcrUq3WKQkprMgni6mXDt7Sg+JHWRvisadPrfeYrFOBE\/KgomGTkVo85B7rjpEAYigyHknkymgr9IclJP\/EdFCq09RalJSU8G1S4uWJhDaUayd6SEi19\/Zvg1UAxNNIqMidaWmL3yzQreCN2cC5ySTUpYyqVBuZCg5LOHzXRs7Ds7oE5FzFsgmm4hnGkW4FauHats1F55dANx2QIByPq2h1mZNzE9FZUy2UVWQBbLK8ipI5SOtJGXRCU4hTbim3EqQtJKVJULEdY3RnwfQ2lZVKa8TMHafSEZA5p6yI1A2HdGQOfUqB7VI2JOY6jHt+Kn1IwSeP3xAeKPUiC+TYo7fVMRZsT0IjAnb6kRR2+rEk5MlHl9QjFZvcekBHijyuyMScz6wiCrkZE8a\/pRgDnfriXzHbGF+L2QKtnt8uwCHejyxYw7JyaTZ6oqVOPn6DKRxb91++F2gUVVWdLjt2qeybzL52ADzR0mLKwvLpnfKqq8ykJmPmWG1JuEMpyAHXbwi0V1OPqNdY2ROGQp0nIUwT9WQSXQeCYJtbLIZb\/AGQrT6VVpcxISxAYlGVzD6toLmqQ0i\/rH2wWx6ucRWmmWxwzswAiUZSbnpy3c8c7TDdJlkUxlwOPa3CTbwz4R3mvzJ2d8XOQBsNSTUnLqrM+QEoRdlKhns29e6LF0OYfcnp2ZxjU0HhHypuTSrcjYVDuAHUYT8OUeZxzX0yTRW3R5RQXNPI84cyTznYObbzR9CykuzKS7UtLNpaYZQG220CwQkCwAHNaANoFtkexIkASJEiQB4bDdFSaTcFTMlOLxThlrWXmqelEjljesAbekdoi3I8VsgD59odSZfacmpQFbTyfviTuOMecX2K5lDI7+jqQG5hgzMm5w7ByUrYUHeFp80wfx9o5famncQYPTqzGapiRTsd5ygbL+jv3Z5FGpNQYm5orl3naXVU8VwjPWtt1kHJQ6DYiADauEVM+XSaw1UAAFC9kzIGy53LA37CMjujpf+QcTgt1Zoy1RbGopxA4NaT0\/wBFXHNHKqbQgWrUkZbO3l0ikvS6z6SOUjqIiTlF+VGEPyjzU4APm5qTd1lJ6OfsOUQ1ktGTg8xYLqGj6os8emTDE41t26q7eyF2cpNSkVWmpCYbOt9WSPCGRArtMXZuYS8Acg5dpY7cwTBJjE9Ubyfad\/eQl0eGcRtPfT1GrHnqV4FDWyI2xNbi\/uxZKq0iYBEzTJN4ekyUnx\/pHOtyiq5WG5K52lJ1fhEbWehapHvEQFH3Y8UdvVD2oYfJzw6zf0Xz\/wCMY\/gBJuMOtfvPEj2Qwy\/+Th4MRVKAJvGTTbr5AYaccN\/yaCrPsh8RPyEudaVoFPbVuJRrH4RmvEk+E2ZEvL3+qaAP99sNpnPVO0Yi3T8H1ye1VeR8A2fykwdQDpgs1h6gUmyqpOLqUyPzaW4rd+k7fEdRjXNz85Ni0zNPO33KXl3RyapUoJSkqUcgALkxO1HkqX1WfRPB01OpvTwQwltEtKNj5qWZFkJ7N56Y6JWu1pyWl6ZTrghOqhMuiy1Ac6jftOUZM0F0IExVHUyEsBe7v4xXqoFz390drK0+QvilgUulj\/1FRmD844P780eGyLHiy+WcbTDshNLRLPGfr8wkpemta6ZZG9CCfFX9gfKU6axBUE4fw6Q8o\/8ArZ6x4NCb5gej4qIyyjspclP4xeVRsJMOStJSfvyfeFi5n5x8Qgdts7XZhTDNOwvTUSNNatvddUOM6rnV\/eUAZ4Ww\/I4ZpLVNp6TqIF1uKHGdXvUekwZiRIAkSJEgCRIkSAJEiRIA8IvbLZCRjjRzTsUFU1LkSNUTyZltOS+hY39e2HiJAHzlNrr2EJ0SeI5Z1DexE4yCpCx0K87qNj0R2y7cnUEmekm0LNwVzEktTawdwXq2PYoRfE5KMTrC5ebYbeZWLKQ4kKSewxW1f0Qyypn5QwrPO0ucGxFyUHoBvcDo2dBgBZRPVNsBKKn5QgX+bn5ZLn202t3GMVVB0pvM0KSeVvMnOcGf9wJjyfdxbh26MUYeFQlx+eS6da4A2lSRl+8Ex5I4gwlUEDWdekVn6y+oO0XEAeKmJFSePR621b6gNzA+yoxrK6coZIrbX7WlOH2QbYpFMqAvT6sy+PQWhfgIzVhV5P4uZSP3CIEi8UyiuQ5PnoNJf\/pHgli4dVuXqi781LeA8QBB84bnhkJxNutQjw4anTyp1Nusn4wIwA\/kqpKIKKZO2+k9wLQHe5fwjH5JmEq++p6lSid\/z5fX\/CkD2wdOEAka8xOpCd5KbW7zHFMIwnTr+W1lDqwfxbLgUruTfxgMHCJeiywCnpybnV8zSOBR48aCEk9PujVoNJalG7Zv6uY6ddXwgenFNPXMCWwth1+oTe0azZWR06ouR1wYl8C42xYArEs+mlyJ\/NWyFKUOkAkd5PUIAAVCo0mnPnyp9dcql7BlklTaVcxV53qjuEMFC0f13Fr7FQxipcjT0WUxTmxqqItvT5nbxtuzfYeFsD0LDCEqp0mlUzaypl3jOHt3dkM0AcdMp0nS5VuUp8uiXl2k2Q22mwEdkSJAEiRIkASJEiQB\/9k=",
+            "descri_marque": "Fiat Automobiles \u00e0 l'origine F.I.A.T. (acronyme de Fabbrica Italiana Automobili Torino, ou en fran\u00e7ais \u00ab fabrique italienne d'automobiles de Turin \u00bb) est un constructeur automobile italien, dont le si\u00e8ge social est situ\u00e9 dans l'usine de Mirafiori \u00e0 Turin.\r\nDepuis 2021, le constructeur fait partie du groupe multinational Stellantis \u00e0 la suite de la fusion de Fiat Chrysler Automobiles (FCA) avec PSA Peugeot-Citro\u00ebn (PSA). "
         },
         {
             "num_marque": "14",
@@ -181,7 +192,9 @@
                     "prix_actuel": 25000,
                     "description": "La mythique..."
                 }
-            ]
+            ],
+            "url_logo_marque": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTASbvfMTddaBFsvm7lUeHVVm7j1-8cWgvkNw&s",
+            "descri_marque": "Ford (officiellement Ford Motor Company ou FMC) est un constructeur automobile am\u00e9ricain, bas\u00e9 \u00e0 Dearborn, une banlieue de la ville de D\u00e9troit, dans l'\u00e9tat du Michigan. "
         },
         {
             "num_marque": "15",
@@ -200,12 +213,16 @@
                     "prix_actuel": 85000,
                     "description": "La sportive anglaise des ann\u00e9es 60..."
                 }
-            ]
+            ],
+            "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/fr\/4\/42\/Jaguar-logo-2012-1920x1080.png",
+            "descri_marque": "Jaguar est un constructeur automobile de voitures de sport et de luxe britannique fond\u00e9 \u00e0 Blackpool (Angleterre) en 1922 par William Lyons.\r\n\r\nLa soci\u00e9t\u00e9 est aujourd'hui int\u00e9gr\u00e9e au sein du groupe Jaguar Land Rover.\r\n\r\nEn 2017, Jaguar bat son record de vente avec 178 601 v\u00e9hicules commercialis\u00e9s (en progression de 20 %), et son conjoint Land Rover a atteint 442 508 ventes (en progression de 2 %). La croissance la plus importante se constate en Allemagne et aux \u00c9tats-Unis. "
         },
         {
             "num_marque": "16",
             "nom_marque": "Jeep",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/logo-marque.com\/wp-content\/uploads\/2021\/09\/Jeep-Logo.png",
+            "descri_marque": "Jeep est un constructeur automobile am\u00e9ricain appartenant depuis 2010 au groupe Fiat, devenu Stellantisen 2021 \u00e0 la suite de la fusion des groupes Fiat-Chrysler Automobiles et PSA.\r\n\r\n\u00c0 l'origine, les voitures Jeep \u00e9taient des v\u00e9hicules tout-terrain \u00e0 quatre roues motrices utilis\u00e9s par l'arm\u00e9e am\u00e9ricaine pendant la Seconde Guerre mondiale. Leur popularit\u00e9 a fait que l'on d\u00e9signe encore aujourd'hui par antonomase sous le mot \u00ab jeep \u00bb une automobile tout-terrain au style rustique.\r\n\r\nJeep a commenc\u00e9 \u00e0 produire des v\u00e9hicules pour le march\u00e9 civil en 1945. En 2017, Jeep a vendu 1,4 million de SUV pour l'ann\u00e9e 2016, soit une augmentation de 500 000 v\u00e9hicules par rapport \u00e0 2008, les 2\/3 pour le march\u00e9 nord-am\u00e9ricain. "
         },
         {
             "num_marque": "17",
@@ -224,12 +241,16 @@
                     "prix_actuel": 300000,
                     "description": "La Diablo..."
                 }
-            ]
+            ],
+            "url_logo_marque": "https:\/\/motorsport-academy.fr\/modules\/ybc_blog\/views\/img\/post\/thumb\/logo-lamborghini.png",
+            "descri_marque": "Lamborghini est un constructeur automobile fond\u00e9 en 1963 par l'industriel Ferruccio Lamborghini et install\u00e9 \u00e0 Sant'Agata Bolognese en Italie.\r\n\r\nL'entreprise est d'abord sp\u00e9cialis\u00e9e dans la construction de tracteurs agricoles destin\u00e9s \u00e0 r\u00e9pondre \u00e0 la demande croissante d'une Italie d\u00e9vast\u00e9e par la guerre et en pleine reconstruction.\r\n\r\nAyant fait fortune en \u00e0 peine dix ans, Ferruccio Lamborghini d\u00e9cide d'assouvir sa passion pour les \u00ab belles m\u00e9caniques \u00bb et les GT italiennes. D\u00e9sireux de produire des automobiles plus performantes, plus sophistiqu\u00e9es et plus fiables que les Ferrari et Maserati, il fonde, le 30 octobre 1963, la firme Automobili Lamborghini sp\u00e9cialis\u00e9e dans la production de voitures sportives de prestige. "
         },
         {
             "num_marque": "18",
             "nom_marque": "Lancia",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/www.autocollants-stickers.com\/resize\/634x480\/zc\/2\/f\/0\/src\/sites\/astickers\/files\/products\/11718.png",
+            "descri_marque": "Lancia est un constructeur automobile italien fond\u00e9 \u00e0 Turin en 1906. Il fait partie du groupe Stellantis depuis 2021 \u00e0 la suite de la fusion de sa maison-m\u00e8re Fiat Chrysler Automobiles avec le groupe PSA Peugeot-Citro\u00ebn.\r\nLancia d\u00e9tient le record du plus grand nombre de victoires et de titres remport\u00e9s en championnat du monde des rallyes, notamment gr\u00e2ce \u00e0 la Fulvia coup\u00e9, \u00e0 la Stratos, aux lignes en coin, et \u00e0 la Delta Integrale, sacr\u00e9e six fois cons\u00e9cutives, entre 1987 et 1992. "
         },
         {
             "num_marque": "19",
@@ -248,7 +269,9 @@
                     "prix_actuel": 24000,
                     "description": "Le robuste 4x4 anglais..."
                 }
-            ]
+            ],
+            "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/fr\/3\/3e\/Nouveau_logo_Land_Rover.jpg",
+            "descri_marque": "Land Rover est un constructeur automobile britannique sp\u00e9cialis\u00e9 dans la fabrication des v\u00e9hicules tout-terrain et SUV de luxe.\r\n\r\nLa marque appartient au constructeur indien Tata Motors depuis mars 2008 au sein de Jaguar Land Rover, apr\u00e8s avoir \u00e9t\u00e9 rachet\u00e9e par BMW en 1994 puis par le groupe Ford en 2000. "
         },
         {
             "num_marque": "20",
@@ -267,12 +290,16 @@
                     "prix_actuel": 70000,
                     "description": "La lotus Esprit..."
                 }
-            ]
+            ],
+            "url_logo_marque": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQiyFtf6bzJibn2JoOMeDQfmI49A0Cai8bqKQ&s",
+            "descri_marque": "Lotus Cars est un constructeur automobile britannique sp\u00e9cialis\u00e9 dans les voitures de sport et de comp\u00e9tition, fond\u00e9 en 1952 \u00e0 Hornsey (Angleterre) par Colin Chapman. Son si\u00e8ge social est situ\u00e9 \u00e0 Hethel dans le Norfolk.\r\n\r\nLotus sous-traite \u00e9galement de l'ing\u00e9nierie automobile pour des constructeurs g\u00e9n\u00e9ralistes d\u00e9sirant am\u00e9liorer leurs voitures ou cr\u00e9er des mod\u00e8les sportifs. Lotus \u00e9tait le surnom donn\u00e9 par Colin Chapman, le fondateur de Lotus, \u00e0 son \u00e9pouse. "
         },
         {
             "num_marque": "21",
             "nom_marque": "Maserati",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/www.1min30.com\/wp-content\/uploads\/2017\/09\/Maserati-logo-embleme.jpg",
+            "descri_marque": "Maserati est un constructeur automobile italien sp\u00e9cialis\u00e9 dans les voitures de luxe, de sport et de course, filiale du groupe Stellantis, dont le si\u00e8ge social est \u00e0 Mod\u00e8ne (Italie). Fond\u00e9 par les fr\u00e8res Maserati en 1914, son symbole est un trident, inspir\u00e9 de la fontaine de Neptune de Bologne. "
         },
         {
             "num_marque": "22",
@@ -291,32 +318,44 @@
                     "prix_actuel": 17000000,
                     "description": "La splendide Mclaren F1..."
                 }
-            ]
+            ],
+            "url_logo_marque": "https:\/\/logodownload.org\/wp-content\/uploads\/2022\/02\/mclaren-logo-0.png",
+            "descri_marque": "McLaren Automotive est un constructeur automobile britannique cr\u00e9\u00e9 en 1989, branche du McLaren Technology Group, sp\u00e9cialis\u00e9 dans la conception de voitures de sport de haut de gamme. La soci\u00e9t\u00e9 a \u00e9t\u00e9 fond\u00e9e par l'homme d'affaires britannique Ron Dennis, qui en fut \u00e9galement le dirigeant. "
         },
         {
             "num_marque": "23",
             "nom_marque": "Mercedes",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/www.makrea.com\/166965-large_default\/sticker-logo-mercedes.jpg",
+            "descri_marque": "Mercedes est une marque cr\u00e9\u00e9e \u00e0 l'origine par la Daimler-Motoren-Gesellschaft (DMG) et utilis\u00e9e pour la premi\u00e8re fois dans le mod\u00e8le de 35 ch commercialis\u00e9 par l'entreprise en 1901. La DMG a commenc\u00e9 \u00e0 se d\u00e9velopper en 1900, apr\u00e8s la mort de son cofondateur, Gottlieb Daimler. Bien que le nom n'ait \u00e9t\u00e9 d\u00e9pos\u00e9 en tant que nom commercial que le 23 juin 1902 et qu'il n'ait \u00e9t\u00e9 enregistr\u00e9 l\u00e9galement que le 26 septembre, le nom de la marque a finalement \u00e9t\u00e9 appliqu\u00e9 \u00e0 un mod\u00e8le d'automobile construit par Wilhelm Maybach selon les sp\u00e9cifications d'Emil Jellinek. Ce v\u00e9hicule lui a \u00e9t\u00e9 livr\u00e9 le 22 d\u00e9cembre 1900. "
         },
         {
             "num_marque": "24",
             "nom_marque": "Mini",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/fr\/b\/bb\/Logo_Mini.jpg",
+            "descri_marque": "Mini est un constructeur automobile britannique fond\u00e9 \u00e0 Oxford en 1969 par British Leyland, et en m\u00eame temps un mod\u00e8le d'automobile cr\u00e9\u00e9 en 1959 par l'ing\u00e9nieur Alec Issigonis. Le constructeur fait partie du groupe allemand BMW depuis 2000 avec Rolls-Royce.\r\n"
         },
         {
             "num_marque": "25",
             "nom_marque": "Morgan",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/www.decoracing.com\/337-home_default\/morgan-sticker-logo.jpg",
+            "descri_marque": "Morgan Motor Company est un constructeur automobile britannique sp\u00e9cialis\u00e9 dans la production de voitures sportives, dont le style \u00e9voque encore aujourd'hui pour beaucoup les ann\u00e9es 1940 et 1950. Il se caract\u00e9rise par son aspect \u00e0 la fois familial et artisanal : la soci\u00e9t\u00e9 \u00e9tait dirig\u00e9e par un des fils du fondateur jusqu'en 2003, date de sa mort. Il est bas\u00e9 \u00e0 Malvern dans le Worcestershire, en Angleterre.\r\n"
         },
         {
             "num_marque": "26",
             "nom_marque": "Nissan",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/23\/Nissan_2020_logo.svg",
+            "descri_marque": "Nissan Motor Company est un constructeur automobile japonais n\u00e9 sous le nom de Datsun.\r\n\r\nSon si\u00e8ge social est \u00e0 Yokohama depuis 2010.\r\n\r\nIl est li\u00e9 au constructeur fran\u00e7ais Renault depuis 1999 \u00e0 travers l'Alliance Renault-Nissan qui est au premier semestre 2017, le premier groupe automobile mondial (en nombre de voitures produites).\r\nLogo de Nissan Motor Corporation depuis 2020.\r\n\r\nDepuis 2012, le groupe Nissan d\u00e9tient 15 % du capital du groupe Renault. Inversement, le groupe Renault d\u00e9tient 43,4 % du capital du groupe Nissan. "
         },
         {
             "num_marque": "27",
             "nom_marque": "Opel",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTiV82WvQYCxnCN2TcwHcTLmQ4PD9FfkSMT4A&s",
+            "descri_marque": "Opel est une entreprise allemande fond\u00e9e en 1862 par Adam Opel et un constructeur automobile depuis 1899. Depuis 2021, la marque est une filiale de la multinationale franco-italienne Stellantis.\r\n\r\nEntre 1929 et 2017, elle faisait partie de l'am\u00e9ricain General Motors (GM), puis du fran\u00e7ais PSA Peugeot-Citro\u00ebn (PSA) de 2017 jusqu'\u00e0 la fusion ce dernier avec Fiat Chrysler Automobiles (FCA) en 2021. "
         },
         {
             "num_marque": "28",
