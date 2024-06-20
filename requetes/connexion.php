@@ -1,6 +1,6 @@
 <?php
-use App\Controllers\User;
-$error = User::Login();
+use App\Controllers\dataController;
+$error = $dataController->login();
 ?>
 
 <!DOCTYPE html>

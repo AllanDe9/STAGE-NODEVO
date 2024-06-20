@@ -6,15 +6,9 @@
         "password": "$2y$10$3cf94\/dvk5HAQMgXZ1Owdu9e1P3BHXbIfpi\/wtwjId0eAgJsuwNoO"
     },
     {
-        "nom": "x",
-        "prenom": "x",
-        "email": "x@gmail.com",
-        "password": "$2y$10$8cuj0DIEznUHuguqx00eo.8Y7ouqHvyVfEsbBrKPirNhZdSDjZi8q"
-    },
-    {
-        "nom": "y",
-        "prenom": "y",
-        "email": "y@gmial.com",
-        "password": "$2y$10$rQCI12XwVaDWPerBzXBERuwLxxJyFWxNZRlVD\/jhEuYwqLY7PuGYS"
+        "nom": "X",
+        "prenom": "X",
+        "email": "X@gmail.com",
+        "password": "$2y$10$Hc7iXClgduWtqPC.LFRrlePytkhiWDqh9L6WzhvsmHqxrRjnxmXzW"
     }
 ]
