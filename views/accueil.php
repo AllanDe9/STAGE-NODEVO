@@ -33,7 +33,7 @@ use App\Controllers\Catalogue;
             </nav>
         </div>
     </header>
-    <main class="main-admin">
+    <main class="main-accueil">
         <div class="nouveau">
         <?php
             $dataController->afficher3Modeles()
@@ -63,13 +63,13 @@ use App\Controllers\Catalogue;
                 setTimeout(showSlides, 10000); 
             }
             </script>
-            <div class="info-site">
-                <h2>Bienvenue sur Vintage Cars</h2>
-                <p>Le site dédié aux passionnés de voitures vintage!</br>
-                Ici, les amateurs de véhicules d'époque peuvent partager leur passion en ajoutant et modifiant des articles détaillés sur une vaste gamme de modèles et de marques de voitures classiques.</br>
+        </div>
+        <div class="info-site">
+            <h2>Bienvenue sur Vintage Cars</h2>
+            <p>Le site dédié aux passionnés de voitures vintage!</br>
+            Ici, les amateurs de véhicules d'époque peuvent partager leur passion en ajoutant et modifiant des articles détaillés sur une vaste gamme de modèles et de marques de voitures classiques.</br>
                 Que vous soyez un expert cherchant à enrichir la base de connaissances avec des informations précises ou un néophyte souhaitant découvrir l'histoire fascinante des automobiles vintage, notre plateforme collaborative vous offre les outils nécessaires.</br>
                 </p><p class="decale">Explorez notre collection d'articles, contribuez vos connaissances et plongez dans le monde captivant des voitures d'antan sur notre site ! </p>
-            </div>
         </div>
     </main>
     <footer>

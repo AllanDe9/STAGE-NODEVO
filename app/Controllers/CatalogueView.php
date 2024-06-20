@@ -72,7 +72,7 @@ class CatalogueView {
         }
         echo '</div>';
         echo '</div>'; 
-        $this->displayPagination($totalPages, $currentPage);
+        $this->displayPagination($totalPages, $currentPage, true);
         echo '</div>';
     }
 
@@ -91,28 +91,38 @@ class CatalogueView {
         $modeleRecherche = $searchParams['modele'];
         $anneeRecherche = $searchParams['annee'];
 
-        $resultats = [];
-        foreach ($vehicules['marques'] as $marque) {
-            if ($marqueRecherche === 'Toutes' || $marque['num_marque'] == $marqueRecherche) {
-                $modelesFiltres = Catalogue::filterModeles($marque['modeles'], $modeleRecherche, $anneeRecherche);
-                if (!empty($modelesFiltres)) {
-                    shuffle($modelesFiltres);
-                    $resultats[] = [
-                        'num_marque' => $marque['num_marque'],
-                        'nom_marque' => $marque['nom_marque'],
-                        'modeles' => $modelesFiltres
-                    ];
-                    $totalModels += count($modelesFiltres);
-                }
-            }
+        // Générer un identifiant unique pour la recherche actuelle
+        $searchHash = md5(serialize($searchParams));
+
+        // Réinitialiser les résultats dans la session si les critères de recherche changent
+        if (!isset($_SESSION['searchHash']) || $_SESSION['searchHash'] !== $searchHash) {
+            $_SESSION['searchHash'] = $searchHash;
+            unset($_SESSION['resultats']);
+            unset($_SESSION['totalModels']);
         }
 
-       
-        if (!isset($_SESSION['shuffled_results'])) {
-            shuffle($resultats); 
-            $_SESSION['shuffled_results'] = $resultats; 
+        if (!isset($_SESSION['resultats'])) {
+            $resultats = [];
+            foreach ($vehicules['marques'] as $marque) {
+                if ($marqueRecherche === 'Toutes' || $marque['num_marque'] == $marqueRecherche) {
+                    $modelesFiltres = Catalogue::filterModeles($marque['modeles'], $modeleRecherche, $anneeRecherche);
+                    if (!empty($modelesFiltres)) {
+                        shuffle($modelesFiltres); // Mélange les modèles avant de les ajouter aux résultats
+                        $resultats[] = [
+                            'num_marque' => $marque['num_marque'],
+                            'nom_marque' => $marque['nom_marque'],
+                            'modeles' => $modelesFiltres
+                        ];
+                        $totalModels += count($modelesFiltres);
+                    }
+                }
+            }
+            shuffle($resultats); // Mélange les résultats complets
+            $_SESSION['resultats'] = $resultats;
+            $_SESSION['totalModels'] = $totalModels;
         } else {
-            $resultats = $_SESSION['shuffled_results']; 
+            $resultats = $_SESSION['resultats'];
+            $totalModels = $_SESSION['totalModels'];
         }
 
         $totalPages = ceil($totalModels / $modelsParPage);
@@ -125,6 +135,7 @@ class CatalogueView {
         echo '<div class="row">';
         $modelsDisplayed = 0;
         $count = 0;
+
         if (!empty($resultats)) {
             foreach ($resultats as $marque) {
                 foreach ($marque['modeles'] as $modele) {
@@ -146,15 +157,17 @@ class CatalogueView {
             echo "<p>Aucun modèle trouvé pour les critères de recherche donnés.</p>";
             $vide = true;
         }
+
         echo '</div>';
+
         if (!$vide) {
-            $this->displayPagination($totalPages, $currentPage, $searchParams);
+            $this->displayPagination($totalPages, $currentPage, false, $searchParams);
         }
+
         echo '</div>';
     }
 
-        
-
+    
     private function displayModelePhoto($modele) {
         if (empty($modele['url_photo'])) {
             echo '<img src="https://thumbs.dreamstime.com/b/sch%C3%A9ma-voiture-48227977.jpg" alt="' . htmlspecialchars($modele['nom_modele']) . '">';
@@ -163,12 +176,17 @@ class CatalogueView {
         }
     }
 
-    private function displayPagination($totalPages, $currentPage, $searchParams = []) {
+    private function displayPagination($totalPages, $currentPage, $admin, $searchParams = []) {
         echo '<div class="pagination">';
         echo '<div class="bouton-pagination">';
         $queryString = http_build_query($searchParams);
+        if ($admin == true) {
+            $chemin = '/administrateur/modeles/';
+        } else {
+            $chemin = '/modeles/';
+        }
         if ($currentPage > 1) {
-            echo '<a href="/modeles/' . ($currentPage - 1) . '?' . $queryString . '"><div class="deplacement"><</div></a>';
+            echo '<a href="'.$chemin . ($currentPage - 1) . '?' . $queryString . '"><div class="deplacement"><</div></a>';
         } else {
             echo '<div class="deplacement" id="gris"><</div>';
         }
@@ -176,11 +194,11 @@ class CatalogueView {
             if ($i == $currentPage) {
                 echo '<div class="num_page" id="page_select">' . $i . '</div>'; 
             } else {
-                echo '<a href="/modeles/' . $i . '?' . $queryString . '"><div class="num_page">' . $i . '</div></a>';
+                echo '<a href="'.$chemin . $i . '?' . $queryString . '"><div class="num_page">' . $i . '</div></a>';
             }
         }
         if ($currentPage < $totalPages) {
-            echo '<a href="/modeles/' . ($currentPage + 1) . '?' . $queryString . '"><div class="deplacement">></div></a>';
+            echo '<a href="'.$chemin . ($currentPage + 1) . '?' . $queryString . '"><div class="deplacement">></div></a>';
         } else {
             echo '<div class="deplacement" id="gris">></div>';
         }

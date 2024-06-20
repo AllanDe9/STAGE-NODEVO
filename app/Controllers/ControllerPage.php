@@ -3,103 +3,76 @@
 namespace App\Controllers;
 
 class ControllerPage {
-    public function __construct(private string $basePath) {
+    private $Controller;
 
+    public function __construct(private string $basePath, $Controller) {
+        $this->Controller = $Controller;
     }
-    public function afficherMenuAdmin() {
 
+    private function redirection(string $lien): string {
         ob_start();
-        include $this->basePath. '/views/admin.php';
+        $dataController = $this->Controller;
+        include $this->basePath . $lien;
         return ob_get_clean();
     }
 
-    public function afficherAdminDouble($select, $id, $Controller) {
+    public function afficherMenuAdmin(): string {
+        return $this->redirection('/views/admin.php');
+    }
 
+    public function afficherAdminDouble(string $select, int $id): string {
         if ($select == 'marques') {
-            $get['marque'] = $id;
+            $_GET['marque'] = $id;
         } else {
-            $get['page'] = $id;
+            $_GET['page'] = $id;
         }
         $_GET['select'] = $select;
-        ob_start();
-        $dataController = $Controller;
-        include $this->basePath. '/views/admin.php';
-        return ob_get_clean();
+        return $this->redirection('/views/admin.php');
     }
-    public function afficherAdmin($select,$Controller) {
 
-        $get['marque'] = null;
+    public function afficherAdmin(string $select): string {
+        $_GET['marque'] = null;
         $_GET['select'] = $select;
-        ob_start();
-        $dataController = $Controller;
-        include $this->basePath. '/views/admin.php';
-        return ob_get_clean();
+        return $this->redirection('/views/admin.php');
     }
-    public function afficherAjouter($Controller) {
 
-        ob_start();
-        $dataController = $Controller;
-        include $this->basePath. '/views/formulaire.php';
-        return ob_get_clean();
+    public function afficherAjouter(): string {
+        return $this->redirection('/views/formulaire.php');
     }
-    public function afficherModifier($id, $Controller) {
 
-        $_GET['modele']= $id;
-        ob_start();
-        $dataController = $Controller;
-        include $this->basePath. '/views/formulaire.php';
-        return ob_get_clean();
+    public function afficherModifier(int $id): string {
+        $_GET['modele'] = $id;
+        return $this->redirection('/views/formulaire.php');
     }
-    public function afficherMarque($id, $Controller) {
 
+    public function afficherMarque(int $id): string {
         $_GET["marque"] = $id;
-        ob_start();
-        $dataController = $Controller;
-        include $this->basePath. '/views/marque.php';
-        return ob_get_clean();
+        return $this->redirection('/views/marque.php');
     }
-    public function afficherModele($id, $Controller) {
 
-        $_GET['modele']= $id;
-        ob_start();
-        $dataController = $Controller;
-        include $this->basePath. '/views/modele.php';
-        return ob_get_clean();
+    public function afficherModele(int $id): string {
+        $_GET['modele'] = $id;
+        return $this->redirection('/views/modele.php');
     }
-    public function afficherTousLesModeles($Controller) {
 
-        ob_start();
-        $dataController = $Controller;
-        include $this->basePath. '/views/tous_les_modeles.php';
-        return ob_get_clean();
+    public function afficherTousLesModeles(): string {
+        return $this->redirection('/views/tous_les_modeles.php');
     }
-    public function afficherTousLesModelesPage($id, $Controller) {
 
+    public function afficherTousLesModelesPage(int $id): string {
         $_GET['page'] = $id;
-        ob_start();
-        $dataController = $Controller;
-        include $this->basePath. '/views/tous_les_modeles.php';
-        return ob_get_clean();
+        return $this->redirection('/views/tous_les_modeles.php');
     }
-    public function afficherAccueil($Controller) {
 
-        ob_start();
-        $dataController = $Controller;
-        include $this->basePath. '/views/accueil.php';
-        return ob_get_clean();
+    public function afficherAccueil(): string {
+        return $this->redirection('/views/accueil.php');
     }
-    public function afficherConnexion($Controller) {
 
-        ob_start();
-        $dataController = $Controller;
-        include $this->basePath. '/requetes/connexion.php';
-        return ob_get_clean();
+    public function afficherConnexion(): string {
+        return $this->redirection('/requetes/connexion.php');
     }
-    public function afficherDeconnexion($Controller) {
 
-        ob_start();
-        $dataController = $Controller;
-        include $this->basePath. '/requetes/deconnexion.php';
-        return ob_get_clean();
+    public function afficherDeconnexion(): string {
+        return $this->redirection('/requetes/deconnexion.php');
     }
 }
