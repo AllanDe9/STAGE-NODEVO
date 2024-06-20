@@ -13,27 +13,34 @@ class CatalogueView {
         $modeles = [];
         foreach ($vehicules['marques'] as $marque) {
             foreach ($marque['modeles'] as $modele) {
-                $modeles[] = $modele;
+                $modeles[] = [
+                    'nom_marque' => $marque['nom_marque'],
+                    'num_marque'=> $marque['num_marque'],
+                    'modele' => $modele,
+                ];
             }
         }
         shuffle($modeles);
     
         $count = 0;
         echo '<div class="modele-container">';
-        foreach ($modeles as $modele) {
+        foreach ($modeles as $modeleData) {
             if ($count < 3) {
+                $modele = $modeleData['modele'];
                 echo '<div class="modele">';
                 $this->displayModelePhoto($modele);
-                echo '<div class="info-modele"><p>' . htmlspecialchars($marque['nom_marque']) .' - '. htmlspecialchars($modele['nom_modele']) .' - '. htmlspecialchars($modele['annee_debut']) . '</p></div>';
-                echo '<div class="outils-modele"><p><a href="/modifier/'. htmlspecialchars($modele['num_modele']) .'">Modifier</a>'.' - '.'<a href="/detail/'. htmlspecialchars($modele['num_modele']) .'">Voir plus</a>'.' - '.'<a href="/marque/'. htmlspecialchars($marque['num_marque']) .'">Voir la marque</a></p></div>';
+                echo '<div class="info-modele"><p>' . htmlspecialchars($modeleData['nom_marque']) .' - '. htmlspecialchars($modele['nom_modele']) .' - '. htmlspecialchars($modele['annee_debut']) . '</p></div>';
+                echo '<div class="outils-modele"><p><a href="/modifier/'. htmlspecialchars($modele['num_modele']) .'">Modifier</a>'.' - '.'<a href="/detail/'. htmlspecialchars($modele['num_modele']) .'">Voir plus</a>'.' - '.'<a href="/marque/'. htmlspecialchars($modeleData['num_marque']) .'">Voir la marque</a></p></div>';
                 echo '</div>'; 
                 $count++;
             } else {
                 break;
             }
         }
-        echo '</div>'; 
+        echo '</div>';
     }
+    
+    
     
 
     public function displayTousModeles($vehicules, $get) {
