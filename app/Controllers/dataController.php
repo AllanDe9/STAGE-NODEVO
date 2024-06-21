@@ -5,7 +5,7 @@ namespace App\Controllers;
 
 class dataController {
     public function afficherUtilisateur() {
-        $utilisateurs = User::getUtilisateurs();
+        $utilisateurs = UserRepository::getUtilisateurs();
         $userView = new userView();
         $userView->displayUsers($utilisateurs);
     }
@@ -18,7 +18,7 @@ class dataController {
             $email = $_POST['email'];
             $password = $_POST['password'];
 
-            $existingUser = User::findEmail($email);
+            $existingUser = UserRepository::findEmail($email);
             if ($existingUser) {
                 $error = 'Un utilisateur avec cet email existe déjà';
             } else {
@@ -28,7 +28,7 @@ class dataController {
                     'email' => $email,
                     'password' => password_hash($password, PASSWORD_DEFAULT)
                 ];
-                User::saveUser($newUser);
+                UserRepository::saveUser($newUser);
                 header("Location: " . $_SERVER['REQUEST_URI']);
                 exit();
             }
@@ -42,7 +42,7 @@ class dataController {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $email = $_POST['email'];
             $password = $_POST['password'];
-            $user = User::findEmail($email);
+            $user = UserRepository::findEmail($email);
             if ($user && password_verify($password, $user['password'])) {
                 $_SESSION['user'] = $user;
                 header('Location: /administrateur');
@@ -57,7 +57,7 @@ class dataController {
     public function supprimerUser() {
         if (isset($_GET['delete'])) {
             $emailToDelete = $_GET['delete'];
-            User::deleteUser($emailToDelete);
+            UserRepository::deleteUser($emailToDelete);
             header('Location: /administrateur/users');
             exit();
         }
@@ -68,7 +68,7 @@ class dataController {
         $catalogueView->displayMarques($vehicules['marques']);
     }
 
-    public function afficher3Modeles() {
+    public function afficher4Modeles() {
         $vehicules = Catalogue::getVoitures();
         $catalogueView = new CatalogueView();
         $catalogueView->display4Modeles($vehicules);
