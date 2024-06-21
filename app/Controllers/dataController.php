@@ -149,7 +149,7 @@ class dataController {
         
                 $vehicules = Catalogue::getVoitures();
                 $nouveau_modele = array(
-                    "num_modele" => self::getNextNumModele($vehicules['marques'], $num_marque),
+                    "num_modele" => self::getNextNumModele($vehicules['marques']),
                     "nom_modele" => $nom_modele,
                     "url_photo" => $url_photo,
                     "annee_debut" => $annee_debut,
@@ -250,19 +250,29 @@ class dataController {
         return $erreurs;
     }
 
-    private static function getNextNumModele($marques, $num_marque) {
+    private static function getNextNumModele($marques) {
+        $existingNums = [];
+           
         foreach ($marques as $marque) {
-            if ($marque['num_marque'] == $num_marque) {
-                if (!empty($marque['modeles'])) {
-                    $lastModele = end($marque['modeles']);
-                    return $lastModele['num_modele'] + 1;
-                } else {
-                    return 1;
-                }
+            foreach ($marque['modeles'] as $modele) {
+                $existingNums[] = $modele['num_modele'];
             }
         }
-        return 1;
+          
+        sort($existingNums);
+    
+        $nextNum = 1;
+        foreach ($existingNums as $num) {
+            if ($num == $nextNum) {
+                $nextNum++;
+            } else {
+                break;
+            }
+        }
+    
+        return $nextNum;
     }
+    
     
 
     private static function getMarqueByModele($num_modele) {
