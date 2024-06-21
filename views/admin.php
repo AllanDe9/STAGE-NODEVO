@@ -44,10 +44,10 @@ use App\Controllers\dataController;
     <?php 
     if (isset($_GET['select'])) {
         if ($_GET['select'] == "marques") {
-            $dataController->afficherAdminMarque($get);
+            $dataController->afficherAdminMarque($_GET);
         }
         if ($_GET['select'] == "modeles") {
-            $dataController->afficherTousModeles($get);
+            $dataController->afficherTousModeles($_GET);
             $dataController->supprimer();
         }
         if ($_GET['select'] == "users") {

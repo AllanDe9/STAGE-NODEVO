@@ -1,8 +1,3 @@
-<?php
-use App\Controllers\Modele;
-use App\Controllers\Marque;
-use App\Controllers\Catalogue;
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>

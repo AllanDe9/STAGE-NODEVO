@@ -5,7 +5,7 @@ namespace App\Controllers;
 
 class dataController {
     public function afficherUtilisateur() {
-        $utilisateurs = User::getUtilisateurs();
+        $utilisateurs = UserRepository::getUtilisateurs();
         $userView = new userView();
         $userView->displayUsers($utilisateurs);
     }
@@ -18,7 +18,7 @@ class dataController {
             $email = $_POST['email'];
             $password = $_POST['password'];
 
-            $existingUser = User::findEmail($email);
+            $existingUser = UserRepository::findEmail($email);
             if ($existingUser) {
                 $error = 'Un utilisateur avec cet email existe déjà';
             } else {
@@ -28,7 +28,7 @@ class dataController {
                     'email' => $email,
                     'password' => password_hash($password, PASSWORD_DEFAULT)
                 ];
-                User::saveUser($newUser);
+                UserRepository::saveUser($newUser);
                 header("Location: " . $_SERVER['REQUEST_URI']);
                 exit();
             }
@@ -42,7 +42,7 @@ class dataController {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $email = $_POST['email'];
             $password = $_POST['password'];
-            $user = User::findEmail($email);
+            $user = UserRepository::findEmail($email);
             if ($user && password_verify($password, $user['password'])) {
                 $_SESSION['user'] = $user;
                 header('Location: /administrateur');
@@ -57,7 +57,7 @@ class dataController {
     public function supprimerUser() {
         if (isset($_GET['delete'])) {
             $emailToDelete = $_GET['delete'];
-            User::deleteUser($emailToDelete);
+            UserRepository::deleteUser($emailToDelete);
             header('Location: /administrateur/users');
             exit();
         }
@@ -68,10 +68,10 @@ class dataController {
         $catalogueView->displayMarques($vehicules['marques']);
     }
 
-    public function afficher3Modeles() {
+    public function afficher4Modeles() {
         $vehicules = Catalogue::getVoitures();
         $catalogueView = new CatalogueView();
-        $catalogueView->display3Modeles($vehicules);
+        $catalogueView->display4Modeles($vehicules);
     }
 
     public function afficherTousModeles($get) {
@@ -149,7 +149,7 @@ class dataController {
         
                 $vehicules = Catalogue::getVoitures();
                 $nouveau_modele = array(
-                    "num_modele" => self::getNextNumModele($vehicules['marques'], $num_marque),
+                    "num_modele" => self::getNextNumModele($vehicules['marques']),
                     "nom_modele" => $nom_modele,
                     "url_photo" => $url_photo,
                     "annee_debut" => $annee_debut,
@@ -250,15 +250,30 @@ class dataController {
         return $erreurs;
     }
 
-    private static function getNextNumModele($marques, $num_marque) {
+    private static function getNextNumModele($marques) {
+        $existingNums = [];
+           
         foreach ($marques as $marque) {
-            if ($marque['num_marque'] == $num_marque) {
-                $lastModele = end($marque['modeles']);
-                return $lastModele['num_modele'] + 1;
+            foreach ($marque['modeles'] as $modele) {
+                $existingNums[] = $modele['num_modele'];
             }
         }
-        return 1;
+          
+        sort($existingNums);
+    
+        $nextNum = 1;
+        foreach ($existingNums as $num) {
+            if ($num == $nextNum) {
+                $nextNum++;
+            } else {
+                break;
+            }
+        }
+    
+        return $nextNum;
     }
+    
+    
 
     private static function getMarqueByModele($num_modele) {
         $vehicules = Catalogue::getVoitures();

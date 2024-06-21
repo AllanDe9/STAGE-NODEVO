@@ -270,7 +270,6 @@ main {
     margin-bottom: 30px;
 }
 .info-marque img{
-    width: 150px;
     height: 150px; 
     text-align:center
 }
@@ -678,115 +677,98 @@ a{
     background-color: #ffffff;
 }
 .nouveau{
-    float: right;
-    width: 30%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 1200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: -20px;
+    background-color: #ffffff;
+    margin-top: 500px;
 }
 .accueil{
-    position: fixed;
-    float: left;
-    width: 69%;
     padding-left: -20px;
     height: 88%;
 }
 .slideshow-container {
-    position: absolute;
+    position: fixed;
+    margin-top: 100px;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    width: 97.8%;
+    height: 500px;
     z-index: -1; 
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://retrovintagecars.com/wp-content/uploads/2023/02/automobile-g2d583cdee_1920.jpg);
+    background-position: center;
 }
-.mySlides {
-    display: none;
-    position: absolute;
+.slideshow-container::before {
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
-    height: 100%;
-}
-
-.fade {
-    animation: fadeEffect 10s ease-in-out;
-}
-
-@keyframes fadeEffect {
-    0% {opacity: 0;}
-    1% {opacity: 1;}
-    99% {opacity: 1;}
-    100% {opacity: 0;}
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; 
 }
 .info-site{
-    position: absolute;
-    border: #424242 solid 3px;
-    bottom: 0;
-    background-color: white;
+    text-align: center;
+    background-color: #ffffff;
 }
 .info-site p{
     margin-left: 15px;
     margin-right: 20px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 35px;
 }
 .info-site .decale{
-    margin-left: 65px;
+   margin-bottom: 0px;
+   padding-bottom: 30px;
 }
+
 .info-site h2{
     margin-left: 15px;
+    margin-top: 0px;
 }
-.main-admin{
-    padding-left: 0;
+.bas-du-site{
+    border-top: solid 1px #424242;
+    background-color: #ffffff;
+    margin-bottom: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1600px) {
-   
-
+.bas-du-site h3{
+    text-align: center;
 }
-@media screen and (max-width: 1327px){
-
-    
-
+.bas-du-site img{
+    width: 90px;
+    margin-bottom: 10px;
 }
-@media screen and (max-width: 1025px){
-   
+.info-bas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 120px;
 }
-@media screen and (max-width: 525px){
-    
+.presentation p{
+    line-height: 35px;
+}
+.info-bas ul{
+    margin-top: -10px;
+}
+.info-bas li{
+    margin-top: 10px;
+    list-style: none;
+}
+.info-bas a{
+    color: #424242;
+    transition: font-weight 0.5s ease, text-decoration 0.5s ease;
+}
+.info-bas a:hover{
+    font-weight:bolder;
+    text-decoration: underline;
+}
+.info-bas .contact{
+    margin-top: -10px;
 }
