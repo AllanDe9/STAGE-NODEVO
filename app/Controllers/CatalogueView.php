@@ -9,7 +9,7 @@ class CatalogueView {
         }
     }
 
-    public function display3Modeles($vehicules) {
+    public function display4Modeles($vehicules) {
         $modeles = [];
         foreach ($vehicules['marques'] as $marque) {
             foreach ($marque['modeles'] as $modele) {
@@ -23,9 +23,8 @@ class CatalogueView {
         shuffle($modeles);
     
         $count = 0;
-        echo '<div class="modele-container">';
         foreach ($modeles as $modeleData) {
-            if ($count < 3) {
+            if ($count < 4) {
                 $modele = $modeleData['modele'];
                 echo '<div class="modele">';
                 $this->displayModelePhoto($modele);
@@ -37,7 +36,6 @@ class CatalogueView {
                 break;
             }
         }
-        echo '</div>';
     }
     
     
@@ -83,6 +81,10 @@ class CatalogueView {
         echo '</div>';
     }
 
+  
+
+   
+
     public function displayTousModelesRecherche($vehicules) {
         $modelsParPage = 9;
         $totalModels = 0;
@@ -101,34 +103,38 @@ class CatalogueView {
         // Générer un identifiant unique pour la recherche actuelle
         $searchHash = md5(serialize($searchParams));
 
-        // Réinitialiser les résultats dans la session si les critères de recherche changent
-        if (!isset($_SESSION['searchHash']) || $_SESSION['searchHash'] !== $searchHash) {
+        // Générer un identifiant unique pour l'état des véhicules
+        $vehiclesHash = md5(json_encode($vehicules));
+
+        // Réinitialiser les résultats dans la session si les critères de recherche ou les véhicules changent
+        if (!isset($_SESSION['searchHash']) || $_SESSION['searchHash'] !== $searchHash || 
+            !isset($_SESSION['vehiclesHash']) || $_SESSION['vehiclesHash'] !== $vehiclesHash) {
             $_SESSION['searchHash'] = $searchHash;
-            unset($_SESSION['resultats']);
-            unset($_SESSION['totalModels']);
+            $_SESSION['vehiclesHash'] = $vehiclesHash;
+            unset($_SESSION['modelOrder']);
         }
 
-        if (!isset($_SESSION['resultats'])) {
-            $resultats = [];
+        if (!isset($_SESSION['modelOrder'])) {
+            $modelOrder = [];
             foreach ($vehicules['marques'] as $marque) {
                 if ($marqueRecherche === 'Toutes' || $marque['num_marque'] == $marqueRecherche) {
                     $modelesFiltres = Catalogue::filterModeles($marque['modeles'], $modeleRecherche, $anneeRecherche);
                     if (!empty($modelesFiltres)) {
-                        shuffle($modelesFiltres); // Mélange les modèles avant de les ajouter aux résultats
-                        $resultats[] = [
-                            'num_marque' => $marque['num_marque'],
-                            'nom_marque' => $marque['nom_marque'],
-                            'modeles' => $modelesFiltres
-                        ];
-                        $totalModels += count($modelesFiltres);
+                        foreach ($modelesFiltres as $modele) {
+                            $modelOrder[] = [
+                                'num_marque' => $marque['num_marque'],
+                                'num_modele' => $modele['num_modele']
+                            ];
+                            $totalModels++;
+                        }
                     }
                 }
             }
-            shuffle($resultats); // Mélange les résultats complets
-            $_SESSION['resultats'] = $resultats;
+            shuffle($modelOrder); // Mélange les résultats complets
+            $_SESSION['modelOrder'] = $modelOrder;
             $_SESSION['totalModels'] = $totalModels;
         } else {
-            $resultats = $_SESSION['resultats'];
+            $modelOrder = $_SESSION['modelOrder'];
             $totalModels = $_SESSION['totalModels'];
         }
 
@@ -143,22 +149,28 @@ class CatalogueView {
         $modelsDisplayed = 0;
         $count = 0;
 
-        if (!empty($resultats)) {
-            foreach ($resultats as $marque) {
-                foreach ($marque['modeles'] as $modele) {
-                    if ($modelsDisplayed >= $start && $modelsDisplayed < $end) {
-                        if ($count > 0 && $count % 3 == 0) {
-                            echo '</div><div class="row">'; 
+        if (!empty($modelOrder)) {
+            foreach ($modelOrder as $index => $modelInfo) {
+                if ($modelsDisplayed >= $start && $modelsDisplayed < $end) {
+                    foreach ($vehicules['marques'] as $marque) {
+                        if ($marque['num_marque'] == $modelInfo['num_marque']) {
+                            foreach ($marque['modeles'] as $modele) {
+                                if ($modele['num_modele'] == $modelInfo['num_modele']) {
+                                    if ($count > 0 && $count % 3 == 0) {
+                                        echo '</div><div class="row">';
+                                    }
+                                    echo '<div class="modele">';
+                                    $this->displayModelePhoto($modele);
+                                    echo '<div class="info-modele"><p>' . htmlspecialchars($marque['nom_marque']) .' - '. htmlspecialchars($modele['nom_modele']) .' - '. htmlspecialchars($modele['annee_debut']) . '</p></div>';
+                                    echo '<div class="outils-modele"><p><a href="/modifier/'. htmlspecialchars($modele['num_modele']) .'">Modifier</a>'.' - '.'<a href="/detail/'. htmlspecialchars($modele['num_modele']) .'">Voir plus</a>'.' - '.'<a href="/marque/'. htmlspecialchars($marque['num_marque']) .'">Voir la marque</a></p></div>';
+                                    echo '</div>';
+                                    $count++;
+                                }
+                            }
                         }
-                        echo '<div class="modele">';
-                        $this->displayModelePhoto($modele);
-                        echo '<div class="info-modele"><p>' . htmlspecialchars($marque['nom_marque']) .' - '. htmlspecialchars($modele['nom_modele']) .' - '. htmlspecialchars($modele['annee_debut']) . '</p></div>';
-                        echo '<div class="outils-modele"><p><a href="/modifier/'. htmlspecialchars($modele['num_modele']) .'">Modifier</a>'.' - '.'<a href="/detail/'. htmlspecialchars($modele['num_modele']) .'">Voir plus</a>'.' - '.'<a href="/marque/'. htmlspecialchars($marque['num_marque']) .'">Voir la marque</a></p></div>';
-                        echo '</div>';
-                        $count++;
                     }
-                    $modelsDisplayed++;
                 }
+                $modelsDisplayed++;
             }
         } else {
             echo "<p>Aucun modèle trouvé pour les critères de recherche donnés.</p>";
@@ -173,6 +185,8 @@ class CatalogueView {
 
         echo '</div>';
     }
+
+
 
     
     private function displayModelePhoto($modele) {

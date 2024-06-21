@@ -21,7 +21,7 @@ class ModeleView {
         if ($modele->puissance_max == $modele->puissance_min) {
             echo '<p>' . htmlspecialchars($modele->puissance_max) . 'ch</p>';
         } else {
-            echo '<p>' . htmlspecialchars($modele->puissance_max) . ' ch - ' . htmlspecialchars($modele->puissance_min) . ' ch</p>';
+            echo '<p>' . htmlspecialchars($modele->puissance_min) . ' ch - ' . htmlspecialchars($modele->puissance_max) . ' ch</p>';
         }
         echo '<h3>Cote du modèle :</h3>';
         echo '<p>' . htmlspecialchars($modele->prix_actuel) . ' €</p>';

@@ -71,7 +71,7 @@ class dataController {
     public function afficher3Modeles() {
         $vehicules = Catalogue::getVoitures();
         $catalogueView = new CatalogueView();
-        $catalogueView->display3Modeles($vehicules);
+        $catalogueView->display4Modeles($vehicules);
     }
 
     public function afficherTousModeles($get) {
@@ -253,12 +253,17 @@ class dataController {
     private static function getNextNumModele($marques, $num_marque) {
         foreach ($marques as $marque) {
             if ($marque['num_marque'] == $num_marque) {
-                $lastModele = end($marque['modeles']);
-                return $lastModele['num_modele'] + 1;
+                if (!empty($marque['modeles'])) {
+                    $lastModele = end($marque['modeles']);
+                    return $lastModele['num_modele'] + 1;
+                } else {
+                    return 1;
+                }
             }
         }
         return 1;
     }
+    
 
     private static function getMarqueByModele($num_modele) {
         $vehicules = Catalogue::getVoitures();
