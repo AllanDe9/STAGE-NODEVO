@@ -31,7 +31,21 @@
         {
             "num_marque": 3,
             "nom_marque": "Audi",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 2,
+                    "nom_modele": "V8",
+                    "url_photo": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/79\/Audi_V8._VF.jpg",
+                    "annee_debut": 1988,
+                    "annee_fin": 1994,
+                    "nbr_produit": 21565,
+                    "puissance_max": 280,
+                    "puissance_min": 250,
+                    "prix_neuf": 55000,
+                    "prix_actuel": 15000,
+                    "description": "L'Audi V8 est une automobile d\u00e9velopp\u00e9e par le constructeur allemand Audi, propos\u00e9e de 1988 \u00e0 1994 (les derniers mod\u00e8les sortiront d'usine en 1993 et continueront de s'ecouler jusqu'au lancement de sa rempla\u00e7ante pr\u00e9sent\u00e9e au Salon de Gen\u00e8ve en mars 1994), pr\u00e9d\u00e9cesseur de l'actuelle Audi A8. Construite sur la base d'une Audi 100, l'Audi V8 symbolise \u00e0 la fois la mont\u00e9e en gamme de la marque allemande, mais \u00e9galement la possibilit\u00e9 de concurrencer les leaders du march\u00e9 de l'\u00e9poque que sont Mercedes-Benz et BMW. Un tout nouveau moteur V8 en aluminium et une transmission Quattro sont l'apanage de cette nouvelle Audi, pr\u00e9sent\u00e9e en 1988 au Mondial de l'automobile de Paris. "
+                }
+            ],
             "url_logo_marque": "https:\/\/media.cdnws.com\/_i\/46016\/4142\/1667\/43\/stickers-audi-ref1-autocollant-voiture-sticker-auto-autocollants-decals-sponsors-racing-tuning-sport-logo-min.jpeg ",
             "descri_marque": "Audi AG est un constructeur d'automobiles sportives allemand, filiale du groupe Volkswagen appel\u00e9 VAG (Volkswagen Aktiengesellschaft) qui d\u00e9tient la marque \u00e0 99,55 %. Le si\u00e8ge social se situe \u00e0 Ingolstadt en Bavi\u00e8re. Implant\u00e9 dans 55 pays du monde, Audi est pr\u00e9sent sur la plupart des segments du march\u00e9 des v\u00e9hicules particuliers, y compris sur celui des sportives de prestiges gr\u00e2ce \u00e0 ses deux filiales que sont Lamborghini et Audi Sport. En 2012, l\u2019entreprise a vendu 1 524 635 v\u00e9hicules, un record depuis sa cr\u00e9ation en 1909, et se classe parmi les constructeurs les plus rentables. "
         },
@@ -61,9 +75,9 @@
             "nom_marque": "BMW",
             "modeles": [
                 {
-                    "num_modele": 8,
+                    "num_modele": 4,
                     "nom_modele": "2002 turbo",
-                    "url_photo": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/8b\/BMW_2002_Turbo_%2812443031335%29.jpg\/280px-BMW_2002_Turbo_%2812443031335%29.jpg",
+                    "url_photo": "https:\/\/cdn.motor1.com\/images\/mgl\/L37BbM\/s3\/bmw-2002-turbo-1973-74.jpg",
                     "annee_debut": 1973,
                     "annee_fin": 1975,
                     "nbr_produit": 1672,
@@ -94,7 +108,21 @@
         {
             "num_marque": 8,
             "nom_marque": "Cadillac",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 5,
+                    "nom_modele": "Seville",
+                    "url_photo": "https:\/\/i.gaw.to\/content\/photos\/59\/84\/598448-cadillac-seville-1980-85-retour-en-arriere.jpg",
+                    "annee_debut": 1975,
+                    "annee_fin": 1979,
+                    "nbr_produit": 215659,
+                    "puissance_max": 180,
+                    "puissance_min": 180,
+                    "prix_neuf": 25000,
+                    "prix_actuel": 10000,
+                    "description": "La Seville, pr\u00e9sent\u00e9e en mai 1975 comme un mod\u00e8le d\u00e9but 1976, fut la r\u00e9ponse de Cadillac \u00e0 la popularit\u00e9 grandissante de voitures de luxe europ\u00e9ennes comme Mercedes-Benz et BMW. Les planificateurs de General Motors \u00e9taient de plus en plus pr\u00e9occup\u00e9s par le fait que l'image tant vant\u00e9e de Cadillac comme \"the standard of the world\" (la norme du monde) s'estompait, notamment chez la jeune g\u00e9n\u00e9ration d'acheteurs de voitures. "
+                }
+            ],
             "url_logo_marque": "https:\/\/cdn.worldvectorlogo.com\/logos\/cadillac-1.svg",
             "descri_marque": "Cadillac Motorcar Division, ou simplement Cadillac est un constructeur automobile am\u00e9ricain bas\u00e9 \u00e0 D\u00e9troit (Michigan) division du groupe General Motors. Son nom rend hommage au fondateur fran\u00e7ais de la ville, le Gascon Antoine de Lamothe-Cadillac. William Crapo Durant ach\u00e8te la marque en 1909 et l'int\u00e8gre dans General Motors afin d'en faire sa division de voitures de luxe. "
         },
@@ -115,21 +143,7 @@
         {
             "num_marque": 11,
             "nom_marque": "Citroen",
-            "modeles": [
-                {
-                    "num_modele": 5,
-                    "nom_modele": "DS",
-                    "url_photo": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys\/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N\/\/AABEIAJQA0wMBIgACEQEDEQH\/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQIHAwQGBQj\/xABOEAABAwIDAwYKBQYLCQAAAAABAAIDBBEFEiEGMVEHE0FxkdEUFSIyQlJhgZKhM1NyscEjQ2KCwtIWF0RUY3SDhKKz4SQ0NXOTlLLw8f\/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME\/8QAIBEBAAICAgMBAQEAAAAAAAAAAAERAhIhUQMTMUEiBP\/aAAwDAQACEQMRAD8AtWyLKQQtISEdKaAsmhCIEIQgQ853WmkN7utNArITQEAi10yEII7kJlJAICEXQDlG6ZUDdAykgFFtEAmUggoEtbERegqbb+ad9y2V5+MyltM6Nul23KsDVku55J6UIO8oW2XvBMpBBXNsdKaipBAwhASKIaEXSQMec7rTURvd1p20QCEIQNCQTQJIppFAIQhAikVIpFBGyDuTUdUAkmE7KiOliSdy8bEyX08rvYV6lY7JEQPOdovJq7upHtG8tVSTO\/chepDTN5pubfbVCWU2roul0prLRdKkEraqSWAIQhAWSsmmiIN9LrUgUhvPWpIFZFk0rXRQmjchEIhRKkkgXQhACaKRSO5SKR3IiIKE1EIGgbx7UJPdlaXcAqNCskzzW6GaLVnbeN9ui33hSe4lzne1Z3R5cPkefSy\/+QVHooSvYke1Cip3QohO6yHdCiN6YQSuhJSCWBQeXNlYMoIde7uFlPVMcFbGKV7443PjFyCOy4ClLNDTsL55WRsB1c91gPeVOx3dB3rmdrZIqp1LhscTJqmWS7A7UNb0krWMbSzlMRD03Y\/hd7Q1cczv6M3WKXanDWOygyH7MbiPuXjv2KwmYEzNkdJYXcMoseqy0ZOTfD57mLFMRhF7gRuYP2VqsY+yztlP46WPaOkmcGxR1DnHcBC\/uWd2LNYSH0lUD7YXj8FzuHbGOwGaGopMexF+WQPeJngtDBq4m99LBa21OxmI7U1YxFu0ElCHtHN0zWOAjHC4eLn3LMzHTUX26oYzF\/N6j\/pnuQcbp2i7oqhvXGVVNTyZbWUrS6h2lbM4bh4TJGfndeXV4HyiYYdKmsnYPOdBUNl+W\/5KbR0VPa6Rj2HA2dI9v2oyFlZjOGv0FXGPtGyqB1Zi9NsAzGKjEKsV3jMU7hKwXDchNrEbri+6+7XoPgna3GLayU0rQNRLTN+8WVicZP6h9DsmhmtzM0bx+i4FTLSNLL56h2yqWENlw+FzuNPM+Jx9xzLosN28rIi3LUVlO3S4robx6\/pi9vfZWsZ+SXPS4DdRXI4ftxkq\/AsbojDNuL4jmDhxy77e0LqhUwOYHNlDmncQLrMxU01U1dMoWCrdZlgp+EQ+v8isE08TnWzE2\/RKiNcxOcWtbYXOtwt2taBRvYNwyj\/GFCJ8Y1s8\/qFKtnb4K\/yZNXMHmH1wkyQ2jvKFiM7b+ZL8BQpapZDb6WTtQYxb6ST4k2rXnxCgpbmqr6WHL53OTMbbtKDMyIa3fJu9ZSETT6T\/AIytCnxzCKgvbT4lTSuaPKET84HWRuWCq2nwekJzVTXH9BajDKeIhmc8Y\/Xrcy07y\/4z3qQhZ+l8Z71x1XygUbXhlFGJD05wfwWr\/DurGr6Zoad2ZnN\/NxW48Hk6Z9uPbvPB4\/VPxHvQYIreUzT2lV5Jt9VHzYadv2qyIftLWk24xJ3mRURH9eh\/fV9GR7cVh1To6drjEy5Gl29K8rBqaKWplxCSYOqZzlt5pjaPRHvXFu2wx12scFHf+txH9taNXtJtO9pIga3\/AJLA8\/K61HimIpmc4lbLaazbOe4N9rjYdilTRc5VOhMb3BrQS4vPT\/8AFQ9ZimOy+VO+qYODmlq9DB9uNocGp5oKdznukFmmSPNkI3EX\/wBVnLxccSuOXcLS2vnZzuH4FTj8riNQ1klh+ZYc0naG2Xs8wwA2ij13+QFRdTt1j7sYZijmUgq44zEwvgOVrTv0v0\/it+LlT2nAs+HDXDiKdwv\/AIlznCY5dNoniFwCGMfmo\/gCkGNHoM+EKohysYy0+XQUDuprx+0tui5UsZrZTFT4BDPJbNljkcDYdKyU3uU8X2VrC2wBx2PcLfmCqtZdsb7WJyno3adC7PbDaCqxDZ3wXEsHqqAzVvhfOutlcQ3JlHHzguGMlPa3OSD9VWFfS+DYZTUWE0cdHE1sYhYbgAF1wNTbeseMYQ3GMNrKGpZ+RnicwDXeRoV88QY5iFMb02N18Ry5Rlmdu4b0oMSrmElmP1kZJ6ZZO9OBeuxENLtDsdFQY3SRVEtG99PM2VguHNJaSOF7X96yYXslh+zWM1NXQSVDYqmMNbC6UuYzW5tf3dS4jkq2po8FdWR4vikbm1Bz8492rnX9upJ\/BWHUbWbOYhA4UuNULpRfIOcDrH2gFZqLb3yiKvh6O8XBWMi5uudg2ikgflnFJUNL7N5mbm3HqEls3UCV0FJVQVkPO08jXtvY23tPAjoK0wys0CwYhpSPPB8f+Y1ZibFamJP\/ANjk+3H\/AJjVBtnehYXTAGxQg08WZUVNAWUUuVz3DO9rrZGDUm6qLaCgwH+EVTWxvdNBJkcKZvktz5QHFzt9r3Nhx32XcbW4HtViVFBTYU6lp4n\/AEjJHkSOcb+Tpp0cehVFicNZhde6gxSoggqWmxY5rnDeRvbcbwR7l0\/y5Vjfk+ufki\/j3KnHZHRNhhDYom+bFGA1o9wXmvqJpiddT03WfHNn8RwKkgqa+ajdFPII2cw9xNyCdbtHBeM5+cZS7TpsV7vY4aLVo9nKOLYmasqYhKx9C6oBaS0l7Rmvm6B0KrZp6d73up2lrLnyC\/MQF0+B4jWYrgUuB1u0mEYZRRwmGJ1WTzjmE3LRu0tpdc\/jmE02HzthixSixJhZmE9IdG+z2dq8U+XLGZi3o0inmyVNuk3WA146X\/Jb+A7NYltFUSeBlsVFEfy1XOcsbe8+z7l6VXsxs\/SgM8b1lRIN8kUIDCfZfVYnyZNaQ58Vl\/NOb5JismB0iaDxzf6J4jgbqdjp6KYVMLd9hle3rHT7l58czi2x6FN8uzWHsQYpPG9jpOcyNcC5odoRfUKbsUqGTSNDpAWuIvc9BXiPGYdKy1Mr3SF2Ygmx09uqXK09V2KTOHlZ3dZWM1x9Urx+df67u1LnHXvnd2qWU9Y1ObXKsUjmy6Pa029YXWnHNp5WpWTnQit2kawMqmta1p5nNppuc0rAXXSpZTnkHrRuHyWMOuLhBO6WZRJUHOQepBjuK0sbI6evmZGxtmNAFgOG5atfGzwuQlgLT5Qv7de9aZk61OeXMI3Em5jAHUNEGxTVdRSkGmqJYbbsjyPuXs4PtljGDVYqKWpu702ubdsg4EBcwZb7roDiURe+zPKxheJyMgxqn8XTu05wOzQuPXvb779a7DE3Z4IRE5jmSSMOa9w4BwOn3jqXzBQUFRiVRzFKYQ+1zz0zIxbrcRfqFyrF2egr8EwGUuxKnq3RTsHNwPdI2JtxbW2UEH5XWM8qxtrGLmlqhjJy6Vj2lrnut2nRCq0bVT0hfA+nmc5r3ElhuDck\/ihcPfLt6Gxi3KBtDs5iU1IHPdPG4iPw6NlyywsQQ3X3H8Vx9VtRT18kT8Qw2lqJYxla982tt\/q8VdmJ4VR4xTinxOljqIwbtDh5p4g9CrbbPkxZQUNRiuCTu5qBhkkpZSSco3lruq+h4b16YlxoodpMSxPDDBLgLa2hkABDahjgQN3QLFab6PDSRzuw9W0\/0VS4fc5cVhuK1OHSl9LO9ubz2nUOXTU23AsBNG9p6SNys5ZM6w9OCj2fzDn9icbdro1lU7vWtjGG4BPXupYqDHMLqXNzCKWZskYHG5ube9Z3bcwxUznxNdNJ6LM28+1c7h+M1Vfi1TU18maSRoFraNA3AcAs3Ku0onNqJKXBqMCGggHlC+htvLuPfruuF0lTstQiCKpipWVFLM0WllIYSSdAGu19mq5XZLLJidQwzSROdC4sey17jfqenLmHvVkYmzwyhgjbXzxsaAWiNjBYgb7kK7RBUzKtMdwOLD4osQw0u8DlkMMkTzcwScOo6qv8Qpm0+IujZox3lNHC\/wDrdXBjNNKMBxV8kg5qepjNnsu57hqbHS1gBx3WVYYjTTV2OU1JStD55LBoJsOOvzSPh+vLNOQbZz2Kb48wYc3o2On\/AL7F2btgZWgZsWiDukeDHT\/EkNg5DocWjtxFOf3lLgcSae\/Sl4OBvd8l30fJ\/GR5eLuv+jAB+0VkHJ7T3F8SqnfZialwK98HAPnfJS5r2rvq3YOmpKV0zX4rUuFrRQRNLnXNuHv9yznk7pI6cVE02IMjsCS9rRY8PNS4FeQjLI071BrcvpK1mcllNe+Sv04vHctXFNgMHwekdWYl4fFTMIDpC4kNvxsEtaVpYcVEhdjl2AaCPCqt+v8AS6\/JR8I2EFmsgrZbmwAD9fmlo44x36XBN8YLIxc6A9PRcq5qLk8wqopYJvFzYeeaCGTOJey\/EXVd7Z7KVOyuJw009Q2ognY58MrWFo0Ni23EadqRNrTmXRsFsxI6ygCOxIN7e1WPsBJQUtOY8Rw6ndOXZo5Jo2kOHAnVd9S01K9rq+QUlPHSgyshAaA9wGlwOgHXXgl8lKLwLAqzHcQ8FoYc\/NjPKHODcrARckndwVuU2EYXh2F1GD0lPzHOuzStc\/ngdN4dvB0+RUeTXCKGmdiNZUFrectE2SUHO92rnOOhHD33XTVGA4JLKJJW875Tnf764XJN\/v6NLXXm82WczUfHTCK5VQaCpecz45nk+kwusewIVwtwnCmNDYqCFzBuPOM70LjWTvu8U7e7M9NZUH7ET+5Sbyh7LhpZLPUPa4WIdATccFCfY\/BnXMmE059oYAtd+wmASjysJd+rI5v3Fe\/+Hk5VDthQYTFiUk+zk7pKGQlwilbldCfV36hc9f2K+Tyb7OO30Ew\/vL\/3lF3Jns07+R1A\/vLkuEqVN4BDh8uIROxiV7KJrryti8949UcL8V2OP1ewslDKdnKCWirw8OY91Q57XDpbYk7wuzHJjs1\/Naj\/ALlyT+TDZp+nN1TPs1B\/G6XC1KvMIxDLNHJG\/LKxwLHLv8FxezWCobLG3Nd+SSzT1AnQdQWRnJXswP5TiTeqoH7q24+TnZ5rcvh+L5fV8Kb+4lwnLy9utocPfRs5lzIqaO4YwHz3dNuk36XH8VzOF7ZYLhrYnR4Hh8la1vlVcsbnPc7pOu7ed3Qu\/bycbI5s80FRUOGl5qp5+6y2zsPsjm\/4NTjqKbFOAk5ToHbsOw9v92v+Kh\/GpPGLQxUbR+jS95Vit2N2RZuwemPXGD+CzDZ7Z+IfkMOpW\/2AV2KVieVnER5pgHVTtWM8rGMHSNzP1YG9ytZmGYZGPJo6Qf2I7llbR0TR5EFKOqIdyllKi\/jR2jP0cso+zA391RPKTtW4aSVfugb+6riEMA81kA6mAfgpCMcWAexLWlOt2\/21fpEMQ14UzT+wpP2u5QaqF8RpcQmikBaWOomkOB6CMmquLIwaB7fmgNaNczT7yllPnOTZPaKokL48ArmZj5radwC38J2V2ww6qZVUWBzNnjN2SSRtOU8QHafJX9Zt7ae4pEMv9Jb2EpZSphLypu9GUX33dTj71DE8I5Qcco202KwwyxtcHsEkkIc13EFo929W0W3P0rExEfXb2qKp\/D9j9rqWwNLSOb6slS1em7Zva94ysiw6Bp1ymouOzLv7ferNMXF1uoqJhbv51w\/WHcllPEwuhr6akip3xUsLWD83O5\/vuW6k8VumgAfnbO69tbAaFbdowfLc536wUTJCPQPxBZ1W2IUzreePgQsnPQ+oe1NNV2Jk7ui3wp8+49OvsWAkA+e5NovvcR71vhjlnEklt7kvLO8uUQANc5sgSBu8qieV3rORkd7UhOOhS58e3sUCyJ831Iz33Nd2I8r1XdiB83fpsnzXtUCXDe0p3NtQUQ8tukp3CQNwnY8WqqWZvSmHRpZD7CjLxHyURK8fQAldnFItHBRyhFtLyd4kHYm11gRmB9gCiA31kwBxCFlmAIsLDhdRz8AAslm9KVmg6IWhndxSzHgsuiPJ4oWxE39FK44KZNjpr1KBN+goWibLG8A8VNxssZIRSsOAQlccPmhB5PjicjWKH4T3p+N5r\/Qwdh70IRD8cT3+ih7D3pePqlu6KD4T3oQgbMeqj+bg+E96Yx+qzEc3B8J70IRD8e1R05uHsd3p+O6oehF2HvSQgg7HqsejF2HvS8fVZ9CHsPehCoXjyqv5kXYe9NuOVXqQ\/Ce9NCCfjypAvzcPYe9Px7U\/VQdju9CEB49qfqoOx3ekccqfqoex3ehCgDjlRb6GD4T3pDGqg6c1COoO70kKql44qB+bi7D3peOqm\/0cPYe9CEQzjVT9XD2HvUTjNR9XF2HvQhFRdjVTbzIuw96h46qfUi7D3oQiInGqn6uLsPeonGaj6uLsPehCCHjef6qHsPemhCK\/\/9k=",
-                    "annee_debut": 1957,
-                    "annee_fin": 1979,
-                    "nbr_produit": 60000,
-                    "puissance_max": 105,
-                    "puissance_min": 64,
-                    "prix_neuf": 35000,
-                    "prix_actuel": 30000,
-                    "description": "La DS fleuron de la... "
-                }
-            ],
+            "modeles": [],
             "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/dd\/Citroen_2022.svg",
             "descri_marque": "Citro\u00ebn est un constructeur automobile fran\u00e7ais filiale du groupe Stellantis. Son nom en forme longue est Automobiles Citro\u00ebn. L'entreprise a \u00e9t\u00e9 fond\u00e9e en juin 1919 par Andr\u00e9 Citro\u00ebn. La marque a toujours \u00e9t\u00e9 r\u00e9put\u00e9e pour ses technologies d'avant-garde et, \u00e0 plusieurs reprises, elle a r\u00e9volutionn\u00e9 le monde de l'industrie de l'automobile. Citro\u00ebn a notamment cr\u00e9\u00e9 la Traction Avant, l'utilitaire H, les 2 CV, DS, M\u00e9hari, SM, GS, CX, BX ou encore la XM, qui sont toutes des cr\u00e9ations d'avant-garde. "
         },
@@ -157,42 +171,14 @@
         {
             "num_marque": 13,
             "nom_marque": "Fiat",
-            "modeles": [
-                {
-                    "num_modele": 4,
-                    "nom_modele": "500",
-                    "url_photo": "",
-                    "annee_debut": 1957,
-                    "annee_fin": 1986,
-                    "nbr_produit": 100000,
-                    "puissance_max": 46,
-                    "puissance_min": 20,
-                    "prix_neuf": 8000,
-                    "prix_actuel": 13000,
-                    "description": "L'iconique Fiat 500 des ann\u00e9es 50"
-                }
-            ],
+            "modeles": [],
             "url_logo_marque": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys\/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N\/\/AABEIAMAAzAMBIgACEQEDEQH\/xAAcAAACAgMBAQAAAAAAAAAAAAAFBgAHAgMEAQj\/xABQEAABAgQCBAkHBQ4FAwUAAAABAgMABAURBiEHEjFBEyIyUWFxgZGhFEJicrGywRUjUlOiFiQlM0NEY2RzgpLC0fAmNYOj4XST0jQ2VOLx\/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwUEBv\/EADARAAIBAwMCAwYGAwAAAAAAAAABAgMEEQUSMSFBUXGBEzM0QsHwFCMkUoKxFTI1\/9oADAMBAAIRAxEAPwC8YkSJAEiRIkASJHijaFnGWNaRhKVK594rmVC7cs2QVr\/oOkwAyrUEC5IAAuSd0IWJ9K1BoilS8mpdTmwdUNy2adbZYq2d14SJt3FukJfC1F9VJoyjxJVonjjcTsKz0mw5hBqnUfDuFEcJ97tOgcaYmVgu9OZ2DoFhAA+YrmkPFV+CUihSK9yBquFJ6Txr9WqY0SmjiSW8qYrM9Nz8yrNS1LzPWo3JjtndIFAllaiHnZp3cGEEhXQCbDxgfMY9nijXk8OTSk7AX16p\/hAUTAkYpTClBlB81SpVRvfWdRwh+1eCzEvKsAJal0NDmaQlMV791GNZwAyWH20DmW0onxUmM0TWkV8ZS8vLjmLSR7SYAspHkhFlrfHYDG4S9OdFlTqxfc43FX+TaSFK1hOsJHNqsC3+3G5uT0jA6yqlKK9FSWfggQBYL+EaTP8AKbpkwdoC2U39kAqnonpj6VcHJFknfLun2GASFaQ2zmmju+uLewiCUpiLG8kBw9FbcSOV5LN+xKgR4wAL+5LFmGDr4ar0y02nZLP3CD+6bo8IJ07SvVqO8iWxrRlNAmwmpZJsey5B7Dfog7J6QlpCUVijT0tfIlUvrDtKNYW67QWadwziaWcaYcllhwWW0bEEcxScoEBahYhpeIJbh6TOtTCbXKUnjI6xtEFop6vaLX6e+ajhKbdkZhB1khpwgDqO0dWY6LRvw1pQm6dNpo+O2FS8wOKieCLJX0qAy\/eGXQIAtqJGlh9uYaQ8y4lbSwClaTcEGN0ASJEiQBIkSJAEiRIkASPDENiIrHSppAXSQqh0JwfKTifn3xn5Mk83pnw7oA36RNI4o6zR8OhMzWHDqFerrIYJ6N6uYbBv5jXKRSqFN\/KGJX3KzX3CFeTIPCait2tuKv7AgdRKVN+TKni\/5DKKJDlRdBU65fMhlO0k\/SNvhBCS8lkm9alSxYQTqqmnuO86du3d1JgDpnKxi2sJFuDo8qrki9lkdeaj2BMc8pg5mYWH6pUHnTzqOoD7VHstG1lx95RLLLj7gzKgbAdKlKyHaY6mlPH8bMtN5bJca5H+osW\/hT2wAepVNotKRrysqCd69S1+sqzPaY7jiCnNKKS6wFDzULBV3CFN2bpDJUZ6YaWvaQ+6XD\/Dn4CMxi+jyqbNcOs\/q7GqPtFMRlG0aFSXEWNLeIpV2\/BszznQmWct32jM1ld+JSaoofsAPaYUlaQZVObdPmnCPpupR7Lx4NJbickUhI9aZv7EiG5Gqsq7+UbhWHtpotVA5+AB+MQ1tlAu7JVJvrk1n2AwpDSfODJNMZ\/75\/8AGNiNK08NtLaI6H\/\/AKw3In8DX\/aNAxFTFDjOut\/tZdaPeEdDFYpsyq0vPyzhO4Oi8LDWlkqITM0a6fRdSr2pHtjYrSHhqcGpPUAgK2ky6SO8Lv4Q3IpK0rr5RwQQpN0EEeibiOWap8nNEKelm1LTsUBZQ6iM4XWKrgKZWnyV96mqGd2nlsgHqIAPfBSXlptbYcoeJZSfRt4KoIHG6A42cus3hlGUqc48oKSs1VqSq0jMmclx+bTZuoeq5tO\/lXJPnCNsyMMY8Zcp9QY4Geb5TTnEdaVzjxsRtz3QLVU5qQ4tfpr0iCbCaQrh5dXTwidn7wEcGMKYalShUaa7qVCUSXZZ9k5kDMpuNoPdexiTMHBzEuiWfbDil1LDLq9U3H4u\/MfMV0clWzba1vUKsSNcpzM\/TH0vMOjIjaDzEbjFY4B0jyleaFCxUhoqmE8Gh1di2+COSq+w\/wB9EctWptT0U1j5YoevNYdmFgTMopV9S52X3H6Kuw7oAumJHBRKrJ1qnMVGnOh2XfTdKt46CNxEd8ASJEiQBIh2RI5alPy9Np8xPTa+Dl2Gy44s7gIAVdJmMkYUo4TLaqqpNgplUHPVttWegXHWYpXCiKVNTUxNV2d4V1F33GXb680vba9rFIO4Zk7bJGfLi2tPYhqT9ZmiQqaVqMIJ\/Fsp2Ad\/iYHSDoaSEsILs06oIQLbL2A7zAkdn1Lnymp1UK4Aq4OTk2zm50Abk853xxz00zT3OEqYS7N2+bk2+QyNwVbf6N+uC1W1cMUxtrhS9VSxYvKzLCOZHNc5RXrilLUpazdSje8VbPZaW3tnl8BSdxBOTOQKW205pbSOKnqGyBzz7zxPDOrXcbCo2jUd\/VHpGd+gRU7NOhCC6I8sAVatgLDZGRHK6ols1erGRHL9WBuomKhyuqMiOV1R6oZL9WMlC2v6sC7iYavGMeAbPVMbbcdXqxiBkn1TAlxMLbOqPLcmNls09Rjy3I7Ygho1pFrdURlSmlJWypTa7cpCiD3iMgOT1RjuT1QM3FDDSMa16laiWp1T7ds2n+MCOaD8hjGSmVcIyy3Sp1XKZUfvSZO3Pe0r0hlzxXw8zqibkjoics8tWzpVO2CzJzCtFxKyp+TC6ZPIVqvJSkXbXzKRex3Zgi4sQc4fsLpWukfc9iKYFSUtpSOEWwUpdbtmlRuc+u3RsioMG1l2XeCCoqdl2iRf8qwnNTR5ykXUjmsU7DDlinGK8NTUgZKVamG3QHFuKJ1im55A2XyuCYunk4dak6U9rGXA+DKhg+sziZeqIeoT4UpEs4k8I2u+Wew5Xud+XTD3eA1KrcvVKHL1mUVrMrQFqJFrJHK7vhArDeIpg4oq2G6utJmWFeUSTgTbhpZWY6ynYT0RJiN0SPAbx7AEio9N1eLrknhaVVm+A\/OW3IB4qe0gnqHTFrvvNsMOPPEJbbSVLUdgAFzHzLMVJysVmsYgmL3edUUg+akCyR2JCRAAqeKVPvuD8XLpDTdueGfRhQ1TM+axMJ+95UlLGsOW5vV1AZdfVCnNAopsoDteUt1XScreENFAxTPUmmycqsoelXbtJTqhKm77CCBn25nn5xJpxbOKm3Zp8k2efDaPVTu90wtEWvBetDVp8sgnMuKN+iwEBzsNozfJ37COKJ7a47Iytt6hHVSpNM\/PIlC4WysGyrXhh+5AG\/36c\/0cTg2qXNGlLbN9RWIzV1D4xkoZr9WGj7kRn9+HP0I4K7RRS5MzAf4S51dUptuJ+ERgtTvKEntUgOoZOerGSxy\/Vhjl8MCYl0PCbIDrYUBwfOI5a1RPk2V4fhyvW4urq23QwaQvKFSSjF9WByOOfVjwDJPqmD9KoAqUp5SmYKASpBGpexBIjr+5DIffZyFuRDBEr+2TachVtxkdR+EY2zT2w1\/cjmD5WbAfVwDqtOVTZxLCla\/FJSq1riIwyad1RrS2weWDki+qOgxgBcJ6oY6XhxM7IMTflRRwiSdXUvbOOgYQFh9+nIW5EThmMr23TxkUrcjqjwebDb9xwy+\/Tl+jjkqeGUyEi7NCaKy2L6pRa+cTgorujJ4TBVEmPJKxIPk5NvJv1E2PgY7sWVFU283SOCOtIjyZpQN1KUF5eFrdcBWzZxs8xB8RD3iTBE9P1NVTpbjRD6UulBVqqCwBs7hCJ4dSXWLDeirFP+KX8P3Bpxlw1KC2V2hZR6dYlSuqO3FkvMSKTUJFJNSww+HWRfN6SWc0HqFx1ARU2FplVNxRSnwChbU2hBGzUJOoQeq\/hH0DVCj5fpc2sAy1QZVKTCdxChs7xaLnKGakz7FVpkrUJRWsxMtJdbPQReOuK50SvOUt6uYQmlcekzalS4OV2V8YW6LnW\/fixhACRpfrHyTgadKFarkzZhJBsRrHM914pGcYNPw+GiONkF2+kc1DsvaLF04zHlVWw7R02KVOKmHAeYWB8CruhIxIwp2nMpBNylbx6cz8EiBIArA1FyrW5tgeJ\/4jeyoKapaD9ao90aK8fwhb6LSR4f8AMSUVxqbfc4ofagAniIES9PO5SXD9u0BjsV1CGDFbRRJUc2yLTnvwBIyV1CM+59FZL8iITw2dWvSvSSPAxYOyK8oGVdkubhP5VRYYBOW+LR4OXqS\/PB01XKdKTC2JiZ1XE2uNQ5QExPVZKfpWpKvhxaV3KdUjLVPPHFiQWrU5f6KPZA54cR\/pREbss6NppqWKuSyKI1rUiSVb8gnPsgdjpsppCDsOufYYYcNsk0KQy\/II9kC9IrWpRWjbMuH3Yl8HLsetxH77GvAzRXQQbfnD3vmCNYn5Wjy7b05wgSteoNRBUb2vsHUYx0dta2HCbbJl638Uc2klkJp8lcZF8+4qGcImFFVrv2b7tnTSahJ1mVXMSC1qQhwoUFpKVJUBvHbAjGtP15JqcAzYVZXqqy9to4dHb5ar0xJqPEm5XhE5+eg22dIV9mHmryHldNmZfe60pPUbZHvtE8olRdrdKPgxBodepsnSZaVmHHkvNpKVJDKiL3OwgQfkppqelW5qVUpTLgukkEHbbYeqK6asQ0fRvD5g9r\/DEiQPNV76ohMvf2caGGnzk6JybakpZcxMFQbQc9UEnuEL1ZxBTZ2mPyzDrhccHFu0oDdvIgpiwFFGf5ipI8RCAfMHRBsvY2kaiVRvhmpWSctuqY+iKVLcNh5D9uO2hs5bdXVF4+d18nL6Jj6cwehJoLTa9i2kg\/wAREeTTVOInz1jFTMjiiYCGeDMvNcO4oDlXKXPA3i8qk0p2llnY9KzIIP0Te\/tB74pnSnJLZxpMyhHHdbbCTzlV0j2CLwr6dSanEA24ZoK7f7EXOQLNbd+RdLFArLZCZatypln9w102sT2KQB1RaAioNI7vlejOiYgYsVyE0zMgc4JsE+I7otmRfTMybMwkgh1tK7jpECCkNJLwmtKere4lJBNugnWv4Kjmfl+HqLUvbZIkAf6IV7SY14vOtpUr5JuQhCB\/wBpuCkuhKsWy6TySnVPVwQEAVrWjepOAjzU9nFEesCwp6t3CH3ozxKgtVyaQcglQHgI2zrKpaRppIsQTrdZsYEjDjNu1DojnOlxPxhUPn9UO2LW+FwVTXvqnyjvB\/pCVe9z6MZ9z6HTnmighRcq1JftR7piyGU3N4rWjm1YlP2qfjFnsDZFo8HO1L33oIGKRauzo9BHsgW9yH\/U+BhjxHSKjM1qbdlpF91tSBZSU5HKAc\/LPyi5hmaZW04GgdVYsRcG0UfJ3rWcHRST64Ldwoi+HqcT9QmBGk1IFDYy\/Kn3TBvB5vhml\/8ATp+MB9J\/+RsftVe6YvLg4Fiv1cfU3aNM8NH\/AKt32iObSePwfID9Or3FR1aMh\/h10frjv8pjXpKln35GSTLMOvKDyiUtIKiBqnOwg+DS3wtQ6+LELDTxlsU0R8cnhShXUvi\/GLlW3lYRS6KdVGnpZ5NOngW1JVcSq8rLSeboi7Sb2UBYG5hHgvrCSud0XzgourS3kdYmpa1uDdcAHRrXHgRDzgtF8J08+iv31QsY6Z4HFc76YC\/sj+kN2CE\/4Qp3qL99UEX1OW6jTf32BuNk6tEd\/aI9oivN6fVixse5URX7VMV1vHqxD5PRpq\/T+pg2NZaBz2HjH01h\/wCZpzLewgWj5tpbPlNTkmB+UdQPtCPo+SXqtJG6EeTx6o+sUJelXDqJytUWsNp5U3Ly7h5yXU277mOfSZXn8O49lXjrOSU1IBDrQ50qVxh08YdcWSttmbaS3MNpWhK0rAULgKSQpJ7CBFQ6fkpNYoq8s5Z0dykxc5IRpKvlfQPUkEay2EvpAtvQq6fC0PujWZ8rwHQ3dYqPkaEkneUix9kIuiNszGjDELSswZp8WP7BowzaEllejWlEkmxeAvzB1YHhAFb4tRbSpXyR9WR0\/NNwUaOpimSc3L4O3a0I1aQWQxpSmCPziQbc6zcp\/lEeTCuDfpMzuCWrnpCig\/CABVdpEs5X5h91JJS4eLuOeRgViVvXppWcy24lQ9nxhsxM0UVl70glQt1f\/sAakyHpF9veUEjrEAE5xPlmjZ1QF+AcQ5YesL+BMIad3qxYWCk\/KmD56nk5uMKQDzEpIHiIrto6yWyBtEUfJ3NLlmDj4M7aYbVKS\/aI9sWoxuip5FWrNyZH1zY+0ItRlViImPB5tU96vIKMDLIRXmPR+H5sfq6PdMcmKnXhXpoImJlI1QQEvrSAbDYAYGOLW7rKdWtauDAutWsd+8xWTyz26dZTpv2rfK\/suDBB1sJUo\/q49pgZpP8A8lZ\/aK90x34FXfCNLAP5D4mB+k4\/gdj9qr3TFpf6ngsfjI+bN+jA\/gCY6J5zxSiG+53Qm6MT+AJkb\/LnPdRHukt1xuiS5ZeeaV5SM2nVIJ4qsrgxPYznTlWupQjy2xvN+mMDsiiHJqc1CBUJ8Et3ym3Nv8UXRRpgv0eRdUoqKmEEqJvfKCeRd2VS1aVR8la6SU6uJ7\/SlUnxMMuB\/wD2bTfUX76oX9J9hW2l32yp9sHcFKthCnDmQv31RC5ZvdvNtR9foD9IKrUhA53R7DFeK3+rD5pEV+DWAPrv5TCEo5r6hEPk9+n9LdeoawUx5RiqnJGxDhdPRqJJ9sXiw5YRUWjFjXrs5M24rEqR1KUofBKu+LQZd2RMTl6jLdWx4Bxl3KKi06Pa9Yo7f0JRzxUn+kWey7lvOW6KW0rzonMaOoSq6ZVhtk55a1is++O6LHgLI0TMhjRZMuq\/LqmnO66P5YJ6D0lOjOlXBF1PH\/dXA\/DKhSdDzSlHVtTXHzc\/Way\/5oYtF0uJXR\/QkAW1pRLn8XG+MAJmmGVLGJqBUAniuodllq6clAeBgNOIU9htam7F2WcVq9Ssx9oQ9aYqeqawa5OMpu9TnUTSR0JOY7oRqe6HpSYQyQoPy+u3beRxh8YA7a8gTq6dMMkWmGQkHuP80B5yUdlXVMzCSlQGznEFZNYmcJSrrdtaTdsAPog8X7JSYzcrVHxFLOstPKan5cKUGnU6q7jaBuUD0E7oAD6NHixPz0io2AUrVHaCPAmFOtSvkVcnZbc3MLt1HMeBEMeHFIYxH5c2r5t1tty+7VJKFH7YjRpKlPJ8Rh9IATMNJN+dQyPwisjpaZPbV2+Isy2UzKnmfR74i0UKIPRFVtmzzR\/ToI\/iEWjCJOp+9XkJWJzeuTB50j2CB20npRHfiX\/O3h6PwEDknjJ9SKvk79r7mPkWpgR62FadnkG7eJjj0lOa1IlgPrFe6Y1YJdthqRTfzT7Y0Y\/d16dLJ\/SK90xZ8Hztj8ZHzYT0ZrHyJNC+flivcRE0mqBoktb\/AOSPcVHDo7e1aVNp\/WifsJj3SG9r0eXF\/wA4\/kVE9jSh\/wBD+T+ohHlf6cWzhWZ18L0tV9sqj2RUhPG6m\/6xY+E3rYXpYvsl0iIgezXOuz1F7SUrWqTJ\/Vle2DWEV6uFpFPMlfvqhe0gr1p5o\/q6vbBfC6z9zsmBzK99UFyeG5+Fpepw4+XrSksk73PgYSlbT6wENuN1EsygP0z7IUVKAJvuUT4RV8nRseluvUsHRyxwFFnpsiypiZCAedKR\/UqhvZdNoA0hr5Pw\/S5S1lFrhlj0l5\/EwRYd2RdcHDuZ7qsmFnZ5qSlnZqYVqtMILiz0CPn6emZipTcxNqSTMzjqnLD6SjkOy9u6LF0k1Us0pqnIVx5lWsu30E\/82hNwhJ\/KGJqcwpJKUvB5dtwTxvaAO2JMS3cdfg7R2aXKAa7rbMgynZe9k27osilyyZOnS0qhOqllpKAOawAiraqsV7SFh+gtlK2pI+XzQIuLgcQde09oi2xAg0zsq3Oyj8q+LtPNqbWOgixigaMl+kzMxTJhJEzSpkskHzkg8U9RGzoMfQsVHpZpPyVWZTE7CbMTGrLT9hlfYhZ8E9iYAGYUUhM9WqC4crh5i55Ta9h7LpHUBCBieVXJVlahrIUrjBSTYg7DY9kM80\/8m1il1pOSWF+TzB52lnI9hJ\/iHNGzSbS7oE6wNZI+cy5jyvgYEgfR86ZqqrpzmfCSjwaV9HknuuEmGHSE0Z\/D1PqWr840vUc58xY+IhFw3VDRq1Kz3G1EGzoSkFRQcjYGLOLsliGkVWTp0yh5p5svM22pUc7EbQdYeMQ+DahPZVjIqy9ykjbrpPjFpBQVsOUVSnjITfemM9oOat3nGKpnYurSVw1JMN4mNq476o90QNRtR6h+Eakq2A7lHaYyQc0dRH990Q+TpUY7YKA8YQc1aBLAHk3G3ZnGnGjuvT5cbwtW\/wBEwmISBq2uNpyURvjIZIAClWKDtJMS30Obb6fOnW9q2h0wQ8ESE0L2++L\/AGExljd7XpjIvf57+VUJKkIKibEEpubKIzj3k5Ak8U7VE80G+hpDT5xuXWyuWzNRuFDIfNjMnrh5wu6Rh2ni+xkDbCGpWS\/VHxjWUhKVhJUAALAKOUQng11C1lc7cPGMjDjVWvOsm9xwX80G8MH8ASnqqP2jCGTa4zOYFibxr1QMhrDM5BRiUzzVrKc6UIJroNWN1caQQOdwk90LtKk1VCpykokXLzgTboJ\/pHNc6qbknVBtckwzYAZSKjN1J0fN0+XKv31ZD2HuiOWX2\/hrZrwG6ozCVVBxCDxG7Np6AMoyYdtbOAbbxWvWzuSSrrMdLs+iQkn51zMS6NYJJ5S9iU9qiPGND50T8bzvlmIHm0nWTKpDI9YZq8Tbsgzo2Zbk\/lCtTVg1LtFCVeJse4QkgOvu6vGdmHV3IO1ayfiYdqow81IUvCFM+cnpxSeFKRkbnMnoyJ6kmBI8aEZF6ecrGKZxJ4WdeLTSjvSM1EdF7J\/dMWsBaB+HqSxQqNJ0uVHzUs0EA71Heo9JJJPSTBGBBI4K5Spas0iaps4nWYmGyhXRfYR0iO+PDsgD5x8jclnp7C9YJ8plRwYcP5VrzVDng7QXlVnDz9Jns5+Q4h1zm4m2R6QU5dYhy0pYQcrUq3WKQkprMgni6mXDt7Sg+JHWRvisadPrfeYrFOBE\/KgomGTkVo85B7rjpEAYigyHknkymgr9IclJP\/EdFCq09RalJSU8G1S4uWJhDaUayd6SEi19\/Zvg1UAxNNIqMidaWmL3yzQreCN2cC5ySTUpYyqVBuZCg5LOHzXRs7Ds7oE5FzFsgmm4hnGkW4FauHats1F55dANx2QIByPq2h1mZNzE9FZUy2UVWQBbLK8ipI5SOtJGXRCU4hTbim3EqQtJKVJULEdY3RnwfQ2lZVKa8TMHafSEZA5p6yI1A2HdGQOfUqB7VI2JOY6jHt+Kn1IwSeP3xAeKPUiC+TYo7fVMRZsT0IjAnb6kRR2+rEk5MlHl9QjFZvcekBHijyuyMScz6wiCrkZE8a\/pRgDnfriXzHbGF+L2QKtnt8uwCHejyxYw7JyaTZ6oqVOPn6DKRxb91++F2gUVVWdLjt2qeybzL52ADzR0mLKwvLpnfKqq8ykJmPmWG1JuEMpyAHXbwi0V1OPqNdY2ROGQp0nIUwT9WQSXQeCYJtbLIZb\/AGQrT6VVpcxISxAYlGVzD6toLmqQ0i\/rH2wWx6ucRWmmWxwzswAiUZSbnpy3c8c7TDdJlkUxlwOPa3CTbwz4R3mvzJ2d8XOQBsNSTUnLqrM+QEoRdlKhns29e6LF0OYfcnp2ZxjU0HhHypuTSrcjYVDuAHUYT8OUeZxzX0yTRW3R5RQXNPI84cyTznYObbzR9CykuzKS7UtLNpaYZQG220CwQkCwAHNaANoFtkexIkASJEiQB4bDdFSaTcFTMlOLxThlrWXmqelEjljesAbekdoi3I8VsgD59odSZfacmpQFbTyfviTuOMecX2K5lDI7+jqQG5hgzMm5w7ByUrYUHeFp80wfx9o5famncQYPTqzGapiRTsd5ygbL+jv3Z5FGpNQYm5orl3naXVU8VwjPWtt1kHJQ6DYiADauEVM+XSaw1UAAFC9kzIGy53LA37CMjujpf+QcTgt1Zoy1RbGopxA4NaT0\/wBFXHNHKqbQgWrUkZbO3l0ikvS6z6SOUjqIiTlF+VGEPyjzU4APm5qTd1lJ6OfsOUQ1ktGTg8xYLqGj6os8emTDE41t26q7eyF2cpNSkVWmpCYbOt9WSPCGRArtMXZuYS8Acg5dpY7cwTBJjE9Ubyfad\/eQl0eGcRtPfT1GrHnqV4FDWyI2xNbi\/uxZKq0iYBEzTJN4ekyUnx\/pHOtyiq5WG5K52lJ1fhEbWehapHvEQFH3Y8UdvVD2oYfJzw6zf0Xz\/wCMY\/gBJuMOtfvPEj2Qwy\/+Th4MRVKAJvGTTbr5AYaccN\/yaCrPsh8RPyEudaVoFPbVuJRrH4RmvEk+E2ZEvL3+qaAP99sNpnPVO0Yi3T8H1ye1VeR8A2fykwdQDpgs1h6gUmyqpOLqUyPzaW4rd+k7fEdRjXNz85Ni0zNPO33KXl3RyapUoJSkqUcgALkxO1HkqX1WfRPB01OpvTwQwltEtKNj5qWZFkJ7N56Y6JWu1pyWl6ZTrghOqhMuiy1Ac6jftOUZM0F0IExVHUyEsBe7v4xXqoFz390drK0+QvilgUulj\/1FRmD844P780eGyLHiy+WcbTDshNLRLPGfr8wkpemta6ZZG9CCfFX9gfKU6axBUE4fw6Q8o\/8ArZ6x4NCb5gej4qIyyjspclP4xeVRsJMOStJSfvyfeFi5n5x8Qgdts7XZhTDNOwvTUSNNatvddUOM6rnV\/eUAZ4Ww\/I4ZpLVNp6TqIF1uKHGdXvUekwZiRIAkSJEgCRIkSAJEiRIA8IvbLZCRjjRzTsUFU1LkSNUTyZltOS+hY39e2HiJAHzlNrr2EJ0SeI5Z1DexE4yCpCx0K87qNj0R2y7cnUEmekm0LNwVzEktTawdwXq2PYoRfE5KMTrC5ebYbeZWLKQ4kKSewxW1f0Qyypn5QwrPO0ucGxFyUHoBvcDo2dBgBZRPVNsBKKn5QgX+bn5ZLn202t3GMVVB0pvM0KSeVvMnOcGf9wJjyfdxbh26MUYeFQlx+eS6da4A2lSRl+8Ex5I4gwlUEDWdekVn6y+oO0XEAeKmJFSePR621b6gNzA+yoxrK6coZIrbX7WlOH2QbYpFMqAvT6sy+PQWhfgIzVhV5P4uZSP3CIEi8UyiuQ5PnoNJf\/pHgli4dVuXqi781LeA8QBB84bnhkJxNutQjw4anTyp1Nusn4wIwA\/kqpKIKKZO2+k9wLQHe5fwjH5JmEq++p6lSid\/z5fX\/CkD2wdOEAka8xOpCd5KbW7zHFMIwnTr+W1lDqwfxbLgUruTfxgMHCJeiywCnpybnV8zSOBR48aCEk9PujVoNJalG7Zv6uY6ddXwgenFNPXMCWwth1+oTe0azZWR06ouR1wYl8C42xYArEs+mlyJ\/NWyFKUOkAkd5PUIAAVCo0mnPnyp9dcql7BlklTaVcxV53qjuEMFC0f13Fr7FQxipcjT0WUxTmxqqItvT5nbxtuzfYeFsD0LDCEqp0mlUzaypl3jOHt3dkM0AcdMp0nS5VuUp8uiXl2k2Q22mwEdkSJAEiRIkASJEiQB\/9k=",
             "descri_marque": "Fiat Automobiles \u00e0 l'origine F.I.A.T. (acronyme de Fabbrica Italiana Automobili Torino, ou en fran\u00e7ais \u00ab fabrique italienne d'automobiles de Turin \u00bb) est un constructeur automobile italien, dont le si\u00e8ge social est situ\u00e9 dans l'usine de Mirafiori \u00e0 Turin.\r\nDepuis 2021, le constructeur fait partie du groupe multinational Stellantis \u00e0 la suite de la fusion de Fiat Chrysler Automobiles (FCA) avec PSA Peugeot-Citro\u00ebn (PSA). "
         },
         {
             "num_marque": "14",
             "nom_marque": "Ford",
-            "modeles": [
-                {
-                    "num_modele": 7,
-                    "nom_modele": "Mustang",
-                    "url_photo": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/7f\/1965_Ford_Mustang_2D_Hardtop_Front.jpg\/280px-1965_Ford_Mustang_2D_Hardtop_Front.jpg",
-                    "annee_debut": 1964,
-                    "annee_fin": 1974,
-                    "nbr_produit": 1300000,
-                    "puissance_max": 340,
-                    "puissance_min": 117,
-                    "prix_neuf": 30000,
-                    "prix_actuel": 25000,
-                    "description": "La mythique..."
-                }
-            ],
+            "modeles": [],
             "url_logo_marque": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTASbvfMTddaBFsvm7lUeHVVm7j1-8cWgvkNw&s",
             "descri_marque": "Ford (officiellement Ford Motor Company ou FMC) est un constructeur automobile am\u00e9ricain, bas\u00e9 \u00e0 Dearborn, une banlieue de la ville de D\u00e9troit, dans l'\u00e9tat du Michigan. "
         },
@@ -201,9 +187,9 @@
             "nom_marque": "Jaguar",
             "modeles": [
                 {
-                    "num_modele": 11,
+                    "num_modele": 7,
                     "nom_modele": "Type E",
-                    "url_photo": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys\/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N\/\/AABEIAJQBDgMBIgACEQEDEQH\/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQMEBQYCBwj\/xABEEAABAwIDBQUGBAMGBAcAAAABAAIDBBEFEiEGMUFRYRMUInGRMkJSYoGhB7HB0RUj8DNDgpLC4SRyc5MWJURTVGOD\/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC\/8QAGREBAQEBAQEAAAAAAAAAAAAAAAERAkES\/9oADAMBAAIRAxEAPwDyRKhC0BCEKAQhKqBCEIBCVCAQhAQCEtkqo5siy6Qg5slslQoEsiyVCDmyLLpdxhoIe8XaNw5oH6UtpWiomaHSf3LOF+ZUWWR0sjpJHFz3G5J4rqRxkdmcblNlAJEqEEzDYYzL2tTYxs1DfiV7LtAXGzNGgWFtFmC91rX05Lkk81Bo\/wCOyX9oqTT4+64u4rJ3PNK15HFB6Vh2PAuaC5G0GC02P05ngDY65oOV4Ht9CsBTVbo3g3Oi1OC4uWuALigxk0MkEr4pWlsjTZzTwKbWw23oWSsixSFou45JbceRWQVCIQhQCEJQqBCEIBKhKGlxAAuTuHNAiAFdUGzVbVAPnfBRxH3qmQNPotDTbCUDWt73jkdzbRkT8v5K4MKAg2HEL1Kj\/DvD6jw0eJUVQ\/4XOcCnXbCd1DsxoQ1u9zXXA+yDykAncCfIJcj+DHei9QOA0sAvLWUrW82kkD7Jo0mDsBLq5jwP\/bbnPo25+yM6817N\/wADvRIWkcD6L0Kd2CRMLiZ5P+nDY+jy1VM2KYIL2pa93JvYxAny\/mFDWSS2N7LQS4pgr2n\/AMprXcs1RHH\/AKHKvqJ8Je3TD66Ek2DhVseAeZHZtv6qNK7hdCeqoH01S+GQEZd1xa44FNIESk3\/AESIQCEIQIQkXS5OiAQhCBEJUiBQVLo6l0bwoa6abaoNtBMK7CqimksczCPJYfUDXfxV7hFUW3BNtOapJLdo+27MUg4QhCYBKkSoBKkTsMEs7w2GN7yeQQJDE+Z4ZGPEePAK1fJFhrBBSkd4IvJMRuvwBVjh+AYi2C8dLJ1dkJv6JcS2YrJ5HVEAcIQBnA8eU2+EeLffcCqisp3iV\/ikzvebFx1JVris8TsQqCALdoQLDgFAo8NqqesiErLsbK3NJHdzbA668Prqm6mbPUSOtoXHVUSmYnNRAzU80rHM8QtuuF6VjT312NAVD3GnhhY1kTfC0uu7M51t5Ph38l5FMc0TwG6lpXq1W4DEaoj3HsYT\/ga7\/UiCuoYjHeFjWacGgLK1tM+Ocl0hII5rasc2SK2\/RUeK0l7myRlQYbVDDa4VLoW1FmloY86AncVzi20dVJDJA6mg7KUcdMvNNVkLgT4T5hU9bQV1RE4UUUz5G+IANJ04\/ZKsRcmo0GvJIGX8NsxG8Bd0VNURP7TFyI4mNzNgD2iSb5RroOZ38uloK7FDGw9jDh1IR4dMrSOlml7vMArNtbkivs6toHNc\/NU0Yvc6l8X+yr+JVuJ+zq4qunbUTSA2eXU2Rrm8jYnhpuCiYpSNpZ\/5YkEcn8yNkrcr2MOrb7+H6KiGkQlQIhCEAkKVCDlCChQCRKkQCEIQP08pYHG\/BMXQkQKhdiMroRIGktinRElEJvzQdQU7XxPlfIwZHNAj1zOvfUeVvuregxN9G9j4D2bmEFrm20IXGBYdHWVEkeYsOTM5rxna8A8OIOpPqp+K4Lh9JBHK3Eo2SvfYRSNLfS++yqNfhf4m1zWNixCJk7RpmbofO3FaqixTDMbjErWxPPUC7T5FeKSUNTGM7Q2RnxxOzD7Io8RqKOcSwSOjlYd4\/rVB6jieAYjBUGXBhT1cDr\/8NOdWcw12+3S6z1RgIl0qdmMQpHcTTShwH0JKrott6zM11RBBNkPhIzRuH1aQVpqT8UScramiAHyPv+aozb9mYRK3s24uyzgS2bDnO482la+vZSmnNZBLOXytYZYhQzus9rQzeGEbmtU+k\/ELCJ2gTOMd+EjNFZU+MYFXysyCmfbU2sCeX6qDGwY1BR3M8NW4DnTSMHq4BSjXTVbM0OD1OR250ksbBb\/MT9luGjCJnnJ4LbyHHT1Tb8AwqUl7H2c7e7TXzRMYGankc5pZRQXvc5pS+w8rC\/DcVCxLDZ3ZWVlLE9oN2skaCGHmAXaFegS7KRO1hrHjpbRVNbsfiTZHS0dcHOdqWuJsfodFTGUw2IwF\/e4w5p0b2LYmlnl4Tr9VONDBVkmDHaqld8FQ57QP8bTZd1dDjdEHd7oA8W9uPX66Kkknnc\/K53Zu5EZSoLWXZTaBpE8FXPVgah0Vc57T9C5Z2u2XroyTPTVLSSSXPY+xPmdFOpp6qjk7SlqZY3E72PIWgodtcVpwG1LY6pu67hZ3qEV59Jg5bcZb233Fkx3BsV+1gzDoTovW27R4DiTcuI0vZPOmZzA4eo1XMuzOFYiwyYXVDdua\/MB9N4QeSdzo3nfIzyd+66dgzHi8NQbcizN+RC2eK7KVFPmLoc4+ONZyagkgOhc0c0NU8uEVTB4DDJ\/yyZSP81h+aiT089NbvMMkNzp2jC3N5X3\/AEWjZJUMtukHVOx1MYuCx0Wb2sh8J8xuP1Q1kjvSLWzYXS1TM4haf\/sp\/A703H7KpqMFewOfC4TMG8t0c3zaiqdCm9xf8JSdxf8ACUEJCmdyf8JXJo3jgoIqFJNI9HdXoLOOgcn2Ya4+6tfBhIPuhT4cGHwhBh2YW8+6nW4S\/wCFb+PBR8IUhmCD4QgwdDQS0tTHPG3Vh3cxxHoqbaWnkl2p7R\/iiEHaMDt2mlvUhettwQfCFQ7dYQylwM1zYmmWGRozW1yki49QPRVFe51JgGGmKClp5ZyMspkjaXOfoXFziL2GYADTnwUNsVFiMRL6docPaB1y\/wBc1ZyVDa2jdWUksLaoPZIWPd42a6hoG8HTfutzAIo8edJhNdHVOeH3cBIWiwIdxsORAPFASbPUjtQHNPmmH7Ns92Z\/oFNixCOUXhewjl\/X7KQyr11br0N0FG\/AKhn9lMD56KI7DsQiv\/LzgW9k9FqhUtJ1sLcCkbKCZBbiD9v9kGcp6zF6FofC+pjadfC429FaUm3OLUzg2RzZBycMp+37KygaZIpMjMwiBc\/5W33\/AHCZkgglFpY2nz1QWuH\/AIj7u8sewbtDmC01BttQ1JAbUsLjwcbLzWowagLS7WOwvma6wCop3UMTiIcSjfY2IcP1CD35mNQy2D8qjVtJhuJNPawRP82i68Uo8Wr6FgfTzu7M\/CczD9Ny0WG7ckWbVxeKw1jOnof90RpMQ2ViZ46KdzPld4gqGejmpXkVERtvzt1BV3RbVUVX4W1Fncn6LTCejOE0be0\/tczpS15bc3IF7bxYHRBiKTB3VtOJ4HxOB93PqFy\/CqumeHtY9rm6hzDqPRaqpw9hd3ihf\/MtqL6u+v6G48t6jid18krS2QaEEW18v6+qqaqqfG8UpfBNKKho92YXd670VdXQV7SKim7GUjV7BdWsjGPbZzWu+igz0ER1a2x81DWUq6QRvPYnM1Q5I3N1BWlqaO1xb0VZPTCx0RZVO13ZPzsLo3c2\/qrClp6LHJW0dZMYJnC0UjTZrncA5RZ4uiranwIqRQQPoaypoasu7SnNnxP1LRzBO8bj1BBCvxhLS0FoBvqCBwVDNjEVdTwd+7Q4hTjsoqhouZoz7r+ZF73\/AFJv6FsnSOq9nKGaRlnlrmkO3+Fxb+g9UVmHYV8qadhdvdW8kwz5QosuHW90IMQ7Dre6uDh3yrWy0IG8KO6jF9AoNPTUrfhCs6ekZp4QotOQFZ07m6IHoqRttwUhlIOQRE8WUljmoGxSjgB6Ks2owb+K7PV1E1oL5YjkHzDVv3H3V4Dpod6YqoJ5G\/8ADzZHW4i6DxDCY48QwmzSIquDwyg2DrjjwvpfedPNVW1ErhRxQTGN0zXOzFnva3F+o3LT7V7G47DXzVlFQmeOYl0ggcA6\/HTqsHitBjJfafCaxgYLBphd+yJipoIZ6moEMEoYcuYl27RWXa4jRuyukZI3nnChMpMQhDrUVSwu3\/yio80VYPagm+rSiryLHPFlmuLc9R9FPp8UY+5aW68ViHukBIcCOd0gLuDiPI2VHoLKwBzi2S2bfpvTralxOlj5O\/dYWmxCaIWeC7qHWP6hWEOMNOhe5p+cW+4v+iItNqap4wzJHmaZJA119NNT+iy+GU4lkfNL7EQHhHE8lcVNbBXUz6d0ga7eCTex805svTNfJRwyiwmxFjJPLw\/ufVBpaLZimpaA1mNVtTBIIe1MVOWsbG0jQOJa67jroB5qvr8KoZM0mH1DpImvykluVwPUcNOVh5blqMfimrJacNcGw9tLI97nAMIvlLdd5yjdpy4rOubSQmOLD5HSNlblILPEDwJ8tD9ERSyUU8Rsx2YdTZXmzNXUh0lJUSOHaAdmHkkXG4jlxH14KPSdrXNLoWsLtLsdI1rtRfQE\/ompqLEGG3dprg6Hsnfm02WO+\/nxvjj69Wn\/AIqxXCq+SKqw6eONrrR5DckcOh9VpsM2to6q1TWxSQMiH82R8Z1Yd7evlqqDD62qNGKdhr5Jw0lrG0rnkG24lwIt9QoM2E7T4oxrZMGxEtG60YaP6utS7NZvOXG9ixPD3MzMqGZTqLnguJ8Vw2Nt5KmL1WHi\/D7a2QgxYe+MHf2krW\/mVMbs5tNs8KRz2Q0tS+Y5KkObKHGxGR1r2BF+FjzGiqYsMR2kwphyxOdK\/wCFjbrN1+0sYBysji\/6sov6AXVBjUU0VbJBW4lRUryc00cMcguTqfZbb6XCgQxYGyob29bWyMDhmyUrWtP1z3t9FLVxaVG0LX\/+ob\/+cJP5kKL\/ABCCY2745vDxxEfkUxUT4OKl4osNlnbplz1Dsv0AAdbzPonI6ftbtbhtPBm0ytLnuv8A4ibJotNn20Tq+OOshfVGSRjYuwnyOjeT7e45gOINl6\/+HV20tbhNRHL3ikneXyFwcx4LracRqNx5nyFDszsptHJRYNL2ETcPppjI2DK1j3AggO11tr5lesUlJBSxZYoWRl5L5C1oGZ51JKor5KNvJQqiiFtAtA5jVFnjbZRWTqqUNvoqySIArTVsYsVR1DBmQORT24qZDU2tqs2yqHNPMqxzQauKqHNSmVYtvWSjrQOKkx1\/WyDWMqgeKebUjmsq2v63TzK8INQ2oBtqF32zXaOsR1WaZXjmnmV7eaC9yUzv7mP6tCbfQYfKLSUkDv8AAFWMrm\/EE82taeKCJiWxGzmIgmegia4+8wWWOxf8HKCXM\/Dat8R4B2oXoLaxvA6rsVdveH0QeDYp+FuP0WYwxsqGjUFhWTr8HxDD3EVdJLGeZbovqbvTSCDuPRMVdNR1jC2eFjwd4cLqj5RIsSLaK1webLSPAzF0E7Jh0G79AvaMb\/DnBsQDnwRdhIeLFg8Q\/D\/EMInfLTEzR5S1zOJB5dUFtT41LSxvp6+g7zRTEBrHEFvi9rLpusdUzU1dPW07aaiiiMtRJ4OzsxpJ3DcSL367uag7PVlJVwHC8SeYZGNyx1GXe3dZ3kpNW3D8KnM0NXHNUBhETYfZjuD4ielzYC+uqIyGPSMZicskNjC5xygi92k6fayYir8jQ1jnMHANcR+SbrpRNUlzQMqr6h13ANKKvG4zUM9mrqAOXbv\/AHTn8eqf\/kzf90rN36ozINEccmJ8dRN5dq791aYHtZS4eHCopBO65ImzHO0ctbrE5khLjuQX2My4TiWI1FdLVPidK64Y6Mmwtu0KgE4NG3255T8keX8yq5zXP0NygQOJUosxitNHpS0dgD7Ur\/0Gi9m\/CLZtzKE41jNPH281u6wvYP5TPjtwJ\/JeIUkbopM4a0uG7ML2W1wfbPGaJwaZi8Dg7VIPokygm64MultF5zgm3oqGtbVxlruJC1lPicNS0OhfcILcyhR5pQQohqRzUeWoFt6DmseLFUtQRmUupnBB1VZLIM29Bj21nVOtrOqzzajqnW1HVBoW1vzJ5td8yzjajqnBUdUGkbXHgU62vcOKzQqOq6FR1KDTtxA8XJ1uI\/MssKnquhVdUGtbiR5p9mJnmseKrqU4Kz5ig2TcS6p5uJdVi21tveKcbX\/Mg2rcS6pwYj1WLFcef3Xba8jig2gxG4TVRMydhGYtJ3ELKNxA\/Eu24jb3kFXtFshV1NQ+rw2eEvPiMb\/Dc878CshX4PtBA1zZcNnI4uis8H0N16OMRva7r+ZSjEfmKDx2SkrBoaWZn\/OwhNGhnvcxvH0XszquJ4s4A+YTL20j\/ajZ6Kjx8UMpNg13ouhhsx3MK9a7vQn+6YfolFPQt\/uWeiDyhuFTn3CpEWCVDtBG4nyXqbGUbTpFGPonmzQs9hjPQKDzODZiuk0EDvOys6bYqsfbO3L5reCsA3WHkjv1jvCDMU2w5H9pIPRW9LsfRRHxm5U814+JIa8fEgkU2CUNOQQ25CtIXQwC0YA6BUBxDk5cur+o9UGjdWgdExLWttvWefiHVRpMQvxQXU9aOahPqxfeqeStvxUZ1brvQZcSpwTKDmXWdBPbOuxP1VdnXQegsmz9V13jqq3tEokQWYqOq67x1VUJV32yC0FR1Sip6qq7ZL2yC27z1XQqlT9sl7ZBcd7Sir6qmEyXtkF13xdNrepVH26Xt0F534\/EuhXdT6qh7dL3hBf9\/wCpSiv+ZZ\/vCO8INB375gl798wWe7yjvKDRCv8AmS9\/+ZZzvKO8oNF\/EPmSfxD5lnu8pO8oND\/ED8S5OIdT6rPmpSd5QXxr+p9Vwa\/qfVUZqFwZ0F26tvxKZdWdSqrtlyZUFi+qvxKbNSoBkXJegYuUXKEIFuUoKEIOgUoKEIC6W6EIC6W5QhAXKLlCEBcouUIQFyi5QhAXKLlCEBcouUIQFyi5QhAElJcpUIEuUXSoQc3RdKhBzdF0qECEpEIQBXJKEIP\/2Q==",
+                    "url_photo": "https:\/\/hips.hearstapps.com\/hmg-prod\/images\/2021-helm-jaguar-e-type-10-1616839570.jpg",
                     "annee_debut": 1961,
                     "annee_fin": 1975,
                     "nbr_produit": 72584,
@@ -229,9 +215,9 @@
             "nom_marque": "Lamborghini",
             "modeles": [
                 {
-                    "num_modele": 12,
+                    "num_modele": 8,
                     "nom_modele": "Diablo",
-                    "url_photo": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys\/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N\/\/AABEIAIUAyAMBIgACEQEDEQH\/xAAbAAABBQEBAAAAAAAAAAAAAAADAAECBAUGB\/\/EAD4QAAEDAgQEBQEFBQcFAQAAAAECAxEABAUSITEGQVFhEyJxgZGhFDJCwdEHI2Kx8BUkM0NScuFFgpKi8Rb\/xAAaAQACAwEBAAAAAAAAAAAAAAAAAQIDBAUG\/8QAKhEAAgICAQIFAwUBAAAAAAAAAAECAwQRIRIxBSJBUWETMrEVUnGRoRT\/2gAMAwEAAhEDEQA\/ACwgkErKEr\/hnMO9F8IG2gPEBImZgfFF8NKFKWrVXOKYLT4ozLAKtE6nT9KqZciWHLCG1JOUudQZmr3jHwpC9Rpmy71nJaSlzNuojczrVgLOWCklM66CgCfhZhCpyE5iOv8ARpId8NBQ4pWROgUR\/XehuuryHw0lU7g1WTeNpVCkZSdCCrSkBddXGwMTMd6rvFfiCCI5UQqSUJUJ2oSnEZvKdetADtz4ukgcu470zylBQIkCRpUPEC3kxyM6URRUFqKfNNMQnMskyf5UB4gipLeLiDKXD082lQLp8PkCeU61JEWVHs+RSGlfvNIHKT\/8o7DBTbJ8QDxVJyqMzUUswsuFRghJid4pF+CYOYdelSIgXUwyUJjKFcqgysOOqyyqNNKldAqYzSInbN+XvQWEuNycgGbluf8AikxovynKZToKr3LilRprFP4oAVofipHK6hsRlmDPT9aiMjbqVI9atuukOVXGiveByp1O+bQSeRoGTUshUnnVpoyoCJkVVCVESvprRmCEJ1Ekd6QB8+VJI2OmoqutzMD5SaJlCkymBlTr3qC1pZOsEEdKTAghRIEc+tKnTmSSCnRO56+lKloey24Up3EztFDlDaQQglQ50lBWlCdVCYA0qQBP8UJUiRB3NFaEmCTOxqohUhOkkcp0ora3BJkT2NA9hVkBcJMCnVbtuqU5lTm6a1UW64lUFKR\/to1u65nWnKMwA50BsKGgkeVIGlByJMpUI60J25XmB0yg6RQlvOuCJGXMD6UBsILfIqRp3nerZV5ipsaDlVN5xRyk6DtVlbiUulBA6SaBAnEApK\/xc4oRSlwpUAEnoRR5aSlZCk66QarqT5AUkA8qaIsg06VsGAU5RAnSqX7xS\/KcuYz0qyFJS1A80cutJoqOoTEaR0qZEgttYBClpiRHQ0RhCgEgGAQTKex0mpeZJRIPcg1JpaUJMp0jSgaGUlWbUlSRM1YSlIUMxGWNjUEpOff2qcKTJKSR2EVHQyBQlITMkFUTUciEndO\/I6xRFgkg6iDS0V0Jy0gGg6jXeiIRkg9aRGggUoIOp8tAx\/DzT5t4nWmyjPAT5QOlEKQIy7UxWEyCaAIBISSYg89Kek4c2xBpUgEVlQj86Gl0E5VCPfvUPDNN4HiHQbVLQEwTmlOXtUlqIGhNVrhrwGFOkKVkTohG5qvYN3j1ulxaUslY1SUyR25VFtR7sa2+xZWolW\/KmS6tSitRgxuBWNidtxK3iaPAS19gKUlTiylr1EqO9X2RYqeLX9tpU6fwIeSo\/CU1XK6tLeyShJ8aLiymTGvtQFOBEgk6xV9GB5tRdvGf4yPyqli2DMNsuN\/2uLe6KPIVuKUUnrl6VTHNom9Rlsk6pruhkvhaQnN6VZXLjyXF6qrGwiyZZStF\/wASB16ZSpCMuUdwa6LCcPZfGmLJv1Af5YTp\/wCNWSugiKgxixqSAnrUSBl85ExAEVqnB\/FEpec9Ux+lV3cE8Iyu6KD\/ABkD+dRWXV7g6pGIwjIlQ6mamkkZh12q27ZMo\/6la6awpxP61Wf8BIP96tlaboeFXxurl2ZW4SRBtWvUHTpFJk5lHcjodKkz4bhlpxKwDrCpinDZSrYmrSIRogrygkCNhRVQE+cmSrQTyoNujz6qIJ5xREwg6qJJ12pBsGqFK8msU5VBAgBRpKgqBQYJPzTBCiVLIk9RUSSCHY6AwBuaS15UZQO8mppGVKs5TrpqKS0ZYB1JoAg24Yjf0p1xExUkIk07gEFJT70ABSQluTp2pqWUqO8j+E0qehAFKUmYBI9aZtcgADXmagXOkHtQ0KCfvaHn2qYjSsXAbjUaJEj1rVauyDoqCPpXPNPob8+YZf8AmuGLWKnHbvF7BRQ4hZiTBMbpjZQ7TXDzcKzKyGlLSS4NlVqrr3o9FxrhbBcdWXb21\/fK\/wA5tRSv9D7ihYBwJguEXH2hvxnnQPKXV7ewgVawLE28Vwxi8agJcTqAZykaEfNaaF1wZZeVUnTKXC9DYqq2+pI5Dii84gFw434bthhqDCVWwlTg6qXrlFcs3eJbTktwltBP4fxHmSdzXrodOuu+\/eqN9gGC4mP77h7efbxGD4Sx7jf3rpYXjFEIqE4a+UZ7sacntM88we4dQ6p5l5SVgEhXPWvSGFW19h9uQlDzYSNViVJVz7gzXO3H7PkDMvC7wXGmjFystqHoU6H4rNawXiLDHUPYVZONqMpcbzJKVeoJg+1dmrMpcupNNMyTpnrWuTsL9h3EbRTCFuKuWRnZlZ\/fJG6D1I5Heuew\/EBbAm3WWecTAPtWph3E+HP2niXebD8QtxmWw4kmVgbJ5wdoMGq2PW9s3cM4lbBJsMRGdBInI4RJB9R9ZrSrYxl0+j7fz7FfQ2t+qOi4d4hsLtarHFG7VTyj+5eWymFfwkxv0roLzh\/CrlEuWLKSdJQMpHxXjt4QpyWhoU66QK6Thjj1OGRaYu\/41snRLg8y0du4+tO2l66ohXat9MjZxHgZM+Jh76c+4Dhyn5Fc\/dWuJYY5lvWCsEaZt\/Y8661fHPDpyFF4sl0w2A0qT9KGvjbALhmH1u5VJnI5bLII+I\/OqI2WR7otdcX2Zz1jdW7ohOjgH3CINWM7acqXQM40Kanjdjw9d232vD8VZaUdQFhRTPSYkfWsi1vb24bQw2w7dIRqlbTJmPXYirXctb\/JX0P2NNxv7qStPeRMUQNsZILiRI6UxsbpCAtTCjImBqR61SW8sLKVghXSNqlC2uf2vYOMl3RoJQwvQKBPSKTLTRJKiAfWKA3qgGYUdopi6lJ3B6RzqzgjyHyJJUkOlMCZBpQ2pUJUJ\/h50AOJV+Ej2pyoBQnY70cATISFELQkRsaVQ0KdaVAigmyTGqj81M2zcQQfmrJAGwqKp5CpDK32ZpP3AZ\/nWXdtot8LYzNrULq4UjMFAQsFSgeogp3rVfDhByiqKMXtrJi5tMQfFurzOWzqtBCgZ9YJJj0pJLexPeitwO+tH9pWjcQ3dZ8itMoUBPXnyrVRxZhYxR3DX3Vs3Lasv7xPlUYGxFcRwvj9raY3fP3jqmmbkeVS5MEHSY5wa0sbwBWN4wzieD3Vuts5fGIXKkqSdCAOoj4rzuXiVSyp\/V4TXD+ToVWNVrp7noTTyHRmbWlY6pM0UKBrKatQgS2IO+lGQ7cI\/EFjkK89Ktb8rNxoySImO9MAsfj07j9DVdu5SoxqPWjhQIqrUojMe\/VijeKpbtbUXbDo\/wAZbqQGttwpJPpE1vWeEJvcMubLED4rLrviEJAQG+yY13Ez3NctxlxOeHrRsWyELvX5DQX91AG6jWBh3EnGdmfta5fREradZSJT6DzD+tK9Fh1ZV0I2RSS\/JhunXFuL5Z39zwhgzwKHEXBSerxqp\/8AhcCygeE\/A1A8Y1o8N8RWnEdmp+3lt5Bh1lR1QeXqD1rVIIqnIzcquXS5NaJwpqa2kYtrwxhls0tltL\/hLOYoU+sieu9aFlwfgLjhujYsqfO6lJzK+TVhS0pHmUB6mhnEra2OY3jDah\/qdSPzqiGVbKW5Nv8Asm64paRssWVrbICGLdpsJ5ISBVgAaaRVDDcascSUpu3uWXXEfeDbgVFXRMmtT1sqRXftEuaoGVfQ7VkX9k2+C3coOYbK5j0rfnXT5oF6wi6YU0srQTsttUEd5qpwafVB6ZPq9HycHiFi9bLylaSN5ToffpVLIr70yefatDGMNfwZ1tzD21Fal5VZgVl4RsTudtjV1y0WGm3SyklaQVJJ1QeYrv05CUYqck2zFKvl6RjNlSBICZHOibkLI9orQNuyrRTSknqKgq2Y5OEfFbEyrpKwVl3pVYNmo6odChTUdQukYMg89akGAPwzRcqhsRFSCgN6sIldTIGyKpYhhdvfteFeWzbqJkBSdq2BCtqfLIpDOJuOCcNMlq3yH\/caxLzhN+2c8SxUW1p2U2ogj3r04tihONA8vpSfIHmrGP8AE+EqyvL+1Ng6h5E6eog1sWX7QbF1QRilk9bk\/jZ86R6jf6Gunfw9l5JC20metYWI8I21wCUwk9qw3eHY1veOn8cF0b7I9mbdjfWGJozYdes3PPKlUKHqnerAW42cqwfivNb\/AIRurVfisKJIMgg6j0O9GsuKMcwshm8i7ZGmV8ZiPRY1H19K5V\/gklzXLfwzTDM\/cjUvLZGL\/tHbauF5Gre1SUkiYVOhj1V9BR1IuMbwrEXmGzbYwhYSlpxfh5g2uZHQkEe9UcFx22xHjZSmm1Bu4sS3kV\/rEGJPTKda0WLx\/ELlbrudsWr6mnEOOeVWUpKVTvJEH\/tiu7hwcKIwa1pGO2W5tozbi5Vw3xcLxDS2LZbnhPpUmEqBglQ6jWfVKq9VauiNHde4ryHje2uGHbwLuEu4eu5bVbI8XMUShWZJH4dq7PBHrnEMGw+7Zui24bdIUkpkEgQZ7zXF8coScbU9ejNmDLe4M6TFMMscYtvCu2UPIBkf6kHqDyNc27gz+BspYwzDmLxhxyXJTCyfUbCugC9jAqw26k\/eEelcbE8SuxX5e3saLceNnfucAqx4oOLpusMwq4swEAhJ8wJ6EwPiK9Owe9u1WLa8TtjbukeZJI0P6Vl4i5em2K8PLanANQ4kqnTkMw51mi4xhbiClkoRlBVGRJzSZ37RzrpWZks2Kn5Y693yUxpVXG2ztFONuApJzJI1ABIPvUkQ2gIbRlSnQSa5zD7y+azJuHAWikRK8ygrny2o671xWxNc+7LjW3GPP8di6NTkt9jWfUgpyrWAnoBWHi8qBatlOJKkykgc+6jtry6UlOrVzNcxjOOOtcQ2WENuZG3W1OPrCZVv5QDymD8UsSdt96UEt\/PoSnCMIbbOg834wJjXLtNRhJOsH6UkuhXMGpEg6mPavZR7HMYP7O2rVMD0pVNSDMpMUqYgcUsgNSAqcaVcVAC2DuNtqIhKxsfmnUKQVFADSJgyDTlOm4p5zaQCKZLcKJJPtQAwSOdMEa7VNQIGh9jQ0rUDqkexoHsg6yFCDMVmXmEWtwPM0mesVsFYGp2pCF7DTvQI4W+4XVbupu8OOS4ZUFtrjZXp0oy7zDMVw6\/srh5GHXDzJbcYdyjwXNPMNpBjQg6jpXbeGN4HtWXiuCYdiict9aNuqGyimD80IWjzPivErW9vWkWavFDTSA\/cJ2dcSnKCPb+fauz\/AGdu5uFrfqlxwf8AuT+dAf4Fw6CGA4gdM5I+tAb4avcOBGH3jzSN8qFwPjasPiGK8qnoT1zsvos+lLbO2C6Rc71w9xccRssraFyVSICy0Mw7gjnWWMU4mtTH2xax\/G2k\/lXA\/Qrv3L\/Td\/2Q9joOJ+OGcFufslrb\/arhP35XCUdietG4V4ousbt1uupt2FeIUpQgyYAGup6npXnSsJU6tS3w4palFRUpUyT\/AEauW2FOpQlttJCAZAmum\/CMf6PRFeb3M6yp9e32PYWnFFGZap78qqXGOYcwvI5eMBfMZwa8+Zwm7dAQ448pvmlSyR8TWjbcPBABy6dhWSHgMd+eZc81+iNK94wWtam8OtFqEwHHNAe4AoeGuly7VdvtpNysBJcI1gbAdBV20whpABCRNaLdmgbp+K6uPhU4\/wBiM87pz+5k2Xc2p0Jq0nzDQ0JLAG1ESgpO1airYZM0qdBpUxEYqVRTvUpq0rESaQSOep60xIpwRSBDx0gVIQajoaQNAyRGmgk9KjHYVJJilQAOADUsoPany86VADQRtSMx5k1KnoAEUjpTBsE7UcCkdNqQysq3QrdIoK7Bhe6B8Ve9RFKPSkMzFYLaHUIHxTDCWU7J+laoEU9AGcmzbTyiii2SBtpVtSAedQWCoeQpyfWkGwLTOkkR2NEDfapjWpUD2RS2Kfw96kTFLMCd4IoEDywdqVFJ0pUAVAafnSpVMgh4qQEUqVAxxS501KgB5JMdKYmDSpUAPzqcaUqVAxqRNKlSAkDUhtSpUDFUZyiYpUqTAcnSoZiKVKgCC3FQaTZkQeWk0qVABQKRGnOlSoAjUppUqQC2FKlSoA\/\/2Q==",
+                    "url_photo": "https:\/\/res.cloudinary.com\/dsxfn6o4q\/image\/upload\/c_fill,g_center,h_467,w_624\/v1595866163\/vhtiwpdjvw3vguhducdr.jpg",
                     "annee_debut": 1988,
                     "annee_fin": 2001,
                     "nbr_produit": 3000,
@@ -240,6 +226,19 @@
                     "prix_neuf": 200000,
                     "prix_actuel": 300000,
                     "description": "La Diablo..."
+                },
+                {
+                    "num_modele": 9,
+                    "nom_modele": "Miura",
+                    "url_photo": "https:\/\/www.auto-forever.com\/wp-content\/uploads\/2015\/09\/Miura_1971-1972_P400SV_1.jpg",
+                    "annee_debut": 1966,
+                    "annee_fin": 1973,
+                    "nbr_produit": 764,
+                    "puissance_max": 385,
+                    "puissance_min": 350,
+                    "prix_neuf": 80000,
+                    "prix_actuel": 300000,
+                    "description": "La Lamborghini Miura est un mod\u00e8le automobile du constructeur italien Lamborghini, produit de 1966 \u00e0 1973. Il s'agit de l'une des premi\u00e8res voitures de s\u00e9rie dot\u00e9es d'un moteur en position centrale arri\u00e8re. Elle est devenue un des mod\u00e8les majeurs de l'histoire de l'automobile. Cette voiture est le fruit du travail de l'ing\u00e9nieur Gian Paolo Dallara, arriv\u00e9 en 1963 dans la firme au taureau, et du designer Marcello Gandini, jeune ing\u00e9nieur-designer du carrossier Bertone. "
                 }
             ],
             "url_logo_marque": "https:\/\/motorsport-academy.fr\/modules\/ybc_blog\/views\/img\/post\/thumb\/logo-lamborghini.png",
@@ -257,9 +256,9 @@
             "nom_marque": "Land Rover",
             "modeles": [
                 {
-                    "num_modele": 14,
+                    "num_modele": 10,
                     "nom_modele": "Defender",
-                    "url_photo": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBxIQEBUQEBIVFRAVFRAQFRUWFRUVFRUQFRUWFhYVFRUYHSggGBolGxUVITEhJSkrLi4uGB8zODMsNygtLisBCgoKDg0OFQ8PFSsZFRkrLS0rKysrLSsrLSstLzcrKzItLS0rLS0uKzAtKy8tKystKy0tKysrLSstOCstKy0tN\/\/AABEIALQBGAMBIgACEQEDEQH\/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIDBAUGBwj\/xABNEAACAQIDBAYGBQcKAwkAAAABAgMAEQQSIQUTMUEGIlFhcYEHFDKRobFCgpLB0TNScqKywtIVI0NTYoOTo7PDFkSUJDRUZHPT4vDx\/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA\/\/EAB0RAQEBAQACAwEAAAAAAAAAAAARARICITFBUYH\/2gAMAwEAAhEDEQA\/AOjOtMstSmFNMK0iKy02UqUwpBWlEUrSCtSmWmytURytNlalMtNlaioxFJIp4rSGFAyaTanSKSRRDdEactREUoRahal2oWq0ItQtS7ULUqkUVqXloiKUItSSKctRGiEAUsChalhaoCinVFIWnVqBS0qiWjFRChS1pApwVQoUsUkUqqFg0q9IWlUCs1CioVFWDU2wp1qRUDLCkEU8RSCKKaIpBFPEUgigaYU0wqQRTbigjsKaIp9hTbCiGWFJtS3IAuTYdp0FNiVDwZT4EGgFqFqXahloG7UdqXlo8tFN2orU7ahagaIoiKeIpOWgaK0krT5WklaBtVoyKcC0CtEIUU4tAJTgWqCFKFDLSgtABTgoBKUEogClUYWlZaoAoUoCjy1AVClZaFKqwYUg06RSctRTZFIy0+VpJWgYK0RWnitRsfjYsPGZp3CRLbMWYKNTYC50ueFBX7Q2vh4LiWVVIFyNSQO8KDbzqtn6UxfQjlf6oUfrG\/wqm6RdMtnsFGHRMyyb1iFZ8\/VYWZ1Vh7TK3HiorM4zpkzaIht+iq3+tnJ\/Vq5jO7rXYjpHOR1IVXvYs3w6vzqtfH4uZwm+CDKXYrlTKL2Uaa3OvPlWLxXSKd+weLE\/sBKgNtObW0lr6nKALntJIJ5dtX0ntqsTBmPXkLnXUsW+dQphGntOo8SBWYmxDG+ZmbTmzH5mpuG2GzKGLKuYBrBcxAPfcUVYPtSFOEpv\/ZzfMVo+gs7YmVhE7E3SMb0jIpZZGvY5idIzbQa86y0ewU+k7HwygfI1b9A5hhsc8Y9kGKQX7VZQP1ZXoldO\/knGryhcf+q0Z9yxD50l4cSvHC3\/AEHDfF5h8qvRirm1+6ikfvNROmebHFPymFmHnf4Ro\/zpv+XcMPbWZfFbf6gSrieRRxPvNqqNp4hLdRhcHkb6VYdDTbODbhOAew5SfcjsfhUhMRE2qyAjvWRP21ArM4lr8QCO8Xv76gNhIr33aX7coHxFOTpthKhNhJGT2LJGx9ysTThhNrlWA7SpA95FYfcgcC6\/oyyAe7NaiENtVdwe3qsfeymnK9Nxko8lUPRfFSZzA750AzIzaPbXq9h4Hw07QBp1jrLRgJShHUgR0oJQMBKWI6eCUoLQMhKUFp4LR5KUMhKVlp4LRhKBnLRhaey0eSgay0Kdy0KCXlostO2oWqKZtRFaetQtQMZaynpPlybMmtxZoE98qE\/AGtjlrn3ppmy4GJB9PEID+isUrfPLVwciWjIpuM0JHqobc0yTSnamXaoDtcHwPzA++tYJLADsAHurMYZfY78g8jIx+Sirl5ND4MfMA1cZ1OWeosUpjx0b6jMuXsuSGUfErUPERBSbC1s1raWtwtVj0jxqv6tIpu66nuJymx77qaqfGunrjrgc7gGo8+PJ4k++sls3pFE2Hjdg6G8kbdR5FuGbIFKKSOplGvNTUkbbgbTej6yYhfi0NvjVuJNWkuKvUZpTUCXakABO\/hNgTYSa8CbWIGptpfnUebFobiDGwm9rNI+G0\/RTOpvrzPLhzpSLUyk6E6U5gYQ8gVuFVmEgxFvy8D9+RSfektvhV5s6Egq3tWNmKI5Fxo1rA876X0pTcWS4GMfQHz+dPJAo4KB4ACkzYoAaEBjw3gdQdCbC41NgT4A9lRTiJywyy4QC2oJYknus2nx8qMw1jE3MyTjgCL\/oMQHueQuFY9wNbJFuLjgdR4Gs\/wCrNIhWVom04JexB0YG5Olqsdi44JhwJm66MsRJtds024Rz+k+vdes66eKzEdHkqQEo8lZbRwlKyU\/kowlAwEo8tP5aGWqGctGFp8JQyUQxlo8tP5KGSgZy0KeyUKB\/LQy05loZaim8tDLTuWiyUDWWuVenXEWGEi7TiZD9URKP2zXWstcd9NzRHFYdZZJEKwuwCRLIGDyWOrSpY9QdvKg5mGptnqSZcHzkxP8AgQj\/AH6SZsF+diT9WFPjmb5VUQXammNTWxmD5RTHxxMa\/AQGi9fwvLDOfHE3+UQoFYEXkUc+obWJ9mM24d5tVucHL\/VtwI1FuI76z4nlDHIGUn80G+U6gX91IfftxEh+q34USL7GwTOdIjrYnUEC5OhPbpfzFKxZtCIWFnM6EHTRQpXXXlf4mqTAIyOGdJ7C35NWDe0pOtxxUMOPEg1a43GPIUI3uRM\/5cPIVBINrMDp1Rwv30pEnZLRKNZB1gCVawCnUnU6cSffVlHBA+o9XbwaEn4Gsjg4hM5DyrGAAetcX7hYVdxbOXKLY2MLw9uSwtytbSrgtMPsxCd4oDFrgajQLYEIo4C54\/Gn5dlgC7owXtJkA+evhVUuzF5Y+IfWm+5aP+SgeGPiP15f4aoffZ+HcEGN7kEAiCVyNOIupFNvgMOkao0cxyggFoARc\/p8BfkKZOyzyxkX+I1NyYVk\/wCdTyeU\/sg1A5hzh0FjLMG0uQMg0vYAKdALn3mrbB7p\/Yxs1xrbe4r+MfCqxNk41kDxyO6G+VlZypsbaafCmXw2NQ6iQ\/3bv+4aDRriLcMZJ9lm87uxquEUu8xBEqPvYgqSMVR97GY5EZrKL6plsb201qoTaE4YK8V25KUaNyP7IIufca2GypNmzRI5kmSQ2DoVhYI17HraZhzvbhyoOnYfpFhHAPrEYY2JBa1ieI1qyw8ySC8bq36LBvlXKRgMN9GRvaVTeOJtDbrDK+oF9bXNGMFku8TAsuUi0YDEECxQhrk6m4GoynuvItdbyUeSue4Lbe0AFCuHDA2DpqCDazEi4J1tc2NuPC8yDpbjRbNhkYWLWG8VjY2I5691uGvCkK22SjyVR7G6VJPIsUkTRSMAVJIZG7gwsQe4gfEX0mTuqCPko8tPZaPJRTGSjy09lo8tAxkoU\/loUQq1DLS6F6KRahanKFQN5a4h0y6d4R8ZKmI2ck7wyS4VWdkbqxyMugZDlubnzrudeTumCX2jirf+Nxn+u9XBpx05wa+zsmAeBA+SClH0jQj2dmxDwlkHytVBhtjxZA0u9ZzraNkjVe4s6Nc+At41F2jhIFU5VlRuWeVJAe6wiQ\/E1UaRvSSOWAjH9\/iP46RJ6RmIIGEiFwdd7Ofm1YgpRoLG\/Zc8L8BfgeNBoH6YM50w8PM8ZD+9TD9Iyf8Al4f8z+OmMTtuSVMsmU29m0aDkRqRrbXhVXQWp24T\/QQ\/5v8AHQXbIsSYIvC8tu38\/u9xNVRo7dU+Xyag0cuHREYiOAyIuZ0HrAIAIDDNnsSL\/CoKY5eUMY8DL\/HU\/asWSOaUshWbIseV1YkNIk1yo1UZYyNQPao9nbKjTC+szpJJLKcuGhXMFKi+aaVlsctxZVB1sTwoIXrS\/wBWv2pv46Q2JX+rX7U3\/uVJcOBdo0Qdm5T9prn3mozuDxA+yo+QoJeOgESI43D5gpspnJFxfW78uB8aiYeWNpEWZQkRYK7JnLKp0LgMxvbjbna1R0ZQewHj+NPSC178QbfGpl+9Xy3PrI0HQTamLjxO4wzuUJIkyEgZF+mSRy5XF9bV0LGYmdSM747UXGsGqngR\/PcK5j0OJ9ccBspMUq5uwkobnXXUXrr+yAcfIiv7EcZzFSbsBYAXvfiR2c7W0trGWX2xhlxUe7lGMcXDKS8ClXHBlbeNY1RbD2XBhMQqT4dJopBKyiQB3XKGIXkM90y6AcRy49I6Q9EIkTf4Ziky5RlJJVwWAIYXtoWBJHK\/OxGX9Q9ZmSVfZgRpW7SCISPmaognbGwWIPq6LaxIySIeHAjhzphtobDP9EnlnHyYVhImfIoBk9kcJEA8lbWjyOeO8Pj6u1Sq2292G3BLeEs6\/KalDE7GGquy+GJnH+9WH3DH6Lf4WHP30TYRj9Fv+nwx\/epR0rB43YoKn17EqdDb1qQjN3DMSdeFW0UuCsCmPxIB1BCvYjtBGlq4+ME975W5H\/uuG\/jrrmxeiy4jZyT791nyyNYhbMUZhYgcOHvte9Ki22dt9MOVYY55oiyKY5UPAkAlHOoIve3A2t3joeWuLYHajwLLvAGUQzQtHrlzDMWN8pHG3MHqiu1YcdRf0V+VTVwWWjy07ahasqay0KdtQoIuahmqJvaG9qiXmoZqib2hvaCWGryx0nxRjx2MdbZvXMUFJVTlbfyHMLjQ2B99enBLXl3pvh3jx2JjdSrnFYp7HjZ3zofNZAfOggjpLjQb+uYj\/GkA917UvHbQfEpnl1lQi72C54mNgWAABZWtrxIfX2RVhsgw4ewcEyEgOwAIXUXGvEDu8PCw25gCIy49hgNeKkOBu7m\/G\/h58TUU+NAOHwrgdbdSRP3tHPLYnvyMg+qKhL9zfsmlJPeBU\/NkkYeDqmn6ppAoEkUVLtSTQJpS8D4j5Gk1LljVYlNmzMVufofTNuGhsU01vcnTQUEZFF9eHE+HOrTHdIMTObySvlACqgJVEjUWVVQaAAADhyqq5HyHvN\/uqRgsE85Kxi9suY6WALBQdTrqy6DXWgaOOk\/Pb7R\/Gk+ts3tMW8dfjWowfRZRlcgv1Q7BxYA5TwCt7OYoNTfQ9tqdfo8UTRM2ilSEW5CjhmGl2a99DpbXkEKzrwK6byMWAsGGvVf8DxHn2U5ib7lG7t2T\/ajsP2DH8altEYj9EIf5traZm45uAsoNrefKmsSbYd07JY5B4EMrf7fuoJvROYR4ppGByhJSbEg2zLzGo07K610X2zHh5M3WMboFudbNcG41JK3BHn3G3I+jmKWKYM\/sspUnkMxBuR2aVsGxsC6CeGw5Kwt5WrPO9Zt9fjWeec7k9\/rYbR6RKVaKGZZGZgxKBWWNQ4Z2kddATly5eNzwNqzeF26mGxDx5epPFJGP7LZYQnlbSoTbWh4GdbcfpH7qottY+CXFQmB84BjudR1yyg6EcLAe410c2WCCwuoOg13Wf9a+tGIx+YP+m\/8AlUpdnykA7pjpzlEf6vKlJs5+cdvHE3rLRmOMW\/Jnyw5+Wam2jAF90dP\/AChtbzepn8msf6OPzxEnxtwpP8lAjVYL9885+VA\/tHYjQKjFI3Di43WHzldL9YZ\/xrpXRva+4wSKGO83csRTIFIzM5UtIOqqi+axbuFzcVy9NiE6hMKQNPbxZ+INqvPWI0AQ3uoAIjQZL8ermYHnz53qszZ71dT4mOWSVOuLxuwa9lZ2uPZ7wvCxN2Fd2VrC3YAPdXn3Y+MhMyIRIxZkUAhVGdmABJDEkC9d3MutY5m7trrvlm5mSRM3lDeVC3tHvarKZvKFQ97QoK3fUN9VfvaPfVUWG+ob2q\/fUBNQVPpKxbJsvEMjFWtCAVJUi80YNiNdQSPOuBQEtJnYlit3JJLEnRQST35da7V6T5b7LmHa2HH+fGfuri0AGveAPiKCzw2FsgZhfMM3L2b2J+Bq6wAzwvHdyERilif6QMARbU2IK5eFltyFScLsm4icughOULdhmD3VTeO4NjaxPDTjULFyKsilCBdXDWWwU5gbAacCL9xuOVEZcRlAwXUXvfKO\/UA69vfRx4gc442Itxzi\/ccrj4U7J7TdWwJJAAsLXI7ddDUCa99OOmt\/wqKnmZDxgUd6NKP22ekFor+xIP71T8DH99QVdweJ+dKVnPC\/xoJTrDyaUf3aN8d4KXIEK2EpOoIDoy2sCPolu6om9sLcT2nW3hejDX7Pl8qBaYcuQiEMzNYWuPZBJ9oDka1UGMiwUYygNJ1gqj6T5l\/nHJ4XVVPiRYEcM5gpSoYjQ6W48Rre97giwNx2G\/KnC7Ty30ux8gOJNu4XNXBMl2ripzbeSdyR3UAAW9lOPLU0FkxUV2LSjje7My2\/tgkj31LxP\/ZxGY\/yVzvRpcn8425WI17e6oseaPE73K27YBicpsuZSRr5DyNKiQm0hiLLKAknWAZb2cNxVhqfdpytULF4cnqgjsuTa5Gv3URUyq0uTLZtQOBUnjbkw0vy56c5Ty5lUk6qCp4a31Dd\/jREM4eRAG6mWwF8x5DsApV35CNvBytj2ddVv5Xp3ESqUsGHvqIsqqNSBqaumHi0nYn27\/IUxFhGGY51RtCts7a3F9bC1hr4+8LjmVvZN\/I+PZ3GlTTBDYm5vbQhhfxGnZUUkwyc52I1HtSAEd4INW2wujBxSSu02RYk3jGxe69a9hob9U1Uy4kL7QbXTgPxrR9Guk+GhgmilimO9jMZKKrEgl+IdgosG86348zyvz9M+XVyf0bdDYhcb+VmAbQQC5ZWVWTrTKMwLAm9h3mpk3o7gVGkOJlYKyR2SFQS7qjJa8h0JkRfE9mtHjel+CZ86Q4iKyCJMi4OPIl1NgSSbdXgbgXNqTi+nmH6wMUpRzGxTeoqqyhVVxaMtcbtG4kXA8Kw0Rj+hGGhws2IWadjFIsViI7FyyIdLcs\/6tZtYFtYySkd2RPuNqvdr9NmxGHaBcJuop5DIJDKWDMsodyoyC+otx0rLy4whrAA8OB+FBY4IpDIkqCbOjLIpMy2zKbi43WouBpWqw\/pCx28Rd5mBYKd4sRuL9qRpaldB9gYXGb3fby65ClmygoS2p04+z7\/AHaQejzCB1cPOMrBsudCDbkepe3nQbxpNaAkqIXo89RUvPQqLnoUFfujR7o1J3oo98KqI4hNHuDT++FHvxQYz0nx22ZKTwD4f\/VSuNxg2J7LHu0IPGvTG\/Xuqt6S4VcVg5sOLXdGC9m8HWT9YCg5hHiY5SoGGVXdMhnH0IkAXeKotndnCi2tywA1OtLteNUfIv0DIra5rsGObXUHUnXhpUfB4rd3WTMGX2OIswIIPlbh8qjYiTMxNrXvoOWt\/wAaCNpc\/wD3nwrfdCOgWGxuGjxc5lJLyLkVlCMiMVsSFzcQeDCsCb2PMk2sOZ4W+eleiujGzPVMHBhzbMkYD24b1utJ+szVFZLpD6N8PLBlwcaQTqQVa75WF9VkOpOnA8b+dZjB+ifGFwJpYFj+kyM7vbnlVkAv4n312YuO0UkzKOLD3irErnO0fRNhmDGCWVXy9RXKsme3FiFzW7r\/AIVVR+iSb6WKi8omPzYV1c4uPnIn2l\/GknHQ\/wBbH9tfxpB5+6XbC9Qn9XMiyEIrkqpSxb6JBJ5WNwTxpHRyMFiTfRTa3G5PH4VpvS8Q2MjdHDIYAos4YAq7XGUez7Q8fKqfovJEkn8\/HvIpI5Ey6e3xXU9mutFSINiLBOI3lQxlS+aM5s4ZSyKQQLE3Ck8uJvrV7tZMLFhHTDuzIuSRoyoVXIsCAbDQ2BvqFy68zWZjhwOGxSMzSEktnVVULHnuqkAEk6EcSOPDSr7G7HmczRlo4440d5QHikmRTYJnjVgUJB9o6DUniTUGb2pDJhpxhoxvIjxyKzjIxOZQSL8Lm\/YQdKrTIRftsQey\/aKnpiHhlUC0mHe2VtQuUDrFTw0sbjuFVRYk\/E0wJmXnx4G5PhyGlNTYe+txpf3W\/wD33U6wHdy5662GnfVhhdhYvEi+Hw8ki3ILKhyZrC4zHQHhfWgqlwhAuCLgXtqDxtyp1AQuouQCo01HG17d559grq\/QX0f7m820Ejd2AVITlkVBoSz8VL8ha4Avqb6bSPYeEX2cLAPCGMfu0HnGSQ\/SkOnYB8waZFiQLsb8y1h56Gtd6U9kerbQZlFop1WVewMOq6jSwsQDbkGFY5TY3oJDRpowQkcDxvf6v30WKYLYBQDxsVBIXz4GkRM63Kta3eBcfOpW5jEAxAnVsTvVAgMTH+bF+u8hAQ6hRl1vfWgizRWRGzIS92IUi6lWK2kXipsARyIbTnY0FPbWxoxE7zLEkIc5t3HfIpsAcoPC5BPnSYY8xAHOg6h6JkvLKRw3SX1HG6W048mt2aiul5KyHos2eUwzzsLGZhl4fk0uL8NOszD6tbWgZyUMtPULVQzlo6dtQoKsg0kg1N3dIMdVEIg9tEVNTTFSClBDKmkkGphjpto6DAdKuiTyuZcOASxuyE265OrKTprxt49tZLE9Gcav\/LOeOoMZ\/ertJjpto6g4nBsPHI6uuGYMpBUkpoRwPtcRp7qs2G2G45\/tj8a6sY6aaEdlByaTZ2029oyfbH40y3R\/HN7WbzcfjXWzh6bbC0K5R\/wtijx+LUB0Rn55fefwrqbYSmmwtUrl+L6OywRtKSpVdSBc6E2va3fTGzxc5AbG6srXuFPEZre411KTCAggi4III7joa5r0h2O2DktZjATdH4kdqsbWzX1tzA0tc2C3uN\/1wBMgAWNSFUNxDIVtmuQpHZz11pmM4hsJPCwyu8ju1wV3ylU0cmxtdLDgBr4iLhsdA8eSdXNjZZFBYa8rHUeHzpIliRhnDML9VGVxmAOmht8KkEjGyoU3cKbuEAXAkaVRzKCQgF+sTr8TxrPSnW+muvkNLVbbe27v8q5VjjU9WFARlHA52P0tO\/vtzoyxJv8AL5C9DDkZ\/Hj7h235+Vd86IbO9VwUMJ0cLncXv\/Ouc7jyJt5VwWNypuDYg8RYag3UjwqwTbuKHDES\/bNRXoPNQvXAB0kxo4YqX7VK\/wCKNocsXL+ofmtUdi6YdHk2jhjAzZXBEkT6kLKARcgcVIJB8b8QK4BtXZ8uGlaCdCki8QeY5Mp+kp5EVoB0u2jyxj+axH9yoe1ts4zFqExEiygXy5o4wy345WVQR79agoKFqkpsyU8FvUuDo5in4R\/dQVyCtf0F6KyY6TNYrApGeS3gcqdrm3le57C90e6Iyo4ebDLKBYhWmdF8wgufC9q6rsvEyKip6vHGigKqo1lVRyAyiwoLmCJY0VEAVFAVVHAKBYAUumUkvypYNAujvSaO1Ad6FFahQPbuiMdPkUm1VIjmOk7qpBFERQRzFSTCKfIorUEUwCktBUsiiy0EFoKbMFWBWkZKCBuKS0FWOSiKUFW0FIMFWhipG5oKo4ao2M2asilHUMh0KkXBq93IojDQct2l6OdScPMVB+i4LDwzDW3jeqpugGOU9R4jyuHdTb7FdkMFFuKDiv8AwFjh9BD4P+IpadBMbzRez2xXaNzRiGoVyGDoBijxyD61TofRzMfadfIGuphBSstIVziH0cfnSe4VPg9HkI9osfMCtxajFUZWDoPhV\/o7+JJqwg6L4ZeES+4Vd0L0EGLY0I4IvuFSUwKDgo91PA0q9FIWBRyFLCChejvUCstArSc1HmoFWo6QGow1Aq1Ck5qFBYkUgijoVQk0mhQoCNINChQJNJFChQEaSaFCiAKFFQooUVHQoEmiNChRCaFqFCgFEaFCgKjoqFAV6OhQogUL0KFAd6FChQHQoUKKO9FehQqKOhQoVUGKFChUV\/\/Z",
+                    "url_photo": "https:\/\/images.caradisiac.com\/images\/5\/5\/4\/9\/165549\/S1-la-vrai-land-rover-defender-est-de-retour-540680.jpg",
                     "annee_debut": 1983,
                     "annee_fin": 2016,
                     "nbr_produit": 2000000,
@@ -278,9 +277,9 @@
             "nom_marque": "Lotus",
             "modeles": [
                 {
-                    "num_modele": 10,
+                    "num_modele": 11,
                     "nom_modele": "Esprit",
-                    "url_photo": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/49\/London_Motor_Museum_-_38504511082.jpg\/280px-London_Motor_Museum_-_38504511082.jpg",
+                    "url_photo": "https:\/\/i0.wp.com\/delessencedansmesveines.com\/wp-content\/uploads\/2023\/11\/z-DLEDMV-2023-Lotus-Esprit-S4-Collecting-Cars-006.jpg",
                     "annee_debut": 1976,
                     "annee_fin": 2004,
                     "nbr_produit": 10675,
@@ -306,9 +305,9 @@
             "nom_marque": "Mclaren",
             "modeles": [
                 {
-                    "num_modele": 9,
+                    "num_modele": 12,
                     "nom_modele": "F1",
-                    "url_photo": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/16\/1996_McLaren_F1_Chassis_No_63_6.1_Front.jpg\/280px-1996_McLaren_F1_Chassis_No_63_6.1_Front.jpg",
+                    "url_photo": "https:\/\/mclaren.scene7.com\/is\/image\/mclaren\/MSO-Heritage-1920x1080:crop-16x9?wid=1920&hei=1080",
                     "annee_debut": 1993,
                     "annee_fin": 1998,
                     "nbr_produit": 106,
@@ -325,7 +324,21 @@
         {
             "num_marque": "23",
             "nom_marque": "Mercedes",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 13,
+                    "nom_modele": "W123",
+                    "url_photo": "https:\/\/images.caradisiac.com\/images\/5\/5\/3\/7\/185537\/S1-mercedes-benz-280-w123-1976-1985-une-machine-a-rouler-qui-donne-du-plaisir-des-7-000-eur-646145.jpg",
+                    "annee_debut": 1975,
+                    "annee_fin": 1979,
+                    "nbr_produit": 2696915,
+                    "puissance_max": 185,
+                    "puissance_min": 54,
+                    "prix_neuf": 30000,
+                    "prix_actuel": 25000,
+                    "description": "La Mercedes-Benz Type 123 est une automobile de classe Routi\u00e8re fabriqu\u00e9e par Mercedes-Benz de 1975 \u00e0 1986. Elle a subi deux restylages en septembre 1979 puis en septembre 1982. Elle succ\u00e8de aux \/8 et sera suivie par la Classe E (Type 124).\r\n\r\nElle a \u00e9t\u00e9 un gros succ\u00e8s pour la marque avec plus de deux millions d'exemplaires produits. Son extr\u00eame robustesse fait qu'elle est encore tr\u00e8s pr\u00e9sente dans le paysage automobile, notamment en Am\u00e9rique du Nord, en Europe, ainsi que dans les pays maghr\u00e9bins. Elle est souvent consid\u00e9r\u00e9e comme la voiture la plus fiable de l'histoire de l'automobile.\r\n"
+                }
+            ],
             "url_logo_marque": "https:\/\/www.makrea.com\/166965-large_default\/sticker-logo-mercedes.jpg",
             "descri_marque": "Mercedes est une marque cr\u00e9\u00e9e \u00e0 l'origine par la Daimler-Motoren-Gesellschaft (DMG) et utilis\u00e9e pour la premi\u00e8re fois dans le mod\u00e8le de 35 ch commercialis\u00e9 par l'entreprise en 1901. La DMG a commenc\u00e9 \u00e0 se d\u00e9velopper en 1900, apr\u00e8s la mort de son cofondateur, Gottlieb Daimler. Bien que le nom n'ait \u00e9t\u00e9 d\u00e9pos\u00e9 en tant que nom commercial que le 23 juin 1902 et qu'il n'ait \u00e9t\u00e9 enregistr\u00e9 l\u00e9galement que le 26 septembre, le nom de la marque a finalement \u00e9t\u00e9 appliqu\u00e9 \u00e0 un mod\u00e8le d'automobile construit par Wilhelm Maybach selon les sp\u00e9cifications d'Emil Jellinek. Ce v\u00e9hicule lui a \u00e9t\u00e9 livr\u00e9 le 22 d\u00e9cembre 1900. "
         },
@@ -346,7 +359,21 @@
         {
             "num_marque": "26",
             "nom_marque": "Nissan",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 14,
+                    "nom_modele": "Figaro",
+                    "url_photo": "https:\/\/www.auto-forever.com\/wp-content\/uploads\/2022\/01\/Figaro_1991-1992_1.jpg",
+                    "annee_debut": 1991,
+                    "annee_fin": 1991,
+                    "nbr_produit": 20073,
+                    "puissance_max": 76,
+                    "puissance_min": 76,
+                    "prix_neuf": 10000,
+                    "prix_actuel": 10000,
+                    "description": "La Figaro est une citadine 2+2 places d\u00e9couvrable inspir\u00e9e de la Panhard Junior de 1951. Elle est produite \u00e0 20 073 exemplaires uniquement en 1991 et fut attribu\u00e9e par trois tirages au sort la m\u00eame ann\u00e9e. "
+                }
+            ],
             "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/23\/Nissan_2020_logo.svg",
             "descri_marque": "Nissan Motor Company est un constructeur automobile japonais n\u00e9 sous le nom de Datsun.\r\n\r\nSon si\u00e8ge social est \u00e0 Yokohama depuis 2010.\r\n\r\nIl est li\u00e9 au constructeur fran\u00e7ais Renault depuis 1999 \u00e0 travers l'Alliance Renault-Nissan qui est au premier semestre 2017, le premier groupe automobile mondial (en nombre de voitures produites).\r\nLogo de Nissan Motor Corporation depuis 2020.\r\n\r\nDepuis 2012, le groupe Nissan d\u00e9tient 15 % du capital du groupe Renault. Inversement, le groupe Renault d\u00e9tient 43,4 % du capital du groupe Nissan. "
         },
@@ -360,66 +387,100 @@
         {
             "num_marque": "28",
             "nom_marque": "Peugeot",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/www.logo-voiture.com\/wp-content\/uploads\/2021\/02\/peugeot-2021-carre-noir-detoure.png",
+            "descri_marque": "L'entreprise Peugeot est \u00e0 l'origine du Groupe PSA qui englobe \u00e9galement Citro\u00ebn, achet\u00e9e \u00e0 Michelin en 1976, DS, fond\u00e9e en 2014, ainsi que Vauxhall et sa s\u0153ur allemande Opel (anciennement GM Europe).\r\n\r\nPeugeot, constructeur automobile fran\u00e7ais est depuis 2021 une filiale du groupe Stellantis.\r\n\r\nPeugeot produit essentiellement des v\u00e9hicules automobiles pour particuliers, des utilitaires ainsi que des deux-roues. En 2016, la marque a vendu 1 919 460 v\u00e9hicules. "
         },
         {
             "num_marque": "29",
             "nom_marque": "Porsche",
             "modeles": [
                 {
-                    "num_modele": 13,
-                    "nom_modele": "911 (964)",
-                    "url_photo": "",
+                    "num_modele": 15,
+                    "nom_modele": "911 (956)",
+                    "url_photo": "https:\/\/cdn.motor1.com\/images\/mgl\/OovvOB\/s3\/la-porsche-911-turbo-del-film-bad-boys.webp",
                     "annee_debut": 1989,
                     "annee_fin": 1994,
                     "nbr_produit": 63762,
                     "puissance_max": 380,
                     "puissance_min": 250,
                     "prix_neuf": 60000,
-                    "prix_actuel": 80000,
-                    "description": "La 911 des ann\u00e9es 90..."
+                    "prix_actuel": 75000,
+                    "description": "La 911, ou 911 Type 964, est une sportive de prestige d\u00e9velopp\u00e9e par le constructeur automobile allemand Porsche. Elle est d\u00e9voil\u00e9e au public en 1989 et elle est la troisi\u00e8me g\u00e9n\u00e9ration de Porsche 911. G\u00e9n\u00e9ralement consid\u00e9r\u00e9e comme la Porsche 911 charni\u00e8re, elle conserve le style des anciennes 911, avec ses phares ressemblant \u00e0 des yeux de grenouille, ainsi que le flat-6 de 3,6 L plac\u00e9 en porte-\u00e0-faux arri\u00e8re et refroidi par air. C'est aussi la premi\u00e8re fois que Porsche commercialise une voiture de s\u00e9rie \u00e0 quatre roues motrices, d'o\u00f9 l'appellation \u00ab Carrera 4 \u00bb , \u00e0 distinguer de la \u00ab Carrera 2 \u00bb . La 959 poss\u00e9dait d\u00e9j\u00e0 les quatre roues motrices mais il ne s'agissait que d'une s\u00e9rie tr\u00e8s limit\u00e9e. La 964 est disponible avec options : toit ouvrant, essuie-glace arri\u00e8re, etc. "
                 }
-            ]
+            ],
+            "url_logo_marque": "https:\/\/www.logo-voiture.com\/wp-content\/uploads\/2023\/08\/Porsche-Logo-1963-present-1024x576.jpg",
+            "descri_marque": "Porsche est un constructeur d'automobiles de sport allemand. La soci\u00e9t\u00e9 fut fond\u00e9e en 1931 par Ferdinand Porsche, puis reprise par son fils Ferry Porsche. Ferdinand Porsche est l'ing\u00e9nieur qui cr\u00e9a la premi\u00e8re Volkswagen. Les principales usines du constructeur, situ\u00e9es \u00e0 Leipzig et \u00e0 Zuffenhausen, en Allemagne, comptaient plus de 17 000 salari\u00e9s en 2013.\r\n\r\nC'est chronologiquement la dixi\u00e8me marque5 \u00e0 avoir int\u00e9gr\u00e9 le groupe Volkswagen AG en 20096,7. En 2019, ses ventes mondiales se sont \u00e9lev\u00e9es \u00e0 plus de 280 000 v\u00e9hicules, en hausse par rapport \u00e0 2018. "
         },
         {
             "num_marque": "30",
             "nom_marque": "Renault",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/stick-attack.fr\/22762-medium_default\/stickers-logo-renault-couleur.jpg",
+            "descri_marque": "Renault est un constructeur automobile fran\u00e7ais. Il est li\u00e9 aux constructeurs japonais Nissan depuis 1999 et Mitsubishi depuis 2017, \u00e0 travers l'alliance Renault-Nissan-Mitsubishi, dont le si\u00e8ge social se situe au Pays-Bas, qui est au premier semestre 2017 le premier constructeur automobile mondial. Renault Group poss\u00e8de des usines et filiales \u00e0 travers le monde entier. Fond\u00e9e par les fr\u00e8res Louis, Marcel et Fernand Renault en 1898, l'entreprise joue, lors de la Premi\u00e8re Guerre mondiale, un r\u00f4le essentiel (activit\u00e9s d'armement, production de moteurs d'avion, du char Renault FT). Elle se distingue ensuite rapidement par ses innovations, en profitant de l'engouement pour la voiture des \u00ab ann\u00e9es folles \u00bb et produit alors des v\u00e9hicules \u00ab haut de gamme \u00bb. "
         },
         {
             "num_marque": "31",
             "nom_marque": "Rolls Royce",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/www.logo-voiture.com\/wp-content\/uploads\/2021\/01\/Rolls-Royce-logo-2048x2048-grand.png",
+            "descri_marque": "Rolls-Royce Motor Cars est un constructeur britannique d'automobiles de luxe cr\u00e9\u00e9 en 1998 \u00e0 la suite du rachat de Rolls-Royce Motors par le constructeur allemand BMW. L'entreprise est situ\u00e9e en Angleterre \u00e0 Goodwood, dans le Sussex de l'Ouest, non loin du circuit historique de Goodwood. "
         },
         {
             "num_marque": "32",
             "nom_marque": "Shelby",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/i.pinimg.com\/736x\/63\/63\/6b\/63636b8a75cd4e4f626c770effa206c9.jpg",
+            "descri_marque": "Shelby est une marque et ancienne \u00e9curie automobile am\u00e9ricaine fond\u00e9e par l'ancien pilote Carroll Shelby sp\u00e9cialis\u00e9e dans la modification de mod\u00e8les Ford et en particulier de la Ford Mustang (\u00e9quivalent de la concession Abarth pour exemple). La marque deviendra c\u00e9l\u00e8bre \u00e0 partir de 1962 avec l'AC Cobra, un d\u00e9riv\u00e9 muscl\u00e9 de la petite anglaise AC Bristol, et finira d'asseoir sa notori\u00e9t\u00e9 grandissante avec la Shelby GT 350 ainsi que la Shelby GT 500, faisant de son nom une l\u00e9gende. "
         },
         {
             "num_marque": "33",
             "nom_marque": "Skoda",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/presse.skoda.fr\/wp-content\/uploads\/2022\/04\/309656-1693x2040.jpg.webp",
+            "descri_marque": "\u0160koda Auto, usuellement nomm\u00e9 Skoda, est un constructeur automobile tch\u00e8que cr\u00e9\u00e9 en 1895 sous le nom de Laurin & Klement et appartenant depuis 1991 au groupe allemand Volkswagen AG. Si le groupe industriel \u0160koda existe depuis 1869, la division automobile n\u2019appara\u00eet que 50 ans plus tard. Il faudra attendre 1926 pour voir la premi\u00e8re voiture de s\u00e9rie avec le nom de la marque. "
         },
         {
             "num_marque": "34",
             "nom_marque": "Subaru",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/www.autocollants-stickers.com\/resize\/634x480\/zc\/2\/f\/0\/src\/sites\/astickers\/files\/products\/11022.png",
+            "descri_marque": "Subaru est un constructeur automobile japonais, cr\u00e9\u00e9 en 1953, faisant partie du groupe Subaru et connu par le grand public europ\u00e9en pour son mod\u00e8le embl\u00e9matique actuel Impreza puis la WRX. Son activit\u00e9 s'\u00e9tend, pour une petite part, \u00e0 l'a\u00e9ronautique. "
         },
         {
             "num_marque": "35",
             "nom_marque": "Toyota",
-            "modeles": []
+            "modeles": [
+                {
+                    "num_modele": 16,
+                    "nom_modele": "Century",
+                    "url_photo": "https:\/\/medias.leblogauto.com\/20\/2017\/08\/photo_article\/58939\/120524\/1200-L-un-t-au-japon-toyota-century-1967-1997.jpg",
+                    "annee_debut": 1967,
+                    "annee_fin": 1997,
+                    "nbr_produit": 6000,
+                    "puissance_max": 180,
+                    "puissance_min": 180,
+                    "prix_neuf": 80000,
+                    "prix_actuel": 20000,
+                    "description": "La premi\u00e8re Century[6], pr\u00e9sent\u00e9e en 1967, rempla\u00e7a alors la Crown Eight de 1964, version haut-de-gamme \u00e0 moteur 2.6 L V8 (type V tout alu et d\u00e9velopp\u00e9 avec Yamaha) de la deuxi\u00e8me g\u00e9n\u00e9ration de Toyota Crown. Tr\u00e8s pris\u00e9e de sa client\u00e8le, la Century ne fut restyl\u00e9e qu'en 1982 et b\u00e9n\u00e9ficia jusqu'en 1997, sous une apparence inchang\u00e9e, de nombreuses am\u00e9liorations de finition et de son V8.\r\n\r\nLa Century de 1967 \u00e9tait \u00e9quip\u00e9e d'une version am\u00e9lior\u00e9e du moteur de la Crown Eight : le 3.0 L 3V, \u00e0 bo\u00eete de vitesses manuelle jusqu\u2019en 1974 (bo\u00eete automatique Toyoglide \u00e0 deux puis trois vitesses, en option). En 1973 elle re\u00e7ut le 3.4 L 4V, qui passa \u00e0 l\u2019injection \u00e0 partir de novembre 1978 . Le 4,0 L 5V-EU le rempla\u00e7a en novembre 1982. "
+                }
+            ],
+            "url_logo_marque": "https:\/\/media.graphiline.com\/src\/images\/news\/articles\/ima-image-34349.png",
+            "descri_marque": "Toyota est un constructeur automobile originaire du Japon. Le si\u00e8ge du groupe est situ\u00e9 dans la ville de Toyota. Il est en 2017 le premier constructeur automobile mondial pour les performances financi\u00e8res devant Volkswagen et Daimler. En 2014, Toyota \u00e9coule 10,23 millions d'unit\u00e9s (+ 3 % par rapport \u00e0 2013), le Groupe demeure le premier constructeur mondial en nombre de v\u00e9hicules vendus5. En 2017, Toyota poss\u00e8de la valorisation la plus \u00e9lev\u00e9e au monde dans le secteur automobile et la huiti\u00e8me mondiale toutes activit\u00e9s confondues avec 41,1 milliards de dollars (soit 33,42 milliards d'euros), selon le classement Forbes.\r\nToyota est \u00e0 l'origine d'un syst\u00e8me de production original, le syst\u00e8me de production de Toyota, qui a donn\u00e9 naissance au toyotisme. "
         },
         {
             "num_marque": "37",
             "nom_marque": "Volkswagen",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/6d\/Volkswagen_logo_2019.svg",
+            "descri_marque": "Volkswagen (en abr\u00e9g\u00e9 VW ; litt\u00e9ralement : \u00ab voiture du peuple \u00bb) est un constructeur automobile allemand. La soci\u00e9t\u00e9 est initialement cr\u00e9\u00e9e \u00e0 l'initiative de l'organisation nazie Front allemand du travail. La marque Volkswagen appartient au Groupe Volkswagen AG qui est en 2018, le premier constructeur mondial de v\u00e9hicules devant Toyota avec 10,8 millions d'unit\u00e9s vendues. "
         },
         {
             "num_marque": "38",
             "nom_marque": "Volvo",
-            "modeles": []
+            "modeles": [],
+            "url_logo_marque": "https:\/\/images.caradisiac.com\/images\/2\/1\/5\/7\/192157\/S1-volvo-met-a-jour-son-logo-691142.jpg",
+            "descri_marque": "Volvo Cars est un constructeur su\u00e9dois d'automobiles. Fond\u00e9 en 1927, le si\u00e8ge social de la marque se trouve \u00e0 G\u00f6teborg, en Su\u00e8de.\r\n\r\n\u00c0 l'origine d\u00e9tenues par le conglom\u00e9rat su\u00e9dois d'automobiles, de camions et d'engins de chantier AB Volvo, les activit\u00e9s automobiles grand public de AB Volvo, sous la d\u00e9nomination Volvo Cars, ont appartenu au groupe Ford pendant onze ans avant d'\u00eatre rachet\u00e9es en 2010 par la filiale du groupe chinois Geely. En 2015, Volvo Cars a pour la premi\u00e8re fois de son histoire d\u00e9pass\u00e9 le demi-million de voitures vendues. "
         }
     ]
 }

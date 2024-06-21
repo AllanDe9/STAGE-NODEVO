@@ -6,63 +6,66 @@ use App\Controllers\ControllerPage;
 use App\Controllers\dataController;
 
 $dataController = new dataController();
-$Controller = new ControllerPage(dirname(__DIR__));
+$Controller = new ControllerPage(dirname(__DIR__), $dataController);
 
 $request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $uri_segments = explode('/', trim($request_uri, '/'));
 
 switch ($uri_segments[0]) {
     case '':
-        $content = include dirname(__DIR__) . '/views/accueil.php';
+        $content = $Controller->afficherAccueil();
+        break;
+    case 'accueil':
+        $content = $Controller->afficherAccueil();
         break;
     case 'modeles':
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
-            $content = $Controller->afficherTousLesModelesPage($id, $dataController);
+            $content = $Controller->afficherTousLesModelesPage($id);
         } else {
-            $content = $Controller->afficherTousLesModeles($dataController);
+            $content = $Controller->afficherTousLesModeles();
         }
         break;
     case 'recherche':
-        $content = $Controller->afficherTousLesModeles($dataController);
+        $content = $Controller->afficherTousLesModeles();
         break;
     case 'ajouter':
-        $content = $Controller->afficherAjouter($dataController);
+        $content = $Controller->afficherAjouter();
         break;
     case 'modifier':
         if (isset($uri_segments[1])) {
             $id = $uri_segments[1];
-            $content = $Controller->afficherModifier($id, $dataController);
+            $content = $Controller->afficherModifier($id);
         } else {
-            $content = $Controller->afficherAjouter($dataController);
+            $content = $Controller->afficherAjouter();
         }
         break;
         case 'detail':
             if (isset($uri_segments[1])) {
                 $id = $uri_segments[1];
-                $content = $Controller->afficherModele($id, $dataController);
+                $content = $Controller->afficherModele($id);
             }
             break;
         case 'marque':
             if (isset($uri_segments[1])) {
                 $id = $uri_segments[1];
-                $content = $Controller->afficherMarque($id, $dataController);
+                $content = $Controller->afficherMarque($id);
             }
             break;
         case 'connexion':
-            $content = include dirname(__DIR__) . '/requetes/connexion.php';
+            $content = $Controller->afficherConnexion();
             break;
         case 'deconnexion':
-            $content = include dirname(__DIR__) . '/requetes/deconnexion.php';
+            $content = $Controller->afficherDeconnexion();
             break;
         case 'administrateur':
             if (isset($uri_segments[1])) {
                 $select = $uri_segments[1];
                 if (isset($uri_segments[2])) {
                     $id = $uri_segments[2];
-                    $content = $Controller->afficherAdminDouble($select, $id, $dataController);
+                    $content = $Controller->afficherAdminDouble($select, $id);
                 } else {
-                    $content = $Controller->afficherAdmin($select, $dataController);
+                    $content = $Controller->afficherAdmin($select);
                 }  
             }  else {
                 $content = $Controller->afficherMenuAdmin();
