@@ -40,7 +40,7 @@ use App\Controllers\Catalogue;
             </div>
             <div class="nouveau">
                 <?php
-                $dataController->afficher3Modeles()
+                $dataController->afficher4Modeles()
                 ?>
             </div>
         </div>
