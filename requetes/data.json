@@ -94,7 +94,21 @@
         {
             "num_marque": 6,
             "nom_marque": "Bugatti",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 26,
+                    "nom_modele": "EB110",
+                    "url_photo": "https:\/\/www.challenges.fr\/assets\/img\/2021\/09\/17\/cover-r4x3w1200-6144c59d1da34-bugatti-eb110-gt-preserial.jpg",
+                    "annee_debut": 1991,
+                    "annee_fin": 1995,
+                    "nbr_produit": 139,
+                    "puissance_max": 600,
+                    "puissance_min": 550,
+                    "prix_neuf": 3000000,
+                    "prix_actuel": 1500000,
+                    "description": "La Bugatti EB110 est une voiture de sport produite par le constructeur automobile fran\u00e7ais Bugatti. Son nom est un hommage au fondateur de la marque, Ettore Bugatti, dont l'EB110 marque le 110e anniversaire de la naissance. Elle est pr\u00e9sent\u00e9e le 15 septembre 1991 sous l'arche de la D\u00e9fense, pr\u00e8s de Paris. "
+                }
+            ],
             "url_logo_marque": "https:\/\/media.cdnws.com\/_i\/46016\/4178\/2572\/79\/stickers-bugatti-ref6-autocollant-voiture-sticker-auto-autocollants-decals-sponsors-racing-tuning-sport-logo-min.jpeg",
             "descri_marque": "Bugatti Automobiles est un constructeur d\u2019automobiles6 hyper-sportives de grand luxe d'origine fran\u00e7aise appartenant \u00e0 55 % au groupe croate Rimac Automobili depuis son rachat en 2021. Fond\u00e9e en 1909 par le constructeur italien naturalis\u00e9 fran\u00e7ais Ettore Bugatti, l\u2019entreprise est longtemps consid\u00e9r\u00e9e comme pionni\u00e8re dans le domaine de l\u2019automobile et produit de luxueuses sportives de prestige marqu\u00e9es par l\u2019adage cher \u00e0 Ettore : \u00ab Rien n\u2019est trop beau, rien n\u2019est trop cher \u00bb. "
         },
@@ -129,7 +143,21 @@
         {
             "num_marque": 9,
             "nom_marque": "Chevrolet",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 20,
+                    "nom_modele": "Camaro",
+                    "url_photo": "https:\/\/classic.exame.com\/wp-content\/uploads\/2016\/09\/size_960_16_9_chevrolet-camaro-rs-ss-ano-1968.jpeg?quality=70&strip=info&w=960",
+                    "annee_debut": 1967,
+                    "annee_fin": 1969,
+                    "nbr_produit": 243085,
+                    "puissance_max": 380,
+                    "puissance_min": 142,
+                    "prix_neuf": 47500,
+                    "prix_actuel": 10000,
+                    "description": "La Chevrolet Camaro est une voiture apparue chez les concessionnaires Chevrolet le 29 septembre 1966 pour l'ann\u00e9e mod\u00e8le 1967 sur une toute nouvelle plateforme GM F-body \u00e0 propulsion et \u00e9tait disponible en version 2 portes, 2 + 2 places, hardtop (sans montant \"B\" ou montant central) ou cabriolet, avec le choix entre un moteur 6 cylindres en ligne ou V8. La Camaro de premi\u00e8re g\u00e9n\u00e9ration a \u00e9t\u00e9 construite tout au long de l'ann\u00e9e mod\u00e8le 1969. "
+                }
+            ],
             "url_logo_marque": "https:\/\/assets.turbologo.com\/blog\/en\/2021\/11\/18084253\/chevy-logo-2011.png",
             "descri_marque": "Chevrolet, surnomm\u00e9e \u00ab Chevy \u00bb, est un constructeur automobile am\u00e9ricain propri\u00e9t\u00e9 du groupe General Motors (GM) depuis mai 1918. Avec 4,95 millions de v\u00e9hicules vendus \u00e0 travers le monde en 2012, Chevrolet occupa le quatri\u00e8me rang mondial parmi les marques automobiles derri\u00e8re Volkswagen, Ford et le japonais Toyota. Elle se retire du march\u00e9 europ\u00e9en \u00e0 la fin de l'ann\u00e9e 2015 au profit d'Opel, une ancienne division du groupe General Motors rachet\u00e9e en 2017 par le Groupe PSA. "
         },
@@ -143,7 +171,21 @@
         {
             "num_marque": 11,
             "nom_marque": "Citroen",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 28,
+                    "nom_modele": "Ami 8",
+                    "url_photo": "https:\/\/images.caradisiac.com\/images\/4\/8\/1\/1\/74811\/S1-L-avis-proprietaire-du-jour-314116-nous-parle-de-sa-Citroen-Ami-8-de-1974-249359.jpg",
+                    "annee_debut": 1969,
+                    "annee_fin": 1978,
+                    "nbr_produit": 755955,
+                    "puissance_max": 53,
+                    "puissance_min": 25,
+                    "prix_neuf": 9500,
+                    "prix_actuel": 7500,
+                    "description": "En mars 1969, \u00e0 l'occasion du salon de Gen\u00e8ve, l'Ami 6 est remplac\u00e9e par l'Ami 8. Celle-ci reprend la conception g\u00e9n\u00e9rale de l\u2019Ami 6 et apporte une ligne plus classique et consensuelle gr\u00e2ce \u00e0 un avant enti\u00e8rement redessin\u00e9 avec un capot dit \u00ab \u00e0 l'italienne \u00bb (c'est-\u00e0-dire un ouvrant qui ne d\u00e9borde pas jusqu'\u00e0 l'avant de la voiture). Les premiers mod\u00e8les 1969-70 n'arborent pas les chevrons Citro\u00ebn sur la calandre. Le restylage se fait sous la direction du styliste Robert Opron auquel on doit la GS, la CX et le coup\u00e9 SM.\r\n\r\nComme l'Ami 6, l'Ami 8 existe en versions \u00ab confort \u00bb, \u00ab club \u00bb (si\u00e8ges avant s\u00e9par\u00e9s, entourages de vitre en inox et baguettes de protection lat\u00e9rales genre \u00ab DS Pallas \u00bb) et en break, toujours tr\u00e8s pris\u00e9 par la client\u00e8le, surtout rurale. La berline abandonne la vitre arri\u00e8re invers\u00e9e, mais ne b\u00e9n\u00e9ficie pas pour autant d'un hayon. \u00c0 partir des mod\u00e8les 1971, les vitres avant coulissantes sont abandonn\u00e9es au profit de vitres descendantes actionn\u00e9es par manivelle, les vitres arri\u00e8re resteront coulissantes jusqu'\u00e0 la fin de production. "
+                }
+            ],
             "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/dd\/Citroen_2022.svg",
             "descri_marque": "Citro\u00ebn est un constructeur automobile fran\u00e7ais filiale du groupe Stellantis. Son nom en forme longue est Automobiles Citro\u00ebn. L'entreprise a \u00e9t\u00e9 fond\u00e9e en juin 1919 par Andr\u00e9 Citro\u00ebn. La marque a toujours \u00e9t\u00e9 r\u00e9put\u00e9e pour ses technologies d'avant-garde et, \u00e0 plusieurs reprises, elle a r\u00e9volutionn\u00e9 le monde de l'industrie de l'automobile. Citro\u00ebn a notamment cr\u00e9\u00e9 la Traction Avant, l'utilitaire H, les 2 CV, DS, M\u00e9hari, SM, GS, CX, BX ou encore la XM, qui sont toutes des cr\u00e9ations d'avant-garde. "
         },
@@ -163,6 +205,19 @@
                     "prix_neuf": 90000,
                     "prix_actuel": 11500000,
                     "description": "Avec son V12 italien..."
+                },
+                {
+                    "num_modele": 22,
+                    "nom_modele": "330",
+                    "url_photo": "https:\/\/cdn.classic-trader.com\/I\/images\/1920_1920_inset\/vehicle_ad_standard_image_48af54f262764b26c7c3581e44b0bad5.jpg",
+                    "annee_debut": 1962,
+                    "annee_fin": 1968,
+                    "nbr_produit": 1088,
+                    "puissance_max": 390,
+                    "puissance_min": 300,
+                    "prix_neuf": 200000,
+                    "prix_actuel": 80000,
+                    "description": "La Ferrari 330 est une voiture de sport GT \u00e0 moteur V12 de constructeur automobile italien Ferrari, produite entre 1962 et 1968 en divers versions routi\u00e8res et de course. "
                 }
             ],
             "url_logo_marque": "https:\/\/motorsport-academy.fr\/modules\/ybc_blog\/views\/img\/post\/thumb\/logo-ferrari.jpg",
@@ -171,7 +226,21 @@
         {
             "num_marque": 13,
             "nom_marque": "Fiat",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 29,
+                    "nom_modele": "500",
+                    "url_photo": "https:\/\/www.groupe-parot.com\/sites\/zanzicar\/files\/inline-images\/Fiat-500-L.jpg",
+                    "annee_debut": 1957,
+                    "annee_fin": 1975,
+                    "nbr_produit": 4250000,
+                    "puissance_max": 21,
+                    "puissance_min": 13,
+                    "prix_neuf": 5000,
+                    "prix_actuel": 20000,
+                    "description": "Apr\u00e8s l'exp\u00e9rience acquise avec la pr\u00e9c\u00e9dente Fiat 500 Topolino, la plus petite voiture au monde de son \u00e9poque, Fiat travaillait depuis 1947 \u00e0 la mise au point de la mini voiture parfaite. Tous les projets pr\u00e9sent\u00e9s avaient \u00e9t\u00e9 refus\u00e9s par la direction et Dante Giacosa, qui avait termin\u00e9 la mise au point de la Fiat 600 projet \u00ab 100 \u00bb, se tourna vers le bureau d'\u00e9tudes de la filiale allemande Fiat-NSU qui \u00e9tudiait une micro voiture \u00e9quip\u00e9e d'un moteur de moto. En 1953, Dante Giacosa d\u00e9cida de lancer les \u00e9tudes de conception d'une mini voiture, plus petite que la Fiat 600, \u00e0 partir d'un nouveau moteur de moins de 500 cm3 refroidi par air, qu'il venait de valider. Entre-temps, des appels d'offres \u00e9taient lanc\u00e9s pour la r\u00e9alisation du moteur et un moteur en V que Moto Guzzi avait sp\u00e9cialement con\u00e7u avait m\u00eame \u00e9t\u00e9 consid\u00e9r\u00e9. Dante Giacosa pr\u00e9sentera \u00e0 la direction turinoise deux maquettes de carrosseries, l'une directement d\u00e9riv\u00e9e de la Fiat 600 et l'autre beaucoup plus innovante. Le Pr Vittorio Valletta, directeur g\u00e9n\u00e9ral du constructeur italien, choisit le premier projet. C'\u00e9tait le 18 octobre 1955, la Nuova 500 allait passer au stade industriel en m\u00eame temps que sa s\u0153ur jumelle, l'Autobianchi Bianchina. Dante Giacosa recevra le Compas d'Or 1959 pour la r\u00e9alisation de la Fiat 500. "
+                }
+            ],
             "url_logo_marque": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys\/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N\/\/AABEIAMAAzAMBIgACEQEDEQH\/xAAcAAACAgMBAQAAAAAAAAAAAAAFBgAHAgMEAQj\/xABQEAABAgQCBAkHBQ4FAwUAAAABAgMABAURBiEHEjFBEyIyUWFxgZGhFEJicrGywRUjUlOiFiQlM0NEY2RzgpLC0fAmNYOj4XST0jQ2VOLx\/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwUEBv\/EADARAAIBAwMCAwYGAwAAAAAAAAABAgMEEQUSMSFBUXGBEzM0QsHwFCMkUoKxFTI1\/9oADAMBAAIRAxEAPwC8YkSJAEiRIkASJHijaFnGWNaRhKVK594rmVC7cs2QVr\/oOkwAyrUEC5IAAuSd0IWJ9K1BoilS8mpdTmwdUNy2adbZYq2d14SJt3FukJfC1F9VJoyjxJVonjjcTsKz0mw5hBqnUfDuFEcJ97tOgcaYmVgu9OZ2DoFhAA+YrmkPFV+CUihSK9yBquFJ6Txr9WqY0SmjiSW8qYrM9Nz8yrNS1LzPWo3JjtndIFAllaiHnZp3cGEEhXQCbDxgfMY9nijXk8OTSk7AX16p\/hAUTAkYpTClBlB81SpVRvfWdRwh+1eCzEvKsAJal0NDmaQlMV791GNZwAyWH20DmW0onxUmM0TWkV8ZS8vLjmLSR7SYAspHkhFlrfHYDG4S9OdFlTqxfc43FX+TaSFK1hOsJHNqsC3+3G5uT0jA6yqlKK9FSWfggQBYL+EaTP8AKbpkwdoC2U39kAqnonpj6VcHJFknfLun2GASFaQ2zmmju+uLewiCUpiLG8kBw9FbcSOV5LN+xKgR4wAL+5LFmGDr4ar0y02nZLP3CD+6bo8IJ07SvVqO8iWxrRlNAmwmpZJsey5B7Dfog7J6QlpCUVijT0tfIlUvrDtKNYW67QWadwziaWcaYcllhwWW0bEEcxScoEBahYhpeIJbh6TOtTCbXKUnjI6xtEFop6vaLX6e+ajhKbdkZhB1khpwgDqO0dWY6LRvw1pQm6dNpo+O2FS8wOKieCLJX0qAy\/eGXQIAtqJGlh9uYaQ8y4lbSwClaTcEGN0ASJEiQBIkSJAEiRIkASPDENiIrHSppAXSQqh0JwfKTifn3xn5Mk83pnw7oA36RNI4o6zR8OhMzWHDqFerrIYJ6N6uYbBv5jXKRSqFN\/KGJX3KzX3CFeTIPCait2tuKv7AgdRKVN+TKni\/5DKKJDlRdBU65fMhlO0k\/SNvhBCS8lkm9alSxYQTqqmnuO86du3d1JgDpnKxi2sJFuDo8qrki9lkdeaj2BMc8pg5mYWH6pUHnTzqOoD7VHstG1lx95RLLLj7gzKgbAdKlKyHaY6mlPH8bMtN5bJca5H+osW\/hT2wAepVNotKRrysqCd69S1+sqzPaY7jiCnNKKS6wFDzULBV3CFN2bpDJUZ6YaWvaQ+6XD\/Dn4CMxi+jyqbNcOs\/q7GqPtFMRlG0aFSXEWNLeIpV2\/BszznQmWct32jM1ld+JSaoofsAPaYUlaQZVObdPmnCPpupR7Lx4NJbickUhI9aZv7EiG5Gqsq7+UbhWHtpotVA5+AB+MQ1tlAu7JVJvrk1n2AwpDSfODJNMZ\/75\/8AGNiNK08NtLaI6H\/\/AKw3In8DX\/aNAxFTFDjOut\/tZdaPeEdDFYpsyq0vPyzhO4Oi8LDWlkqITM0a6fRdSr2pHtjYrSHhqcGpPUAgK2ky6SO8Lv4Q3IpK0rr5RwQQpN0EEeibiOWap8nNEKelm1LTsUBZQ6iM4XWKrgKZWnyV96mqGd2nlsgHqIAPfBSXlptbYcoeJZSfRt4KoIHG6A42cus3hlGUqc48oKSs1VqSq0jMmclx+bTZuoeq5tO\/lXJPnCNsyMMY8Zcp9QY4Geb5TTnEdaVzjxsRtz3QLVU5qQ4tfpr0iCbCaQrh5dXTwidn7wEcGMKYalShUaa7qVCUSXZZ9k5kDMpuNoPdexiTMHBzEuiWfbDil1LDLq9U3H4u\/MfMV0clWzba1vUKsSNcpzM\/TH0vMOjIjaDzEbjFY4B0jyleaFCxUhoqmE8Gh1di2+COSq+w\/wB9EctWptT0U1j5YoevNYdmFgTMopV9S52X3H6Kuw7oAumJHBRKrJ1qnMVGnOh2XfTdKt46CNxEd8ASJEiQBIh2RI5alPy9Np8xPTa+Dl2Gy44s7gIAVdJmMkYUo4TLaqqpNgplUHPVttWegXHWYpXCiKVNTUxNV2d4V1F33GXb680vba9rFIO4Zk7bJGfLi2tPYhqT9ZmiQqaVqMIJ\/Fsp2Ad\/iYHSDoaSEsILs06oIQLbL2A7zAkdn1Lnymp1UK4Aq4OTk2zm50Abk853xxz00zT3OEqYS7N2+bk2+QyNwVbf6N+uC1W1cMUxtrhS9VSxYvKzLCOZHNc5RXrilLUpazdSje8VbPZaW3tnl8BSdxBOTOQKW205pbSOKnqGyBzz7zxPDOrXcbCo2jUd\/VHpGd+gRU7NOhCC6I8sAVatgLDZGRHK6ols1erGRHL9WBuomKhyuqMiOV1R6oZL9WMlC2v6sC7iYavGMeAbPVMbbcdXqxiBkn1TAlxMLbOqPLcmNls09Rjy3I7Ygho1pFrdURlSmlJWypTa7cpCiD3iMgOT1RjuT1QM3FDDSMa16laiWp1T7ds2n+MCOaD8hjGSmVcIyy3Sp1XKZUfvSZO3Pe0r0hlzxXw8zqibkjoics8tWzpVO2CzJzCtFxKyp+TC6ZPIVqvJSkXbXzKRex3Zgi4sQc4fsLpWukfc9iKYFSUtpSOEWwUpdbtmlRuc+u3RsioMG1l2XeCCoqdl2iRf8qwnNTR5ykXUjmsU7DDlinGK8NTUgZKVamG3QHFuKJ1im55A2XyuCYunk4dak6U9rGXA+DKhg+sziZeqIeoT4UpEs4k8I2u+Wew5Xud+XTD3eA1KrcvVKHL1mUVrMrQFqJFrJHK7vhArDeIpg4oq2G6utJmWFeUSTgTbhpZWY6ynYT0RJiN0SPAbx7AEio9N1eLrknhaVVm+A\/OW3IB4qe0gnqHTFrvvNsMOPPEJbbSVLUdgAFzHzLMVJysVmsYgmL3edUUg+akCyR2JCRAAqeKVPvuD8XLpDTdueGfRhQ1TM+axMJ+95UlLGsOW5vV1AZdfVCnNAopsoDteUt1XScreENFAxTPUmmycqsoelXbtJTqhKm77CCBn25nn5xJpxbOKm3Zp8k2efDaPVTu90wtEWvBetDVp8sgnMuKN+iwEBzsNozfJ37COKJ7a47Iytt6hHVSpNM\/PIlC4WysGyrXhh+5AG\/36c\/0cTg2qXNGlLbN9RWIzV1D4xkoZr9WGj7kRn9+HP0I4K7RRS5MzAf4S51dUptuJ+ERgtTvKEntUgOoZOerGSxy\/Vhjl8MCYl0PCbIDrYUBwfOI5a1RPk2V4fhyvW4urq23QwaQvKFSSjF9WByOOfVjwDJPqmD9KoAqUp5SmYKASpBGpexBIjr+5DIffZyFuRDBEr+2TachVtxkdR+EY2zT2w1\/cjmD5WbAfVwDqtOVTZxLCla\/FJSq1riIwyad1RrS2weWDki+qOgxgBcJ6oY6XhxM7IMTflRRwiSdXUvbOOgYQFh9+nIW5EThmMr23TxkUrcjqjwebDb9xwy+\/Tl+jjkqeGUyEi7NCaKy2L6pRa+cTgorujJ4TBVEmPJKxIPk5NvJv1E2PgY7sWVFU283SOCOtIjyZpQN1KUF5eFrdcBWzZxs8xB8RD3iTBE9P1NVTpbjRD6UulBVqqCwBs7hCJ4dSXWLDeirFP+KX8P3Bpxlw1KC2V2hZR6dYlSuqO3FkvMSKTUJFJNSww+HWRfN6SWc0HqFx1ARU2FplVNxRSnwChbU2hBGzUJOoQeq\/hH0DVCj5fpc2sAy1QZVKTCdxChs7xaLnKGakz7FVpkrUJRWsxMtJdbPQReOuK50SvOUt6uYQmlcekzalS4OV2V8YW6LnW\/fixhACRpfrHyTgadKFarkzZhJBsRrHM914pGcYNPw+GiONkF2+kc1DsvaLF04zHlVWw7R02KVOKmHAeYWB8CruhIxIwp2nMpBNylbx6cz8EiBIArA1FyrW5tgeJ\/4jeyoKapaD9ao90aK8fwhb6LSR4f8AMSUVxqbfc4ofagAniIES9PO5SXD9u0BjsV1CGDFbRRJUc2yLTnvwBIyV1CM+59FZL8iITw2dWvSvSSPAxYOyK8oGVdkubhP5VRYYBOW+LR4OXqS\/PB01XKdKTC2JiZ1XE2uNQ5QExPVZKfpWpKvhxaV3KdUjLVPPHFiQWrU5f6KPZA54cR\/pREbss6NppqWKuSyKI1rUiSVb8gnPsgdjpsppCDsOufYYYcNsk0KQy\/II9kC9IrWpRWjbMuH3Yl8HLsetxH77GvAzRXQQbfnD3vmCNYn5Wjy7b05wgSteoNRBUb2vsHUYx0dta2HCbbJl638Uc2klkJp8lcZF8+4qGcImFFVrv2b7tnTSahJ1mVXMSC1qQhwoUFpKVJUBvHbAjGtP15JqcAzYVZXqqy9to4dHb5ar0xJqPEm5XhE5+eg22dIV9mHmryHldNmZfe60pPUbZHvtE8olRdrdKPgxBodepsnSZaVmHHkvNpKVJDKiL3OwgQfkppqelW5qVUpTLgukkEHbbYeqK6asQ0fRvD5g9r\/DEiQPNV76ohMvf2caGGnzk6JybakpZcxMFQbQc9UEnuEL1ZxBTZ2mPyzDrhccHFu0oDdvIgpiwFFGf5ipI8RCAfMHRBsvY2kaiVRvhmpWSctuqY+iKVLcNh5D9uO2hs5bdXVF4+d18nL6Jj6cwehJoLTa9i2kg\/wAREeTTVOInz1jFTMjiiYCGeDMvNcO4oDlXKXPA3i8qk0p2llnY9KzIIP0Te\/tB74pnSnJLZxpMyhHHdbbCTzlV0j2CLwr6dSanEA24ZoK7f7EXOQLNbd+RdLFArLZCZatypln9w102sT2KQB1RaAioNI7vlejOiYgYsVyE0zMgc4JsE+I7otmRfTMybMwkgh1tK7jpECCkNJLwmtKere4lJBNugnWv4Kjmfl+HqLUvbZIkAf6IV7SY14vOtpUr5JuQhCB\/wBpuCkuhKsWy6TySnVPVwQEAVrWjepOAjzU9nFEesCwp6t3CH3ozxKgtVyaQcglQHgI2zrKpaRppIsQTrdZsYEjDjNu1DojnOlxPxhUPn9UO2LW+FwVTXvqnyjvB\/pCVe9z6MZ9z6HTnmighRcq1JftR7piyGU3N4rWjm1YlP2qfjFnsDZFo8HO1L33oIGKRauzo9BHsgW9yH\/U+BhjxHSKjM1qbdlpF91tSBZSU5HKAc\/LPyi5hmaZW04GgdVYsRcG0UfJ3rWcHRST64Ldwoi+HqcT9QmBGk1IFDYy\/Kn3TBvB5vhml\/8ATp+MB9J\/+RsftVe6YvLg4Fiv1cfU3aNM8NH\/AKt32iObSePwfID9Or3FR1aMh\/h10frjv8pjXpKln35GSTLMOvKDyiUtIKiBqnOwg+DS3wtQ6+LELDTxlsU0R8cnhShXUvi\/GLlW3lYRS6KdVGnpZ5NOngW1JVcSq8rLSeboi7Sb2UBYG5hHgvrCSud0XzgourS3kdYmpa1uDdcAHRrXHgRDzgtF8J08+iv31QsY6Z4HFc76YC\/sj+kN2CE\/4Qp3qL99UEX1OW6jTf32BuNk6tEd\/aI9oivN6fVixse5URX7VMV1vHqxD5PRpq\/T+pg2NZaBz2HjH01h\/wCZpzLewgWj5tpbPlNTkmB+UdQPtCPo+SXqtJG6EeTx6o+sUJelXDqJytUWsNp5U3Ly7h5yXU277mOfSZXn8O49lXjrOSU1IBDrQ50qVxh08YdcWSttmbaS3MNpWhK0rAULgKSQpJ7CBFQ6fkpNYoq8s5Z0dykxc5IRpKvlfQPUkEay2EvpAtvQq6fC0PujWZ8rwHQ3dYqPkaEkneUix9kIuiNszGjDELSswZp8WP7BowzaEllejWlEkmxeAvzB1YHhAFb4tRbSpXyR9WR0\/NNwUaOpimSc3L4O3a0I1aQWQxpSmCPziQbc6zcp\/lEeTCuDfpMzuCWrnpCig\/CABVdpEs5X5h91JJS4eLuOeRgViVvXppWcy24lQ9nxhsxM0UVl70glQt1f\/sAakyHpF9veUEjrEAE5xPlmjZ1QF+AcQ5YesL+BMIad3qxYWCk\/KmD56nk5uMKQDzEpIHiIrto6yWyBtEUfJ3NLlmDj4M7aYbVKS\/aI9sWoxuip5FWrNyZH1zY+0ItRlViImPB5tU96vIKMDLIRXmPR+H5sfq6PdMcmKnXhXpoImJlI1QQEvrSAbDYAYGOLW7rKdWtauDAutWsd+8xWTyz26dZTpv2rfK\/suDBB1sJUo\/q49pgZpP8A8lZ\/aK90x34FXfCNLAP5D4mB+k4\/gdj9qr3TFpf6ngsfjI+bN+jA\/gCY6J5zxSiG+53Qm6MT+AJkb\/LnPdRHukt1xuiS5ZeeaV5SM2nVIJ4qsrgxPYznTlWupQjy2xvN+mMDsiiHJqc1CBUJ8Et3ym3Nv8UXRRpgv0eRdUoqKmEEqJvfKCeRd2VS1aVR8la6SU6uJ7\/SlUnxMMuB\/wD2bTfUX76oX9J9hW2l32yp9sHcFKthCnDmQv31RC5ZvdvNtR9foD9IKrUhA53R7DFeK3+rD5pEV+DWAPrv5TCEo5r6hEPk9+n9LdeoawUx5RiqnJGxDhdPRqJJ9sXiw5YRUWjFjXrs5M24rEqR1KUofBKu+LQZd2RMTl6jLdWx4Bxl3KKi06Pa9Yo7f0JRzxUn+kWey7lvOW6KW0rzonMaOoSq6ZVhtk55a1is++O6LHgLI0TMhjRZMuq\/LqmnO66P5YJ6D0lOjOlXBF1PH\/dXA\/DKhSdDzSlHVtTXHzc\/Way\/5oYtF0uJXR\/QkAW1pRLn8XG+MAJmmGVLGJqBUAniuodllq6clAeBgNOIU9htam7F2WcVq9Ssx9oQ9aYqeqawa5OMpu9TnUTSR0JOY7oRqe6HpSYQyQoPy+u3beRxh8YA7a8gTq6dMMkWmGQkHuP80B5yUdlXVMzCSlQGznEFZNYmcJSrrdtaTdsAPog8X7JSYzcrVHxFLOstPKan5cKUGnU6q7jaBuUD0E7oAD6NHixPz0io2AUrVHaCPAmFOtSvkVcnZbc3MLt1HMeBEMeHFIYxH5c2r5t1tty+7VJKFH7YjRpKlPJ8Rh9IATMNJN+dQyPwisjpaZPbV2+Isy2UzKnmfR74i0UKIPRFVtmzzR\/ToI\/iEWjCJOp+9XkJWJzeuTB50j2CB20npRHfiX\/O3h6PwEDknjJ9SKvk79r7mPkWpgR62FadnkG7eJjj0lOa1IlgPrFe6Y1YJdthqRTfzT7Y0Y\/d16dLJ\/SK90xZ8Hztj8ZHzYT0ZrHyJNC+flivcRE0mqBoktb\/AOSPcVHDo7e1aVNp\/WifsJj3SG9r0eXF\/wA4\/kVE9jSh\/wBD+T+ohHlf6cWzhWZ18L0tV9sqj2RUhPG6m\/6xY+E3rYXpYvsl0iIgezXOuz1F7SUrWqTJ\/Vle2DWEV6uFpFPMlfvqhe0gr1p5o\/q6vbBfC6z9zsmBzK99UFyeG5+Fpepw4+XrSksk73PgYSlbT6wENuN1EsygP0z7IUVKAJvuUT4RV8nRseluvUsHRyxwFFnpsiypiZCAedKR\/UqhvZdNoA0hr5Pw\/S5S1lFrhlj0l5\/EwRYd2RdcHDuZ7qsmFnZ5qSlnZqYVqtMILiz0CPn6emZipTcxNqSTMzjqnLD6SjkOy9u6LF0k1Us0pqnIVx5lWsu30E\/82hNwhJ\/KGJqcwpJKUvB5dtwTxvaAO2JMS3cdfg7R2aXKAa7rbMgynZe9k27osilyyZOnS0qhOqllpKAOawAiraqsV7SFh+gtlK2pI+XzQIuLgcQde09oi2xAg0zsq3Oyj8q+LtPNqbWOgixigaMl+kzMxTJhJEzSpkskHzkg8U9RGzoMfQsVHpZpPyVWZTE7CbMTGrLT9hlfYhZ8E9iYAGYUUhM9WqC4crh5i55Ta9h7LpHUBCBieVXJVlahrIUrjBSTYg7DY9kM80\/8m1il1pOSWF+TzB52lnI9hJ\/iHNGzSbS7oE6wNZI+cy5jyvgYEgfR86ZqqrpzmfCSjwaV9HknuuEmGHSE0Z\/D1PqWr840vUc58xY+IhFw3VDRq1Kz3G1EGzoSkFRQcjYGLOLsliGkVWTp0yh5p5svM22pUc7EbQdYeMQ+DahPZVjIqy9ykjbrpPjFpBQVsOUVSnjITfemM9oOat3nGKpnYurSVw1JMN4mNq476o90QNRtR6h+Eakq2A7lHaYyQc0dRH990Q+TpUY7YKA8YQc1aBLAHk3G3ZnGnGjuvT5cbwtW\/wBEwmISBq2uNpyURvjIZIAClWKDtJMS30Obb6fOnW9q2h0wQ8ESE0L2++L\/AGExljd7XpjIvf57+VUJKkIKibEEpubKIzj3k5Ak8U7VE80G+hpDT5xuXWyuWzNRuFDIfNjMnrh5wu6Rh2ni+xkDbCGpWS\/VHxjWUhKVhJUAALAKOUQng11C1lc7cPGMjDjVWvOsm9xwX80G8MH8ASnqqP2jCGTa4zOYFibxr1QMhrDM5BRiUzzVrKc6UIJroNWN1caQQOdwk90LtKk1VCpykokXLzgTboJ\/pHNc6qbknVBtckwzYAZSKjN1J0fN0+XKv31ZD2HuiOWX2\/hrZrwG6ozCVVBxCDxG7Np6AMoyYdtbOAbbxWvWzuSSrrMdLs+iQkn51zMS6NYJJ5S9iU9qiPGND50T8bzvlmIHm0nWTKpDI9YZq8Tbsgzo2Zbk\/lCtTVg1LtFCVeJse4QkgOvu6vGdmHV3IO1ayfiYdqow81IUvCFM+cnpxSeFKRkbnMnoyJ6kmBI8aEZF6ecrGKZxJ4WdeLTSjvSM1EdF7J\/dMWsBaB+HqSxQqNJ0uVHzUs0EA71Heo9JJJPSTBGBBI4K5Spas0iaps4nWYmGyhXRfYR0iO+PDsgD5x8jclnp7C9YJ8plRwYcP5VrzVDng7QXlVnDz9Jns5+Q4h1zm4m2R6QU5dYhy0pYQcrUq3WKQkprMgni6mXDt7Sg+JHWRvisadPrfeYrFOBE\/KgomGTkVo85B7rjpEAYigyHknkymgr9IclJP\/EdFCq09RalJSU8G1S4uWJhDaUayd6SEi19\/Zvg1UAxNNIqMidaWmL3yzQreCN2cC5ySTUpYyqVBuZCg5LOHzXRs7Ds7oE5FzFsgmm4hnGkW4FauHats1F55dANx2QIByPq2h1mZNzE9FZUy2UVWQBbLK8ipI5SOtJGXRCU4hTbim3EqQtJKVJULEdY3RnwfQ2lZVKa8TMHafSEZA5p6yI1A2HdGQOfUqB7VI2JOY6jHt+Kn1IwSeP3xAeKPUiC+TYo7fVMRZsT0IjAnb6kRR2+rEk5MlHl9QjFZvcekBHijyuyMScz6wiCrkZE8a\/pRgDnfriXzHbGF+L2QKtnt8uwCHejyxYw7JyaTZ6oqVOPn6DKRxb91++F2gUVVWdLjt2qeybzL52ADzR0mLKwvLpnfKqq8ykJmPmWG1JuEMpyAHXbwi0V1OPqNdY2ROGQp0nIUwT9WQSXQeCYJtbLIZb\/AGQrT6VVpcxISxAYlGVzD6toLmqQ0i\/rH2wWx6ucRWmmWxwzswAiUZSbnpy3c8c7TDdJlkUxlwOPa3CTbwz4R3mvzJ2d8XOQBsNSTUnLqrM+QEoRdlKhns29e6LF0OYfcnp2ZxjU0HhHypuTSrcjYVDuAHUYT8OUeZxzX0yTRW3R5RQXNPI84cyTznYObbzR9CykuzKS7UtLNpaYZQG220CwQkCwAHNaANoFtkexIkASJEiQB4bDdFSaTcFTMlOLxThlrWXmqelEjljesAbekdoi3I8VsgD59odSZfacmpQFbTyfviTuOMecX2K5lDI7+jqQG5hgzMm5w7ByUrYUHeFp80wfx9o5famncQYPTqzGapiRTsd5ygbL+jv3Z5FGpNQYm5orl3naXVU8VwjPWtt1kHJQ6DYiADauEVM+XSaw1UAAFC9kzIGy53LA37CMjujpf+QcTgt1Zoy1RbGopxA4NaT0\/wBFXHNHKqbQgWrUkZbO3l0ikvS6z6SOUjqIiTlF+VGEPyjzU4APm5qTd1lJ6OfsOUQ1ktGTg8xYLqGj6os8emTDE41t26q7eyF2cpNSkVWmpCYbOt9WSPCGRArtMXZuYS8Acg5dpY7cwTBJjE9Ubyfad\/eQl0eGcRtPfT1GrHnqV4FDWyI2xNbi\/uxZKq0iYBEzTJN4ekyUnx\/pHOtyiq5WG5K52lJ1fhEbWehapHvEQFH3Y8UdvVD2oYfJzw6zf0Xz\/wCMY\/gBJuMOtfvPEj2Qwy\/+Th4MRVKAJvGTTbr5AYaccN\/yaCrPsh8RPyEudaVoFPbVuJRrH4RmvEk+E2ZEvL3+qaAP99sNpnPVO0Yi3T8H1ye1VeR8A2fykwdQDpgs1h6gUmyqpOLqUyPzaW4rd+k7fEdRjXNz85Ni0zNPO33KXl3RyapUoJSkqUcgALkxO1HkqX1WfRPB01OpvTwQwltEtKNj5qWZFkJ7N56Y6JWu1pyWl6ZTrghOqhMuiy1Ac6jftOUZM0F0IExVHUyEsBe7v4xXqoFz390drK0+QvilgUulj\/1FRmD844P780eGyLHiy+WcbTDshNLRLPGfr8wkpemta6ZZG9CCfFX9gfKU6axBUE4fw6Q8o\/8ArZ6x4NCb5gej4qIyyjspclP4xeVRsJMOStJSfvyfeFi5n5x8Qgdts7XZhTDNOwvTUSNNatvddUOM6rnV\/eUAZ4Ww\/I4ZpLVNp6TqIF1uKHGdXvUekwZiRIAkSJEgCRIkSAJEiRIA8IvbLZCRjjRzTsUFU1LkSNUTyZltOS+hY39e2HiJAHzlNrr2EJ0SeI5Z1DexE4yCpCx0K87qNj0R2y7cnUEmekm0LNwVzEktTawdwXq2PYoRfE5KMTrC5ebYbeZWLKQ4kKSewxW1f0Qyypn5QwrPO0ucGxFyUHoBvcDo2dBgBZRPVNsBKKn5QgX+bn5ZLn202t3GMVVB0pvM0KSeVvMnOcGf9wJjyfdxbh26MUYeFQlx+eS6da4A2lSRl+8Ex5I4gwlUEDWdekVn6y+oO0XEAeKmJFSePR621b6gNzA+yoxrK6coZIrbX7WlOH2QbYpFMqAvT6sy+PQWhfgIzVhV5P4uZSP3CIEi8UyiuQ5PnoNJf\/pHgli4dVuXqi781LeA8QBB84bnhkJxNutQjw4anTyp1Nusn4wIwA\/kqpKIKKZO2+k9wLQHe5fwjH5JmEq++p6lSid\/z5fX\/CkD2wdOEAka8xOpCd5KbW7zHFMIwnTr+W1lDqwfxbLgUruTfxgMHCJeiywCnpybnV8zSOBR48aCEk9PujVoNJalG7Zv6uY6ddXwgenFNPXMCWwth1+oTe0azZWR06ouR1wYl8C42xYArEs+mlyJ\/NWyFKUOkAkd5PUIAAVCo0mnPnyp9dcql7BlklTaVcxV53qjuEMFC0f13Fr7FQxipcjT0WUxTmxqqItvT5nbxtuzfYeFsD0LDCEqp0mlUzaypl3jOHt3dkM0AcdMp0nS5VuUp8uiXl2k2Q22mwEdkSJAEiRIkASJEiQB\/9k=",
             "descri_marque": "Fiat Automobiles \u00e0 l'origine F.I.A.T. (acronyme de Fabbrica Italiana Automobili Torino, ou en fran\u00e7ais \u00ab fabrique italienne d'automobiles de Turin \u00bb) est un constructeur automobile italien, dont le si\u00e8ge social est situ\u00e9 dans l'usine de Mirafiori \u00e0 Turin.\r\nDepuis 2021, le constructeur fait partie du groupe multinational Stellantis \u00e0 la suite de la fusion de Fiat Chrysler Automobiles (FCA) avec PSA Peugeot-Citro\u00ebn (PSA). "
         },
@@ -296,7 +365,21 @@
         {
             "num_marque": "21",
             "nom_marque": "Maserati",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 27,
+                    "nom_modele": "Quattroporte IV",
+                    "url_photo": "https:\/\/public.carjager.com\/content\/2014\/03\/13153045\/QP4-041.jpg",
+                    "annee_debut": 1994,
+                    "annee_fin": 2001,
+                    "nbr_produit": 2883,
+                    "puissance_max": 335,
+                    "puissance_min": 285,
+                    "prix_neuf": 50000,
+                    "prix_actuel": 20000,
+                    "description": "Cette Quattroporte IV \u00e9tait la version \u00e0 quatre portes des Maserati Ghibli II. Motoris\u00e9e par un 2 litres, un 2,8 litres ou un 3,2 litres, elle reprendra les bases m\u00e9caniques des mod\u00e8les pr\u00e9c\u00e9dents. Les blocs moteurs V6 proviendront des Maserati Ghibli II GT en versions moins puissantes, quant au moteur V8, il s'agira d'une version d\u00e9riv\u00e9e de celui de la Maserati Shamal, le vilebrequin plat \u00e9tant remplac\u00e9 par un vilebrequin en croix, au fonctionnement plus doux. "
+                }
+            ],
             "url_logo_marque": "https:\/\/www.1min30.com\/wp-content\/uploads\/2017\/09\/Maserati-logo-embleme.jpg",
             "descri_marque": "Maserati est un constructeur automobile italien sp\u00e9cialis\u00e9 dans les voitures de luxe, de sport et de course, filiale du groupe Stellantis, dont le si\u00e8ge social est \u00e0 Mod\u00e8ne (Italie). Fond\u00e9 par les fr\u00e8res Maserati en 1914, son symbole est un trident, inspir\u00e9 de la fontaine de Neptune de Bologne. "
         },
@@ -328,7 +411,7 @@
                 {
                     "num_modele": 13,
                     "nom_modele": "W123",
-                    "url_photo": "https:\/\/images.caradisiac.com\/images\/5\/5\/3\/7\/185537\/S1-mercedes-benz-280-w123-1976-1985-une-machine-a-rouler-qui-donne-du-plaisir-des-7-000-eur-646145.jpg",
+                    "url_photo": "https:\/\/classicsworld.co.uk\/wp-content\/uploads\/sites\/6\/2022\/05\/Mercedes-W123-8.jpg",
                     "annee_debut": 1975,
                     "annee_fin": 1979,
                     "nbr_produit": 2696915,
@@ -337,6 +420,19 @@
                     "prix_neuf": 30000,
                     "prix_actuel": 25000,
                     "description": "La Mercedes-Benz Type 123 est une automobile de classe Routi\u00e8re fabriqu\u00e9e par Mercedes-Benz de 1975 \u00e0 1986. Elle a subi deux restylages en septembre 1979 puis en septembre 1982. Elle succ\u00e8de aux \/8 et sera suivie par la Classe E (Type 124).\r\n\r\nElle a \u00e9t\u00e9 un gros succ\u00e8s pour la marque avec plus de deux millions d'exemplaires produits. Son extr\u00eame robustesse fait qu'elle est encore tr\u00e8s pr\u00e9sente dans le paysage automobile, notamment en Am\u00e9rique du Nord, en Europe, ainsi que dans les pays maghr\u00e9bins. Elle est souvent consid\u00e9r\u00e9e comme la voiture la plus fiable de l'histoire de l'automobile.\r\n"
+                },
+                {
+                    "num_modele": 21,
+                    "nom_modele": "300 SL",
+                    "url_photo": "https:\/\/www.turbo.fr\/sites\/default\/files\/2022-01\/Mercedes-Benz-300-SL-Gullwing-1.jpg",
+                    "annee_debut": 1954,
+                    "annee_fin": 1963,
+                    "nbr_produit": 3258,
+                    "puissance_max": 225,
+                    "puissance_min": 215,
+                    "prix_neuf": 7000,
+                    "prix_actuel": 1200000,
+                    "description": "La Mercedes-Benz 300 SL (W198) \u00ab papillon \u00bb est un mod\u00e8le d'automobiles \u00e0 deux places coup\u00e9 et cabriolet du constructeur automobile allemand Mercedes-Benz con\u00e7u et dessin\u00e9 par le designer Friedrich Geiger, commercialis\u00e9 de 1954 \u00e0 1963 et entr\u00e9 depuis dans la l\u00e9gende des automobiles de r\u00eave. Elle est consid\u00e9r\u00e9e comme la plus embl\u00e9matique des Mercedes produites apr\u00e8s la Seconde Guerre mondiale pour son originalit\u00e9, ses qualit\u00e9s techniques et esth\u00e9tiques. "
                 }
             ],
             "url_logo_marque": "https:\/\/www.makrea.com\/166965-large_default\/sticker-logo-mercedes.jpg",
@@ -380,14 +476,42 @@
         {
             "num_marque": "27",
             "nom_marque": "Opel",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 19,
+                    "nom_modele": "Corsa",
+                    "url_photo": "https:\/\/stellantis3.dam-broadcast.com\/medias\/domain12808\/media105501\/1650382-cg80rhy5in-whr.jpg",
+                    "annee_debut": 1982,
+                    "annee_fin": 1993,
+                    "nbr_produit": 3105430,
+                    "puissance_max": 100,
+                    "puissance_min": 45,
+                    "prix_neuf": 10000,
+                    "prix_actuel": 2000,
+                    "description": "La Corsa A a \u00e9t\u00e9 le premier mod\u00e8le d'Opel dans la cat\u00e9gorie des citadines polyvalentes - relativement tard apr\u00e8s l'arriv\u00e9e sur le march\u00e9 de la Volkswagen Polo en mars 1975 et de la Ford Fiesta en mai 1976. Elle a poursuivie la conversion de la gamme des mod\u00e8les Opel de la propulsion arri\u00e8re \u00e0 la traction avant, qui a commenc\u00e9 \u00e0 l'\u00e9t\u00e9 1979 avec la Kadett D, qui fut la premi\u00e8re Opel compacte \u00e0 \u00eatre \u00e9quip\u00e9e d'une traction avant. Le savoir-faire et diverses pi\u00e8ces ont \u00e9t\u00e9 \u00abrecycl\u00e9s\u00bb pour la Corsa A. "
+                }
+            ],
             "url_logo_marque": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTiV82WvQYCxnCN2TcwHcTLmQ4PD9FfkSMT4A&s",
             "descri_marque": "Opel est une entreprise allemande fond\u00e9e en 1862 par Adam Opel et un constructeur automobile depuis 1899. Depuis 2021, la marque est une filiale de la multinationale franco-italienne Stellantis.\r\n\r\nEntre 1929 et 2017, elle faisait partie de l'am\u00e9ricain General Motors (GM), puis du fran\u00e7ais PSA Peugeot-Citro\u00ebn (PSA) de 2017 jusqu'\u00e0 la fusion ce dernier avec Fiat Chrysler Automobiles (FCA) en 2021. "
         },
         {
             "num_marque": "28",
             "nom_marque": "Peugeot",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 18,
+                    "nom_modele": "505",
+                    "url_photo": "https:\/\/images.caradisiac.com\/images\/9\/6\/7\/2\/199672\/S1-peugeot-505-turbo-1983-1988-une-etonnante-berline-de-sport-des-9-000-eur-738577.jpg",
+                    "annee_debut": 1979,
+                    "annee_fin": 1992,
+                    "nbr_produit": 1351254,
+                    "puissance_max": 170,
+                    "puissance_min": 70,
+                    "prix_neuf": 30000,
+                    "prix_actuel": 6000,
+                    "description": "Grande berline de la gamme Peugeot, la 505 est la rempla\u00e7ante de la 504, qui avait \u00e9t\u00e9 un grand succ\u00e8s commercial et dont elle reprenait la plate-forme. La 505 est lanc\u00e9e en 1979, deux ans apr\u00e8s la 305 en 1977.\r\n\r\nDerni\u00e8re berline \u00e0 propulsion de la marque, elle a exist\u00e9 avec des moteurs essence et Diesel, en berline ou en break (finition Break ou Familiale 8 places), ce dernier ayant servi de base pour des transformations en ambulance, en 4x4 (versions Dangel \u00e0 partir de 1986) ou en Pick-up double cabine (Gruau). Des versions coup\u00e9 et cabriolet furent \u00e9tudi\u00e9es, mais en rest\u00e8rent \u00e0 l'\u00e9tat de prototype en raison de la crise \u00e9conomique et du retrait de Peugeot des \u00c9tats-Unis. "
+                }
+            ],
             "url_logo_marque": "https:\/\/www.logo-voiture.com\/wp-content\/uploads\/2021\/02\/peugeot-2021-carre-noir-detoure.png",
             "descri_marque": "L'entreprise Peugeot est \u00e0 l'origine du Groupe PSA qui englobe \u00e9galement Citro\u00ebn, achet\u00e9e \u00e0 Michelin en 1976, DS, fond\u00e9e en 2014, ainsi que Vauxhall et sa s\u0153ur allemande Opel (anciennement GM Europe).\r\n\r\nPeugeot, constructeur automobile fran\u00e7ais est depuis 2021 une filiale du groupe Stellantis.\r\n\r\nPeugeot produit essentiellement des v\u00e9hicules automobiles pour particuliers, des utilitaires ainsi que des deux-roues. En 2016, la marque a vendu 1 919 460 v\u00e9hicules. "
         },
@@ -415,21 +539,63 @@
         {
             "num_marque": "30",
             "nom_marque": "Renault",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 25,
+                    "nom_modele": "15",
+                    "url_photo": "https:\/\/sf.autoplus.fr\/wp-content\/uploads\/autoplus\/2021\/08\/26425_1564149_k2_k1_3614754.jpg",
+                    "annee_debut": 1971,
+                    "annee_fin": 1979,
+                    "nbr_produit": 209887,
+                    "puissance_max": 90,
+                    "puissance_min": 60,
+                    "prix_neuf": 27000,
+                    "prix_actuel": 6000,
+                    "description": "Renault 15..."
+                }
+            ],
             "url_logo_marque": "https:\/\/stick-attack.fr\/22762-medium_default\/stickers-logo-renault-couleur.jpg",
             "descri_marque": "Renault est un constructeur automobile fran\u00e7ais. Il est li\u00e9 aux constructeurs japonais Nissan depuis 1999 et Mitsubishi depuis 2017, \u00e0 travers l'alliance Renault-Nissan-Mitsubishi, dont le si\u00e8ge social se situe au Pays-Bas, qui est au premier semestre 2017 le premier constructeur automobile mondial. Renault Group poss\u00e8de des usines et filiales \u00e0 travers le monde entier. Fond\u00e9e par les fr\u00e8res Louis, Marcel et Fernand Renault en 1898, l'entreprise joue, lors de la Premi\u00e8re Guerre mondiale, un r\u00f4le essentiel (activit\u00e9s d'armement, production de moteurs d'avion, du char Renault FT). Elle se distingue ensuite rapidement par ses innovations, en profitant de l'engouement pour la voiture des \u00ab ann\u00e9es folles \u00bb et produit alors des v\u00e9hicules \u00ab haut de gamme \u00bb. "
         },
         {
             "num_marque": "31",
             "nom_marque": "Rolls Royce",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 24,
+                    "nom_modele": "Silver Shadow",
+                    "url_photo": "https:\/\/cdn.classic-trader.com\/I\/images\/1920_1920_inset\/vehicle_ad_standard_image_4cf036429096581271724e2e4b2a7c58.jpg",
+                    "annee_debut": 1965,
+                    "annee_fin": 1980,
+                    "nbr_produit": 31175,
+                    "puissance_max": 200,
+                    "puissance_min": 172,
+                    "prix_neuf": 100000,
+                    "prix_actuel": 35000,
+                    "description": "La Silver Shadow est une automobile de prestige du constructeur automobile britannique Rolls-Royce et commercialis\u00e9e de 1965 \u00e0 1980. La variante cabriolet est commercialis\u00e9e sous le nom de Rolls-Royce Corniche \u00e0 partir de 1971. La Silver Shadow est produite de 1965 \u00e0 1976 et la Silver Shadow II de 1977 \u00e0 1980. \u00c0 son \u00e9poque, elle fut la Rolls-Royce la plus vendue.\r\n\r\nLa Rolls-Royce Silver Shadow se place \u00e0 la seconde place du Troph\u00e9e europ\u00e9en de la voiture de l'ann\u00e9e 1966 derri\u00e8re la Renault 16. "
+                }
+            ],
             "url_logo_marque": "https:\/\/www.logo-voiture.com\/wp-content\/uploads\/2021\/01\/Rolls-Royce-logo-2048x2048-grand.png",
             "descri_marque": "Rolls-Royce Motor Cars est un constructeur britannique d'automobiles de luxe cr\u00e9\u00e9 en 1998 \u00e0 la suite du rachat de Rolls-Royce Motors par le constructeur allemand BMW. L'entreprise est situ\u00e9e en Angleterre \u00e0 Goodwood, dans le Sussex de l'Ouest, non loin du circuit historique de Goodwood. "
         },
         {
             "num_marque": "32",
             "nom_marque": "Shelby",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 17,
+                    "nom_modele": "Cobra",
+                    "url_photo": "https:\/\/www.motorlegend.com\/modules\/breve\/photos\/src\/shelby-cobra-22619-1.jpg",
+                    "annee_debut": 1962,
+                    "annee_fin": 1966,
+                    "nbr_produit": 1000,
+                    "puissance_max": 415,
+                    "puissance_min": 415,
+                    "prix_neuf": 50000,
+                    "prix_actuel": 80000,
+                    "description": "La Shelby Cobra ou l'AC Cobra est une voiture de sport roadster \u00e0 moteur V8 Ford, des constructeurs automobile anglais AC et am\u00e9ricain Shelby American Inc. Elle est pr\u00e9sent\u00e9e au salon de l'automobile de New York 1962, et commercialis\u00e9e \u00e0 environ 1000 exemplaires jusqu'en 1966, puis sous de nombreuses marques de r\u00e9pliques AC Cobra. "
+                }
+            ],
             "url_logo_marque": "https:\/\/i.pinimg.com\/736x\/63\/63\/6b\/63636b8a75cd4e4f626c770effa206c9.jpg",
             "descri_marque": "Shelby est une marque et ancienne \u00e9curie automobile am\u00e9ricaine fond\u00e9e par l'ancien pilote Carroll Shelby sp\u00e9cialis\u00e9e dans la modification de mod\u00e8les Ford et en particulier de la Ford Mustang (\u00e9quivalent de la concession Abarth pour exemple). La marque deviendra c\u00e9l\u00e8bre \u00e0 partir de 1962 avec l'AC Cobra, un d\u00e9riv\u00e9 muscl\u00e9 de la petite anglaise AC Bristol, et finira d'asseoir sa notori\u00e9t\u00e9 grandissante avec la Shelby GT 350 ainsi que la Shelby GT 500, faisant de son nom une l\u00e9gende. "
         },
@@ -478,9 +644,24 @@
         {
             "num_marque": "38",
             "nom_marque": "Volvo",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 23,
+                    "nom_modele": "240 Break",
+                    "url_photo": "https:\/\/images.caradisiac.com\/images\/4\/0\/5\/1\/104051\/S1-Video-Volvo-240-Break-la-brique-suedoise-des-5-000-EUR-365167.jpg",
+                    "annee_debut": 1974,
+                    "annee_fin": 1993,
+                    "nbr_produit": 2685171,
+                    "puissance_max": 155,
+                    "puissance_min": 79,
+                    "prix_neuf": 35000,
+                    "prix_actuel": 6000,
+                    "description": "Le 21 ao\u00fbt 1974, la s\u00e9rie 240 prend la suite de la s\u00e9rie 140. La s\u00e9rie 240 est une \u00e9volution importante de la 140. M\u00eame si elle garde une bonne partie de l'architecture et de la caisse, elle re\u00e7oit un train avant Mc-Pherson et une direction \u00e0 cr\u00e9maill\u00e8re, ce qui conduit \u00e0 reconcevoir tout le bloc avant. Le design, est sign\u00e9 Jan Wilsgaard et est inspir\u00e9 par le concept-car VESC (Volvo Experimental Safety Car) de 1972. Avec ses nouveaux pare-chocs, la berline mesurait 13 cm de plus que la 140. Les 242 (coach) et 245 (break) apparaissent peu apr\u00e8s. La particularit\u00e9 des breaks \u00e9tait de pouvoir accueillir sept passagers gr\u00e2ce \u00e0 une banquette dos \u00e0 la route se repliant dans le plancher du coffre. "
+                }
+            ],
             "url_logo_marque": "https:\/\/images.caradisiac.com\/images\/2\/1\/5\/7\/192157\/S1-volvo-met-a-jour-son-logo-691142.jpg",
             "descri_marque": "Volvo Cars est un constructeur su\u00e9dois d'automobiles. Fond\u00e9 en 1927, le si\u00e8ge social de la marque se trouve \u00e0 G\u00f6teborg, en Su\u00e8de.\r\n\r\n\u00c0 l'origine d\u00e9tenues par le conglom\u00e9rat su\u00e9dois d'automobiles, de camions et d'engins de chantier AB Volvo, les activit\u00e9s automobiles grand public de AB Volvo, sous la d\u00e9nomination Volvo Cars, ont appartenu au groupe Ford pendant onze ans avant d'\u00eatre rachet\u00e9es en 2010 par la filiale du groupe chinois Geely. En 2015, Volvo Cars a pour la premi\u00e8re fois de son histoire d\u00e9pass\u00e9 le demi-million de voitures vendues. "
         }
+        
     ]
 }
