@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-
 class UserRepository {
     public static function saveUsers($users) {
         $usersJson = json_encode($users, JSON_PRETTY_PRINT);

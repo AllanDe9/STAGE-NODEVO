@@ -129,7 +129,21 @@
         {
             "num_marque": 9,
             "nom_marque": "Chevrolet",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 20,
+                    "nom_modele": "Camaro",
+                    "url_photo": "https:\/\/classic.exame.com\/wp-content\/uploads\/2016\/09\/size_960_16_9_chevrolet-camaro-rs-ss-ano-1968.jpeg?quality=70&strip=info&w=960",
+                    "annee_debut": 1967,
+                    "annee_fin": 1969,
+                    "nbr_produit": 243085,
+                    "puissance_max": 380,
+                    "puissance_min": 142,
+                    "prix_neuf": 47500,
+                    "prix_actuel": 10000,
+                    "description": "La Chevrolet Camaro est une voiture apparue chez les concessionnaires Chevrolet le 29 septembre 1966 pour l'ann\u00e9e mod\u00e8le 1967 sur une toute nouvelle plateforme GM F-body \u00e0 propulsion et \u00e9tait disponible en version 2 portes, 2 + 2 places, hardtop (sans montant \"B\" ou montant central) ou cabriolet, avec le choix entre un moteur 6 cylindres en ligne ou V8. La Camaro de premi\u00e8re g\u00e9n\u00e9ration a \u00e9t\u00e9 construite tout au long de l'ann\u00e9e mod\u00e8le 1969. "
+                }
+            ],
             "url_logo_marque": "https:\/\/assets.turbologo.com\/blog\/en\/2021\/11\/18084253\/chevy-logo-2011.png",
             "descri_marque": "Chevrolet, surnomm\u00e9e \u00ab Chevy \u00bb, est un constructeur automobile am\u00e9ricain propri\u00e9t\u00e9 du groupe General Motors (GM) depuis mai 1918. Avec 4,95 millions de v\u00e9hicules vendus \u00e0 travers le monde en 2012, Chevrolet occupa le quatri\u00e8me rang mondial parmi les marques automobiles derri\u00e8re Volkswagen, Ford et le japonais Toyota. Elle se retire du march\u00e9 europ\u00e9en \u00e0 la fin de l'ann\u00e9e 2015 au profit d'Opel, une ancienne division du groupe General Motors rachet\u00e9e en 2017 par le Groupe PSA. "
         },
@@ -163,6 +177,19 @@
                     "prix_neuf": 90000,
                     "prix_actuel": 11500000,
                     "description": "Avec son V12 italien..."
+                },
+                {
+                    "num_modele": 22,
+                    "nom_modele": "330",
+                    "url_photo": "https:\/\/cdn.classic-trader.com\/I\/images\/1920_1920_inset\/vehicle_ad_standard_image_48af54f262764b26c7c3581e44b0bad5.jpg",
+                    "annee_debut": 1962,
+                    "annee_fin": 1968,
+                    "nbr_produit": 1088,
+                    "puissance_max": 390,
+                    "puissance_min": 300,
+                    "prix_neuf": 200000,
+                    "prix_actuel": 80000,
+                    "description": "La Ferrari 330 est une voiture de sport GT \u00e0 moteur V12 de constructeur automobile italien Ferrari, produite entre 1962 et 1968 en divers versions routi\u00e8res et de course. "
                 }
             ],
             "url_logo_marque": "https:\/\/motorsport-academy.fr\/modules\/ybc_blog\/views\/img\/post\/thumb\/logo-ferrari.jpg",
@@ -328,7 +355,7 @@
                 {
                     "num_modele": 13,
                     "nom_modele": "W123",
-                    "url_photo": "https:\/\/images.caradisiac.com\/images\/5\/5\/3\/7\/185537\/S1-mercedes-benz-280-w123-1976-1985-une-machine-a-rouler-qui-donne-du-plaisir-des-7-000-eur-646145.jpg",
+                    "url_photo": "https:\/\/classicsworld.co.uk\/wp-content\/uploads\/sites\/6\/2022\/05\/Mercedes-W123-8.jpg",
                     "annee_debut": 1975,
                     "annee_fin": 1979,
                     "nbr_produit": 2696915,
@@ -337,6 +364,19 @@
                     "prix_neuf": 30000,
                     "prix_actuel": 25000,
                     "description": "La Mercedes-Benz Type 123 est une automobile de classe Routi\u00e8re fabriqu\u00e9e par Mercedes-Benz de 1975 \u00e0 1986. Elle a subi deux restylages en septembre 1979 puis en septembre 1982. Elle succ\u00e8de aux \/8 et sera suivie par la Classe E (Type 124).\r\n\r\nElle a \u00e9t\u00e9 un gros succ\u00e8s pour la marque avec plus de deux millions d'exemplaires produits. Son extr\u00eame robustesse fait qu'elle est encore tr\u00e8s pr\u00e9sente dans le paysage automobile, notamment en Am\u00e9rique du Nord, en Europe, ainsi que dans les pays maghr\u00e9bins. Elle est souvent consid\u00e9r\u00e9e comme la voiture la plus fiable de l'histoire de l'automobile.\r\n"
+                },
+                {
+                    "num_modele": 21,
+                    "nom_modele": "300 SL",
+                    "url_photo": "https:\/\/www.turbo.fr\/sites\/default\/files\/2022-01\/Mercedes-Benz-300-SL-Gullwing-1.jpg",
+                    "annee_debut": 1954,
+                    "annee_fin": 1963,
+                    "nbr_produit": 3258,
+                    "puissance_max": 225,
+                    "puissance_min": 215,
+                    "prix_neuf": 7000,
+                    "prix_actuel": 1200000,
+                    "description": "La Mercedes-Benz 300 SL (W198) \u00ab papillon \u00bb est un mod\u00e8le d'automobiles \u00e0 deux places coup\u00e9 et cabriolet du constructeur automobile allemand Mercedes-Benz con\u00e7u et dessin\u00e9 par le designer Friedrich Geiger, commercialis\u00e9 de 1954 \u00e0 1963 et entr\u00e9 depuis dans la l\u00e9gende des automobiles de r\u00eave. Elle est consid\u00e9r\u00e9e comme la plus embl\u00e9matique des Mercedes produites apr\u00e8s la Seconde Guerre mondiale pour son originalit\u00e9, ses qualit\u00e9s techniques et esth\u00e9tiques. "
                 }
             ],
             "url_logo_marque": "https:\/\/www.makrea.com\/166965-large_default\/sticker-logo-mercedes.jpg",
@@ -380,14 +420,42 @@
         {
             "num_marque": "27",
             "nom_marque": "Opel",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 19,
+                    "nom_modele": "Corsa",
+                    "url_photo": "https:\/\/stellantis3.dam-broadcast.com\/medias\/domain12808\/media105501\/1650382-cg80rhy5in-whr.jpg",
+                    "annee_debut": 1982,
+                    "annee_fin": 1993,
+                    "nbr_produit": 3105430,
+                    "puissance_max": 100,
+                    "puissance_min": 45,
+                    "prix_neuf": 10000,
+                    "prix_actuel": 2000,
+                    "description": "La Corsa A a \u00e9t\u00e9 le premier mod\u00e8le d'Opel dans la cat\u00e9gorie des citadines polyvalentes - relativement tard apr\u00e8s l'arriv\u00e9e sur le march\u00e9 de la Volkswagen Polo en mars 1975 et de la Ford Fiesta en mai 1976. Elle a poursuivie la conversion de la gamme des mod\u00e8les Opel de la propulsion arri\u00e8re \u00e0 la traction avant, qui a commenc\u00e9 \u00e0 l'\u00e9t\u00e9 1979 avec la Kadett D, qui fut la premi\u00e8re Opel compacte \u00e0 \u00eatre \u00e9quip\u00e9e d'une traction avant. Le savoir-faire et diverses pi\u00e8ces ont \u00e9t\u00e9 \u00abrecycl\u00e9s\u00bb pour la Corsa A. "
+                }
+            ],
             "url_logo_marque": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTiV82WvQYCxnCN2TcwHcTLmQ4PD9FfkSMT4A&s",
             "descri_marque": "Opel est une entreprise allemande fond\u00e9e en 1862 par Adam Opel et un constructeur automobile depuis 1899. Depuis 2021, la marque est une filiale de la multinationale franco-italienne Stellantis.\r\n\r\nEntre 1929 et 2017, elle faisait partie de l'am\u00e9ricain General Motors (GM), puis du fran\u00e7ais PSA Peugeot-Citro\u00ebn (PSA) de 2017 jusqu'\u00e0 la fusion ce dernier avec Fiat Chrysler Automobiles (FCA) en 2021. "
         },
         {
             "num_marque": "28",
             "nom_marque": "Peugeot",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 18,
+                    "nom_modele": "505",
+                    "url_photo": "https:\/\/images.caradisiac.com\/images\/9\/6\/7\/2\/199672\/S1-peugeot-505-turbo-1983-1988-une-etonnante-berline-de-sport-des-9-000-eur-738577.jpg",
+                    "annee_debut": 1979,
+                    "annee_fin": 1992,
+                    "nbr_produit": 1351254,
+                    "puissance_max": 170,
+                    "puissance_min": 70,
+                    "prix_neuf": 30000,
+                    "prix_actuel": 6000,
+                    "description": "Grande berline de la gamme Peugeot, la 505 est la rempla\u00e7ante de la 504, qui avait \u00e9t\u00e9 un grand succ\u00e8s commercial et dont elle reprenait la plate-forme. La 505 est lanc\u00e9e en 1979, deux ans apr\u00e8s la 305 en 1977.\r\n\r\nDerni\u00e8re berline \u00e0 propulsion de la marque, elle a exist\u00e9 avec des moteurs essence et Diesel, en berline ou en break (finition Break ou Familiale 8 places), ce dernier ayant servi de base pour des transformations en ambulance, en 4x4 (versions Dangel \u00e0 partir de 1986) ou en Pick-up double cabine (Gruau). Des versions coup\u00e9 et cabriolet furent \u00e9tudi\u00e9es, mais en rest\u00e8rent \u00e0 l'\u00e9tat de prototype en raison de la crise \u00e9conomique et du retrait de Peugeot des \u00c9tats-Unis. "
+                }
+            ],
             "url_logo_marque": "https:\/\/www.logo-voiture.com\/wp-content\/uploads\/2021\/02\/peugeot-2021-carre-noir-detoure.png",
             "descri_marque": "L'entreprise Peugeot est \u00e0 l'origine du Groupe PSA qui englobe \u00e9galement Citro\u00ebn, achet\u00e9e \u00e0 Michelin en 1976, DS, fond\u00e9e en 2014, ainsi que Vauxhall et sa s\u0153ur allemande Opel (anciennement GM Europe).\r\n\r\nPeugeot, constructeur automobile fran\u00e7ais est depuis 2021 une filiale du groupe Stellantis.\r\n\r\nPeugeot produit essentiellement des v\u00e9hicules automobiles pour particuliers, des utilitaires ainsi que des deux-roues. En 2016, la marque a vendu 1 919 460 v\u00e9hicules. "
         },
@@ -429,7 +497,21 @@
         {
             "num_marque": "32",
             "nom_marque": "Shelby",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 17,
+                    "nom_modele": "Cobra",
+                    "url_photo": "https:\/\/www.motorlegend.com\/modules\/breve\/photos\/src\/shelby-cobra-22619-1.jpg",
+                    "annee_debut": 1962,
+                    "annee_fin": 1966,
+                    "nbr_produit": 1000,
+                    "puissance_max": 415,
+                    "puissance_min": 415,
+                    "prix_neuf": 50000,
+                    "prix_actuel": 80000,
+                    "description": "La Shelby Cobra ou l'AC Cobra est une voiture de sport roadster \u00e0 moteur V8 Ford, des constructeurs automobile anglais AC et am\u00e9ricain Shelby American Inc. Elle est pr\u00e9sent\u00e9e au salon de l'automobile de New York 1962, et commercialis\u00e9e \u00e0 environ 1000 exemplaires jusqu'en 1966, puis sous de nombreuses marques de r\u00e9pliques AC Cobra. "
+                }
+            ],
             "url_logo_marque": "https:\/\/i.pinimg.com\/736x\/63\/63\/6b\/63636b8a75cd4e4f626c770effa206c9.jpg",
             "descri_marque": "Shelby est une marque et ancienne \u00e9curie automobile am\u00e9ricaine fond\u00e9e par l'ancien pilote Carroll Shelby sp\u00e9cialis\u00e9e dans la modification de mod\u00e8les Ford et en particulier de la Ford Mustang (\u00e9quivalent de la concession Abarth pour exemple). La marque deviendra c\u00e9l\u00e8bre \u00e0 partir de 1962 avec l'AC Cobra, un d\u00e9riv\u00e9 muscl\u00e9 de la petite anglaise AC Bristol, et finira d'asseoir sa notori\u00e9t\u00e9 grandissante avec la Shelby GT 350 ainsi que la Shelby GT 500, faisant de son nom une l\u00e9gende. "
         },
@@ -478,7 +560,21 @@
         {
             "num_marque": "38",
             "nom_marque": "Volvo",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 23,
+                    "nom_modele": "240 Break",
+                    "url_photo": "https:\/\/images.caradisiac.com\/images\/4\/0\/5\/1\/104051\/S1-Video-Volvo-240-Break-la-brique-suedoise-des-5-000-EUR-365167.jpg",
+                    "annee_debut": 1974,
+                    "annee_fin": 1993,
+                    "nbr_produit": 2685171,
+                    "puissance_max": 155,
+                    "puissance_min": 79,
+                    "prix_neuf": 35000,
+                    "prix_actuel": 6000,
+                    "description": "Le 21 ao\u00fbt 1974, la s\u00e9rie 240 prend la suite de la s\u00e9rie 140. La s\u00e9rie 240 est une \u00e9volution importante de la 140. M\u00eame si elle garde une bonne partie de l'architecture et de la caisse, elle re\u00e7oit un train avant Mc-Pherson et une direction \u00e0 cr\u00e9maill\u00e8re, ce qui conduit \u00e0 reconcevoir tout le bloc avant. Le design, est sign\u00e9 Jan Wilsgaard et est inspir\u00e9 par le concept-car VESC (Volvo Experimental Safety Car) de 1972. Avec ses nouveaux pare-chocs, la berline mesurait 13 cm de plus que la 140. Les 242 (coach) et 245 (break) apparaissent peu apr\u00e8s. La particularit\u00e9 des breaks \u00e9tait de pouvoir accueillir sept passagers gr\u00e2ce \u00e0 une banquette dos \u00e0 la route se repliant dans le plancher du coffre. "
+                }
+            ],
             "url_logo_marque": "https:\/\/images.caradisiac.com\/images\/2\/1\/5\/7\/192157\/S1-volvo-met-a-jour-son-logo-691142.jpg",
             "descri_marque": "Volvo Cars est un constructeur su\u00e9dois d'automobiles. Fond\u00e9 en 1927, le si\u00e8ge social de la marque se trouve \u00e0 G\u00f6teborg, en Su\u00e8de.\r\n\r\n\u00c0 l'origine d\u00e9tenues par le conglom\u00e9rat su\u00e9dois d'automobiles, de camions et d'engins de chantier AB Volvo, les activit\u00e9s automobiles grand public de AB Volvo, sous la d\u00e9nomination Volvo Cars, ont appartenu au groupe Ford pendant onze ans avant d'\u00eatre rachet\u00e9es en 2010 par la filiale du groupe chinois Geely. En 2015, Volvo Cars a pour la premi\u00e8re fois de son histoire d\u00e9pass\u00e9 le demi-million de voitures vendues. "
         }
