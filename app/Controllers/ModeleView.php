@@ -26,7 +26,7 @@ class ModeleView {
         echo '<h3>Cote du modèle :</h3>';
         echo '<p>' . htmlspecialchars($modele->prix_actuel) . ' €</p>';
         echo '<h3>Prix initial :</h3>';
-        echo '<p>' . htmlspecialchars($modele->prix_neuf) . ' €</p>';
+        echo '<p>' . htmlspecialchars($modele->prix_neuf) . ' F</p>';
         echo '<h3>Production :</h3>';
         echo '<p>' . htmlspecialchars($modele->nbr_produit) . ' véhicules produits</p>';
         echo '<strong>' . htmlspecialchars($modele->description) . '</strong>';
