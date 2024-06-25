@@ -24,7 +24,21 @@
         {
             "num_marque": 2,
             "nom_marque": "Aston Martin",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 35,
+                    "nom_modele": "DB5",
+                    "url_photo": "https:\/\/www.largus.fr\/images\/images\/vente-aston-martin-nicholas-mee-17.jpeg",
+                    "annee_debut": 1963,
+                    "annee_fin": 1965,
+                    "nbr_produit": 1021,
+                    "puissance_max": 286,
+                    "puissance_min": 286,
+                    "prix_neuf": 80000,
+                    "prix_actuel": 1000000,
+                    "description": "L'Aston Martin DB5 est une voiture de sport GT de luxe du constructeur automobile britannique Aston Martin. D\u00e9clin\u00e9e en coup\u00e9 et en cabriolet, puis en s\u00e9rie limit\u00e9e break de chasse, r\u00e9alis\u00e9e par le carrossier italien Carrozzeria Touring, elle succ\u00e8de \u00e0 la DB4 et pr\u00e9c\u00e8de la DB6. Elle devient une des voitures les plus c\u00e9l\u00e8bres et embl\u00e9matiques du cin\u00e9ma en tant que premi\u00e8re voiture \u00e0 gadgets du c\u00e9l\u00e8bre agent secret britannique James Bond 007 dans huit films de la saga : Goldfinger (1964), Op\u00e9ration Tonnerre (1965), GoldenEye (1995), Demain ne meurt jamais (1997), Casino Royale (2006), Skyfall (2012), 007 Spectre (2015), et Mourir peut attendre (2020). "
+                }
+            ],
             "url_logo_marque": "https:\/\/www.1min30.com\/wp-content\/uploads\/2017\/10\/Logo-Aston-Martin.jpg",
             "descri_marque": "Aston Martin est un constructeur automobile britannique de voitures de luxe et de course, cr\u00e9e en 1913 par Lionel Martin et Robert Bamford. Bas\u00e9e \u00e0 Gaydon, dans le Warwickshire (Angleterre), elle est une filiale de Prodrive depuis 2007. Le nom vient du fait que Lionel Martin avait cr\u00e9\u00e9 une voiture qui remporta la course d'Aston Clinton en 1914. La fusion des deux noms \u00ab Aston \u00bb et \u00ab Martin \u00bb donna donc le nom de la marque. L'embl\u00e8me ail\u00e9, introduit en 1932 par Sammy Davis, un ancien pilote de la marque Bentley, a pour origine le dieu \u00e9gyptien Kh\u00e9pri, symbolis\u00e9 par un scarab\u00e9e."
         },
@@ -115,7 +129,21 @@
         {
             "num_marque": 7,
             "nom_marque": "Buick",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 31,
+                    "nom_modele": "Skylark",
+                    "url_photo": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1d\/1972_Buick_Skylark_Front.jpg",
+                    "annee_debut": 1968,
+                    "annee_fin": 1972,
+                    "nbr_produit": 32795,
+                    "puissance_max": 360,
+                    "puissance_min": 155,
+                    "prix_neuf": 32000,
+                    "prix_actuel": 16000,
+                    "description": "La Skylark est apparue de 1968 \u00e0 1972. Ce mod\u00e8le eu une grande am\u00e9lioration de style, de puissance et aussi de diversit\u00e9 au niveau des versions disponibles.\r\n\r\nIl y a d'abord eu la Skylark berline, sortie avec un moteur 6-cylindres, ou un 8-cylindres 350 avec carburateurs \u00e0 deux ou quatre corps.\r\n\r\nD'autres versions sont sorties, comme la Skylark quatre-portes hardtop principalement dot\u00e9e elle aussi d'un moteur de 350 ci et d'une esth\u00e9tique retouch\u00e9e avec des moulures diff\u00e9rentes. Cette version donne un look muscle car et luxueux au Skylark. Une version 2 portes avec hard top (donc un coup\u00e9 2 portes) est sortie avec des moteurs 350 ci ou 400 ci. "
+                }
+            ],
             "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/85\/Buick-logo.svg ",
             "descri_marque": "Buick est une marque automobile am\u00e9ricaine d\u00e9tenue par le groupe General Motors qui est commercialis\u00e9e principalement aux \u00c9tats-Unis et en Chine, mais aussi au Canada et au Mexique.\r\n\r\nAu sein du groupe General Motors la gamme Buick est positionn\u00e9e au-dessus de la marque grand volume Chevrolet mais en dessous de la division luxe Cadillac.\r\n\r\nBuick est actuellement la plus ancienne marque automobile am\u00e9ricaine encore commercialis\u00e9e puisque la Buick Auto-Vim and Power Company fut fond\u00e9e en 1899. "
         },
@@ -184,6 +212,19 @@
                     "prix_neuf": 9500,
                     "prix_actuel": 7500,
                     "description": "En mars 1969, \u00e0 l'occasion du salon de Gen\u00e8ve, l'Ami 6 est remplac\u00e9e par l'Ami 8. Celle-ci reprend la conception g\u00e9n\u00e9rale de l\u2019Ami 6 et apporte une ligne plus classique et consensuelle gr\u00e2ce \u00e0 un avant enti\u00e8rement redessin\u00e9 avec un capot dit \u00ab \u00e0 l'italienne \u00bb (c'est-\u00e0-dire un ouvrant qui ne d\u00e9borde pas jusqu'\u00e0 l'avant de la voiture). Les premiers mod\u00e8les 1969-70 n'arborent pas les chevrons Citro\u00ebn sur la calandre. Le restylage se fait sous la direction du styliste Robert Opron auquel on doit la GS, la CX et le coup\u00e9 SM.\r\n\r\nComme l'Ami 6, l'Ami 8 existe en versions \u00ab confort \u00bb, \u00ab club \u00bb (si\u00e8ges avant s\u00e9par\u00e9s, entourages de vitre en inox et baguettes de protection lat\u00e9rales genre \u00ab DS Pallas \u00bb) et en break, toujours tr\u00e8s pris\u00e9 par la client\u00e8le, surtout rurale. La berline abandonne la vitre arri\u00e8re invers\u00e9e, mais ne b\u00e9n\u00e9ficie pas pour autant d'un hayon. \u00c0 partir des mod\u00e8les 1971, les vitres avant coulissantes sont abandonn\u00e9es au profit de vitres descendantes actionn\u00e9es par manivelle, les vitres arri\u00e8re resteront coulissantes jusqu'\u00e0 la fin de production. "
+                },
+                {
+                    "num_modele": 32,
+                    "nom_modele": "2cv",
+                    "url_photo": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/99\/Citro%C3%ABn_2_CV_Charleston_%282015-08-29_3174_b%29.jpg\/280px-Citro%C3%ABn_2_CV_Charleston_%282015-08-29_3174_b%29.jpg",
+                    "annee_debut": 1949,
+                    "annee_fin": 1990,
+                    "nbr_produit": 5114961,
+                    "puissance_max": 32,
+                    "puissance_min": 9,
+                    "prix_neuf": 5000,
+                    "prix_actuel": 14000,
+                    "description": "La Citro\u00ebn 2 CV est une voiture fran\u00e7aise pr\u00e9sent\u00e9e (sans moteur) au Salon de l\u2019automobile de Paris le 7 octobre 1948 appel\u00e9e TPV (Toute Petite Voiture).\r\n\r\nLa production en s\u00e9rie a d\u00e9but\u00e9 le 11 juillet 1949 dans l'usine de Levallois et s'est termin\u00e9e le 27 juillet 1990 dans l'usine de Mangualde au Portugal. Avec un peu plus de 5,1 millions d'exemplaires, elle fait partie des dix voitures fran\u00e7aises les plus vendues de l'Histoire. "
                 }
             ],
             "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/dd\/Citroen_2022.svg",
@@ -247,7 +288,21 @@
         {
             "num_marque": "14",
             "nom_marque": "Ford",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 36,
+                    "nom_modele": "Mustang",
+                    "url_photo": "https:\/\/images.caradisiac.com\/images\/3\/1\/6\/6\/203166\/S0-ford-mustang-1-1964-1968-l-icone-us-au-look-europeen-des-24-000-eur-761043.jpg",
+                    "annee_debut": 1964,
+                    "annee_fin": 1973,
+                    "nbr_produit": 2977651,
+                    "puissance_max": 375,
+                    "puissance_min": 101,
+                    "prix_neuf": 14474,
+                    "prix_actuel": 30000,
+                    "description": "La Ford Mustang de premi\u00e8re g\u00e9n\u00e9ration a \u00e9t\u00e9 fabriqu\u00e9e par Ford de mars 1964 \u00e0 1973. L'introduction de la Mustang a cr\u00e9\u00e9 une nouvelle cat\u00e9gorie d'automobiles connue sous le nom de pony car. Le style de la Mustang, avec son long capot et son coffre court, s\u2019est av\u00e9r\u00e9 extr\u00eamement populaire et a inspir\u00e9 une foule de concurrentes.\r\n\r\nElle a \u00e9t\u00e9 initialement introduite le 17 avril 1964, en version \u00e0 toit rigide et cabriolet, la version fastback a \u00e9t\u00e9 mise en vente en ao\u00fbt 1964. Au moment de son introduction, la Mustang, partageant sa plate-forme avec la Ford Falcon, \u00e9tait ins\u00e9r\u00e9e dans le segment des voitures compactes.\r\n\r\n\u00c0 chaque r\u00e9vision, la Mustang a vu une augmentation de ses dimensions globales et de la puissance de son moteur. Le mod\u00e8le de 1971 a subi une refonte radicale par rapport \u00e0 ses pr\u00e9d\u00e9cesseurs. Apr\u00e8s une pouss\u00e9e initiale, les ventes \u00e9taient en baisse constante, car Ford a commenc\u00e9 \u00e0 travailler sur une Mustang de nouvelle g\u00e9n\u00e9ration. Avec le d\u00e9but de la crise p\u00e9troli\u00e8re de 1973, Ford \u00e9tait pr\u00eat, ayant d\u00e9j\u00e0 con\u00e7u la plus petite Mustang II pour l'ann\u00e9e mod\u00e8le 1974. "
+                }
+            ],
             "url_logo_marque": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTASbvfMTddaBFsvm7lUeHVVm7j1-8cWgvkNw&s",
             "descri_marque": "Ford (officiellement Ford Motor Company ou FMC) est un constructeur automobile am\u00e9ricain, bas\u00e9 \u00e0 Dearborn, une banlieue de la ville de D\u00e9troit, dans l'\u00e9tat du Michigan. "
         },
@@ -275,7 +330,21 @@
         {
             "num_marque": "16",
             "nom_marque": "Jeep",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 33,
+                    "nom_modele": "Wrangler",
+                    "url_photo": "https:\/\/filiplejeeper.com\/wp-content\/uploads\/2022\/11\/jeep-wrangler-yj-3.jpeg",
+                    "annee_debut": 1987,
+                    "annee_fin": 1995,
+                    "nbr_produit": 200000,
+                    "puissance_max": 190,
+                    "puissance_min": 112,
+                    "prix_neuf": 20000,
+                    "prix_actuel": 20000,
+                    "description": "Le Wrangler de premi\u00e8re g\u00e9n\u00e9ration avait \u00e9t\u00e9 d\u00e9velopp\u00e9 par American Motors Corporation (AMC) la production sous le nom Jeep YJ et Jeep Wrangler d\u00e9bute en 1987 par AMC rachet\u00e9 par Chrysler cette m\u00eame ann\u00e9e2. Issue du savoir-faire acquis lors de la coop\u00e9ration de Renault et AMC pour la conception des CJ7 et des Cherokee, cette premi\u00e8re version du Wrangler succ\u00e8de au CJ \u00e0 succ\u00e8s.\r\n\r\nLe Jeep YJ, vendu comme le Wrangler, a remplac\u00e9 le bien-aim\u00e9 Jeep CJ en 1986 et a \u00e9t\u00e9 construit en Brampton, Ontario, Canada, jusqu'\u00e0 la fermeture de l'usine le 23 Avril 1992. La production a ensuite \u00e9t\u00e9 transf\u00e9r\u00e9e \u00e0 Toledo, Ohio, en utilisant la m\u00eame usine qui a produit les Jeeps Willys pendant la Seconde Guerre mondiale.\r\n\r\nLa particularit\u00e9 de ce mod\u00e8le est la pr\u00e9sence de phares rectangulaires, Jeep voulant lui donner un design plus moderne. Cette audace fut mal accept\u00e9e par les adeptes de la marque, et Jeep revint aux phares ronds d\u00e8s la gamme suivante de Wrangler."
+                }
+            ],
             "url_logo_marque": "https:\/\/logo-marque.com\/wp-content\/uploads\/2021\/09\/Jeep-Logo.png",
             "descri_marque": "Jeep est un constructeur automobile am\u00e9ricain appartenant depuis 2010 au groupe Fiat, devenu Stellantisen 2021 \u00e0 la suite de la fusion des groupes Fiat-Chrysler Automobiles et PSA.\r\n\r\n\u00c0 l'origine, les voitures Jeep \u00e9taient des v\u00e9hicules tout-terrain \u00e0 quatre roues motrices utilis\u00e9s par l'arm\u00e9e am\u00e9ricaine pendant la Seconde Guerre mondiale. Leur popularit\u00e9 a fait que l'on d\u00e9signe encore aujourd'hui par antonomase sous le mot \u00ab jeep \u00bb une automobile tout-terrain au style rustique.\r\n\r\nJeep a commenc\u00e9 \u00e0 produire des v\u00e9hicules pour le march\u00e9 civil en 1945. En 2017, Jeep a vendu 1,4 million de SUV pour l'ann\u00e9e 2016, soit une augmentation de 500 000 v\u00e9hicules par rapport \u00e0 2008, les 2\/3 pour le march\u00e9 nord-am\u00e9ricain. "
         },
@@ -552,6 +621,19 @@
                     "prix_neuf": 27000,
                     "prix_actuel": 6000,
                     "description": "Renault 15..."
+                },
+                {
+                    "num_modele": 30,
+                    "nom_modele": "18",
+                    "url_photo": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/31\/Renault_18_arriving_Schaffen-Diest_in_2015.JPG\/280px-Renault_18_arriving_Schaffen-Diest_in_2015.JPG",
+                    "annee_debut": 1978,
+                    "annee_fin": 1989,
+                    "nbr_produit": 2028964,
+                    "puissance_max": 125,
+                    "puissance_min": 64,
+                    "prix_neuf": 46800,
+                    "prix_actuel": 5000,
+                    "description": "La Renault 18 est une automobile de taille moyenne fabriqu\u00e9e par le constructeur fran\u00e7ais Renault \u00e0 partir de 1978.\r\nSon design a \u00e9t\u00e9 cr\u00e9\u00e9 par le styliste Gaston Juchet.\r\nLa Renault 18 a \u00e9t\u00e9 produite en France \u00e0 l'usine Renault de Flins dans les Yvelines.\r\nFond\u00e9e sur sa devanci\u00e8re la Renault 12, la 18 en reprend le moteur longitudinal \u00e0 arbre \u00e0 cames lat\u00e9ral entra\u00een\u00e9 par cha\u00eene et l'essieu arri\u00e8re rigide. La Renault 18, qui conserve des pare-chocs classiques, est plus arrondie et para\u00eet plus grande. Sa relative l\u00e9g\u00e8ret\u00e9 malgr\u00e9 une bonne largeur et son profil a\u00e9rodynamique lui permettent une bonne vitesse de pointe. D'autre part, la suspension s'am\u00e9liora nettement lorsqu'un nouveau r\u00e9glage g\u00e9n\u00e9ralis\u00e9 pour 1983 dit \u00e0 d\u00e9port n\u00e9gatif lanc\u00e9 sur la Renault 20 diminua l'\u00e9crasement de la suspension avant au freinage, associ\u00e9e aux nouvelles lois d'amortissement et au raidissement des articulations du train arri\u00e8re. "
                 }
             ],
             "url_logo_marque": "https:\/\/stick-attack.fr\/22762-medium_default\/stickers-logo-renault-couleur.jpg",
@@ -602,7 +684,21 @@
         {
             "num_marque": "33",
             "nom_marque": "Skoda",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 34,
+                    "nom_modele": "100\/110",
+                    "url_photo": "https:\/\/scalethumb.leparking.fr\/unsafe\/331x248\/smart\/https:\/\/cloud.leparking.fr\/2022\/03\/11\/02\/37\/skoda-110-skoda-110r-orange_8447748439.jpg",
+                    "annee_debut": 1969,
+                    "annee_fin": 1977,
+                    "nbr_produit": 1136913,
+                    "puissance_max": 64,
+                    "puissance_min": 62,
+                    "prix_neuf": 12000,
+                    "prix_actuel": 8000,
+                    "description": "Les \u0160koda 100 et 110 sont deux automobiles produites entre 1969 et 1980 par le constructeur tch\u00e9coslovaque \u0160koda Auto. L\u2019appellation \u00ab \u0160koda 100 \u00bb renvoie aux mod\u00e8les \u00e9quip\u00e9s du moteur 1 000 cm3, tandis que le bloc 1 100 cm3 \u00e9tait r\u00e9serv\u00e9 aux versions \u00ab 110 \u00bb. "
+                }
+            ],
             "url_logo_marque": "https:\/\/presse.skoda.fr\/wp-content\/uploads\/2022\/04\/309656-1693x2040.jpg.webp",
             "descri_marque": "\u0160koda Auto, usuellement nomm\u00e9 Skoda, est un constructeur automobile tch\u00e8que cr\u00e9\u00e9 en 1895 sous le nom de Laurin & Klement et appartenant depuis 1991 au groupe allemand Volkswagen AG. Si le groupe industriel \u0160koda existe depuis 1869, la division automobile n\u2019appara\u00eet que 50 ans plus tard. Il faudra attendre 1926 pour voir la premi\u00e8re voiture de s\u00e9rie avec le nom de la marque. "
         },
@@ -637,7 +733,21 @@
         {
             "num_marque": "37",
             "nom_marque": "Volkswagen",
-            "modeles": [],
+            "modeles": [
+                {
+                    "num_modele": 37,
+                    "nom_modele": "Golf",
+                    "url_photo": "https:\/\/www.largus.fr\/images\/styles\/max_1300x1300\/public\/images\/1_46.jpg?itok=xKOanJ25",
+                    "annee_debut": 1974,
+                    "annee_fin": 1993,
+                    "nbr_produit": 6720000,
+                    "puissance_max": 110,
+                    "puissance_min": 48,
+                    "prix_neuf": 15000,
+                    "prix_actuel": 15000,
+                    "description": "Plusieurs mod\u00e8les sont d\u00e9clin\u00e9s entre 1974 et 1984. Version: C, CL, LS, GL et GLS, ainsi que la tr\u00e8s rare version S. Concernant le moteur vous avez le choix en dehors de la version GTI avec le 1.1 ou le 1.5 puis apparait dans la deuxi\u00e8me version de la s\u00e9rie (reconnaissable avec ses grands feux) 1.3 et 1.6.(de 36 kw \u00e0 52 kw) en 3 ou 5 portes avec une boite 4 vitesses sur l'ensemble de la gamme puis boite 5 en option ou automatique. En option, vous pouvez trouver \u00e9galement les jantes alu type GTi, la console radio, le rare toit ouvrant manuel ainsi que les vitres \u00e9lectriques sur les derniers mod\u00e8les. Certains pr\u00e9parateurs allemand ou belge ont propos\u00e9 l'adaptation d'un toit ouvrant souple (comme sur les Cox Hoffmann). Une version diesel apparait d\u00e8s 1978 puis en turbo-diesel d\u00e9veloppant respectivement 37 kW et 52 kW. "
+                }
+            ],
             "url_logo_marque": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/6d\/Volkswagen_logo_2019.svg",
             "descri_marque": "Volkswagen (en abr\u00e9g\u00e9 VW ; litt\u00e9ralement : \u00ab voiture du peuple \u00bb) est un constructeur automobile allemand. La soci\u00e9t\u00e9 est initialement cr\u00e9\u00e9e \u00e0 l'initiative de l'organisation nazie Front allemand du travail. La marque Volkswagen appartient au Groupe Volkswagen AG qui est en 2018, le premier constructeur mondial de v\u00e9hicules devant Toyota avec 10,8 millions d'unit\u00e9s vendues. "
         },
