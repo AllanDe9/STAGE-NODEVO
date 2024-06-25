@@ -45,7 +45,13 @@ use App\Controllers\Catalogue;
                         $vehicules = Catalogue::getVoitures();
                         foreach ($vehicules['marques'] as $marque) {
                             echo '<option value="'.$marque['num_marque'].'">'.$marque['nom_marque'].'</option>';
-                        }                    
+                        }
+                        usort($vehicules['marques'], function($a, $b) {
+                            return strcmp($a['nom_marque'], $b['nom_marque']);
+                        });
+                        foreach ($vehicules['marques'] as $marque) {
+                            echo '<option value="'.$marque['num_marque'].'">'.$marque['nom_marque'].'</option>';
+                        }
                     ?>              
                 </select>
                 <label for="modele">Nom du modèle</label>

@@ -1,7 +1,7 @@
 <?php
 $user = $_SESSION['user'];
 if (!isset($_SESSION['user'])) {
-    header('Location: /');
+    header('Location: /connexion');
     exit();
 }
 use App\Controllers\User;
