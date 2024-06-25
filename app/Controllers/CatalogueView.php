@@ -4,10 +4,17 @@ namespace App\Controllers;
 
 class CatalogueView {
     public function displayMarques($marques) {
+    
+        usort($marques, function($a, $b) {
+            return strcmp($a['nom_marque'], $b['nom_marque']);
+        });
+    
+
         foreach ($marques as $marque) {
             echo '<a href="/marque/'.$marque['num_marque'].'">'.htmlspecialchars($marque['nom_marque']).'</a>';
         }
     }
+    
 
     public function display4Modeles($vehicules) {
         $modeles = [];

@@ -36,6 +36,11 @@ class MarqueView {
     public function displayAdminMarque($get) {
         $vehicules = Catalogue::getVoitures();
         Marque::ajouterOuModifierMarque();
+        
+        usort($vehicules['marques'], function($a, $b) {
+            return strcmp($a['nom_marque'], $b['nom_marque']);
+        });
+    
         echo '<div class="admin-marques">';
         echo '    <div class="liste-marques">';
         echo '        <ul>';
@@ -44,7 +49,7 @@ class MarqueView {
         }
         echo '        </ul>';
         echo '    </div>';
-
+    
         if (isset($get['marque'])) {
             $num_marque = (int) $get['marque'];
             $marque = Marque::getMarqueByNum($num_marque);
@@ -85,4 +90,5 @@ class MarqueView {
         }
         echo '</div>';
     }
+    
 }

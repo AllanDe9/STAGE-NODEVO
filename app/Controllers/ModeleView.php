@@ -48,7 +48,11 @@ class ModeleView {
         } else {
             echo '<select name="num_marque" id="num_marque" required>';
             $vehicules = Catalogue::getVoitures();
-            foreach ($vehicules['marques'] as $marque) {
+            $marques = $vehicules['marques'];
+            usort($marques, function($a, $b) {
+                return strcmp($a['nom_marque'], $b['nom_marque']);
+            });
+            foreach ($marques as $marque) {
                 echo "<option value='" . $marque['num_marque'] . "'>" . $marque['nom_marque'] . "</option>";
             }
             echo "</select>";
