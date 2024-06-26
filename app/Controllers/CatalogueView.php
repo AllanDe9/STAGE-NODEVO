@@ -51,7 +51,7 @@ class CatalogueView {
     public function displayTousModeles($vehicules, $get) {
         echo '<div class="admin-modeles">';
         echo '<div class="liste-modeles-admin">';
-        $modelsParPage = 9;
+        $modelsParPage = 15;
         $totalModels = 0;
         foreach ($vehicules['marques'] as $marque) {
             $totalModels += count($marque['modeles']);
@@ -93,7 +93,7 @@ class CatalogueView {
    
 
     public function displayTousModelesRecherche($vehicules) {
-        $modelsParPage = 9;
+        $modelsParPage = 15;
         $totalModels = 0;
         $vide = false;
 
@@ -107,13 +107,10 @@ class CatalogueView {
         $modeleRecherche = $searchParams['modele'];
         $anneeRecherche = $searchParams['annee'];
 
-        // Générer un identifiant unique pour la recherche actuelle
         $searchHash = md5(serialize($searchParams));
 
-        // Générer un identifiant unique pour l'état des véhicules
         $vehiclesHash = md5(json_encode($vehicules));
 
-        // Réinitialiser les résultats dans la session si les critères de recherche ou les véhicules changent
         if (!isset($_SESSION['searchHash']) || $_SESSION['searchHash'] !== $searchHash || 
             !isset($_SESSION['vehiclesHash']) || $_SESSION['vehiclesHash'] !== $vehiclesHash) {
             $_SESSION['searchHash'] = $searchHash;
